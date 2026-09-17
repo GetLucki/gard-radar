@@ -36,7 +36,7 @@ TODAY = datetime.date.today().isoformat()
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
 MAX_PAGES = 40
-DETAIL_LIMIT = int(sys.argv[1]) if len(sys.argv) > 1 else 80
+DETAIL_LIMIT = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 80
 
 
 def log(msg):
@@ -156,9 +156,23 @@ def goto_state(browser, url, tries=3):
 
 # ---------- Hemnet ----------
 
-def scrape_hemnet(browser):
-    base = ("https://www.hemnet.se/bostader?item_types%5B%5D=gard"
-            f"&price_min={CFG['price_min']}&price_max={CFG['price_max']}&page=")
+HEMNET_SEARCHES = {
+    "gard": "https://www.hemnet.se/bostader?item_types%5B%5D=gard&price_min={pmin}&price_max={pmax}&page=",
+    # houses filed as Villa but with farm-sized plots (a 1970s brick villa on 5 ha is usually here)
+    "villa": "https://www.hemnet.se/bostader?item_types%5B%5D=villa&price_min={pmin}&price_max={pmax}&land_area_min={lmin}&page=",
+}
+BOOLI_SEARCHES = {
+    "gard": "https://www.booli.se/sok/till-salu?objectType=g%C3%A5rd&minListPrice={pmin}&maxListPrice={pmax}&page=",
+    "hus": "https://www.booli.se/sok/till-salu?objectType=hus&minListPrice={pmin}&maxListPrice={pmax}&minPlotArea={lmin}&page=",
+}
+
+
+def _fmt(u):
+    return u.format(pmin=CFG["price_min"], pmax=CFG["price_max"], lmin=int(CFG["land_min_ha"] * 10000))
+
+
+def scrape_hemnet(browser, base=None):
+    base = _fmt(base or HEMNET_SEARCHES["gard"])
     out, total = [], None
     for n in range(1, MAX_PAGES + 1):
         ctx, page, ap = goto_state(browser, base + str(n), tries=2)
@@ -208,9 +222,8 @@ def scrape_hemnet(browser):
 
 # ---------- Booli ----------
 
-def scrape_booli(browser):
-    base = ("https://www.booli.se/sok/till-salu?objectType=g%C3%A5rd"
-            f"&minListPrice={CFG['price_min']}&maxListPrice={CFG['price_max']}&page=")
+def scrape_booli(browser, base=None):
+    base = _fmt(base or BOOLI_SEARCHES["gard"])
     out, total = [], None
     for n in range(1, MAX_PAGES + 1):
         ctx, page, ap = goto_state(browser, base + str(n))
@@ -290,9 +303,10 @@ def dedupe(listings):
     hemnet = [l for l in listings if l["source"] == "hemnet"]
     booli = [l for l in listings if l["source"] == "booli"]
     merged = list(hemnet)
+    kept_booli = []
     for b in booli:
         dup = None
-        for h in hemnet:
+        for h in hemnet + kept_booli:
             if h.get("kommun") != b.get("kommun") or not (h.get("lat") and b.get("lat")):
                 continue
             if abs((h["price"] or 0) - (b["price"] or 0)) <= 0.01 * max(h["price"], 1) and \
@@ -300,12 +314,14 @@ def dedupe(listings):
                 dup = h
                 break
         if dup:
-            dup["alt_url"] = b["url"]
-            dup["days_text"] = b.get("days_text")
+            if dup["source"] == "hemnet":
+                dup["alt_url"] = b["url"]
+                dup["days_text"] = b.get("days_text")
             if not dup.get("land_ha") and b.get("land_ha"):
                 dup["land_ha"] = b["land_ha"]
         else:
             merged.append(b)
+            kept_booli.append(b)
     return merged
 
 
@@ -325,11 +341,16 @@ def fetch_detail(browser, l):
                 if k.startswith("ActivePropertyListing") and isinstance(v, dict):
                     desc = v.get("description") or ""
                     extra = []
-                    for kk in ("landArea", "livingArea", "supplementalArea", "constructionYear",
-                               "energyClassification", "housingForm", "tenure"):
-                        if v.get(kk):
-                            extra.append(f"{kk}: {v.get(kk)}")
-                    text = desc + "\n" + "\n".join(extra)
+                    for kk, vv in v.items():
+                        if kk in ("description", "__typename") or kk.startswith("images") or kk.startswith("thumbnails"):
+                            continue
+                        if isinstance(vv, (str, int, float)) and str(vv).strip():
+                            extra.append(f"{kk}: {vv}")
+                        elif isinstance(vv, dict) and vv.get("name"):
+                            extra.append(f"{kk}: {vv['name']}")
+                        elif isinstance(vv, list) and vv and all(isinstance(x, str) for x in vv):
+                            extra.append(f"{kk}: {', '.join(vv[:12])}")
+                    text = desc + "\nFAKTA\n" + "\n".join(extra)
                     if v.get("landArea"):
                         l["land_ha"] = parse_area_ha(str(v["landArea"]) + " m²") or l.get("land_ha")
                     break
@@ -338,7 +359,11 @@ def fetch_detail(browser, l):
                 const h = [...document.querySelectorAll('h2,h3')].find(x => /beskrivning|om bostaden|om fastigheten/i.test(x.textContent));
                 let t = '';
                 if (h) { let el = h.nextElementSibling; let n = 0; while (el && n < 12) { t += el.innerText + '\\n'; el = el.nextElementSibling; n++; } }
-                return (t.trim().length > 200 ? t : '') || document.body.innerText;
+                document.querySelectorAll('[id*="cookie" i],[class*="cookie" i],[id*="consent" i],[class*="consent" i],[id*="Cybot" i],[class*="onetrust" i],[aria-label*="cookie" i]').forEach(x => x.remove());
+                const body = document.body.innerText || '';
+                const facts = body.split('\\n').filter(l => /byggår|boarea|biarea|tomtarea|areal|fasad|^tak|taktyp|uppvärmning|vatten|avlopp|energiklass|driftkostnad|grund|fönster|ventilation|byggnadstyp|stomme/i.test(l) && l.length < 160);
+                const desc = t.trim().length > 200 ? t : body.slice(0, 6000);
+                return desc + '\\nFAKTA\\n' + [...new Set(facts)].slice(0, 40).join('\\n');
             }""")
     except Exception:
         text = text or ""
@@ -361,19 +386,54 @@ KW = {
     "wood_heat": r"vedspis|kakelugn|vedpanna|braskamin|\bkamin\b|vedeldad|öppen spis|järnspis|vedeldning",
     "seclusion": r"enskilt läge|avskilt|ostört|återvändsväg|insynsskyddat|skogsglänta|längst in|egen väg|lugnt läge",
     "income": r"uthyrning|bed and breakfast|b&b|turism|camping|glamping|verksamhet|hästgård|besöksnäring",
+    # low-maintenance house signals (Luki 2026-09-17: the house must not need painting or constant care)
+    "lowmaint_facade": r"tegelfasad|tegelhus|fasad i tegel|putsad|putsat|stenhus|mexitegel|betongsten|underhållsfri",
+    "lowmaint_roof": r"plåttak|betongpannor|betongtegel|nytt tak|omlagt tak|takomläggning|nylagt tak|tak(et)? (är )?(bytt|omlagt|nytt)",
+    "lowmaint_windows": r"nya fönster|fönster(na)? (är )?bytta|3-glas|treglas|aluminiumfönster|aluminiumbeklädda|pvc-fönster",
+    "lowmaint_renovated": r"totalrenoverad|helrenoverad|genomgående renoverad|nyrenoverad|renoverad 20[12]\d|omfattande renoverad|nybyggd|nyproduktion",
+    "highmaint_log": r"timmerhus|timrat|timmerstomme|1[78]\d\d-tal|från 1[78]\d\d|byggd 1[78]\d\d|1800-tal|sekelskifte",
+    "highmaint_need": r"renoveringsbehov|renoveringsobjekt|i behov av (renovering|upprustning|underhåll)|upprustningsbehov|handlingens|för den handlingskraftige|eftersatt|ödegård|rivningsobjekt",
+    "highmaint_defects": r"eternit|asbest|torpargrund|fuktskad|mögel|sättningar|takläckage|enkelglas|självdrag",
 }
 
 
+def build_year(text):
+    m = re.search(r"(?:byggår|constructionyear|byggd|uppförd|byggt)[:\s]*(\d{4})", (text or "").lower())
+    if m:
+        y = int(m.group(1))
+        if 1600 < y < 2030:
+            return y
+    return None
+
+
 def score(l, text, median_price_per_ha):
+    """100 points. Weights agreed 2026-09-17 (doc section 8): the house is a
+    safe house that may sit unused, so low maintenance scores and rental income
+    no longer does."""
     t = (text or "") + " " + (l.get("teaser") or "") + " " + (l.get("type") or "")
     t = t.lower()
     hit = {k: bool(re.search(p, t)) for k, p in KW.items()}
     s = {}
     s["water"] = (10 if hit["well"] else 0) + (10 if hit["water"] else 0)
     ha = l.get("land_ha") or 0
-    s["land"] = (10 if (ha >= 5 and hit["forest"]) else (5 if ha >= 5 or hit["forest"] else 0)) + (10 if hit["arable"] else 0)
-    s["buildings"] = (10 if hit["second_dwelling"] else 0) + (5 if hit["barn"] else 0)
+    s["land"] = (8 if (ha >= 5 and hit["forest"]) else (4 if ha >= 5 or hit["forest"] else 0)) + (7 if hit["arable"] else 0)
+    s["buildings"] = (6 if hit["second_dwelling"] else 0) + (4 if hit["barn"] else 0)
     s["heating"] = 10 if hit["wood_heat"] else 0
+    # maintenance: start neutral at 5, move on evidence, clamp 0..15
+    y = build_year(text)
+    l["build_year"] = y
+    m = 5
+    m += 4 if hit["lowmaint_facade"] else 0
+    m += 3 if hit["lowmaint_roof"] else 0
+    m += 2 if hit["lowmaint_windows"] else 0
+    m += 3 if hit["lowmaint_renovated"] else 0
+    if y and y >= 1965:
+        m += 3
+    if (y and y < 1920) or hit["highmaint_log"]:
+        m -= 6 if not hit["lowmaint_renovated"] else 2
+    m -= 6 if hit["highmaint_need"] else 0
+    m -= 3 if hit["highmaint_defects"] else 0
+    s["maintenance"] = max(0, min(15, m))
     s["seclusion"] = 10 if hit["seclusion"] else 0
     d = l.get("drive_h")
     s["drive"] = 0 if d is None else (10 if d < 1.5 else 7 if d < 2.0 else 4 if d <= 2.5 else 0)
@@ -383,11 +443,65 @@ def score(l, text, median_price_per_ha):
         s["price"] = 10 if r < 0.6 else 7 if r < 1.0 else 4 if r < 1.5 else 1
     else:
         s["price"] = 3
-    s["income"] = 5 if hit["income"] else 0
     l["signals"] = [k for k, v in hit.items() if v]
     l["score_parts"] = s
     l["score"] = sum(s.values())
     return l["score"]
+
+
+def rescore_only():
+    """Recompute scores from cached details without scraping (after criteria changes)."""
+    cur = load_json(DATA / "listings.json", {"listings": []})
+    details = load_json(DATA / "details.json", {})
+    matched = cur.get("listings", [])
+    pphs = [l["price_per_ha"] for l in matched if l.get("price_per_ha")]
+    med_pph = statistics.median(pphs) if pphs else None
+    for l in matched:
+        score(l, details.get(l["id"], {}).get("text", ""), med_pph)
+    matched.sort(key=lambda x: (-x["score"], x["price"]))
+    cur["listings"] = matched
+    cur["generated"] = datetime.datetime.now().isoformat(timespec="minutes")
+    save_json(DATA / "listings.json", cur)
+    dig = load_json(DATA / "digest_input.json", {})
+    changes = dig.get("changes", {})
+    top = matched[:15]
+    lowmaint = [l for l in matched if (l.get("build_year") or 0) >= 1965 or l["score_parts"].get("maintenance", 0) >= 8][:20]
+    pick_ids = {l["id"] for l in top} | {l["id"] for l in lowmaint} | {c["id"] for c in changes.get("price_changes", [])} | {n["id"] for n in changes.get("new", [])}
+    digest = []
+    for l in matched:
+        if l["id"] in pick_ids:
+            d = {k: l.get(k) for k in ("id", "title", "kommun", "region", "price", "land_ha", "living_m2",
+                                        "rooms", "type", "url", "alt_url", "drive_h", "price_per_ha", "score",
+                                        "score_parts", "signals", "first_seen", "days_tracked", "price_history",
+                                        "broker", "days_text", "build_year")}
+            d["description"] = (details.get(l["id"], {}).get("text", "") or l.get("teaser") or "")[:1500]
+            digest.append(d)
+    dig["listings"] = digest
+    save_json(DATA / "digest_input.json", dig)
+    log(f"rescored {len(matched)} listings; top: " + ", ".join(f"{l['title']} {l['score']}" for l in matched[:5]))
+
+
+def refresh_details():
+    """(Re)fetch detail text for listings whose cached text predates the facts
+    extraction (no FAKTA block), then rescore. Used once after the 2026-09-17
+    maintenance criteria; the daily run only fetches never-seen listings."""
+    cur = load_json(DATA / "listings.json", {"listings": []})
+    details = load_json(DATA / "details.json", {})
+    todo = [l for l in cur.get("listings", []) if "FAKTA" not in details.get(l["id"], {}).get("text", "")]
+    log(f"refreshing {len(todo)} detail pages")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        for i, l in enumerate(todo, 1):
+            try:
+                details[l["id"]] = {"text": fetch_detail(browser, l), "fetched": TODAY}
+            except Exception as e:
+                details[l["id"]] = {"text": details.get(l["id"], {}).get("text", ""), "fetched": TODAY, "error": str(e)[:200]}
+            if i % 10 == 0:
+                log(f"  details {i}/{len(todo)}")
+                save_json(DATA / "details.json", details)
+        browser.close()
+    save_json(DATA / "details.json", details)
+    rescore_only()
 
 
 # ---------- main ----------
@@ -402,13 +516,20 @@ def main():
         browser = p.chromium.launch(headless=True)
         # Booli is the primary source (aggregates most broker listings and is
         # not bot-challenged). Hemnet sits behind Cloudflare and is best-effort.
-        boo, boo_total = scrape_booli(browser)
-        hem, hem_total, hemnet_ok = [], None, True
-        try:
-            hem, hem_total = scrape_hemnet(browser)
-        except Exception as e:
-            hemnet_ok = False
-            log(f"hemnet skipped (bot check or error): {str(e)[:120]}")
+        boo, boo_total = [], {}
+        for name, u in BOOLI_SEARCHES.items():
+            part, tot = scrape_booli(browser, u)
+            boo += part
+            boo_total[name] = tot
+        hem, hem_total, hemnet_ok = [], {}, True
+        for name, u in HEMNET_SEARCHES.items():
+            try:
+                part, tot = scrape_hemnet(browser, u)
+                hem += part
+                hem_total[name] = tot
+            except Exception as e:
+                hemnet_ok = False
+                log(f"hemnet {name} skipped (bot check or error): {str(e)[:120]}")
         raw, seen_ids = [], set()
         for l in hem + boo:  # pages shift while paging, so the same id can appear twice
             if l["id"] not in seen_ids:
@@ -515,14 +636,17 @@ def main():
 
     # compact input for the Claude step
     top = matched[:15]
-    pick_ids = {l["id"] for l in top} | {n["id"] for n in new} | {c["id"] for c in price_changes}
+    # the keyword pre-score is weak on maintenance, so always show Claude the
+    # modern or renovated houses too (build year 1965+ or maintenance >= 8)
+    lowmaint = [l for l in matched if (l.get("build_year") or 0) >= 1965 or l["score_parts"].get("maintenance", 0) >= 8][:20]
+    pick_ids = {l["id"] for l in top} | {l["id"] for l in lowmaint} | {n["id"] for n in new} | {c["id"] for c in price_changes}
     digest = []
     for l in matched:
         if l["id"] in pick_ids:
             d = {k: l.get(k) for k in ("id", "title", "kommun", "region", "price", "land_ha", "living_m2",
                                         "rooms", "type", "url", "alt_url", "drive_h", "price_per_ha", "score",
                                         "score_parts", "signals", "first_seen", "days_tracked", "price_history",
-                                        "broker", "days_text")}
+                                        "broker", "days_text", "build_year")}
             d["description"] = (details.get(l["id"], {}).get("text", "") or l.get("teaser") or "")[:1500]
             digest.append(d)
     save_json(DATA / "digest_input.json", {"date": TODAY, "stats": stats, "changes": changes, "listings": digest})
@@ -530,6 +654,12 @@ def main():
 
 
 if __name__ == "__main__":
+    if "--rescore" in sys.argv:
+        rescore_only()
+        sys.exit(0)
+    if "--details" in sys.argv:
+        refresh_details()
+        sys.exit(0)
     try:
         main()
         (DATA / "scan_failed.txt").unlink(missing_ok=True)

@@ -1403,7 +1403,8 @@
    "2026-09-17"
   ],
   "title": "Halarna 103",
-  "kommun": "Hylte"
+  "kommun": "Hylte",
+  "gone": "2026-09-17"
  },
  "booli:6250239": {
   "first_seen": "2026-09-17",
@@ -2052,7 +2053,8 @@
    "2026-09-17"
   ],
   "title": "Kraksbyn 301",
-  "kommun": "Åmål"
+  "kommun": "Åmål",
+  "gone": "2026-09-17"
  },
  "booli:5961228": {
   "first_seen": "2026-09-17",
@@ -2130,5 +2132,236 @@
   ],
   "title": "Skog i Torserud",
   "kommun": "Säffle"
+ },
+ "hemnet:21765522": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Bredsäter Svaneberg 1",
+  "kommun": "Mariestad"
+ },
+ "hemnet:21482745": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Högalid 31",
+  "kommun": "Tranemo"
+ },
+ "hemnet:21736564": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Backa Backadal 1",
+  "kommun": "Mark"
+ },
+ "hemnet:21602269": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4500000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Siggaboda 2",
+  "kommun": "Älmhult"
+ },
+ "hemnet:21528467": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3475000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Kraksbyn 301",
+  "kommun": "Åmål"
+ },
+ "booli:6215766": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2330000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Särestad Norakull 215",
+  "kommun": "Falkenberg"
+ },
+ "booli:6220417": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3600000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Horla Storsjövik 1",
+  "kommun": "Vårgårda"
+ },
+ "booli:6200211": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2000000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Södra Böle 110",
+  "kommun": "Dals-Ed"
+ },
+ "booli:6212333": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2700000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Klägghult 2",
+  "kommun": "Svenljunga"
+ },
+ "booli:6084899": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1250000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Östantorp 142",
+  "kommun": "Vimmerby"
+ },
+ "booli:6177425": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3500000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Esshulta",
+  "kommun": "Gullspång"
+ },
+ "booli:6132250": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2300000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Fjäll Kasängen",
+  "kommun": "Bengtsfors"
+ },
+ "booli:6152399": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2700000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Korsbyn Sand 1",
+  "kommun": "Årjäng"
+ },
+ "booli:6087887": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3950000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Blåsutvägen 24",
+  "kommun": "Tranemo"
+ },
+ "booli:6132635": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4200000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Ränneslövs Ängar 222",
+  "kommun": "Laholm"
+ },
+ "booli:5687693": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Boastad 120",
+  "kommun": "Älmhult"
+ },
+ "booli:6102563": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4800000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Krampanäs 2",
+  "kommun": "Älmhult"
+ },
+ "booli:5521889": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1275000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Lockabäck Strömsberg",
+  "kommun": "Hylte"
+ },
+ "booli:6012355": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2000000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Hämnäs Åmot 1",
+  "kommun": "Årjäng"
+ },
+ "booli:6073751": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4000000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Sålhults Gård",
+  "kommun": "Gislaved"
+ },
+ "booli:6017613": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4700000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Postvägen 32",
+  "kommun": "Vårgårda"
  }
 }

@@ -44,6 +44,7 @@ if [[ "$SKIP_CLAUDE" != "1" ]]; then
         --add-dir "$HOME/.claude" \
         --allowedTools "Read,Write,Edit,Glob,Grep,\
 Bash(date:*),Bash(ls:*),Bash(cat:*),Bash(head:*),Bash(tail:*),\
+Bash(python3 \"$REPO/build_email.py\"),Bash(python3 $REPO/build_email.py),\
 mcp__gsuite-kalender-privat__read_file,\
 mcp__gmail-litpanda-auto__send_message" 2>&1 | tail -n 20
       echo "$(ts) gard-radar: claude exit ${pipestatus[1]}"

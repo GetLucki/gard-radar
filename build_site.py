@@ -91,7 +91,7 @@ table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;p
 <div class="sub" id="sub"></div>
 <div class="stats" id="stats"></div>
 
-<h2>Today's top three</h2>
+<h2>Today's picks</h2>
 <div id="recs"></div>
 
 <h2>Market situation</h2>
@@ -126,13 +126,14 @@ document.getElementById('stats').innerHTML = [
 // recommendations
 const R = D.recs||{}; const byId = Object.fromEntries(D.listings.map(l=>[l.id,l]));
 let rh='';
-if (R.top3 && R.top3.length){
-  rh += `<div class="grid">` + R.top3.map((r,i)=>{ const l = byId[r.id]||{}; return `<div class="card top">${l.image?`<img src="${esc(l.image)}" alt="">`:''}<div class="b">
+const TOP = R.top || R.top3 || [];
+if (TOP.length){
+  rh += `<div class="grid">` + TOP.map((r,i)=>{ const l = byId[r.id]||{}; return `<div class="card top">${l.image?`<img src="${esc(l.image)}" alt="">`:''}<div class="b">
     <div class="row"><span class="tag">#${i+1}</span><span class="score">${r.score??l.score??''}</span></div>
     <div class="t"><a href="${esc(r.url||l.url)}" target="_blank" rel="noopener">${esc(r.title||l.title)}</a></div>
     <div class="m">${esc(r.kommun||l.kommun)} · ${esc(l.region||'')} · ${l.land_ha?l.land_ha+' ha':''} ${l.living_m2?'· '+l.living_m2+' m²':''} ${l.drive_h?'· '+l.drive_h+' h':''}</div>
     <div class="price">${kr(r.price||l.price)}</div>
-    <div class="why">${esc(r.why)}</div></div></div>`}).join('') + `</div>`;
+    <div class="why">${r.prepping_why?`<b>Survival:</b> ${esc(r.prepping_why)}<br>`:''}${r.invest_why?`<b>Investment:</b> ${esc(r.invest_why)}<br>`:''}${r.rank_why?`<b>Rank:</b> ${esc(r.rank_why)}<br>`:''}${r.maintenance?`<b>Maintenance:</b> ${esc(r.maintenance)}<br>`:''}${r.recommendation?`<b>Recommendation:</b> ${esc(r.recommendation)}`:esc(r.why||'')}</div></div></div>`}).join('') + `</div>`;
   if (R.dropped && R.dropped.length) rh += `<p class="small" style="margin-top:10px"><b>Dropped from the top three:</b> ` + R.dropped.map(d=>`${esc(d.title)} (${esc(d.why)})`).join('; ') + `</p>`;
   rh += `<p class="small">Recommendations dated ${esc(R.date||'')}.</p>`;
 } else rh = `<div class="note">No recommendations yet. The Claude step writes them after the first full run.</div>`;
@@ -143,7 +144,8 @@ let mh = R.market_summary ? `<div class="note">${esc(R.market_summary)}</div>` :
 const reg = S.by_region||{};
 mh += `<table style="margin-top:12px"><tr><th>Region</th><th>Listings</th><th>New</th><th>Median asking</th></tr>` +
   Object.entries(reg).sort((a,b)=>b[1].count-a[1].count).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v.count}</td><td>${v.new}</td><td>${kr(v.median_price)}</td></tr>`).join('') + `</table>`;
-if (S.national_in_band) mh += `<p class="small">Nationally in the price band today: Hemnet ${S.national_in_band.hemnet??'–'} gårdar, Booli ${S.national_in_band.booli??'–'}.</p>`;
+const fmtTot = v => v==null ? '–' : (typeof v==='object' ? Object.entries(v).map(([k,n])=>`${n??'–'} ${k}`).join(', ') : v);
+if (S.national_in_band) mh += `<p class="small">Nationally in the price band today: Hemnet ${fmtTot(S.national_in_band.hemnet)}; Booli ${fmtTot(S.national_in_band.booli)}.</p>`;
 if (D.history && D.history.length>1){
   const max = Math.max(...D.history.map(h=>h.matched||0),1);
   mh += `<div class="small" style="margin-top:8px">Matching listings, last ${D.history.length} runs</div><div class="spark">` + D.history.map(h=>`<i title="${h.date}: ${h.matched}" style="height:${Math.max(3,Math.round(40*h.matched/max))}px"></i>`).join('') + `</div>`;
@@ -166,7 +168,7 @@ document.getElementById('changes').innerHTML = ch;
 // list
 const regions = [...new Set(D.listings.map(l=>l.region))].sort();
 const fR = document.getElementById('fRegion'); regions.forEach(r=>{const o=document.createElement('option');o.value=r;o.textContent=r;fR.appendChild(o)});
-const PARTS = {water:'water',land:'land',buildings:'buildings',heating:'heat',seclusion:'seclusion',drive:'drive',price:'price',income:'income'};
+const PARTS = {water:'water',land:'land',buildings:'buildings',heating:'heat',maintenance:'low-maint',seclusion:'seclusion',drive:'drive',price:'price'};
 function render(){
   const r = fR.value, s = document.getElementById('fSort').value, q = document.getElementById('fText').value.toLowerCase();
   let L = D.listings.filter(l => (!r || l.region===r) && (!q || (l.title+' '+l.kommun+' '+(l.location||'')).toLowerCase().includes(q)));
@@ -179,7 +181,7 @@ function render(){
       <div class="t"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a></div>
       <div class="m">${esc(l.kommun)} · ${esc(l.region)} · ${esc(l.type||'')}</div>
       <div class="row"><span class="price">${kr(l.price)}</span><span class="m">${l.land_ha?l.land_ha+' ha':'land ?'}${l.price_per_ha?' · '+kr(l.price_per_ha)+'/ha':''}</span></div>
-      <div class="m">${l.living_m2?l.living_m2+' m² · ':''}${esc(l.rooms||'')}${l.drive_h?' · '+l.drive_h+' h from '+esc(D.config.base.name):''} · tracked ${l.days_tracked} d</div>
+      <div class="m">${l.living_m2?l.living_m2+' m² · ':''}${esc(l.rooms||'')}${l.build_year?' · byggår '+l.build_year:''}${l.drive_h?' · '+l.drive_h+' h from '+esc(D.config.base.name):''} · tracked ${l.days_tracked} d</div>
       <div class="chips">${Object.entries(PARTS).map(([k,lab])=>`<span class="chip ${parts[k]>0?'on':''}">${lab} ${parts[k]??0}</span>`).join('')}</div>
       <div class="chips">${(l.signals||[]).map(x=>`<span class="chip on">${esc(x)}</span>`).join('')}</div>
       <div class="links"><a href="${esc(l.url)}" target="_blank" rel="noopener">${l.source==='hemnet'?'Hemnet':'Booli'}</a>${l.alt_url?`<a href="${esc(l.alt_url)}" target="_blank" rel="noopener">Booli</a>`:''}<span class="small">${esc(l.broker||'')}</span></div>
