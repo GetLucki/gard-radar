@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-17",
+  "market_summary": "First run of the radar: 211 listings pass the hard filters (1 to 5 MSEK, at least 3 ha, whitelisted kommuner), so all 211 count as new today and there is no gone or price-cut history yet. Median asking price is 2 950 000 kr and median price per hectare is about 234 000 kr. Småland (61 listings, median 2 700 000 kr) and Dalsland/Värmland (52, median 2 700 000 kr) carry the most supply; Göteborg hinterland (42) and Halland inland (28) are the priciest at about 3 320 000 kr median, and Skaraborg/Vättern has 28 at 2 700 000 kr. Many strong listings have sat 3 to 12 months on Booli, which matches Ludvig & Co's picture of slow transactions and gives a buyer real negotiating room this autumn. For this week: viewings are worth booking on properties whose asking price is close to the value of the forest alone, since the house then comes almost free.",
+  "top3": [
+    {
+      "id": "hemnet:21719773",
+      "title": "Gunnarsjö Bro 1",
+      "kommun": "Varberg",
+      "region": "Halland inland",
+      "price": 3395000,
+      "land_ha": 15.5,
+      "url": "https://www.hemnet.se/bostad/gard-5rum-kungsater-varbergs-kommun-gunnarsjo-bro-1-21719773",
+      "score": 72,
+      "why": "Complete, working gård one hour from Göteborg in Kungsäter, Halland inland: 15.5 ha of open land, a 123 m2 house with 80 m2 basement including matkällare, bergvärme plus solar panels already installed and two working vedspisar, so heat and power resilience are in place from day one. A second building, the 1850s Timmerhuset with kakelugnar, is a ready candidate for a guest or rental dwelling, and the ladugård holds a workshop, slaughter room, machine hall and loge, plus an old hönshus and smedja. Four months on Booli at 3 395 000 kr (about 219 000 kr per ha) means the seller should be open to an offer. Verify at the viewing: water source (own well or not), the split between pasture, arable and forest, whether Timmerhuset can be permitted as a dwelling, and the state of the older upstairs bathroom."
+    },
+    {
+      "id": "hemnet:21774015",
+      "title": "Attlered 122",
+      "kommun": "Lilla Edet",
+      "region": "Göteborg hinterland",
+      "price": 2950000,
+      "land_ha": 23.33,
+      "url": "https://www.hemnet.se/bostad/gard-5rum-attlered-lilla-edets-kommun-attlered-122-21774015",
+      "score": 66,
+      "why": "The best land-per-krona close to Göteborg: about 22 ha in one piece, 17 ha of it productive forest and 4 ha inägomark that is not leased out and can be farmed from day one, 50 minutes from town. At southern forest prices 17 ha of forest is worth roughly 2 to 2.5 MSEK on its own, so the 130 m2 four-bedroom house, jordkällare, hönshus and the electrified ekonomibyggnad with tractor garage come almost free at 2 950 000 kr. The house sits with no insyn from neighbours, and Ludvig & Co is the broker so a skogsbruksplan should be available. Verify: water source and well, heating (no wood stove is mentioned), the forest age class distribution, and SGU landslide risk since the property lies in the hills 3.5 km from Lödöse in the Göta älv valley."
+    },
+    {
+      "id": "hemnet:21571650",
+      "title": "Barkerud Sjövik 1",
+      "kommun": "Bengtsfors",
+      "region": "Dalsland/Värmland",
+      "price": 2995000,
+      "land_ha": 19.7,
+      "url": "https://www.hemnet.se/bostad/gard-4rum-barkerud-bengtsfors-kommun-barkerud-sjovik-1-21571650",
+      "score": 64,
+      "why": "Own shoreline on Yngnesjö, two houses and 17.2 ha of productive forest with 2 241 m3sk according to the skogsbruksplan, two hours from Göteborg in Dalsland. The forest alone is worth roughly 1.5 to 2 MSEK, so at 2 995 000 kr the two dwellings, ladugård and magasin plus the lakefront are cheaply priced, and the second house is a natural holiday let toward the German and Dutch Dalsland market. It has been on Booli for a year, which is a warning sign about condition or price but also a strong negotiating position; the broker says a besiktning with dolda-fel insurance is coming. Verify: heating (nothing is stated), the state of both houses, how much open land exists beyond the 17 ha forest (only about 2.5 ha), strandskydd on the lake plots, and whether förvärvstillstånd is needed since parts of Bengtsfors are glesbygd."
+    }
+  ],
+  "dropped": [],
+  "criteria_changes": [],
+  "watch": [
+    {
+      "id": "hemnet:21638457",
+      "title": "Killhult 161",
+      "kommun": "Laholm",
+      "note": "Own pond and a border on Stensån, forest plus arable plus pasture, vedpanna and solar, ecological farm with a 2023 environmental prize, 10 months on market. Missed top three only on the missing second dwelling; first alternate."
+    },
+    {
+      "id": "hemnet:21729166",
+      "title": "Hult 1",
+      "kommun": "Värnamo",
+      "note": "11 ha forest plus 3.4 ha pasture and arable, jakträtt and fiskerätt with boat place, matkällare, secluded. Heating and water not stated; 1.9 h drive."
+    },
+    {
+      "id": "hemnet:21741956",
+      "title": "Gennevedsvägen 108",
+      "kommun": "Alingsås",
+      "note": "34.6 ha for 2 975 000 kr only 40 minutes from Göteborg, renovated house with kakelugn and stable. Land composition unknown; ask the broker for the split before dismissing."
+    },
+    {
+      "id": "hemnet:21675475",
+      "title": "Ryd Östergård 17",
+      "kommun": "Ljungby",
+      "note": "Own beach and boat place on Hornasjön, 25.9 ha, fishing and hunting, 7 months on market. Land mix and heating unknown."
+    },
+    {
+      "id": "hemnet:21742304",
+      "title": "Nybyggerud 1",
+      "kommun": "Årjäng",
+      "note": "22.7 ha in one piece with 5 291 m3sk of standing timber, asking 2 800 000 kr, so the forest is worth more than the price. 2.4 h drive and house condition unknown."
+    },
+    {
+      "id": "hemnet:21730495",
+      "title": "Eklanda Brändehov 1",
+      "kommun": "Vårgårda",
+      "note": "Fully off-grid 10 ha with vedspis and vedpanna 55 minutes from Göteborg at 1 995 000 kr, but the dwelling is a 30 m2 stuga with outhouse. A foothold, not a family home."
+    },
+    {
+      "id": "hemnet:21748189",
+      "title": "Grönlanda 8",
+      "kommun": "Färgelanda",
+      "note": "Highest pre-score: modern villa plus torp with vedspis plus gäststuga, fully secluded, jakträtt. Only 4.7 ha and 4 300 000 kr, so land is thin for the price; worth a look if it drops."
+    }
+  ]
+}

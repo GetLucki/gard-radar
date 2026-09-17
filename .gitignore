@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+scanner/*.log
+data/details.json
+.browser-profile/
