@@ -1,4 +1,5 @@
 #!/bin/zsh
-# Tunn startfil för launchd. Repot ligger under ~/.claude/jobs eftersom launchd-startade
-# processer inte får läsa filer under ~/Documents (macOS TCC). Symlänk finns i projektmappen.
-exec /bin/zsh "$HOME/.claude/jobs/gard-radar/run_radar.sh"
+# Tunn startfil för launchd. Repot ligger i ~/jobs/gard-radar: utanför ~/Documents
+# (launchd får inte läsa där, macOS TCC) och utanför ~/.claude (Claude Code skriver inte där).
+# Symlänk finns i projektmappen under Family/Prepping.
+exec /bin/zsh "$HOME/jobs/gard-radar/run_radar.sh"

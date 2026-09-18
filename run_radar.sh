@@ -11,6 +11,7 @@ PROMPT_FILE="$HOME/.claude/scheduled-tasks/daily-gard-radar/SKILL.md"
 PY="$REPO/.venv/bin/python"
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 SKIP_CLAUDE="${SKIP_CLAUDE:-0}"   # SKIP_CLAUDE=1 zsh run_radar.sh  -> scan + build + publish only
+SKIP_SCAN="${SKIP_SCAN:-0}"       # SKIP_SCAN=1   zsh run_radar.sh  -> judge + email + publish on existing data
 
 ts() { date '+%F %T'; }
 
@@ -18,8 +19,10 @@ cd "$REPO" || { echo "$(ts) gard-radar: repo saknas: $REPO" >&2; exit 1; }
 echo "$(ts) gard-radar: startar"
 
 # 1. scan (writes data/scan_failed.txt on crash, so Claude can report it)
-"$PY" scanner/scan.py 2>&1 | tail -n 40
-echo "$(ts) gard-radar: scan exit ${pipestatus[1]}"
+if [[ "$SKIP_SCAN" != "1" ]]; then
+  "$PY" scanner/scan.py 2>&1 | tail -n 40
+  echo "$(ts) gard-radar: scan exit ${pipestatus[1]}"
+fi
 
 # 2. preliminary build so the site is fresh even if Claude fails
 python3 build_site.py
@@ -41,7 +44,7 @@ if [[ "$SKIP_CLAUDE" != "1" ]]; then
     else
       "$CLAUDE" -p "$PROMPT" \
         --permission-mode acceptEdits \
-        --add-dir "$HOME/.claude" \
+        --add-dir "$HOME/.claude" --add-dir "$REPO" \
         --allowedTools "Read,Write,Edit,Glob,Grep,\
 Bash(date:*),Bash(ls:*),Bash(cat:*),Bash(head:*),Bash(tail:*),\
 Bash(python3 \"$REPO/build_email.py\"),Bash(python3 $REPO/build_email.py),\

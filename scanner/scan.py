@@ -493,7 +493,10 @@ def refresh_details():
         browser = p.chromium.launch(headless=True)
         for i, l in enumerate(todo, 1):
             try:
-                details[l["id"]] = {"text": fetch_detail(browser, l), "fetched": TODAY}
+                txt = fetch_detail(browser, l)
+                if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|är inte längre till salu", txt, re.I):
+                    l["stale"] = True
+                details[l["id"]] = {"text": txt, "fetched": TODAY, "stale": bool(l.get("stale"))}
             except Exception as e:
                 details[l["id"]] = {"text": details.get(l["id"], {}).get("text", ""), "fetched": TODAY, "error": str(e)[:200]}
             if i % 10 == 0:
@@ -544,7 +547,10 @@ def main():
         log(f"fetching {len(todo)} detail pages")
         for i, l in enumerate(todo, 1):
             try:
-                details[l["id"]] = {"text": fetch_detail(browser, l), "fetched": TODAY}
+                txt = fetch_detail(browser, l)
+                if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|är inte längre till salu", txt, re.I):
+                    l["stale"] = True
+                details[l["id"]] = {"text": txt, "fetched": TODAY, "stale": bool(l.get("stale"))}
             except Exception as e:  # keep going, the card teaser still scores
                 details[l["id"]] = {"text": "", "fetched": TODAY, "error": str(e)[:200]}
             if i % 10 == 0:
@@ -552,6 +558,10 @@ def main():
         browser.close()
 
     save_json(DATA / "details.json", details)
+    stale = [l for l in matched if l.get("stale") or details.get(l["id"], {}).get("stale")]
+    if stale:
+        log(f"dropping {len(stale)} sold/removed records: " + ", ".join(l["title"] or l["id"] for l in stale[:8]))
+        matched = [l for l in matched if l not in stale]
 
     # derived fields
     for l in matched:

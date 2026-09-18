@@ -19,7 +19,7 @@ Manual run:
 
 First-time setup (done by Luki, once):
 
-    cd "$HOME/.claude/jobs/gard-radar"
+    cd "$HOME/jobs/gard-radar"
     git add -A && git commit -m "first radar run" && git push -u origin main
     gh api -X POST repos/GetLucki/gard-radar/pages --field 'source[branch]=main' --field 'source[path]=/docs'
     zsh launchd/install.sh
