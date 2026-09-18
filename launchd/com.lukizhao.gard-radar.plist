@@ -6,7 +6,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/zsh</string>
-    <string>/Users/lukizhao/Documents/Claude Code Projects/Family/Prepping/gard-radar/run_radar.sh</string>
+    <string>/Users/lukizhao/.claude/gard-radar-run.sh</string>
   </array>
   <key>StartCalendarInterval</key>
   <dict>
