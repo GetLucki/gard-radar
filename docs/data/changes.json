@@ -1,211 +1,140 @@
 {
- "date": "2026-09-17",
+ "date": "2026-09-18",
  "new": [
   {
-   "id": "hemnet:21528467",
-   "title": "Kraksbyn 301",
-   "kommun": "Åmål",
-   "price": 3475000,
-   "land_ha": 4.2,
+   "id": "booli:6270854",
+   "title": "Björkesbacka Bäckaskog",
+   "kommun": "Mark",
+   "price": 3995000,
+   "land_ha": 7.25,
    "score": 33,
-   "url": "https://www.hemnet.se/bostad/villa-3rum-amals-kommun-kraksbyn-301-21528467"
+   "url": "https://www.booli.se/annons/6270854"
   },
   {
-   "id": "hemnet:21736564",
-   "title": "Backa Backadal 1",
-   "kommun": "Mark",
-   "price": 1995000,
-   "land_ha": 6.92,
-   "score": 32,
-   "url": "https://www.hemnet.se/bostad/villa-7rum-oxaback-marks-kommun-backa-backadal-1-21736564"
+   "id": "booli:6085171",
+   "title": "Sidan 3:230",
+   "kommun": "Bengtsfors",
+   "price": 2400000,
+   "land_ha": 32.2,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6085171"
   },
+  {
+   "id": "booli:6127191",
+   "title": "Östra Långhultsbygget Klaragården",
+   "kommun": "Laholm",
+   "price": 2995000,
+   "land_ha": 15.8,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6127191"
+  },
+  {
+   "id": "booli:5861175",
+   "title": "Habelsbolet 1:17",
+   "kommun": "Töreboda",
+   "price": 3100000,
+   "land_ha": 69.63,
+   "score": 23,
+   "url": "https://www.booli.se/annons/5861175"
+  },
+  {
+   "id": "booli:6000361",
+   "title": "Karlanda-Korsbyn",
+   "kommun": "Årjäng",
+   "price": 4050000,
+   "land_ha": 33.23,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6000361"
+  },
+  {
+   "id": "booli:6056274",
+   "title": "Trantorp Ramnhult",
+   "kommun": "Mark",
+   "price": 3900000,
+   "land_ha": 5.62,
+   "score": 20,
+   "url": "https://www.booli.se/annons/6056274"
+  },
+  {
+   "id": "booli:6216308",
+   "title": "Ödenäs Mellomgården 426",
+   "kommun": "Alingsås",
+   "price": 4750000,
+   "land_ha": 11.0,
+   "score": 20,
+   "url": "https://www.booli.se/annons/6216308"
+  },
+  {
+   "id": "booli:6177972",
+   "title": "Grönlanda 8",
+   "kommun": "Färgelanda",
+   "price": 4300000,
+   "land_ha": 4.72,
+   "score": 19,
+   "url": "https://www.booli.se/annons/6177972"
+  },
+  {
+   "id": "booli:6149284",
+   "title": "Härsbyn Punkten",
+   "kommun": "Bengtsfors",
+   "price": 2875000,
+   "land_ha": 4.87,
+   "score": 13,
+   "url": "https://www.booli.se/annons/6149284"
+  },
+  {
+   "id": "booli:6021271",
+   "title": "Ängafallet 10",
+   "kommun": "Töreboda",
+   "price": 2975000,
+   "land_ha": 9.68,
+   "score": 12,
+   "url": "https://www.booli.se/annons/6021271"
+  },
+  {
+   "id": "booli:6016943",
+   "title": "Valinge Grunnarp 1",
+   "kommun": "Varberg",
+   "price": 2950000,
+   "land_ha": 4.8,
+   "score": 11,
+   "url": "https://www.booli.se/annons/6016943"
+  },
+  {
+   "id": "booli:6066376",
+   "title": "Milleryr 10",
+   "kommun": "Färgelanda",
+   "price": 3400000,
+   "land_ha": 4.4,
+   "score": 11,
+   "url": "https://www.booli.se/bostad/4578515"
+  },
+  {
+   "id": "hemnet:21774193",
+   "title": "Lilla Hillhult 16",
+   "kommun": "Vetlanda",
+   "price": 1695000,
+   "land_ha": 3.27,
+   "score": 10,
+   "url": "https://www.hemnet.se/bostad/villa-6rum-aseda-vetlanda-kommun-lilla-hillhult-16-21774193"
+  },
+  {
+   "id": "booli:6170048",
+   "title": "Hallanda Sörmon",
+   "kommun": "Säffle",
+   "price": 1350000,
+   "land_ha": 4.1,
+   "score": 8,
+   "url": "https://www.booli.se/annons/6170048"
+  }
+ ],
+ "gone": [
   {
    "id": "booli:6212333",
    "title": "Klägghult 2",
    "kommun": "Svenljunga",
    "price": 2700000,
-   "land_ha": 7.1,
-   "score": 29,
-   "url": "https://www.booli.se/annons/6212333"
-  },
-  {
-   "id": "booli:6102563",
-   "title": "Krampanäs 2",
-   "kommun": "Älmhult",
-   "price": 4800000,
-   "land_ha": 12.1,
-   "score": 28,
-   "url": "https://www.booli.se/annons/6102563"
-  },
-  {
-   "id": "booli:6177425",
-   "title": "Esshulta",
-   "kommun": "Gullspång",
-   "price": 3500000,
-   "land_ha": 7.84,
-   "score": 27,
-   "url": "https://www.booli.se/annons/6177425"
-  },
-  {
-   "id": "booli:5521889",
-   "title": "Lockabäck Strömsberg",
-   "kommun": "Hylte",
-   "price": 1275000,
-   "land_ha": 4.84,
-   "score": 24,
-   "url": "https://www.booli.se/bostad/3834179"
-  },
-  {
-   "id": "hemnet:21482745",
-   "title": "Högalid 31",
-   "kommun": "Tranemo",
-   "price": 2995000,
-   "land_ha": 4.33,
-   "score": 24,
-   "url": "https://www.hemnet.se/bostad/villa-10rum-ambjornarp-tranemo-kommun-hogalid-31-21482745"
-  },
-  {
-   "id": "hemnet:21602269",
-   "title": "Siggaboda 2",
-   "kommun": "Älmhult",
-   "price": 4500000,
-   "land_ha": 3.77,
-   "score": 24,
-   "url": "https://www.hemnet.se/bostad/villa-4rum-almhults-kommun-siggaboda-2-21602269"
-  },
-  {
-   "id": "booli:6200211",
-   "title": "Södra Böle 110",
-   "kommun": "Dals-Ed",
-   "price": 2000000,
-   "land_ha": 8.21,
-   "score": 23,
-   "url": "https://www.booli.se/annons/6200211"
-  },
-  {
-   "id": "booli:6152399",
-   "title": "Korsbyn Sand 1",
-   "kommun": "Årjäng",
-   "price": 2700000,
-   "land_ha": 37.3,
-   "score": 23,
-   "url": "https://www.booli.se/annons/6152399"
-  },
-  {
-   "id": "booli:6087887",
-   "title": "Blåsutvägen 24",
-   "kommun": "Tranemo",
-   "price": 3950000,
-   "land_ha": 5.77,
-   "score": 23,
-   "url": "https://www.booli.se/annons/6087887"
-  },
-  {
-   "id": "booli:6073751",
-   "title": "Sålhults Gård",
-   "kommun": "Gislaved",
-   "price": 4000000,
-   "land_ha": 13.07,
-   "score": 20,
-   "url": "https://www.booli.se/annons/6073751"
-  },
-  {
-   "id": "booli:6220417",
-   "title": "Horla Storsjövik 1",
-   "kommun": "Vårgårda",
-   "price": 3600000,
-   "land_ha": 3.0,
-   "score": 19,
-   "url": "https://www.booli.se/annons/6220417"
-  },
-  {
-   "id": "hemnet:21765522",
-   "title": "Bredsäter Svaneberg 1",
-   "kommun": "Mariestad",
-   "price": 3995000,
-   "land_ha": 4.43,
-   "score": 17,
-   "url": "https://www.hemnet.se/bostad/villa-7rum-mariestad-mariestads-kommun-bredsater-svaneberg-1-21765522"
-  },
-  {
-   "id": "booli:6215766",
-   "title": "Särestad Norakull 215",
-   "kommun": "Falkenberg",
-   "price": 2330000,
-   "land_ha": 3.58,
-   "score": 16,
-   "url": "https://www.booli.se/annons/6215766"
-  },
-  {
-   "id": "booli:5687693",
-   "title": "Boastad 120",
-   "kommun": "Älmhult",
-   "price": 4995000,
-   "land_ha": 3.14,
-   "score": 16,
-   "url": "https://www.booli.se/annons/5687693"
-  },
-  {
-   "id": "booli:6017613",
-   "title": "Postvägen 32",
-   "kommun": "Vårgårda",
-   "price": 4700000,
-   "land_ha": 6.42,
-   "score": 15,
-   "url": "https://www.booli.se/bostad/4118085"
-  },
-  {
-   "id": "booli:6132635",
-   "title": "Ränneslövs Ängar 222",
-   "kommun": "Laholm",
-   "price": 4200000,
-   "land_ha": 3.0,
-   "score": 13,
-   "url": "https://www.booli.se/annons/6132635"
-  },
-  {
-   "id": "booli:6132250",
-   "title": "Fjäll Kasängen",
-   "kommun": "Bengtsfors",
-   "price": 2300000,
-   "land_ha": 7.59,
-   "score": 12,
-   "url": "https://www.booli.se/annons/6132250"
-  },
-  {
-   "id": "booli:6012355",
-   "title": "Hämnäs Åmot 1",
-   "kommun": "Årjäng",
-   "price": 2000000,
-   "land_ha": 3.83,
-   "score": 10,
-   "url": "https://www.booli.se/annons/6012355"
-  },
-  {
-   "id": "booli:6084899",
-   "title": "Östantorp 142",
-   "kommun": "Vimmerby",
-   "price": 1250000,
-   "land_ha": 3.68,
-   "score": 4,
-   "url": "https://www.booli.se/bostad/2791236"
-  }
- ],
- "gone": [
-  {
-   "id": "booli:None",
-   "title": "Lockabäck 103",
-   "kommun": "Hylte",
-   "price": 4500000,
-   "url": "https://www.booli.se/bostad/4559961",
-   "days_tracked": 0
-  },
-  {
-   "id": "booli:5699238",
-   "title": "Kraksbyn 301",
-   "kommun": "Åmål",
-   "price": 3475000,
-   "url": "https://www.booli.se/bostad/1703812",
+   "url": "https://www.booli.se/annons/6212333",
    "days_tracked": 0
   }
  ],

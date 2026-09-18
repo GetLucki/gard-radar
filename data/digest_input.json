@@ -1,261 +1,190 @@
 {
- "date": "2026-09-17",
+ "date": "2026-09-18",
  "stats": {
-  "date": "2026-09-17",
-  "matched": 209,
-  "new": 21,
-  "gone": 2,
+  "date": "2026-09-18",
+  "matched": 222,
+  "new": 14,
+  "gone": 1,
   "price_cuts": 0,
   "price_rises": 0,
-  "median_price": 2985000,
-  "median_price_per_ha": 256154,
+  "median_price": 2995000,
+  "median_price_per_ha": 262763,
   "national_in_band": {
    "hemnet": {
     "gard": 671,
-    "villa": 88
+    "villa": 89
    },
    "booli": {
-    "gard": 693,
-    "hus": 304
+    "gard": 703,
+    "hus": 351
    }
   },
   "hemnet_ok": true,
   "by_region": {
    "Göteborg hinterland": {
-    "count": 44,
-    "new": 6,
-    "median_price": 3325000
+    "count": 46,
+    "new": 3,
+    "median_price": 3550000
    },
    "Dalsland/Värmland": {
-    "count": 53,
-    "new": 5,
-    "median_price": 2650000
+    "count": 59,
+    "new": 6,
+    "median_price": 2700000
    },
    "Småland": {
-    "count": 58,
-    "new": 5,
-    "median_price": 2900000
+    "count": 59,
+    "new": 1,
+    "median_price": 2850000
    },
    "Halland inland": {
-    "count": 27,
-    "new": 3,
-    "median_price": 3395000
+    "count": 29,
+    "new": 2,
+    "median_price": 3250000
    },
    "Skaraborg/Vättern": {
-    "count": 27,
+    "count": 29,
     "new": 2,
-    "median_price": 2695000
+    "median_price": 2800000
    }
   }
  },
  "changes": {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "new": [
    {
-    "id": "hemnet:21528467",
-    "title": "Kraksbyn 301",
-    "kommun": "Åmål",
-    "price": 3475000,
-    "land_ha": 4.2,
+    "id": "booli:6270854",
+    "title": "Björkesbacka Bäckaskog",
+    "kommun": "Mark",
+    "price": 3995000,
+    "land_ha": 7.25,
     "score": 33,
-    "url": "https://www.hemnet.se/bostad/villa-3rum-amals-kommun-kraksbyn-301-21528467"
+    "url": "https://www.booli.se/annons/6270854"
    },
    {
-    "id": "hemnet:21736564",
-    "title": "Backa Backadal 1",
-    "kommun": "Mark",
-    "price": 1995000,
-    "land_ha": 6.92,
-    "score": 32,
-    "url": "https://www.hemnet.se/bostad/villa-7rum-oxaback-marks-kommun-backa-backadal-1-21736564"
+    "id": "booli:6085171",
+    "title": "Sidan 3:230",
+    "kommun": "Bengtsfors",
+    "price": 2400000,
+    "land_ha": 32.2,
+    "score": 23,
+    "url": "https://www.booli.se/annons/6085171"
    },
+   {
+    "id": "booli:6127191",
+    "title": "Östra Långhultsbygget Klaragården",
+    "kommun": "Laholm",
+    "price": 2995000,
+    "land_ha": 15.8,
+    "score": 23,
+    "url": "https://www.booli.se/annons/6127191"
+   },
+   {
+    "id": "booli:5861175",
+    "title": "Habelsbolet 1:17",
+    "kommun": "Töreboda",
+    "price": 3100000,
+    "land_ha": 69.63,
+    "score": 23,
+    "url": "https://www.booli.se/annons/5861175"
+   },
+   {
+    "id": "booli:6000361",
+    "title": "Karlanda-Korsbyn",
+    "kommun": "Årjäng",
+    "price": 4050000,
+    "land_ha": 33.23,
+    "score": 23,
+    "url": "https://www.booli.se/annons/6000361"
+   },
+   {
+    "id": "booli:6056274",
+    "title": "Trantorp Ramnhult",
+    "kommun": "Mark",
+    "price": 3900000,
+    "land_ha": 5.62,
+    "score": 20,
+    "url": "https://www.booli.se/annons/6056274"
+   },
+   {
+    "id": "booli:6216308",
+    "title": "Ödenäs Mellomgården 426",
+    "kommun": "Alingsås",
+    "price": 4750000,
+    "land_ha": 11.0,
+    "score": 20,
+    "url": "https://www.booli.se/annons/6216308"
+   },
+   {
+    "id": "booli:6177972",
+    "title": "Grönlanda 8",
+    "kommun": "Färgelanda",
+    "price": 4300000,
+    "land_ha": 4.72,
+    "score": 19,
+    "url": "https://www.booli.se/annons/6177972"
+   },
+   {
+    "id": "booli:6149284",
+    "title": "Härsbyn Punkten",
+    "kommun": "Bengtsfors",
+    "price": 2875000,
+    "land_ha": 4.87,
+    "score": 13,
+    "url": "https://www.booli.se/annons/6149284"
+   },
+   {
+    "id": "booli:6021271",
+    "title": "Ängafallet 10",
+    "kommun": "Töreboda",
+    "price": 2975000,
+    "land_ha": 9.68,
+    "score": 12,
+    "url": "https://www.booli.se/annons/6021271"
+   },
+   {
+    "id": "booli:6016943",
+    "title": "Valinge Grunnarp 1",
+    "kommun": "Varberg",
+    "price": 2950000,
+    "land_ha": 4.8,
+    "score": 11,
+    "url": "https://www.booli.se/annons/6016943"
+   },
+   {
+    "id": "booli:6066376",
+    "title": "Milleryr 10",
+    "kommun": "Färgelanda",
+    "price": 3400000,
+    "land_ha": 4.4,
+    "score": 11,
+    "url": "https://www.booli.se/bostad/4578515"
+   },
+   {
+    "id": "hemnet:21774193",
+    "title": "Lilla Hillhult 16",
+    "kommun": "Vetlanda",
+    "price": 1695000,
+    "land_ha": 3.27,
+    "score": 10,
+    "url": "https://www.hemnet.se/bostad/villa-6rum-aseda-vetlanda-kommun-lilla-hillhult-16-21774193"
+   },
+   {
+    "id": "booli:6170048",
+    "title": "Hallanda Sörmon",
+    "kommun": "Säffle",
+    "price": 1350000,
+    "land_ha": 4.1,
+    "score": 8,
+    "url": "https://www.booli.se/annons/6170048"
+   }
+  ],
+  "gone": [
    {
     "id": "booli:6212333",
     "title": "Klägghult 2",
     "kommun": "Svenljunga",
     "price": 2700000,
-    "land_ha": 7.1,
-    "score": 29,
-    "url": "https://www.booli.se/annons/6212333"
-   },
-   {
-    "id": "booli:6102563",
-    "title": "Krampanäs 2",
-    "kommun": "Älmhult",
-    "price": 4800000,
-    "land_ha": 12.1,
-    "score": 28,
-    "url": "https://www.booli.se/annons/6102563"
-   },
-   {
-    "id": "booli:6177425",
-    "title": "Esshulta",
-    "kommun": "Gullspång",
-    "price": 3500000,
-    "land_ha": 7.84,
-    "score": 27,
-    "url": "https://www.booli.se/annons/6177425"
-   },
-   {
-    "id": "booli:5521889",
-    "title": "Lockabäck Strömsberg",
-    "kommun": "Hylte",
-    "price": 1275000,
-    "land_ha": 4.84,
-    "score": 24,
-    "url": "https://www.booli.se/bostad/3834179"
-   },
-   {
-    "id": "hemnet:21482745",
-    "title": "Högalid 31",
-    "kommun": "Tranemo",
-    "price": 2995000,
-    "land_ha": 4.33,
-    "score": 24,
-    "url": "https://www.hemnet.se/bostad/villa-10rum-ambjornarp-tranemo-kommun-hogalid-31-21482745"
-   },
-   {
-    "id": "hemnet:21602269",
-    "title": "Siggaboda 2",
-    "kommun": "Älmhult",
-    "price": 4500000,
-    "land_ha": 3.77,
-    "score": 24,
-    "url": "https://www.hemnet.se/bostad/villa-4rum-almhults-kommun-siggaboda-2-21602269"
-   },
-   {
-    "id": "booli:6200211",
-    "title": "Södra Böle 110",
-    "kommun": "Dals-Ed",
-    "price": 2000000,
-    "land_ha": 8.21,
-    "score": 23,
-    "url": "https://www.booli.se/annons/6200211"
-   },
-   {
-    "id": "booli:6152399",
-    "title": "Korsbyn Sand 1",
-    "kommun": "Årjäng",
-    "price": 2700000,
-    "land_ha": 37.3,
-    "score": 23,
-    "url": "https://www.booli.se/annons/6152399"
-   },
-   {
-    "id": "booli:6087887",
-    "title": "Blåsutvägen 24",
-    "kommun": "Tranemo",
-    "price": 3950000,
-    "land_ha": 5.77,
-    "score": 23,
-    "url": "https://www.booli.se/annons/6087887"
-   },
-   {
-    "id": "booli:6073751",
-    "title": "Sålhults Gård",
-    "kommun": "Gislaved",
-    "price": 4000000,
-    "land_ha": 13.07,
-    "score": 20,
-    "url": "https://www.booli.se/annons/6073751"
-   },
-   {
-    "id": "booli:6220417",
-    "title": "Horla Storsjövik 1",
-    "kommun": "Vårgårda",
-    "price": 3600000,
-    "land_ha": 3.0,
-    "score": 19,
-    "url": "https://www.booli.se/annons/6220417"
-   },
-   {
-    "id": "hemnet:21765522",
-    "title": "Bredsäter Svaneberg 1",
-    "kommun": "Mariestad",
-    "price": 3995000,
-    "land_ha": 4.43,
-    "score": 17,
-    "url": "https://www.hemnet.se/bostad/villa-7rum-mariestad-mariestads-kommun-bredsater-svaneberg-1-21765522"
-   },
-   {
-    "id": "booli:6215766",
-    "title": "Särestad Norakull 215",
-    "kommun": "Falkenberg",
-    "price": 2330000,
-    "land_ha": 3.58,
-    "score": 16,
-    "url": "https://www.booli.se/annons/6215766"
-   },
-   {
-    "id": "booli:5687693",
-    "title": "Boastad 120",
-    "kommun": "Älmhult",
-    "price": 4995000,
-    "land_ha": 3.14,
-    "score": 16,
-    "url": "https://www.booli.se/annons/5687693"
-   },
-   {
-    "id": "booli:6017613",
-    "title": "Postvägen 32",
-    "kommun": "Vårgårda",
-    "price": 4700000,
-    "land_ha": 6.42,
-    "score": 15,
-    "url": "https://www.booli.se/bostad/4118085"
-   },
-   {
-    "id": "booli:6132635",
-    "title": "Ränneslövs Ängar 222",
-    "kommun": "Laholm",
-    "price": 4200000,
-    "land_ha": 3.0,
-    "score": 13,
-    "url": "https://www.booli.se/annons/6132635"
-   },
-   {
-    "id": "booli:6132250",
-    "title": "Fjäll Kasängen",
-    "kommun": "Bengtsfors",
-    "price": 2300000,
-    "land_ha": 7.59,
-    "score": 12,
-    "url": "https://www.booli.se/annons/6132250"
-   },
-   {
-    "id": "booli:6012355",
-    "title": "Hämnäs Åmot 1",
-    "kommun": "Årjäng",
-    "price": 2000000,
-    "land_ha": 3.83,
-    "score": 10,
-    "url": "https://www.booli.se/annons/6012355"
-   },
-   {
-    "id": "booli:6084899",
-    "title": "Östantorp 142",
-    "kommun": "Vimmerby",
-    "price": 1250000,
-    "land_ha": 3.68,
-    "score": 4,
-    "url": "https://www.booli.se/bostad/2791236"
-   }
-  ],
-  "gone": [
-   {
-    "id": "booli:None",
-    "title": "Lockabäck 103",
-    "kommun": "Hylte",
-    "price": 4500000,
-    "url": "https://www.booli.se/bostad/4559961",
-    "days_tracked": 0
-   },
-   {
-    "id": "booli:5699238",
-    "title": "Kraksbyn 301",
-    "kommun": "Åmål",
-    "price": 3475000,
-    "url": "https://www.booli.se/bostad/1703812",
+    "url": "https://www.booli.se/annons/6212333",
     "days_tracked": 0
    }
   ],
@@ -295,7 +224,7 @@
     "seclusion"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -343,7 +272,7 @@
     "highmaint_defects"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -390,7 +319,7 @@
     "lowmaint_roof"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -413,7 +342,7 @@
    "rooms": "3 rum",
    "type": "Gård med jordbruk",
    "url": "https://www.hemnet.se/bostad/gard-3rum-arjang-arjangs-kommun-stommen-mobacken-1-21753531",
-   "alt_url": null,
+   "alt_url": "https://www.booli.se/bostad/4305114",
    "drive_h": 2.4,
    "price_per_ha": 227723,
    "score": 54,
@@ -436,7 +365,7 @@
     "income"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -444,7 +373,7 @@
     ]
    ],
    "broker": "Svensk Fastighetsförmedling Årjäng",
-   "days_text": null,
+   "days_text": "2 månader på Booli",
    "build_year": null,
    "description": "Välkommen till en alldeles särskild plats där lugnet, naturen och möjligheterna står i centrum. \nHär erbjuds en naturskönt belägen gårdsmiljö om drygt 10 hektar med gott om utrymme för både familjeliv, fritidsboende och sociala sammankomster.\n\nFastigheten passar perfekt för dig som drömmer om en egen lantlig oas med plats för många övernattande gäster.\n Här finns flera byggnader som tillsammans skapar fantastiska möjligheter för generationsboende, uthyrning, kursverksamhet eller olika typer av sammankomster.\n\nPå gården finns ett bostadshus, en charmig lillstuga samt en ombyggd verkstad med stora sällskapsytor och en inredd övervåning som erbjuder ytterligare boendemöjligheter. \nDen stora ladugårdsbyggnaden används delvis som förvaring medan en del har förvandlats till en genuin och stämningsfull pub – en självklar samlingsplats för trevliga kvällar med familj och vänner.\n\nDen generösa gårdsmiljön med öppna gräsytor och omgivande skogsmark bjuder in till umgänge, lek och avkoppling året om. Läget är lugnt och avskilt men samtidigt lättillgängligt, med naturen direkt utanför dörren.\n\nFör den jaktintresserade ingår jakträtt på älg och småvilt i ett viltvårdsområde  – en stor tillgång för den som vill kombinera boende med ett aktivt friluftsliv.\n\nDetta är en fastighet som måste upplevas på plats – en unik möjlighet för dig som söker något utöver det vanliga, med stora ytor, många användningsområden och en härlig känsla av frihet.\nFAKTA\nid: 21753531\narea: Årjäng\nformattedLandArea:"
   },
@@ -459,7 +388,7 @@
    "rooms": "5 rum",
    "type": "Gård utan jordbruk",
    "url": "https://www.hemnet.se/bostad/villa-5rum-orby-marks-kommun-forshallsvagen-10-21773856",
-   "alt_url": "https://www.booli.se/annons/6148352",
+   "alt_url": "https://www.booli.se/bostad/3791512",
    "drive_h": 0.8,
    "price_per_ha": 424051,
    "score": 54,
@@ -481,7 +410,7 @@
     "income"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -527,7 +456,7 @@
     "income"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -574,7 +503,7 @@
     "highmaint_defects"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -620,7 +549,7 @@
     "highmaint_log"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -665,7 +594,7 @@
     "highmaint_log"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -711,7 +640,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -719,7 +648,7 @@
     ]
    ],
    "broker": "Mäklarhuset Mariestad, Töreboda och Gullspång",
-   "days_text": "23 dagar på Booli",
+   "days_text": "24 dagar på Booli",
    "build_year": 1925,
    "description": "Drömmer du om ett liv på landet med utrymme för både familj och djur?\nI natursköna Torsvid, strax utanför Skagersvik och Gullspång, hittar du denna lilla trevliga gård med tillhörande ladugård och fördelaktiga uthus. Ett idealiskt hem för dig som söker ett lantligt boende med möjligheter till småskaligt jordbruk, häst- eller djurhållning.\n\nBostadshuset om 4 rum och kök ger hemtrevligt intryck med mycket ljusinsläpp och är i fullt brukligt skick men är i behov av modernisering. Badrummet renoverades av fackmän 2022. Uppvärmning sker via vattenburen jordvärme vilket generellt ger låga driftkostnader. Huset är besiktigat och mer information om skick och standard finns under dokument.\n\nTill fastigheten hör en väl tilltagen ladugård och ytterligare uthus samt garage med plats för traktor ex.. Perfekt för dig som behöver extra utrymmen för djur eller annan hobbyverksamhet. Betesmarken (inhängnade hästhagar) som angränsar till bostadshuset i rakt nord och sydlig riktning är utarrenderat till granne tom. 2027-12-31. Arrendet är uppsagt och genererar ingen intäkt. Totalt tillhörande mark om ca 8 ha varav merparten skog och betesmark, en del vatten ingår i \"lillskagern\" vilket ger fiskerätt. Se kartbild över tillhörande betes- och skogsskiften under dokument. Observera att två skiften GULLSPÅNG TORSVID 5:4 samt 5:18 angränsar till Vänern söder om de nybyggda området i Otterbäcken.\n\nHärifrån är det endast några få minuter till Gullspångs centrum med restaurang, gym och sportanläggning, "
   },
@@ -755,7 +684,7 @@
     "wood_heat"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -763,7 +692,7 @@
     ]
    ],
    "broker": "LF Fastighetsförmedling Ljungby",
-   "days_text": "5 dagar på Booli",
+   "days_text": "6 dagar på Booli",
    "build_year": 1933,
    "description": "Trivsam gård om cirka 20 hektar, lugnt och naturskönt belägen i byn Boarp, cirka 15 minuter söder om Ljungby. Här erbjuds fina möjligheter för jakt, odling, skogsskötsel och djurhållning i mindre skala. Fastigheten omfattar 17,9 hektar produktiv skogsmark med ett virkesförråd om cirka 2000 m³sk och en bonitet på 8,5 kbm/ha. Virkesförrådet består till största del av gran samt löv och ek, där merparten är ungskog. Bete och åkermark intill bostadshuset perfekt plats för odlingen eller då man gillar att ha djuren nära. \r\n\r\nBostadshuset erbjuder 5 rum varav 3-4 sovrum.  Huset har två ingångar och en genomtänkt planlösning  med allrum, kök, vardagsrum, badrum samt två rum i fil med valv emellan som är enkelt att dela av ifall fler sovrum behövs. Mysig atmosfär med kakelugnar och trägolv.\r\n\r\nÖvervåningen erbjuder ett allrum, toalett med tvättställ samt två-tre sovrum.\r\n\r\nPå gården finns dessutom dubbel carport samt verkstad/förrådsbyggnad. \r\n\r\nVälkomna till Boarp Stakagård !\nFAKTA\nid: 21786708\narea: Ljungby\nformattedLandArea: 18 ha\nformattedLivingArea: 120 m²\nhousingForm: Gård med skogsbruk\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlegacyConstructionYear: 1933\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-5rum-ljungby-ljungby-kommun-boarp-stakagard-1-21786708\nlivingArea: 120\nnumberOfRooms: 5\npostCode: 34191\nstreetAddress: Boarp Stakagård 1\ntenure: Äganderätt\ntitle: Boarp Stakagård 1\nadTargeting: {\"item_types\":[6],\"rooms\":["
   },
@@ -799,7 +728,7 @@
     "income"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -845,7 +774,7 @@
     "income"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -853,7 +782,7 @@
     ]
    ],
    "broker": "LF Fastighetsförmedling Örebro",
-   "days_text": "28 dagar på Booli",
+   "days_text": "29 dagar på Booli",
    "build_year": 1997,
    "description": "Välkommen till Stimmerkulla 315, en härlig hästgård med mycket vackra omgivningar nära Askersund. Här bor du tyst och lugnt med skog och fin natur precis inpå knuten. \r\n\r\nEn väl samlad gård om cirka 8 hektar, med gott om plats för både hästar, hobbyverksamhet och ett liv närmare naturen. Gården innefattar bostadshus och ekonomibyggnader. \r\n\r\nBostadshuset, uppfört 1909, är cirka 70 kvm fördelat på 4 rum och kök varav 2-3 sovrum. Härlig vedspis i köket samt ytterligare två fungerande eldstäder.  Vatten från grävd brunn som  kompletterats med ett nytt vattenfilter och avloppet består av en äldre trekammarbrunn.\r\n\r\nFör dig med hästintresse finns stora möjligheter. Det finns ett rymligt ridhus om ca 800 kvm, byggt 1997, vilket ger möjlighet till träning och ridning oavsett årstid. I ladugården om ca 215 kvm finns stall med 10 boxar, sadelkammare och höskulle. Flera hagar och en paddock. \r\nDessutom finns en lada om ca 150 kvm, med utrymme för exempelvis maskiner, verkstad och förvaring. Till fastigheten hör även en solcellsanläggning från 2022. \r\nFastigheten består av ungefär 4 hektar betesmark, 2 hektar skog och 2 hektar åkermark och runt huset finns en trädgårdstomt om ca 1 000 kvm med gräsmatta och jordkällare.\r\n\r\nEndast 10 minuter med bil till Askersund med skolor, förskolor, butiker och restauranger och Örebro når du på ca 40 minuter.\r\n\r\nVarmt välkommen att boka in dig på visning!\nFAKTA\nid: 21772105\nformattedLandArea: 8 ha\nformattedLivingArea: 70 m²\nhousingForm: Gård/skog\nisFo"
   },
@@ -889,7 +818,7 @@
     "income"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -897,7 +826,7 @@
     ]
    ],
    "broker": "Listed",
-   "days_text": "29 dagar på Booli",
+   "days_text": "En månad på Booli",
    "build_year": 1982,
    "description": "Välkommen till Västra Mörtnäs 503 – en rymlig villa med ett naturskönt och rofyllt läge där skogen och den öppna landsbygden blir en naturlig del av vardagen. Här erbjuds ett hem med generösa ytor för den stora familjen, generationsboende eller dig som söker ett boende med flexibla användningsmöjligheter.\n\nBostaden är fördelad över tre plan med ett flertal sällskapsrum och många sovrum, vilket skapar goda möjligheter för både vardagsliv och sociala tillställningar. På entréplanet finns bland annat tre sovrum, ett allrum med vedkamin, ytterligare ett stort sällskapsrum med öppen spis och kamininsats, badrum, bastu och tvättstuga. Mellanplanet utgör hemmets naturliga samlingspunkt med ett rymligt allrum, kamin, kök och separat entré till trädgården, medan övre plan erbjuder ytterligare sovrum och ett mindre allrum.\n\nFastigheten kompletteras dessutom av en separat lägenhet med egen entré, vilket skapar fina möjligheter för generationsboende, gäster eller uthyrning.\n\nUtomhus väntar en stor tomt omgiven av grönska och natur. Här finns gott om plats för lek, odling och avkoppling, samtidigt som den rofyllda omgivningen bjuder på en härlig känsla av avskildhet. Den generösa tomten ger utrymme att forma utemiljön efter egna önskemål och skapa en plats att njuta av under årets alla årstider.\n\nVästra Mörtnäs ligger i natursköna omgivningar strax utanför Årjäng, med närhet till skogar, sjöar och ett rikt friluftsliv. Till fastigheten hör jakträtt, vilket är en uppskattad tillgång för de"
   },
@@ -933,7 +862,7 @@
     "income"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -978,7 +907,7 @@
     "wood_heat"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1022,7 +951,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1035,91 +964,46 @@
    "description": "Välkommen till Törestorp. Gård i Fotskäl på totalt 18 ha, varav 5 ha skogsmark och 12 ha åker/betesmark. Bostadshus i mycket gott skick och nybyggd stallbyggnad/maskinhall, där möjlighet finns att kombinera intressen som hästar eller annan djurhållning och skogsbruk i mindre skala.\nFAKTA\nid: 21729254\narea: Fotskäl\nformattedLandArea: 18,3 ha\nhousingForm: Gård utan jordbruk\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/villa-fotskal-marks-kommun-torestorp-5-21729254\npostCode: 51996\nstreetAddress: Törestorp 5\ntenure: Äganderätt\ntitle: Törestorp 5\nadTargeting: {\"item_types\":[2],\"price\":[5],\"municipality\":[139],\"region\":[19],\"country\":[1],\"water_distance\":[\"501-\"],\"property_price\":4900000,\"property_address\":\"Törestorp 5\",\"property_living_area\":null,\"property_zipcode\":\"51996\"}\nbiddingStarted: False\ndaysOnHemnet: 118\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1779449109.847\nlistingBrokerUrl: https://app.maklarcrm.se/api/v1/publishers/redirect/MDI1MnwwMDAwMDAwMTUzMnw1OA../direct?utm_source=hemnet&utm_medium=referral&utm_content=listing\nlistingBrokerGalleryUrl: https://app.maklarcrm.se/api/v1/publishers/redirect/MDI1MnwwMDAwMDAwMTUzMnw1OA../direct?utm_source=hemnet&utm_medium=referral&utm_content=listing&hash=allabilder\ntimesViewed: 7364\nisProjectUnit: False\nactivePackage: BASIC\nlandArea: 183000\nclosestWaterDistanceMeters: 2900"
   },
   {
-   "id": "hemnet:21528467",
-   "title": "Kraksbyn 301",
-   "kommun": "Åmål",
-   "region": "Dalsland/Värmland",
-   "price": 3475000,
-   "land_ha": 4.2,
-   "living_m2": 62,
-   "rooms": "3 rum",
-   "type": "Vinterbonat fritidshus",
-   "url": "https://www.hemnet.se/bostad/villa-3rum-amals-kommun-kraksbyn-301-21528467",
-   "alt_url": "https://www.booli.se/bostad/1703812",
-   "drive_h": 1.9,
-   "price_per_ha": 827381,
+   "id": "booli:6270854",
+   "title": "Björkesbacka Bäckaskog",
+   "kommun": "Mark",
+   "region": "Göteborg hinterland",
+   "price": 3995000,
+   "land_ha": 7.25,
+   "living_m2": 145,
+   "rooms": "5 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6270854",
+   "alt_url": null,
+   "drive_h": 0.8,
+   "price_per_ha": 551034,
    "score": 33,
    "score_parts": {
     "water": 10,
-    "land": 0,
-    "buildings": 10,
+    "land": 4,
+    "buildings": 0,
     "heating": 0,
-    "maintenance": 5,
+    "maintenance": 8,
     "seclusion": 0,
-    "drive": 7,
+    "drive": 10,
     "price": 1
    },
    "signals": [
     "water",
-    "second_dwelling",
-    "barn"
+    "lowmaint_renovated"
    ],
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-17",
-     3475000
+     "2026-09-18",
+     3995000
     ]
    ],
-   "broker": "Fastighetsbyrån Säffle",
-   "days_text": "1 år på Booli",
-   "build_year": 1940,
-   "description": "Välkommen till ditt framtida paradis vid Ånimmen – en unik gård med sjötomt och naturnära charm.\nDrömmer du om lugn, natur och ett eget strandläge? Då har du hittat rätt! Denna charmiga gård från 1940, erbjuder både karaktär och komfort. Med en boyta på 62 kvm och biyta på 26 kvm fördelat på tre rum – varav två sovrum – finns gott om plats för såväl vardagsliv som avkoppling. \n\nEn imponerande tomt med naturen som granne\nFastigheten sträcker sig över hela 41 970 kvm, där du får njuta av din egen strandlinje vid sjön Ånimmen – ett verkligt smultronställe för bad, fiske och stilla stunder vid vattnet. På tomten finns även en gäststuga för besökare samt en verkstad/snickarbod, perfekt för dig med kreativa intressen eller praktiska behov.\n\nEn plats att landa på – året runt\nHär bor du omgivet av naturskön miljö med närhet till naturreservatet Sörknatten – ett paradis för dig som älskar vandring, tystnad och vackra vyer. Trots det lantliga läget har du god tillgång till service och bekvämligheter inom rimligt avstånd.\n\nDitt nästa kapitel börjar här\nGården erbjuder inte bara en unik livsstil utan också stora möjligheter att skapa ditt drömboende. Den generösa tomten öppnar upp för odling, rekreation eller varför inte ett eget växthus? Det här är en plats där drömmar kan ta form – oavsett om du söker ett permanent hem eller en rogivande tillflyktsort.\nFAKTA\nid: 21528467\nformattedLandArea: 4,2 ha\nformattedLivingArea: 62 m²\nformattedSupplementalArea: 26 m²\nhousingForm: Vinterbonat friti"
-  },
-  {
-   "id": "hemnet:21736564",
-   "title": "Backa Backadal 1",
-   "kommun": "Mark",
-   "region": "Göteborg hinterland",
-   "price": 1995000,
-   "land_ha": 6.92,
-   "living_m2": 252,
-   "rooms": "7 rum",
-   "type": "Villa",
-   "url": "https://www.hemnet.se/bostad/villa-7rum-oxaback-marks-kommun-backa-backadal-1-21736564",
-   "alt_url": "https://www.booli.se/annons/6118176",
-   "drive_h": 0.8,
-   "price_per_ha": 288295,
-   "score": 32,
-   "score_parts": {
-    "water": 10,
-    "land": 4,
-    "buildings": 4,
-    "heating": 0,
-    "maintenance": 0,
-    "seclusion": 0,
-    "drive": 10,
-    "price": 4
-   },
-   "signals": [
-    "water",
-    "barn",
-    "income",
-    "highmaint_need"
-   ],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     1995000
-    ]
-   ],
-   "broker": "Fastighetsbyrån Kinna",
-   "days_text": "3 månader på Booli",
-   "build_year": 1909,
-   "description": "Stora Backa 1:11 – charmig gård om ca 7 ha i natursköna Öxabäck\n\nVälkommen till Stora Backa 1:11 – en avstyckad gård med fint läge i vackra Öxabäck, omgiven av öppna landskap, skogar och sjörik natur. Här erbjuds en fastighet med stora möjligheter för dig som söker ett lantligt boende med gott om utrymme och potential att skapa något alldeles eget.\n\nDet rymliga bostadshuset om ca 280 kvm erbjuder generösa sällskapsytor och hela 7 sovrum, vardagsrum, allrum, badrum samt 3 toaletter. Uppvärmning sker via ved/el med dubbla ackumulatortankar om 500+ liter samt elpatron.\n\nPå fastigheten finns även ladugård och flera uthusbyggnader som ger goda möjligheter för hobbyverksamhet, djurhållning, förvaring eller entreprenad.\n\nFastigheten har ett omfattande renoveringsbehov men erbjuder samtidigt en fantastisk möjlighet för den händige att förverkliga drömmen om en egen gård i idyllisk miljö.\n\nÖxabäck är ett mycket trivsamt samhälle känt för sin vackra natur, lugna livsstil och närhet till många sjöar och fina rekreationsområden.\nFAKTA\nid: 21736564\narea: Öxabäck\nformattedLandArea: 6,9 ha\nformattedLivingArea: 252 m²\nformattedSupplementalArea: 22 m²\nhousingForm: Villa\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlegacyConstructionYear: 1909\nlistingHemnetUrl: https://www.hemnet.se/bostad/villa-7rum-oxaback-marks-kommun-backa-backadal-1-21736564\nlivingArea: 252\nnumberOfRooms: 7\npostCode: 51195\nstreetAddress: Backa Backadal 1\nsupplementalArea"
+   "broker": null,
+   "days_text": "Inkommet igår",
+   "build_year": null,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nIndexerad bostad\n1 / 37\nKarta\nSpara\nSnart till salu\nBjörkesbacka Bäckaskog\nGård · Mark\n\nUtropspris\n\n3 995 000 kr\nBoarea\n\n145 m²\n\nRum\n\n5 rum\n\nTomtarea\n\n72 480 m²\n\nTotalarea\n\n7,25 ha\n\nUteplats\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nUtropspriset per kvadratmeter är 27 600 kr/m²\n\nBostaden har 434 sidvisningar på Booli\n\nBostaden har varit snart till salu i 1 dag\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nBjörkesbacka Bäckaskog, Mark\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nVästra Götalands län\nMarks kommun\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnvändarvillkor\nIntegritetspolicy\nOm GDPR\nCookies\nCookiein"
   },
   {
    "id": "booli:6271712",
@@ -1150,7 +1034,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1158,7 +1042,7 @@
     ]
    ],
    "broker": "Fastighetsbyrån",
-   "days_text": "Inkommet idag",
+   "days_text": "Inkommet igår",
    "build_year": 1936,
    "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 13\nPlanritning\nKarta\nSpara\nSnart till salu\nGunnarsjö Gudmundared 2\nGård · Kungsäter · Varberg\n\nUtropspris\n\n3 999 000 kr\nBoarea\n\n113 m²\n\nBiarea\n\n70 m²\n\nRum\n\n6 rum\n\nTomtarea\n\n290 404 m²\n\nTotalarea\n\n29 ha\n\nByggår\n\n1936\n\nUteplats\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 2 958 kr/mån\n\nUtropspriset per kvadratmeter är 35 400 kr/m²\n\nBostaden har 306 sidvisningar på Booli\n\nBostaden har varit snart till salu i 0 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nGunnarsjö Gudmundared 2, Kungsäter, Varberg\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nHallands län\nVarbergs kommun\nGunnarsjö Gudmundared\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPr"
   },
@@ -1196,7 +1080,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1239,7 +1123,7 @@
     "income"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1250,47 +1134,6 @@
    "days_text": "2 månader på Booli",
    "build_year": 1994,
    "description": "Hästgård belägen strax norr om Svanskog, 10,84 hektar i ett skifte runt byggnaderna. Huvudbyggnad innehållande sex rum och kök. Gästhus som kan användas för egen verksamhet eller hyras ut som bostad. Stallbyggnad med sju boxar och utedrift.\nFAKTA\nid: 21750512\narea: Svanskog\nformattedLandArea: 10,8 ha\nformattedLivingArea: 131 m²\nhousingForm: Gård/skog\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlegacyConstructionYear: 1994\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-6rum-svanskog-saffle-kommun-norra-skarbol-enebacken-21750512\nlivingArea: 131\nnumberOfRooms: 6\npostCode: 66296\nstreetAddress: Norra Skarbol Enebacken\ntenure: Äganderätt\ntitle: Norra Skarbol Enebacken\nadTargeting: {\"item_types\":[6],\"rooms\":[9],\"price\":[4],\"municipality\":[212],\"region\":[15],\"country\":[1],\"water_distance\":[\"501-\"],\"property_price\":3500000,\"property_address\":\"Norra Skarbol Enebacken\",\"property_living_area\":131,\"property_zipcode\":\"66296\"}\nbiddingStarted: False\ndaysOnHemnet: 73\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1783351393.041\nlistingBrokerUrl: https://www.svenskfast.se/gard/varmland/saffle/svanskog/norra-skarbol-enebacken/463742/?utm_source=hemnet&utm_medium=referral&utm_content=listing\nlistingBrokerGalleryUrl: https://www.svenskfast.se/gard/varmland/saffle/svanskog/norra-skarbol-enebacken/463742/?utm_source=hemnet&utm_medium=referral&utm_content=listing#bilder\ntimesViewed: 4745\nisProjectUnit: False\nactivePackage: PLUS\nlandAre"
-  },
-  {
-   "id": "booli:6212333",
-   "title": "Klägghult 2",
-   "kommun": "Svenljunga",
-   "region": "Göteborg hinterland",
-   "price": 2700000,
-   "land_ha": 7.1,
-   "living_m2": null,
-   "rooms": "7 rum",
-   "type": "Villa",
-   "url": "https://www.booli.se/annons/6212333",
-   "alt_url": null,
-   "drive_h": 1.2,
-   "price_per_ha": 380282,
-   "score": 29,
-   "score_parts": {
-    "water": 0,
-    "land": 4,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 11,
-    "seclusion": 0,
-    "drive": 10,
-    "price": 4
-   },
-   "signals": [
-    "lowmaint_renovated"
-   ],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     2700000
-    ]
-   ],
-   "broker": "LF Fastighetsförmedling",
-   "days_text": "En månad på Booli",
-   "build_year": 2022,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 43\nKarta\nSpara\nTill salu\nKlägghult 2\nVilla · Kalv · Svenljunga\n\nUtropspris\n\n2 700 000 kr\nBoarea\n\n150 m²\n\nBiarea\n\n100 m²\n\nRum\n\n7 rum\n\nTomtarea\n\n70 960 m²\n\nByggår\n\n2022\n\nLägg till anteckning\nBostaden\nEnergidata\n\nDen här villan är en äganderätt\n\nDriftskostnaden är 3 152 kr/mån\n\nUtropspriset per kvadratmeter är 18 000 kr/m²\n\nRäkna på ditt boende\n\nBostaden har 1160 sidvisningar på Booli\n\nBostaden har varit till salu i 44 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nKlägghult 2, Kalv, Svenljunga\n\nLaddar...\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler villor i området?\nVästra Götalands län\nSvenljunga kommun\nKlägghult\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVan"
   },
   {
    "id": "booli:6162749",
@@ -1321,7 +1164,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1362,7 +1205,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1403,7 +1246,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1414,48 +1257,6 @@
    "days_text": "2 månader på Booli",
    "build_year": null,
    "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 12\nPlanritning\nKarta\nSpara\nSnart till salu\nStamnared 106\nGård · Stamnared · Varberg\n\nUtropspris\n\n4 999 000 kr\nBoarea\n\n107 m²\n\nBiarea\n\n30 m²\n\nRum\n\n6 rum\n\nTomtarea\n\n251 628 m²\n\nTotalarea\n\n25,2 ha\n\nUteplats\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 903 201 kr/mån\n\nUtropspriset per kvadratmeter är 46 700 kr/m²\n\nBostaden har 4344 sidvisningar på Booli\n\nBostaden har varit snart till salu i 62 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nStamnared 106, Stamnared, Varberg\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nHallands län\nVarbergs kommun\nStamnared\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nInt"
-  },
-  {
-   "id": "booli:6102563",
-   "title": "Krampanäs 2",
-   "kommun": "Älmhult",
-   "region": "Småland",
-   "price": 4800000,
-   "land_ha": 12.1,
-   "living_m2": null,
-   "rooms": null,
-   "type": "Gård",
-   "url": "https://www.booli.se/annons/6102563",
-   "alt_url": null,
-   "drive_h": 2.3,
-   "price_per_ha": 396694,
-   "score": 28,
-   "score_parts": {
-    "water": 10,
-    "land": 8,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 5,
-    "seclusion": 0,
-    "drive": 4,
-    "price": 1
-   },
-   "signals": [
-    "water",
-    "forest"
-   ],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     4800000
-    ]
-   ],
-   "broker": null,
-   "days_text": "2026-06-05",
-   "build_year": null,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nKrampanäs 2\nGård · Häradsbäck · Älmhult\n\nSista bud\n\n4 800 000 kr\n+2 300 000 kr (+92%)\nTomtarea\n\n121 000 m²\n\nTotalarea\n\n12,1 ha\n\nOm försäljningen\n\nSista budet blev 4 800 000 kr\n\nUtropspriset var 2 500 000 kr\n\nPrisutvecklingen blev +2 300 000 kr (+92%)\n\nSåld eller borttagen 2026-06-05\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-06-05:\n\nDen här gården är en äganderätt\n\nBostaden var till salu i 36 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nSkog&Lantbruk\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nTeckna elavtal\n(Länken öppnas i ett nytt fönster)\n\nFri månadsavgift i 12 månader. Alltid med förnybar el från sol, vind och vatten.\n\nKarta\nKrampanäs 2, Häradsbäck, Älmhult\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar o"
   },
   {
    "id": "booli:6177425",
@@ -1487,7 +1288,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1528,7 +1329,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1569,7 +1370,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1610,7 +1411,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1651,7 +1452,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1692,7 +1493,7 @@
     "lowmaint_renovated"
    ],
    "first_seen": "2026-09-17",
-   "days_tracked": 0,
+   "days_tracked": 1,
    "price_history": [
     [
      "2026-09-17",
@@ -1705,187 +1506,19 @@
    "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nIndexerad bostad\n1 / 35\nKarta\nSpara\nTill salu\nStamnared 36\nGård · Skällinge · Varberg\n\nUtropspris\n\n4 900 000 kr\n-700 000 kr (-12,5%)\nBoarea\n\n140 m²\n\nRum\n\n5 rum\n\nTotalarea\n\n15,2 ha\n\nLägg till anteckning\n\nUtropspriset per kvadratmeter är 35 000 kr/m²\n\nBostaden har 3793 sidvisningar på Booli\n\nBostaden har varit till salu i 323 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nStamnared 36, Skällinge, Varberg\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nHallands län\nVarbergs kommun\nStamnared\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnvändarvillkor\nIntegritetspolicy\nOm GDPR\nCookies\nCookieinställningar\nLadda ned\nGoogle Play\nA"
   },
   {
-   "id": "booli:5521889",
-   "title": "Lockabäck Strömsberg",
-   "kommun": "Hylte",
-   "region": "Halland inland",
-   "price": 1275000,
-   "land_ha": 4.84,
-   "living_m2": null,
-   "rooms": "4 rum",
-   "type": "Villa",
-   "url": "https://www.booli.se/bostad/3834179",
-   "alt_url": null,
-   "drive_h": 1.3,
-   "price_per_ha": 263430,
-   "score": 24,
-   "score_parts": {
-    "water": 10,
-    "land": 0,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 0,
-    "seclusion": 0,
-    "drive": 10,
-    "price": 4
-   },
-   "signals": [
-    "water"
-   ],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     1275000
-    ]
-   ],
-   "broker": null,
-   "days_text": "2026-05-29",
-   "build_year": 1909,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nLagfart\nLockabäck Strömsberg\nVilla · Hylte\n\nLagfart\n\n1 275 000 kr\n-320 000 kr (-20,1%)\nBoarea\n\n77 m²\n\nBiarea\n\n10 m²\n\nRum\n\n4 rum\n\nTomtarea\n\n48 410 m²\n\nTotalarea\n\n4,84 ha\n\nByggår\n\n1909\n\nOm försäljningen\n\nLagfarten blev 1 275 000 kr\n\nFörsta utropspriset var 1 595 000 kr\n\nPrisutvecklingen blev -320 000 kr (-20,1%)\n\nSåld eller borttagen 2026-05-10\n\nLagfart utfärdades 2026-05-29\n\nSlutpriset per kvadratmeter var 16 600 kr/m²\n\nOm lagfart\n\nOm bostaden\n\nUppgifter från försäljningen 2026-05-10:\n\nDen här villan är en äganderätt\n\nDriftskostnaden är 2 306 kr/mån\n\nBostaden var till salu i 327 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nAnsvarig mäklare\nAaron Magnusson\nOmdöme:\n4.8 / 5\n(46 omdömen)\nLF Fastighetsförmedling\nKontakta mäklaren\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nRäkna ut din månadskostnad\n(Länken öppnas i ett nytt fönster)\n\nEnkelt och tryggt elavtal utan dolda kostnader. Alltid med förnybar el från sol, vind och vatten.\n\nFörsäkringar från If\nSe ditt pris på villaförsäkring här\n(Länken öppnas i ett nytt fönster)\n\nFlytta in med en villaförsäkring från If. Enkel att köpa online.\n\nErbjudande från Ver"
-  },
-  {
-   "id": "hemnet:21482745",
-   "title": "Högalid 31",
-   "kommun": "Tranemo",
-   "region": "Göteborg hinterland",
-   "price": 2995000,
-   "land_ha": 4.33,
-   "living_m2": 272,
-   "rooms": "10 rum",
-   "type": "Villa",
-   "url": "https://www.hemnet.se/bostad/villa-10rum-ambjornarp-tranemo-kommun-hogalid-31-21482745",
-   "alt_url": "https://www.booli.se/bostad/4300518",
-   "drive_h": 1.4,
-   "price_per_ha": 691686,
-   "score": 24,
-   "score_parts": {
-    "water": 0,
-    "land": 0,
-    "buildings": 0,
-    "heating": 10,
-    "maintenance": 3,
-    "seclusion": 0,
-    "drive": 10,
-    "price": 1
-   },
-   "signals": [
-    "wood_heat",
-    "income",
-    "lowmaint_renovated",
-    "highmaint_log",
-    "highmaint_defects"
-   ],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     2995000
-    ]
-   ],
-   "broker": "Fastighetsbyrån Tranemo",
-   "days_text": "1 år på Booli",
-   "build_year": 1809,
-   "description": "Varmt välkomna till detta unika 1800-talshus, en smakfullt renoverad villa där historisk charm och modern komfort samspelar i harmoni. Med sina imponerande 272 kvm erbjuder denna välbyggda 1 1/2-plansvilla en bostad utöver det vanliga. \n\nEntréplanet välkomnar er med en nyrenoverad hall som övergår till det nyrenoverade och stilrena köket som kombinerar moderna materialval med en klassisk touch. Här finns plats för trevliga middagar och sociala stunder där familj och vänner kan samlas kring en vällagad måltid i en inbjudande atmosfär. \n\nVardagsrummet är luftigt och ljust, uppdelat i två delar där ena delen är perfekt för tv-hörna och andra delen för soffgrupp som inbjuder till gemenskap. De stora fönstren släpper in rikligt med ljus och ger en fantastisk utsikt över den omgivande naturen vilket gör detta rum till en plats för både avkoppling och umgänge. Dessutom finns fyra rymliga sovrum som alla är trivsamt inredda med tidstypiska detaljer och moderna bekvämligheter. Ett helrenoverat badrum utrustat med högkvalitativa materialval samt en praktisk tvättstuga gör entréplanet komplett. \n\nPå övervåningen finner ni ett större sovrum, ett mysigt sällskapsrum med kamin, där ni kan njuta av lugna kvällar med en bok eller en film samt ytterligare ett nyrenoverat badrum med eleganta detaljer. Här finns även ett charmigt gammalt kök med en helt ny vedspis. Rummet kan enkelt omvandlas till ytterligare ett sovrum eller hobbyrum vilket skapar flexibla möjligheter för både familj och gäste"
-  },
-  {
-   "id": "hemnet:21602269",
-   "title": "Siggaboda 2",
-   "kommun": "Älmhult",
-   "region": "Småland",
-   "price": 4500000,
-   "land_ha": 3.77,
-   "living_m2": 146,
-   "rooms": "4 rum",
-   "type": "Villa",
-   "url": "https://www.hemnet.se/bostad/villa-4rum-almhults-kommun-siggaboda-2-21602269",
-   "alt_url": "https://www.booli.se/bostad/4089213",
-   "drive_h": 2.3,
-   "price_per_ha": 1193634,
-   "score": 24,
-   "score_parts": {
-    "water": 10,
-    "land": 0,
-    "buildings": 4,
-    "heating": 0,
-    "maintenance": 5,
-    "seclusion": 0,
-    "drive": 4,
-    "price": 1
-   },
-   "signals": [
-    "water",
-    "barn",
-    "income"
-   ],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     4500000
-    ]
-   ],
-   "broker": "Smålands Fastighetsbyrå AB",
-   "days_text": "1 år på Booli",
-   "build_year": 1950,
-   "description": "Välkommen till Siggaboda 2 – en plats där drömmar blir verklighet. Här, på en naturskön fastighet om nästan fyra hektar med sjötomt, erbjuds du ett unikt tillfälle att skapa ditt livsprojekt. Oavsett om du drömmer om en egen gård, verksamhet, uthyrning av semesterboenden, småskalig djurhållning, självförsörjning eller bara en plats för lugn och livskvalitet – här finns alla möjligheter.\r\n\r\nPå fastigheten finns totalt 10 byggnader, däribland ett rymligt bostadshus, ett fullt utrustat fritidshus redo för uthyrning, en charmig kvarnstuga, lada med verkstad, stall, hönshus, bastu med sjöutsikt, båthus samt flera ekonomibyggnader. Till och med en egen turbin för elproduktion finns – en unik lösning som både ger inkomst och bidrar till fastighetens drift.\r\n\r\nVill du hålla hästar? Stallet byggdes 2019 och är lämpligt för 2–3 hästar. Det är utrustat med 5 cm tjocka stallmattor. Från halvön har hästarna även tillgång till sjön. I omgivningarna finns fina ridvägar. Veterinär finns i Tingsryd\r\n\r\nSiggaboda 2 är en unik gårdsidyll som kombinerar lantligt lugn med oändliga utvecklingsmöjligheter. Här finns plats för både familjeliv, verksamhet och drömmar.\nFAKTA\nid: 21602269\nformattedLandArea: 3,8 ha\nformattedLivingArea: 146 m²\nhousingForm: Villa\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlegacyConstructionYear: 1950\nlistingHemnetUrl: https://www.hemnet.se/bostad/villa-4rum-almhults-kommun-siggaboda-2-21602269\nlivingArea: 146\nnumberOfRo"
-  },
-  {
-   "id": "booli:6200211",
-   "title": "Södra Böle 110",
-   "kommun": "Dals-Ed",
+   "id": "booli:6085171",
+   "title": "Sidan 3:230",
+   "kommun": "Bengtsfors",
    "region": "Dalsland/Värmland",
-   "price": 2000000,
-   "land_ha": 8.21,
+   "price": 2400000,
+   "land_ha": 32.2,
    "living_m2": null,
-   "rooms": "2 rum",
-   "type": "Fritidshus",
-   "url": "https://www.booli.se/annons/6200211",
-   "alt_url": null,
-   "drive_h": 1.9,
-   "price_per_ha": 243605,
-   "score": 23,
-   "score_parts": {
-    "water": 0,
-    "land": 4,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 5,
-    "seclusion": 0,
-    "drive": 7,
-    "price": 7
-   },
-   "signals": [],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     2000000
-    ]
-   ],
-   "broker": null,
-   "days_text": "2026-08-17",
-   "build_year": null,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nSödra Böle 110\nFritidshus · Håbol · Dals-Ed\n\nSlutpris\n\n2 000 000 kr\n+500 000 kr (+33,3%)\nRum\n\n2 rum\n\nTomtarea\n\n82 100 m²\n\nEldstad\nOm försäljningen\n\nSlutpriset blev 2 000 000 kr\n\nUtropspriset var 1 500 000 kr\n\nPrisutvecklingen blev +500 000 kr (+33,3%)\n\nSåld eller borttagen 2026-08-17\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-08-17:\n\nDet här fritidshuset är en äganderätt\n\nDriftskostnaden är 746 kr/mån\n\nBostaden var till salu i 31 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nFlinks Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFri månadsavgift ett helt år – ett tryggt elavtal med förnybar el från sol, vind och vatten.\n\nErbjudande från Verisure!\nRäkna ut pris här\n(Länken öppnas i ett nytt fönster)\n\nLanseringserbjudande! 4000:- rabatt på hemlarm med GuardVision® utomhuskamera.\n\nFörsäkringar från If\nSe ditt pris på villaförsäkring här\n(Länken öppnas i ett nytt fönster)\n\nFlytta in med en villaförsäkring från If. Enkel att köpa online.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken"
-  },
-  {
-   "id": "booli:6152399",
-   "title": "Korsbyn Sand 1",
-   "kommun": "Årjäng",
-   "region": "Dalsland/Värmland",
-   "price": 2700000,
-   "land_ha": 37.3,
-   "living_m2": 95,
    "rooms": null,
    "type": "Gård",
-   "url": "https://www.booli.se/annons/6152399",
+   "url": "https://www.booli.se/annons/6085171",
    "alt_url": null,
-   "drive_h": 2.4,
-   "price_per_ha": 72386,
+   "drive_h": 2.0,
+   "price_per_ha": 74534,
    "score": 23,
    "score_parts": {
     "water": 0,
@@ -1898,75 +1531,34 @@
     "price": 10
    },
    "signals": [],
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-17",
-     2700000
+     "2026-09-18",
+     2400000
     ]
    ],
    "broker": null,
-   "days_text": "2026-06-29",
+   "days_text": "2026-04-24",
    "build_year": null,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nKorsbyn Sand 1\nGård · Holmedal · Årjäng\n\nSista bud\n\n2 700 000 kr\n+200 000 kr (+8%)\nBoarea\n\n95 m²\n\nTomtarea\n\n372 650 m²\n\nTotalarea\n\n37,3 ha\n\nEldstad\nOm försäljningen\n\nSista budet blev 2 700 000 kr\n\nUtropspriset var 2 500 000 kr\n\nPrisutvecklingen blev +200 000 kr (+8%)\n\nSåld eller borttagen 2026-06-29\n\nSlutpriset per kvadratmeter var 28 400 kr/m²\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-06-29:\n\nDen här gården är en äganderätt\n\nBostaden var till salu i 25 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nSvensk Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFörnybar el från sol, vind och vatten och fri månadsavgift i 12 månader – ett smart val för hemmet.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nKarta\nKorsbyn Sand 1, Holmedal, Årjäng\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\nSka"
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nSidan 3:230\nGård · Bengtsfors\n\nSista bud\n\n2 400 000 kr\nTomtarea\n\n322 000 m²\n\nTotalarea\n\n32,2 ha\n\nOm försäljningen\n\nSista budet blev 2 400 000 kr\n\nUtropspriset var 2 400 000 kr\n\nPrisutvecklingen blev ±0 kr (+/-0%)\n\nSåld eller borttagen 2026-04-24\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-04-24:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 58 kr/mån\n\nBostaden var till salu i 7 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nSvensk Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nTeckna elavtal\n(Länken öppnas i ett nytt fönster)\n\nEnkelt och tryggt elavtal utan bindningstid – med fri månadsavgift i 12 månader.\n\nKarta\nSidan 3:230, Bengtsfors\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och k"
   },
   {
-   "id": "booli:6087887",
-   "title": "Blåsutvägen 24",
-   "kommun": "Tranemo",
-   "region": "Göteborg hinterland",
-   "price": 3950000,
-   "land_ha": 5.77,
-   "living_m2": 900,
-   "rooms": "30 rum",
-   "type": "Villa",
-   "url": "https://www.booli.se/annons/6087887",
-   "alt_url": null,
-   "drive_h": 1.4,
-   "price_per_ha": 684575,
-   "score": 23,
-   "score_parts": {
-    "water": 0,
-    "land": 4,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 8,
-    "seclusion": 0,
-    "drive": 10,
-    "price": 1
-   },
-   "signals": [
-    "lowmaint_renovated"
-   ],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     3950000
-    ]
-   ],
-   "broker": "Fastighetsbyrån",
-   "days_text": "4 månader på Booli",
-   "build_year": null,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 23\nPlanritning\nKarta\nSpara\nTill salu\nBlåsutvägen 24\nVilla · Limmared · Tranemo\n\nUtropspris\n\n3 950 000 kr\nBoarea\n\n900 m²\n\nRum\n\n30 rum\n\nTomtarea\n\n57 663 m²\n\nLägg till anteckning\nBostaden\nEnergidata\n\nDen här villan är en äganderätt\n\nUtropspriset per kvadratmeter är 4 400 kr/m²\n\nRäkna på ditt boende\n\nBostaden har 2756 sidvisningar på Booli\n\nBostaden har varit till salu i 149 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nBlåsutvägen 24, Limmared, Tranemo\n\nLaddar...\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler villor i området?\nVästra Götalands län\nTranemo kommun\nBlåsutvägen\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnvändarvillkor\nInte"
-  },
-  {
-   "id": "booli:6073751",
-   "title": "Sålhults Gård",
-   "kommun": "Gislaved",
-   "region": "Småland",
-   "price": 4000000,
-   "land_ha": 13.07,
+   "id": "booli:6127191",
+   "title": "Östra Långhultsbygget Klaragården",
+   "kommun": "Laholm",
+   "region": "Halland inland",
+   "price": 2995000,
+   "land_ha": 15.8,
    "living_m2": null,
-   "rooms": "8 rum",
+   "rooms": "5 rum",
    "type": "Gård",
-   "url": "https://www.booli.se/annons/6073751",
+   "url": "https://www.booli.se/annons/6127191",
    "alt_url": null,
-   "drive_h": 1.6,
-   "price_per_ha": 306044,
-   "score": 20,
+   "drive_h": 1.7,
+   "price_per_ha": 189557,
+   "score": 23,
    "score_parts": {
     "water": 0,
     "land": 4,
@@ -1975,36 +1567,192 @@
     "maintenance": 5,
     "seclusion": 0,
     "drive": 7,
-    "price": 4
+    "price": 7
    },
    "signals": [],
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-17",
-     4000000
+     "2026-09-18",
+     2995000
     ]
    ],
    "broker": null,
-   "days_text": "2026-05-08",
-   "build_year": 1948,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nSålhults Gård\nGård · Gislaved\n\nSlutpris\n\n4 000 000 kr\n+5 000 kr (+0,1%)\nBoarea\n\n254 m²\n\nBiarea\n\n48 m²\n\nRum\n\n8 rum\n\nTomtarea\n\n130 681 m²\n\nByggår\n\n1948\n\nBalkong\nEldstad\nOm försäljningen\n\nSlutpriset blev 4 000 000 kr\n\nUtropspriset var 3 995 000 kr\n\nPrisutvecklingen blev +5 000 kr (+0,1%)\n\nSåld eller borttagen 2026-05-08\n\nSlutpriset per kvadratmeter var 15 700 kr/m²\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-05-08:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 3 103 kr/mån\n\nBostaden var till salu i 29 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nMäklarhuset\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nRäkna ut din månadskostnad\n(Länken öppnas i ett nytt fönster)\n\nEnkelt och tryggt elavtal utan dolda kostnader. Alltid med förnybar el från sol, vind och vatten.\n\nKarta\nSålhults Gård, Gislaved\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på jus"
+   "days_text": "2026-07-11",
+   "build_year": 1936,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nÖstra Långhultsbygget Klaragården\nGård · Hishult · Laholm\n\nSlutpris\n\n2 995 000 kr\nBoarea\n\n110 m²\n\nBiarea\n\n40 m²\n\nRum\n\n5 rum\n\nTotalarea\n\n15,8 ha\n\nByggår\n\n1936\n\nEldstad\nOm försäljningen\n\nSlutpriset blev 2 995 000 kr\n\nUtropspriset var 2 995 000 kr\n\nPrisutvecklingen blev ±0 kr (+/-0%)\n\nSåld eller borttagen 2026-07-11\n\nSlutpriset per kvadratmeter var 27 200 kr/m²\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-07-11:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 2 850 kr/mån\n\nBostaden var till salu i 53 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nLF Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFörnybar el från sol, vind och vatten och fri månadsavgift i 12 månader – ett smart val för hemmet.\n\nKarta\nÖstra Långhultsbygget Klaragården, Hishult, Laholm\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäk"
   },
   {
-   "id": "booli:6220417",
-   "title": "Horla Storsjövik 1",
-   "kommun": "Vårgårda",
-   "region": "Göteborg hinterland",
-   "price": 3600000,
-   "land_ha": 3.0,
-   "living_m2": 75,
-   "rooms": "3 rum",
-   "type": "Villa",
-   "url": "https://www.booli.se/annons/6220417",
+   "id": "booli:5861175",
+   "title": "Habelsbolet 1:17",
+   "kommun": "Töreboda",
+   "region": "Skaraborg/Vättern",
+   "price": 3100000,
+   "land_ha": 69.63,
+   "living_m2": null,
+   "rooms": null,
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/5861175",
    "alt_url": null,
-   "drive_h": 0.9,
-   "price_per_ha": 1200000,
+   "drive_h": 2.2,
+   "price_per_ha": 44521,
+   "score": 23,
+   "score_parts": {
+    "water": 0,
+    "land": 4,
+    "buildings": 0,
+    "heating": 0,
+    "maintenance": 5,
+    "seclusion": 0,
+    "drive": 4,
+    "price": 10
+   },
+   "signals": [],
+   "first_seen": "2026-09-18",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-18",
+     3100000
+    ]
+   ],
+   "broker": null,
+   "days_text": "2026-03-10",
+   "build_year": null,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nHabelsbolet 1:17\nGård · Älgarås · Töreboda\n\nSlutpris\n\n3 100 000 kr\n-300 000 kr (-8,8%)\nTomtarea\n\n696 295 m²\n\nOm försäljningen\n\nSlutpriset blev 3 100 000 kr\n\nUtropspriset var 3 400 000 kr\n\nPrisutvecklingen blev -300 000 kr (-8,8%)\n\nSåld eller borttagen 2026-03-10\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-03-10:\n\nDen här gården är en äganderätt\n\nBostaden var till salu i 172 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nFastighetsbyrån\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nTeckna elavtal\n(Länken öppnas i ett nytt fönster)\n\nFri månadsavgift i 12 månader. Alltid med förnybar el från sol, vind och vatten.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nKarta\nHabelsbolet 1:17, Älgarås, Töreboda\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavs"
+  },
+  {
+   "id": "booli:6000361",
+   "title": "Karlanda-Korsbyn",
+   "kommun": "Årjäng",
+   "region": "Dalsland/Värmland",
+   "price": 4050000,
+   "land_ha": 33.23,
+   "living_m2": null,
+   "rooms": null,
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6000361",
+   "alt_url": null,
+   "drive_h": 2.4,
+   "price_per_ha": 121878,
+   "score": 23,
+   "score_parts": {
+    "water": 0,
+    "land": 4,
+    "buildings": 0,
+    "heating": 0,
+    "maintenance": 5,
+    "seclusion": 0,
+    "drive": 4,
+    "price": 10
+   },
+   "signals": [],
+   "first_seen": "2026-09-18",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-18",
+     4050000
+    ]
+   ],
+   "broker": null,
+   "days_text": "2026-03-05",
+   "build_year": null,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nKarlanda-Korsbyn\nGård · Karlanda · Årjäng\n\nSista bud\n\n4 050 000 kr\n+560 000 kr (+16%)\nTomtarea\n\n332 300 m²\n\nOm försäljningen\n\nSista budet blev 4 050 000 kr\n\nUtropspriset var 3 490 000 kr\n\nPrisutvecklingen blev +560 000 kr (+16%)\n\nSåld eller borttagen 2026-03-05\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-03-05:\n\nDen här gården är en äganderätt\n\nBostaden var till salu i 28 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nSvensk Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nTeckna elavtal\n(Länken öppnas i ett nytt fönster)\n\nEnkelt och tryggt elavtal utan bindningstid – med fri månadsavgift i 12 månader.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nKarta\nKarlanda-Korsbyn, Karlanda, Årjäng\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kun"
+  },
+  {
+   "id": "booli:6056274",
+   "title": "Trantorp Ramnhult",
+   "kommun": "Mark",
+   "region": "Göteborg hinterland",
+   "price": 3900000,
+   "land_ha": 5.62,
+   "living_m2": 151,
+   "rooms": "4 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6056274",
+   "alt_url": null,
+   "drive_h": 0.8,
+   "price_per_ha": 693950,
+   "score": 20,
+   "score_parts": {
+    "water": 0,
+    "land": 4,
+    "buildings": 0,
+    "heating": 0,
+    "maintenance": 5,
+    "seclusion": 0,
+    "drive": 10,
+    "price": 1
+   },
+   "signals": [],
+   "first_seen": "2026-09-18",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-18",
+     3900000
+    ]
+   ],
+   "broker": null,
+   "days_text": "2026-04-29",
+   "build_year": null,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nTrantorp Ramnhult\nGård · Mark\n\nSlutpris\n\n3 900 000 kr\n+605 000 kr (+18,4%)\nBoarea\n\n151 m²\n\nRum\n\n4 rum\n\nTomtarea\n\n56 200 m²\n\nOm försäljningen\n\nSlutpriset blev 3 900 000 kr\n\nUtropspriset var 3 295 000 kr\n\nPrisutvecklingen blev +605 000 kr (+18,4%)\n\nSåld eller borttagen 2026-04-29\n\nSlutpriset per kvadratmeter var 25 800 kr/m²\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-04-29:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 1 828 kr/mån\n\nBostaden var till salu i 10 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nSvensk Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFörnybar el från sol, vind och vatten och fri månadsavgift i 12 månader – ett smart val för hemmet.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nKarta\nTrantorp Ramnhult, Mark\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\nSka"
+  },
+  {
+   "id": "booli:6216308",
+   "title": "Ödenäs Mellomgården 426",
+   "kommun": "Alingsås",
+   "region": "Göteborg hinterland",
+   "price": 4750000,
+   "land_ha": 11.0,
+   "living_m2": 87,
+   "rooms": null,
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6216308",
+   "alt_url": null,
+   "drive_h": 0.7,
+   "price_per_ha": 431818,
+   "score": 20,
+   "score_parts": {
+    "water": 0,
+    "land": 4,
+    "buildings": 0,
+    "heating": 0,
+    "maintenance": 5,
+    "seclusion": 0,
+    "drive": 10,
+    "price": 1
+   },
+   "signals": [],
+   "first_seen": "2026-09-18",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-18",
+     4750000
+    ]
+   ],
+   "broker": null,
+   "days_text": "2026-09-04",
+   "build_year": 1934,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nÖdenäs Mellomgården 426\nGård · Ödenäs · Alingsås\n\nSista bud\n\n4 750 000 kr\n+500 000 kr (+11,8%)\nBoarea\n\n87 m²\n\nTotalarea\n\n11 ha\n\nByggår\n\n1934\n\nEldstad\nOm försäljningen\n\nSista budet blev 4 750 000 kr\n\nUtropspriset var 4 250 000 kr\n\nPrisutvecklingen blev +500 000 kr (+11,8%)\n\nSåld eller borttagen 2026-09-04\n\nSlutpriset per kvadratmeter var 54 600 kr/m²\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-09-04:\n\nDen här gården är en äganderätt\n\nBostaden var till salu i 28 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nLF Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFri månadsavgift ett helt år – ett tryggt elavtal med förnybar el från sol, vind och vatten.\n\nKarta\nÖdenäs Mellomgården 426, Ödenäs, Alingsås\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\n"
+  },
+  {
+   "id": "booli:6177972",
+   "title": "Grönlanda 8",
+   "kommun": "Färgelanda",
+   "region": "Dalsland/Värmland",
+   "price": 4300000,
+   "land_ha": 4.72,
+   "living_m2": 211,
+   "rooms": "9 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6177972",
+   "alt_url": null,
+   "drive_h": 1.4,
+   "price_per_ha": 911017,
    "score": 19,
    "score_parts": {
     "water": 0,
@@ -2016,124 +1764,43 @@
     "drive": 10,
     "price": 1
    },
-   "signals": [],
-   "first_seen": "2026-09-17",
+   "signals": [
+    "lowmaint_renovated"
+   ],
+   "first_seen": "2026-09-18",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-17",
-     3600000
+     "2026-09-18",
+     4300000
     ]
    ],
    "broker": null,
-   "days_text": "2026-08-20",
-   "build_year": 2012,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nHorla Storsjövik 1\nVilla · Horla · Vårgårda\n\nSlutpris\n\n3 600 000 kr\n+350 000 kr (+10,8%)\nBoarea\n\n75 m²\n\nRum\n\n3 rum\n\nTomtarea\n\n30 000 m²\n\nByggår\n\n2012\n\nOm försäljningen\n\nSlutpriset blev 3 600 000 kr\n\nUtropspriset var 3 250 000 kr\n\nPrisutvecklingen blev +350 000 kr (+10,8%)\n\nSåld eller borttagen 2026-08-20\n\nSlutpriset per kvadratmeter var 48 000 kr/m²\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-08-20:\n\nDen här villan är en äganderätt\n\nDriftskostnaden är 2 475 kr/mån\n\nBostaden var till salu i 8 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nLF Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nFörsäkringar från If\nSe ditt pris på villaförsäkring här\n(Länken öppnas i ett nytt fönster)\n\nFlytta in med en villaförsäkring från If. Enkel att köpa online.\n\nElavtal från Skellefteå Kraft\nTeckna elavtal\n(Länken öppnas i ett nytt fönster)\n\nFri månadsavgift i 12 månader. Alltid med förnybar el från sol, vind och vatten.\n\nErbjudande f"
+   "days_text": "2 månader på Booli",
+   "build_year": null,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nIndexerad bostad\n1 / 71\nPlanritning\nKarta\nSpara\nTill salu\nGrönlanda 8\nGård · Färgelanda\n\nUtropspris\n\n4 300 000 kr\nBoarea\n\n211 m²\n\nRum\n\n9 rum\n\nTomtarea\n\n47 170 m²\n\nTotalarea\n\n4,72 ha\n\nEldstad\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 4 300 kr/mån\n\nUtropspriset per kvadratmeter är 20 400 kr/m²\n\nBostaden har 1052 sidvisningar på Booli\n\nBostaden har varit till salu i 86 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\n26\nSep\n\n26 september11:30 – 12:15\n\nAnmäl dig och läs mer\nVar redo för visning!\nSkaffa lånelöfte med SBAB!\nAnnons\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nGrönlanda 8, Färgelanda\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nVästra Götalands län\nFärgelanda kommun\nGrönlanda\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\n"
   },
   {
-   "id": "hemnet:21765522",
-   "title": "Bredsäter Svaneberg 1",
-   "kommun": "Mariestad",
-   "region": "Skaraborg/Vättern",
-   "price": 3995000,
-   "land_ha": 4.43,
-   "living_m2": 582,
-   "rooms": "7 rum",
-   "type": "Villa",
-   "url": "https://www.hemnet.se/bostad/villa-7rum-mariestad-mariestads-kommun-bredsater-svaneberg-1-21765522",
+   "id": "booli:6149284",
+   "title": "Härsbyn Punkten",
+   "kommun": "Bengtsfors",
+   "region": "Dalsland/Värmland",
+   "price": 2875000,
+   "land_ha": 4.87,
+   "living_m2": 72,
+   "rooms": "5 rum",
+   "type": "Fritidshus",
+   "url": "https://www.booli.se/annons/6149284",
    "alt_url": null,
    "drive_h": 2.0,
-   "price_per_ha": 901806,
-   "score": 17,
-   "score_parts": {
-    "water": 0,
-    "land": 0,
-    "buildings": 10,
-    "heating": 0,
-    "maintenance": 2,
-    "seclusion": 0,
-    "drive": 4,
-    "price": 1
-   },
-   "signals": [
-    "second_dwelling",
-    "barn",
-    "income",
-    "highmaint_defects"
-   ],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     3995000
-    ]
-   ],
-   "broker": "Svensk Fastighetsförmedling Mariestad",
-   "days_text": null,
-   "build_year": 1929,
-   "description": "Välkommen till en gård som erbjuder något utöver det vanliga. Här finns ett inflyttningsklart boende i det ombyggda mejeriet samtidigt som den ståtliga mangårdsbyggnaden ger dig möjligheten att skapa ett hem helt efter egna visioner. En perfekt lösning för dig som vill flytta in direkt och utveckla gården i din egen takt.\n\nDet tidigare mejeriet har byggts om till en modern och välplanerad bostad där komfort och funktion står i fokus. Här bor du bekvämt med bergvärme, vattenburen golvvärme, generösa sällskapsytor och två integrerade garage. Ett perfekt hem att bo i medan arbetet med mangårdsbyggnaden får ta den tid du önskar, utan stress och utan att behöva bo mitt i en renovering.\n\nMangårdsbyggnaden från 1929 är en vacker byggnad med tidstypisk karaktär och flera välbevarade originaldetaljer. Högt i tak, breda fönsternischer och en vacker eldstad ger huset dess själ och skapar fina förutsättningar för nästa ägare att varsamt bevara den historiska charmen och samtidigt anpassa bostaden efter dagens behov och önskemål. \n\nNär mangårdsbyggnaden står färdig öppnar sig flera spännande möjligheter. Den nuvarande bostaden kan fortsätta användas som generationsboende, gästhus eller hyras ut och skapa en extra inkomst. För den som vill utveckla fastigheten ytterligare finns även möjlighet att undersöka förutsättningarna för en framtida avstyckning av den nuvarande bostaden.\n\nFastigheten omfattar drygt 4,4 hektar mark och erbjuder dessutom en ladugård om cirka 1 000 kvadratmeter med el,"
-  },
-  {
-   "id": "booli:6215766",
-   "title": "Särestad Norakull 215",
-   "kommun": "Falkenberg",
-   "region": "Halland inland",
-   "price": 2330000,
-   "land_ha": 3.58,
-   "living_m2": 82,
-   "rooms": "3 rum",
-   "type": "Villa",
-   "url": "https://www.booli.se/annons/6215766",
-   "alt_url": null,
-   "drive_h": 1.3,
-   "price_per_ha": 650838,
-   "score": 16,
+   "price_per_ha": 590349,
+   "score": 13,
    "score_parts": {
     "water": 0,
     "land": 0,
     "buildings": 0,
     "heating": 0,
-    "maintenance": 5,
-    "seclusion": 0,
-    "drive": 10,
-    "price": 1
-   },
-   "signals": [],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     2330000
-    ]
-   ],
-   "broker": null,
-   "days_text": "2026-09-16",
-   "build_year": 1927,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nSärestad Norakull 215\nVilla · Asige · Falkenberg\n\nSlutpris\n\n2 330 000 kr\n+430 000 kr (+22,6%)\nBoarea\n\n82 m²\n\nRum\n\n3 rum\n\nTomtarea\n\n35 779 m²\n\nByggår\n\n1927\n\nOm försäljningen\n\nSlutpriset blev 2 330 000 kr\n\nUtropspriset var 1 900 000 kr\n\nPrisutvecklingen blev +430 000 kr (+22,6%)\n\nSåld eller borttagen 2026-09-16\n\nSlutpriset per kvadratmeter var 28 400 kr/m²\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-09-16:\n\nDen här villan är en äganderätt\n\nDriftskostnaden är 1 140 kr/mån\n\nBostaden var till salu i 0 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nAnsvarig mäklare\nEwa Carlsson\nOmdömen saknas\nBjurfors\nKontakta mäklaren\nAnnonsPåverka dina boendekostnader\nErbjudande från Verisure!\nRäkna ut pris här\n(Länken öppnas i ett nytt fönster)\n\nLanseringserbjudande! 4000:- rabatt på hemlarm med GuardVision® utomhuskamera.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nFörsäkringar från If\nSe ditt pris på villaförsäkring här\n(Länken öppnas i ett nytt fönster)\n\nFlytta in med en villaförsäkring från I"
-  },
-  {
-   "id": "booli:5687693",
-   "title": "Boastad 120",
-   "kommun": "Älmhult",
-   "region": "Småland",
-   "price": 4995000,
-   "land_ha": 3.14,
-   "living_m2": 416,
-   "rooms": "17 rum",
-   "type": "Villa",
-   "url": "https://www.booli.se/annons/5687693",
-   "alt_url": null,
-   "drive_h": 2.3,
-   "price_per_ha": 1590764,
-   "score": 16,
-   "score_parts": {
-    "water": 0,
-    "land": 0,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 11,
+    "maintenance": 8,
     "seclusion": 0,
     "drive": 4,
     "price": 1
@@ -2141,111 +1808,33 @@
    "signals": [
     "lowmaint_renovated"
    ],
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-17",
-     4995000
-    ]
-   ],
-   "broker": "Smålands Fastighetsbyrå AB",
-   "days_text": "1 år på Booli",
-   "build_year": 2014,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 40\nPlanritning\nKarta\nSpara\nTill salu\nBoastad 120\nVilla · Boastad · Älmhult\n\nUtropspris\n\n4 995 000 kr\nSe Boolis värdering\nBoarea\n\n416 m²\n\nRum\n\n17 rum\n\nTomtarea\n\n31 420 m²\n\nByggår\n\n2014\n\nEldstad\nLägg till anteckning\nBostaden\nEnergidata\n\nDen här villan är en äganderätt\n\nDriftskostnaden är 10 667 kr/mån\n\nUtropspriset per kvadratmeter är 12 000 kr/m²\n\nRäkna på ditt boende\n\nBostaden har 2182 sidvisningar på Booli\n\nBostaden har varit till salu i 518 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nBoastad 120, Boastad, Älmhult\n\nLaddar...\n\nLaddar...\n\nVärdering av den här bostaden\n\nVåra värderingar är statistiska och bygger på uppgifter om bostaden, prisutvecklingen och jämförbara försäljningar i området.\n\nSe vad vi baserar boolis värderingar på\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler villor i området?\nKronobergs län\nÄlmhults kommun\nBoastad\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekar"
-  },
-  {
-   "id": "booli:6017613",
-   "title": "Postvägen 32",
-   "kommun": "Vårgårda",
-   "region": "Göteborg hinterland",
-   "price": 4700000,
-   "land_ha": 6.42,
-   "living_m2": null,
-   "rooms": "7 rum",
-   "type": "Villa",
-   "url": "https://www.booli.se/bostad/4118085",
-   "alt_url": null,
-   "drive_h": 0.9,
-   "price_per_ha": 732087,
-   "score": 15,
-   "score_parts": {
-    "water": 0,
-    "land": 4,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 0,
-    "seclusion": 0,
-    "drive": 10,
-    "price": 1
-   },
-   "signals": [],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     4700000
+     "2026-09-18",
+     2875000
     ]
    ],
    "broker": null,
-   "days_text": "2026-05-08",
-   "build_year": 1909,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nPostvägen 32\nVilla · Västra · Vårgårda\n\nSlutpris\n\n4 700 000 kr\n-275 000 kr (-5,5%)\nBoarea\n\n100 m²\n\nBiarea\n\n100 m²\n\nRum\n\n7 rum\n\nTomtarea\n\n64 200 m²\n\nByggår\n\n1909\n\nUteplats\nOm försäljningen\n\nSlutpriset blev 4 700 000 kr\n\nUtropspriset var 4 975 000 kr\n\nPrisutvecklingen blev -275 000 kr (-5,5%)\n\nSåld eller borttagen 2026-05-08\n\nSlutpriset per kvadratmeter var 47 000 kr/m²\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-05-08:\n\nDen här villan är en äganderätt\n\nDriftskostnaden är 2 533 kr/mån\n\nBostaden var till salu i 16 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nFastighetsbyrån\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nTeckna elavtal\n(Länken öppnas i ett nytt fönster)\n\nFri månadsavgift i 12 månader. Alltid med förnybar el från sol, vind och vatten.\n\nFörsäkringar från If\nSe ditt pris på villaförsäkring här\n(Länken öppnas i ett nytt fönster)\n\nSkaffa en villaförsäkring som hjälper mycket. Enkel att köpa online.\n\nErbjudande från Verisure!\nRäkna ut pris här\n(Länken öppnas i ett nytt fönster)\n\nLanseringserbjudande! 4000:- rabatt på hemlarm med GuardVision® utomhuskamera.\n\nSna"
+   "days_text": "3 månader på Booli",
+   "build_year": 1920,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nIndexerad bostad\n1 / 49\nKarta\nSpara\nTill salu\nHärsbyn Punkten\nFritidshus · Bengtsfors\n\nUtropspris\n\n2 875 000 kr\nBoarea\n\n72 m²\n\nRum\n\n5 rum\n\nTomtarea\n\n48 680 m²\n\nByggår\n\n1920\n\nEldstad\nLägg till anteckning\nBostaden\nEnergidata\n\nDet här fritidshuset är en äganderätt\n\nDriftskostnaden är 1 688 kr/mån\n\nUtropspriset per kvadratmeter är 39 900 kr/m²\n\nBostaden har 784 sidvisningar på Booli\n\nBostaden har varit till salu i 108 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nHärsbyn Punkten, Bengtsfors\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler fritidshus i området?\nVästra Götalands län\nBengtsfors kommun\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAn"
   },
   {
-   "id": "booli:6132635",
-   "title": "Ränneslövs Ängar 222",
-   "kommun": "Laholm",
-   "region": "Halland inland",
-   "price": 4200000,
-   "land_ha": 3.0,
-   "living_m2": null,
-   "rooms": null,
-   "type": "Gård",
-   "url": "https://www.booli.se/annons/6132635",
-   "alt_url": null,
-   "drive_h": 1.7,
-   "price_per_ha": 1400000,
-   "score": 13,
-   "score_parts": {
-    "water": 0,
-    "land": 0,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 5,
-    "seclusion": 0,
-    "drive": 7,
-    "price": 1
-   },
-   "signals": [],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     4200000
-    ]
-   ],
-   "broker": null,
-   "days_text": "2026-06-10",
-   "build_year": null,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nRänneslövs Ängar 222\nGård · Vallberga · Laholm\n\nSista bud\n\n4 200 000 kr\n+450 000 kr (+12%)\nTomtarea\n\n30 000 m²\n\nTotalarea\n\n3 ha\n\nOm försäljningen\n\nSista budet blev 4 200 000 kr\n\nUtropspriset var 3 750 000 kr\n\nPrisutvecklingen blev +450 000 kr (+12%)\n\nSåld eller borttagen 2026-06-10\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-06-10:\n\nDriftskostnaden är 3 562 kr/mån\n\nBostaden var till salu i 19 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nHektar & Tunnland Mäklarbyrå\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nTeckna elavtal\n(Länken öppnas i ett nytt fönster)\n\nFri månadsavgift i 12 månader. Alltid med förnybar el från sol, vind och vatten.\n\nKarta\nRänneslövs Ängar 222, Vallberga, Laholm\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi "
-  },
-  {
-   "id": "booli:6132250",
-   "title": "Fjäll Kasängen",
-   "kommun": "Bengtsfors",
-   "region": "Dalsland/Värmland",
-   "price": 2300000,
-   "land_ha": 7.59,
+   "id": "booli:6021271",
+   "title": "Ängafallet 10",
+   "kommun": "Töreboda",
+   "region": "Skaraborg/Vättern",
+   "price": 2975000,
+   "land_ha": 9.68,
    "living_m2": null,
    "rooms": "4 rum",
    "type": "Gård",
-   "url": "https://www.booli.se/annons/6132250",
+   "url": "https://www.booli.se/annons/6021271",
    "alt_url": null,
-   "drive_h": 2.0,
-   "price_per_ha": 303030,
+   "drive_h": 2.2,
+   "price_per_ha": 307335,
    "score": 12,
    "score_parts": {
     "water": 0,
@@ -2258,73 +1847,34 @@
     "price": 4
    },
    "signals": [],
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-17",
-     2300000
+     "2026-09-18",
+     2975000
     ]
    ],
    "broker": null,
-   "days_text": "2026-07-02",
-   "build_year": 1900,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nFjäll Kasängen\nGård · Södra Fjäll · Bengtsfors\n\nSista bud\n\n2 300 000 kr\n-100 000 kr (-4,2%)\nBoarea\n\n40 m²\n\nBiarea\n\n20 m²\n\nRum\n\n4 rum\n\nTomtarea\n\n75 875 m²\n\nByggår\n\n1900\n\nEldstad\nOm försäljningen\n\nSista budet blev 2 300 000 kr\n\nUtropspriset var 2 400 000 kr\n\nPrisutvecklingen blev -100 000 kr (-4,2%)\n\nSåld eller borttagen 2026-07-02\n\nSlutpriset per kvadratmeter var 57 500 kr/m²\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-07-02:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 1 295 kr/mån\n\nBostaden var till salu i 41 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nFlinks Fastighetsförmedling\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nRäkna ut din månadskostnad\n(Länken öppnas i ett nytt fönster)\n\nEnkelt och tryggt elavtal utan dolda kostnader. Alltid med förnybar el från sol, vind och vatten.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nKarta\nFjäll Kasängen, Södra Fjäll, Bengtsfors\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan "
+   "days_text": "2026-04-11",
+   "build_year": 1909,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nÄngafallet 10\nGård · Halna · Töreboda\n\nSista bud\n\n2 975 000 kr\n-300 000 kr (-9,2%)\nBoarea\n\n130 m²\n\nBiarea\n\n12 m²\n\nRum\n\n4 rum\n\nTomtarea\n\n96 788 m²\n\nByggår\n\n1909\n\nUteplats\nOm försäljningen\n\nSista budet blev 2 975 000 kr\n\nUtropspriset var 3 275 000 kr\n\nPrisutvecklingen blev -300 000 kr (-9,2%)\n\nSåld eller borttagen 2026-04-11\n\nSlutpriset per kvadratmeter var 22 900 kr/m²\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-04-11:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 4 375 kr/mån\n\nBostaden var till salu i 46 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nFastighetsbyrån\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFörnybar el från sol, vind och vatten och fri månadsavgift i 12 månader – ett smart val för hemmet.\n\nKarta\nÄngafallet 10, Halna, Töreboda\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expe"
   },
   {
-   "id": "booli:6012355",
-   "title": "Hämnäs Åmot 1",
-   "kommun": "Årjäng",
-   "region": "Dalsland/Värmland",
-   "price": 2000000,
-   "land_ha": 3.83,
+   "id": "booli:6016943",
+   "title": "Valinge Grunnarp 1",
+   "kommun": "Varberg",
+   "region": "Halland inland",
+   "price": 2950000,
+   "land_ha": 4.8,
    "living_m2": null,
-   "rooms": "6 rum",
+   "rooms": "3 rum",
    "type": "Gård",
-   "url": "https://www.booli.se/annons/6012355",
+   "url": "https://www.booli.se/annons/6016943",
    "alt_url": null,
-   "drive_h": 2.4,
-   "price_per_ha": 522193,
-   "score": 10,
-   "score_parts": {
-    "water": 0,
-    "land": 0,
-    "buildings": 0,
-    "heating": 0,
-    "maintenance": 5,
-    "seclusion": 0,
-    "drive": 4,
-    "price": 1
-   },
-   "signals": [],
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-17",
-     2000000
-    ]
-   ],
-   "broker": null,
-   "days_text": "2026-05-25",
-   "build_year": 1959,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSista bud\nHämnäs Åmot 1\nGård · Hämnäs · Årjäng\n\nSista bud\n\n2 000 000 kr\n-400 000 kr (-16,7%)\nBoarea\n\n119 m²\n\nBiarea\n\n112 m²\n\nRum\n\n6 rum\n\nTomtarea\n\n38 307 m²\n\nByggår\n\n1959\n\nOm försäljningen\n\nSista budet blev 2 000 000 kr\n\nUtropspriset var 2 400 000 kr\n\nPrisutvecklingen blev -400 000 kr (-16,7%)\n\nSåld eller borttagen 2026-05-25\n\nSlutpriset per kvadratmeter var 16 800 kr/m²\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-05-25:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 3 233 kr/mån\n\nBostaden var till salu i 98 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nFastighetsbyrån\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nTeckna elavtal\n(Länken öppnas i ett nytt fönster)\n\nEnkelt och tryggt elavtal utan bindningstid – med fri månadsavgift i 12 månader.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nKarta\nHämnäs Åmot 1, Hämnäs, Årjäng\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och "
-  },
-  {
-   "id": "booli:6084899",
-   "title": "Östantorp 142",
-   "kommun": "Vimmerby",
-   "region": "Småland",
-   "price": 1250000,
-   "land_ha": 3.68,
-   "living_m2": null,
-   "rooms": "6 rum",
-   "type": "Villa",
-   "url": "https://www.booli.se/bostad/2791236",
-   "alt_url": null,
-   "drive_h": 3.1,
-   "price_per_ha": 339674,
-   "score": 4,
+   "drive_h": 1.0,
+   "price_per_ha": 614583,
+   "score": 11,
    "score_parts": {
     "water": 0,
     "land": 0,
@@ -2332,22 +1882,141 @@
     "heating": 0,
     "maintenance": 0,
     "seclusion": 0,
-    "drive": 0,
-    "price": 4
+    "drive": 10,
+    "price": 1
    },
    "signals": [],
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-17",
-     1250000
+     "2026-09-18",
+     2950000
     ]
    ],
    "broker": null,
-   "days_text": "2026-08-04",
+   "days_text": "2026-04-21",
+   "build_year": 1840,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 5\nSista bud\nValinge Grunnarp 1\nGård · Valinge · Varberg\n\nSista bud\n\n2 950 000 kr\n+551 000 kr (+23%)\nBoarea\n\n70 m²\n\nBiarea\n\n5 m²\n\nRum\n\n3 rum\n\nTomtarea\n\n47 700 m²\n\nTotalarea\n\n4,8 ha\n\nByggår\n\n1840\n\nOm försäljningen\n\nSista budet blev 2 950 000 kr\n\nUtropspriset var 2 399 000 kr\n\nPrisutvecklingen blev +551 000 kr (+23%)\n\nSåld eller borttagen 2026-04-21\n\nSlutpriset per kvadratmeter var 42 100 kr/m²\n\nOm sista bud\n\nOm bostaden\n\nUppgifter från försäljningen 2026-04-21:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 2 819 kr/mån\n\nBostaden var till salu i 19 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nFastighetsbyrån\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFörnybar el från sol, vind och vatten och fri månadsavgift i 12 månader – ett smart val för hemmet.\n\nKarta\nValinge Grunnarp 1, Valinge, Varberg\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitt"
+  },
+  {
+   "id": "booli:6066376",
+   "title": "Milleryr 10",
+   "kommun": "Färgelanda",
+   "region": "Dalsland/Värmland",
+   "price": 3400000,
+   "land_ha": 4.4,
+   "living_m2": null,
+   "rooms": null,
+   "type": "Gård",
+   "url": "https://www.booli.se/bostad/4578515",
+   "alt_url": null,
+   "drive_h": 1.4,
+   "price_per_ha": 772727,
+   "score": 11,
+   "score_parts": {
+    "water": 0,
+    "land": 0,
+    "buildings": 0,
+    "heating": 0,
+    "maintenance": 0,
+    "seclusion": 0,
+    "drive": 10,
+    "price": 1
+   },
+   "signals": [],
+   "first_seen": "2026-09-18",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-18",
+     3400000
+    ]
+   ],
+   "broker": null,
+   "days_text": "2026-08-14",
    "build_year": 1909,
-   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nLagfart\nÖstantorp 142\nVilla · Vimmerby\n\nLagfart\n\n1 250 000 kr\n-145 000 kr (-10,4%)\nBoarea\n\n200 m²\n\nBiarea\n\n10 m²\n\nRum\n\n6 rum\n\nTomtarea\n\n46 916 m²\n\nTotalarea\n\n3,68 ha\n\nByggår\n\n1909\n\nBalkong\nEldstad\nOm försäljningen\n\nLagfarten blev 1 250 000 kr\n\nUtropspriset var 1 395 000 kr\n\nPrisutvecklingen blev -145 000 kr (-10,4%)\n\nSåld eller borttagen 2026-05-07\n\nLagfart utfärdades 2026-08-04\n\nSlutpriset per kvadratmeter var 6 300 kr/m²\n\nOm lagfart\n\nOm bostaden\n\nUppgifter från försäljningen 2026-05-07:\n\nDen här villan är en äganderätt\n\nDriftskostnaden är 1 545 kr/mån\n\nBostaden var till salu i 20 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nAnsvarig mäklare\nEdyta Hammar\nOmdöme:\n4.7 / 5\n(361 omdömen)\nSvensk Fastighetsförmedling\nRekommenderad av säljaren\n\n“Väldigt professionell och kompetent mäklare. Smidig och tydlig försäljningsprocess.”\n\nKontakta mäklaren\nAnnonsPåverka dina boendekostnader\nErbjudande från Verisure!\nRäkna ut pris här\n(Länken öppnas i ett nytt fönster)\n\nLanseringserbjudande! 4000:- rabatt på hemlarm med GuardVision® utomhuskamera.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönste"
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nLagfart\nMilleryr 10\nGård · Färgelanda\n\nLagfart\n\n3 400 000 kr\n+150 000 kr (+4,6%)\nBoarea\n\n96 m²\n\nBiarea\n\n34 m²\n\nTomtarea\n\n3 000 m²\n\nTotalarea\n\n4,4 ha\n\nByggår\n\n1909\n\nUteplats\nOm försäljningen\n\nLagfarten blev 3 400 000 kr\n\nUtropspriset var 3 250 000 kr\n\nPrisutvecklingen blev +150 000 kr (+4,6%)\n\nSåld eller borttagen 2026-05-21\n\nLagfart utfärdades 2026-08-14\n\nSlutpriset per kvadratmeter var 35 400 kr/m²\n\nOm lagfart\n\nOm bostaden\n\nUppgifter från försäljningen 2026-05-21:\n\nDen här gården är en äganderätt\n\nBostaden var till salu i 49 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nLudvig & Co\nAnnonsPåverka dina boendekostnader\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFörnybar el från sol, vind och vatten och fri månadsavgift i 12 månader – ett smart val för hemmet.\n\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nKarta\nMilleryr 10, Färgelanda\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område o"
+  },
+  {
+   "id": "hemnet:21774193",
+   "title": "Lilla Hillhult 16",
+   "kommun": "Vetlanda",
+   "region": "Småland",
+   "price": 1695000,
+   "land_ha": 3.27,
+   "living_m2": 123,
+   "rooms": "6 rum",
+   "type": "Gård utan jordbruk",
+   "url": "https://www.hemnet.se/bostad/villa-6rum-aseda-vetlanda-kommun-lilla-hillhult-16-21774193",
+   "alt_url": null,
+   "drive_h": 2.6,
+   "price_per_ha": 518349,
+   "score": 10,
+   "score_parts": {
+    "water": 0,
+    "land": 4,
+    "buildings": 0,
+    "heating": 0,
+    "maintenance": 5,
+    "seclusion": 0,
+    "drive": 0,
+    "price": 1
+   },
+   "signals": [
+    "forest"
+   ],
+   "first_seen": "2026-09-18",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-18",
+     1695000
+    ]
+   ],
+   "broker": "Svensk Fastighetsförmedling Växjö",
+   "days_text": null,
+   "build_year": null,
+   "description": "Varmt välkommen till Lilla Hillhult och denna gård med bostadshus och tillhörande uthusbyggnader med en total yta ca 3,2 hektar markyta som idag består av trädgårdstomt, mark på andra sidan vägen med skog som mestadels är nyplanterad (gran). (se fastighetskarta)\nTvå skiften VETLANDA LILLA HILLHULT 2:2 & 2:5.\n\nBostadshus i 1½ plan med liten källardel består utav badrum med tvätt, lantligt kök, matrum, allrum, sovrum på entréplan. Övre plan tre rum varav två sovrum (kan bli tre). Trädgårdstomt med möjlighet till lek och odling. Här finns ett hönshus, fd utedass samt vedbod. \n\nUppvärmning via två eldstäder, luft/luftvärmepump och el & oljefyllda element. \n\nHär bor ni med möjlighet till busskommunikation till Näshult eller Åseda. \n\nObs! Hundgård ingår ej i köpet.\n\nVi ses på visningen!\nFAKTA\nid: 21774193\narea: Åseda\nformattedLandArea: 3,3 ha\nformattedLivingArea: 123 m²\nhousingForm: Gård utan jordbruk\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/villa-6rum-aseda-vetlanda-kommun-lilla-hillhult-16-21774193\nlivingArea: 123\nnumberOfRooms: 6\npostCode: 36433\nstreetAddress: Lilla Hillhult 16\ntenure: Äganderätt\ntitle: Lilla Hillhult 16\nadTargeting: {\"item_types\":[2],\"rooms\":[9],\"price\":[2],\"municipality\":[253],\"region\":[7],\"country\":[1],\"water_distance\":[\"201-300\"],\"property_price\":1695000,\"property_address\":\"Lilla Hillhult 16\",\"property_living_area\":123,\"property_zipcode\":\"36433\"}\nbiddingSta"
+  },
+  {
+   "id": "booli:6170048",
+   "title": "Hallanda Sörmon",
+   "kommun": "Säffle",
+   "region": "Dalsland/Värmland",
+   "price": 1350000,
+   "land_ha": 4.1,
+   "living_m2": 78,
+   "rooms": "4 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6170048",
+   "alt_url": null,
+   "drive_h": 2.2,
+   "price_per_ha": 329268,
+   "score": 8,
+   "score_parts": {
+    "water": 0,
+    "land": 0,
+    "buildings": 0,
+    "heating": 0,
+    "maintenance": 0,
+    "seclusion": 0,
+    "drive": 4,
+    "price": 4
+   },
+   "signals": [],
+   "first_seen": "2026-09-18",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-18",
+     1350000
+    ]
+   ],
+   "broker": null,
+   "days_text": "2026-07-11",
+   "build_year": 1867,
+   "description": "Gå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nSlutpris\nHallanda Sörmon\nGård · Säffle\n\nSlutpris\n\n1 350 000 kr\n+100 000 kr (+8%)\nBoarea\n\n78 m²\n\nRum\n\n4 rum\n\nTotalarea\n\n4,1 ha\n\nByggår\n\n1867\n\nOm försäljningen\n\nSlutpriset blev 1 350 000 kr\n\nUtropspriset var 1 250 000 kr\n\nPrisutvecklingen blev +100 000 kr (+8%)\n\nSåld eller borttagen 2026-07-11\n\nSlutpriset per kvadratmeter var 17 300 kr/m²\n\nOm slutpris\n\nOm bostaden\n\nUppgifter från försäljningen 2026-07-11:\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 500 kr/mån\n\nBostaden var till salu i 24 dagar\n\nAnnons\nBetalar du onödigt mycket i ränta?\n\nHär kan du enkelt kolla om du skulle kunna få en bättre ränta hos SBAB!\n\nJämför din ränta direkt!\nMäklarbyrå\nSvenska Gårdar\nAnnonsPåverka dina boendekostnader\nSnabbare än budgivningen\nKolla bredband på din nya adress\n(Länken öppnas i ett nytt fönster)\n\nTele2 Bredband – stabil uppkoppling för ditt nya hem. Smidigt att byta.\n\nElavtal från Skellefteå Kraft\nSe ditt elpris\n(Länken öppnas i ett nytt fönster)\n\nFri månadsavgift ett helt år – ett tryggt elavtal med förnybar el från sol, vind och vatten.\n\nKarta\nHallanda Sörmon, Säffle\n\nLaddar...\n\nGår du i säljtankar?\n\nMed vår matchningstjänst kan du gratis hitta en mäklare som är expert på just ditt område och din bostad.\n\nSkaffa mer kunskap\n\n"
   }
  ]
 }
