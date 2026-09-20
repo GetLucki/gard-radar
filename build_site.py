@@ -85,7 +85,11 @@ select,input{padding:6px 8px;border:1px solid var(--line);border-radius:8px;back
 .tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
 table{width:100%;border-collapse:collapse;font-size:14px;min-width:900px}
 th{position:sticky;top:0;background:var(--card);color:var(--muted);font-weight:600;font-size:12px;text-align:left;padding:10px 8px;border-bottom:2px solid var(--line);cursor:pointer;user-select:none;white-space:nowrap}
-th.on{color:var(--accent)}th.num,td.num{text-align:right}
+th.on{color:var(--accent)}th.num,td.num{text-align:right}td.num{white-space:nowrap}
+th[data-k]:hover{color:var(--ink);background:var(--bg)}
+th[data-k] .sa{display:inline-block;margin-left:5px;font-size:10px;opacity:.5;transform:translateY(-1px)}
+th[data-k].on .sa{opacity:1}
+th[data-k]::after{content:'';display:block}
 td{padding:8px;border-bottom:1px solid var(--line);vertical-align:middle}
 tr:hover td{background:rgba(47,107,58,.06)}
 td.rank{font-weight:700;color:var(--accent);font-size:16px;text-align:center}
@@ -111,6 +115,7 @@ details{margin-top:24px}summary{cursor:pointer;font-weight:600;color:var(--muted
   <input id="fText" placeholder="Filter: kommun, title, broker">
   <label class="small"><input type="checkbox" id="fNew"> only new</label>
   <span class="small" id="count"></span>
+  <span class="small" style="opacity:.75">Click any column heading to sort</span>
 </div>
 <div class="tw"><table id="tbl"><thead><tr>
   <th data-k="rank" class="num on">#</th>
@@ -204,7 +209,13 @@ function render(){
     <td class="num">${l.days_tracked??'–'}</td>
     <td>${status(l)}</td>
   </tr>`).join('') || `<tr><td colspan="12" class="small">Nothing matches these filters.</td></tr>`;
-  document.querySelectorAll('th[data-k]').forEach(th=>th.classList.toggle('on', th.dataset.k===sortKey));
+  document.querySelectorAll('th[data-k]').forEach(th=>{
+    if (!th.querySelector('.sa')) th.insertAdjacentHTML('beforeend', '<span class="sa"></span>');
+    const on = th.dataset.k===sortKey;
+    th.classList.toggle('on', on);
+    th.title = on ? 'Sorted by this column, click to reverse' : 'Click to sort by this column';
+    th.querySelector('.sa').textContent = on ? (sortDir===1 ? '\u25B2' : '\u25BC') : '\u21C5';
+  });
 }
 document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{ const k=th.dataset.k; if (sortKey===k) sortDir=-sortDir; else { sortKey=k; sortDir = (k==='rank'||k==='price'||k==='price_per_ha'||k==='drive_h'||k==='title') ? 1 : -1; } render(); }));
 ['fRegion','fText','fNew'].forEach(id=>document.getElementById(id).addEventListener('input',render));
