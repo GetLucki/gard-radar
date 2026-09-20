@@ -271,10 +271,14 @@ def scrape_booli(browser, base=None):
                 "upcoming": bool(tr.get("upcoming_sale")),
                 "labels": [],
             })
-            # resolve image
+            # resolve image: Booli's Image objects carry only an id, and the
+            # CDN url is built from it (verified 2026-09-20; before this, all
+            # Booli-only listings showed no photo at all).
             if img and img in ap:
                 imgobj = ap[img]
-                out[-1]["image"] = imgobj.get("url") or imgobj.get("src")
+                url_direct = imgobj.get("url") or imgobj.get("src")
+                iid = imgobj.get("id") or (img.split(":")[-1] if ":" in img else None)
+                out[-1]["image"] = url_direct or (f"https://bcdn.se/images/cache/{iid}_1440x0.jpg" if iid else None)
             out[-1].pop("image_ref", None)
         log(f"booli page {n}: {len(props)} props (total {total})")
         if total is not None and n * 35 >= total:
@@ -387,7 +391,12 @@ def fetch_detail(browser, l):
     finally:
         if ctx:
             ctx.close()
-    text = re.sub(r"\n{3,}", "\n\n", text or "")
+    try:
+        title = page.title() if page else ""
+    except Exception:
+        title = ""
+    text = (title + "\n" + (text or "")) if title else (text or "")
+    text = re.sub(r"\n{3,}", "\n\n", text)
     return text[:8000]
 
 
@@ -423,46 +432,131 @@ def build_year(text):
     return None
 
 
+def _phrase(lang, en, sv):
+    return sv if lang == "sv" else en
+
+
 def score(l, text, median_price_per_ha):
-    """100 points. Weights agreed 2026-09-17 (doc section 8): the house is a
-    safe house that may sit unused, so low maintenance scores and rental income
-    no longer does."""
+    """Three scores (doc section 8, split 2026-09-20 at Luki's request):
+
+      survival_score  0-100  can the family live here when nothing is delivered
+      invest_score    0-100  is the money well placed if the crisis never comes
+      score           0-100  overall, the mean of the two, used for ranking
+
+    Each comes with a short plain-language motivation so the table can show why.
+    """
+    lang = CFG.get("lang", "en")
     t = (text or "") + " " + (l.get("teaser") or "") + " " + (l.get("type") or "")
     t = t.lower()
     hit = {k: bool(re.search(p, t)) for k, p in KW.items()}
-    s = {}
-    s["water"] = (10 if hit["well"] else 0) + (10 if hit["water"] else 0)
     ha = l.get("land_ha") or 0
-    s["land"] = (8 if (ha >= 5 and hit["forest"]) else (4 if ha >= 5 or hit["forest"] else 0)) + (7 if hit["arable"] else 0)
-    s["buildings"] = (6 if hit["second_dwelling"] else 0) + (4 if hit["barn"] else 0)
-    s["heating"] = 10 if hit["wood_heat"] else 0
-    # maintenance: start neutral at 5, move on evidence, clamp 0..15
+    d = l.get("drive_h")
     y = build_year(text)
     l["build_year"] = y
-    m = 5
-    m += 4 if hit["lowmaint_facade"] else 0
-    m += 3 if hit["lowmaint_roof"] else 0
-    m += 2 if hit["lowmaint_windows"] else 0
-    m += 3 if hit["lowmaint_renovated"] else 0
-    if y and y >= 1965:
-        m += 3
+
+    # --- shared building blocks -------------------------------------------
+    forest = 2 if (ha >= 5 and hit["forest"]) else (1 if (ha >= 5 or hit["forest"]) else 0)
+    # condition, 0..10: the same evidence drives survival robustness and resale
+    cond = 4
+    cond += 2 if hit["lowmaint_facade"] else 0
+    cond += 2 if hit["lowmaint_roof"] else 0
+    cond += 1 if hit["lowmaint_windows"] else 0
+    cond += 2 if hit["lowmaint_renovated"] else 0
+    cond += 2 if (y and y >= 1965) else 0
     if (y and y < 1920) or hit["highmaint_log"]:
-        m -= 6 if not hit["lowmaint_renovated"] else 2
-    m -= 6 if hit["highmaint_need"] else 0
-    m -= 3 if hit["highmaint_defects"] else 0
-    s["maintenance"] = max(0, min(15, m))
-    s["seclusion"] = 10 if hit["seclusion"] else 0
-    d = l.get("drive_h")
-    s["drive"] = 0 if d is None else (10 if d < 1.5 else 7 if d < 2.0 else 4 if d <= 2.5 else 0)
+        cond -= 4 if not hit["lowmaint_renovated"] else 1
+    cond -= 4 if hit["highmaint_need"] else 0
+    cond -= 2 if hit["highmaint_defects"] else 0
+    cond = max(0, min(10, cond))
+
+    # --- survival ----------------------------------------------------------
+    sv = {}
+    sv["water"] = (12 if hit["well"] else 0) + (13 if hit["water"] else 0)      # 25
+    sv["land"] = (10 if forest == 2 else 5 if forest == 1 else 0) + (10 if hit["arable"] else 0)  # 20
+    sv["heating"] = 15 if hit["wood_heat"] else 0                                # 15
+    sv["shelter"] = (9 if hit["second_dwelling"] else 0) + (6 if hit["barn"] else 0)  # 15
+    sv["seclusion"] = 10 if hit["seclusion"] else 0                              # 10
+    sv["reach"] = 0 if d is None else (15 if d < 1.5 else 11 if d < 2.0 else 7 if d <= 2.5 else 0)  # 15
+    survival = sum(sv.values())
+
+    # --- investment --------------------------------------------------------
+    inv = {}
     pph = l.get("price_per_ha")
     if pph and median_price_per_ha:
         r = pph / median_price_per_ha
-        s["price"] = 10 if r < 0.6 else 7 if r < 1.0 else 4 if r < 1.5 else 1
+        inv["price"] = 30 if r < 0.6 else 22 if r < 1.0 else 12 if r < 1.5 else 4
     else:
-        s["price"] = 3
+        inv["price"] = 10
+    inv["land_value"] = (15 if forest == 2 else 8 if forest == 1 else 0) + (10 if hit["arable"] else 0)  # 25
+    inv["condition"] = round(cond * 2.5)                                          # 25
+    inv["location"] = 0 if d is None else (15 if d < 1.5 else 11 if d < 2.0 else 7 if d <= 2.5 else 0)  # 15
+    inv["market"] = int(CFG.get("region_liquidity", {}).get(l.get("region"), 3))   # 5
+    invest = sum(inv.values())
+
+    # --- motivations -------------------------------------------------------
+    good, gaps = [], []
+    if hit["well"]:
+        good.append(_phrase(lang, "own well", "egen brunn"))
+    else:
+        gaps.append(_phrase(lang, "no well stated", "ingen brunn nämnd"))
+    if hit["water"]:
+        good.append(_phrase(lang, "lake or stream", "sjö eller bäck"))
+    if forest == 2:
+        good.append(_phrase(lang, f"{ha:g} ha with forest for firewood", f"{ha:g} ha med skog för ved"))
+    elif forest == 1:
+        good.append(_phrase(lang, "some forest", "viss skog"))
+    else:
+        gaps.append(_phrase(lang, "little or no forest", "lite eller ingen skog"))
+    if hit["arable"]:
+        good.append(_phrase(lang, "arable or pasture", "åker eller bete"))
+    if hit["wood_heat"]:
+        good.append(_phrase(lang, "wood heating installed", "vedeldning finns"))
+    else:
+        gaps.append(_phrase(lang, "no wood heating stated", "ingen vedeldning nämnd"))
+    if hit["second_dwelling"]:
+        good.append(_phrase(lang, "second dwelling", "extra bostad"))
+    if hit["barn"]:
+        good.append(_phrase(lang, "barn or workshop", "ladugård eller verkstad"))
+    if hit["seclusion"]:
+        good.append(_phrase(lang, "secluded position", "avskilt läge"))
+    if d is not None:
+        (good if d <= 2.5 else gaps).append(_phrase(lang, f"{d:g} h from {CFG['base']['name']}",
+                                                    f"{d:g} h från {CFG['base']['name']}"))
+    l["survival_why"] = (", ".join(good[:5]) or _phrase(lang, "nothing confirmed in the text", "inget bekräftat i texten"))
+    if gaps:
+        l["survival_why"] += _phrase(lang, ". Missing: ", ". Saknas: ") + ", ".join(gaps[:2]) + "."
+    else:
+        l["survival_why"] += "."
+
+    ipart = []
+    if pph and median_price_per_ha:
+        rel = pph / median_price_per_ha
+        word = (_phrase(lang, "well below", "klart under") if rel < 0.6 else
+                _phrase(lang, "below", "under") if rel < 1.0 else
+                _phrase(lang, "above", "över") if rel < 1.5 else _phrase(lang, "well above", "klart över"))
+        pph_s = f"{pph:,.0f}".replace(",", "\u00a0")
+        med_s = f"{median_price_per_ha:,.0f}".replace(",", "\u00a0")
+        ipart.append(_phrase(lang, f"{pph_s} kr per ha, {word} the {med_s} kr median",
+                             f"{pph_s} kr per ha, {word} medianen {med_s} kr"))
+    if forest:
+        ipart.append(_phrase(lang, "forest holds its value", "skogen håller värdet"))
+    if inv["condition"] >= 18:
+        ipart.append(_phrase(lang, "house needs little money", "huset kräver lite pengar"))
+    elif inv["condition"] <= 8:
+        ipart.append(_phrase(lang, "condition is a capex risk", "skicket är en kostnadsrisk"))
+    if y:
+        ipart.append(_phrase(lang, f"built {y}", f"byggår {y}"))
+    ipart.append(_phrase(lang, f"{l.get('region') or 'unknown area'} resells {'well' if inv['market'] >= 4 else 'steadily'}",
+                         f"{l.get('region') or 'okänt område'} säljs {'lätt vidare' if inv['market'] >= 4 else 'stadigt vidare'}"))
+    l["invest_why"] = ", ".join(ipart[:4]) + "."
+
     l["signals"] = [k for k, v in hit.items() if v]
-    l["score_parts"] = s
-    l["score"] = sum(s.values())
+    l["survival_parts"] = sv
+    l["invest_parts"] = inv
+    l["survival_score"] = survival
+    l["invest_score"] = invest
+    l["score_parts"] = {**{f"sv_{k}": v for k, v in sv.items()}, **{f"in_{k}": v for k, v in inv.items()}}
+    l["score"] = round((survival + invest) / 2)
     return l["score"]
 
 
@@ -490,7 +584,8 @@ def rescore_only():
             d = {k: l.get(k) for k in ("id", "title", "kommun", "region", "price", "land_ha", "living_m2",
                                         "rooms", "type", "url", "alt_url", "drive_h", "price_per_ha", "score",
                                         "score_parts", "signals", "first_seen", "days_tracked", "price_history",
-                                        "broker", "days_text", "build_year")}
+                                        "broker", "days_text", "build_year", "survival_score", "invest_score",
+                                        "survival_why", "invest_why")}
             d["description"] = (details.get(l["id"], {}).get("text", "") or l.get("teaser") or "")[:1500]
             digest.append(d)
     dig["listings"] = digest
@@ -511,7 +606,9 @@ def refresh_details():
         for i, l in enumerate(todo, 1):
             try:
                 txt = fetch_detail(browser, l)
-                if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|är inte längre till salu", txt, re.I):
+                if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|"
+                             r"är inte längre till salu|^slutpris|\bslutpris\b.{0,40}\bkr\b|"
+                             r"är såld|sista bud", txt, re.I):
                     l["stale"] = True
                 details[l["id"]] = {"text": txt, "fetched": TODAY, "stale": bool(l.get("stale"))}
             except Exception as e:
@@ -585,12 +682,24 @@ def main():
         log(f"raw {len(raw)} (hemnet {len(hem)}, booli {len(boo)}), matched after filter+dedupe {len(matched)}")
 
         # detail pages for listings without a cached description
+        # refetch descriptions older than a week: Booli turns a sold listing
+        # into a "Slutpris" page without removing it from the for-sale search,
+        # so a stale cache keeps sold farms on the list (seen 2026-09-20).
+        stale_before = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
         todo = [l for l in matched if l["id"] not in details][:DETAIL_LIMIT]
+        room = DETAIL_LIMIT - len(todo)
+        if room > 0:
+            old_cache = [l for l in matched
+                         if l["id"] in details and details[l["id"]].get("fetched", "") < stale_before]
+            old_cache.sort(key=lambda l: details[l["id"]].get("fetched", ""))
+            todo += old_cache[:room]
         log(f"fetching {len(todo)} detail pages")
         for i, l in enumerate(todo, 1):
             try:
                 txt = fetch_detail(browser, l)
-                if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|är inte längre till salu", txt, re.I):
+                if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|"
+                             r"är inte längre till salu|^slutpris|\bslutpris\b.{0,40}\bkr\b|"
+                             r"är såld|sista bud", txt, re.I):
                     l["stale"] = True
                 details[l["id"]] = {"text": txt, "fetched": TODAY, "stale": bool(l.get("stale"))}
             except Exception as e:  # keep going, the card teaser still scores
@@ -716,7 +825,8 @@ def main():
             d = {k: l.get(k) for k in ("id", "title", "kommun", "region", "price", "land_ha", "living_m2",
                                         "rooms", "type", "url", "alt_url", "drive_h", "price_per_ha", "score",
                                         "score_parts", "signals", "first_seen", "days_tracked", "price_history",
-                                        "broker", "days_text", "build_year")}
+                                        "broker", "days_text", "build_year", "survival_score", "invest_score",
+                                        "survival_why", "invest_why")}
             d["description"] = (details.get(l["id"], {}).get("text", "") or l.get("teaser") or "")[:1500]
             digest.append(d)
     save_json(DATA / "digest_input.json", {"date": TODAY, "stats": stats, "changes": changes, "listings": digest})

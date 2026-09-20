@@ -1,5 +1,5 @@
 GÅRD-RADAR 2026-09-20
-184 matching, 80 new, 0 price cuts
+210 matching, 4 new, 1 price cuts
 
 IN ONE PARAGRAPH
 184 listings match the hard filters today, but the headline numbers are a source artefact, not a market move: the Hemnet scan failed this run, so all 118 Hemnet records show as gone and 80 of the same properties reappear as new under their Booli ids. Nothing has actually left the market among the houses we follow, and no genuine newcomer built after 1965 has arrived. The one recorded price rise, Ödenäs Mellomgården 426 in Alingsås, is a Booli sold-price page and not a live listing. Median asking is 2 962 500 kr and about 300 000 kr per hectare on the Booli-only set, higher than the 263 000 kr we saw with Hemnet included, because Booli carries more small-plot villas. The five picks are the same houses as before, now referenced by their Booli ids, and the job for this week is unchanged: phone the brokers about facade, roof, windows and water before anyone drives anywhere.
@@ -50,7 +50,7 @@ Survival: Own water: drilled well plus lake or stream on the land; Land: 3 to 30
 Financial: Southern forest price tier (930 kr per m3sk, near all-time high, H1 2026); County with a positive 5-year price trend (Kronoberg, Halland, Kalmar inland, Värmland, VG inland); Asking price per hectare below the median of all matching listings; Liquid local market and a tourism draw within 30 minutes, so it resells
 
 CHANGES
-New 80, gone 118, price cuts 0.
+New 4, gone 8, price cuts 1.
 
 Site: https://getlucki.github.io/gard-radar/
 Plan doc: https://docs.google.com/document/d/18kvo9JlHNSf4bq_03BLHvNWpoI-9gbkVTSFe12Bi_V8/edit

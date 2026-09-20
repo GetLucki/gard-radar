@@ -99,13 +99,15 @@ for i, p in enumerate(picks, 1):
         f"{l.get('living_m2')} m²" if l.get("living_m2") else "",
         f"byggår {l.get('build_year')}" if l.get("build_year") else "",
         f"{l.get('drive_h')} h from Göteborg" if l.get("drive_h") else "",
-        f"score {p.get('score') or l.get('score')}",
+        f"score {p.get('score') or l.get('score')}"
+        + (f" (survival {l.get('survival_score')}, invest {l.get('invest_score')})" if l.get("survival_score") is not None else ""),
     ] if x)
     rows.append(f"""
 <tr>
  <td class="rank">{i}</td>
  <td><a href="{e(url)}"><b>{e(title)}</b></a><br><span class="small">{facts}</span>
-     {('<br><span class="small"><b>Maintenance:</b> ' + e(p.get('maintenance')) + '</span>') if p.get('maintenance') else ''}</td>
+     {('<br><span class="small"><b>Maintenance:</b> ' + e(p.get('maintenance')) + '</span>') if p.get('maintenance') else ''}
+     {('<br><span class="small"><b>Score:</b> ' + e(l.get('survival_why')) + ' ' + e(l.get('invest_why')) + '</span>') if l.get('survival_why') else ''}</td>
  <td>{e(p.get('prepping_why') or p.get('why'))}</td>
  <td>{e(p.get('invest_why'))}</td>
  <td>{e(p.get('rank_why'))}</td>

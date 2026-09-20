@@ -74,7 +74,7 @@ h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:26px 0 10px;border-bot
 .card .b{padding:12px 14px 14px;display:flex;flex-direction:column;gap:7px;flex:1}
 .t{font-weight:700;font-size:17px}.m{color:var(--muted);font-size:13px}
 .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
-.price{font-weight:700;font-size:18px}.score{font-weight:700;color:var(--accent);font-size:22px}
+.price{font-weight:700;font-size:18px}.score .ss{font-size:12px;font-weight:600;color:var(--muted)}.score{font-weight:700;color:var(--accent);font-size:22px}
 .tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:6px;background:var(--accent);color:#fff;white-space:nowrap}
 .tag.cut{background:var(--accent2)}.tag.new{background:var(--blue)}.tag.pick{background:var(--accent)}
 .why{font-size:14px}.why b{color:var(--accent)}
@@ -93,6 +93,11 @@ th[data-k]::after{content:'';display:block}
 td{padding:8px;border-bottom:1px solid var(--line);vertical-align:middle}
 tr:hover td{background:rgba(47,107,58,.06)}
 td.rank{font-weight:700;color:var(--accent);font-size:16px;text-align:center}
+td.sc b{font-size:15px;color:var(--accent)}td.sc2{color:var(--accent)}td.sc3{color:var(--blue)}
+tr.open td{background:rgba(47,107,58,.10)}
+.why-row td{background:var(--bg);font-size:13px;padding:10px 12px}
+.wb{margin:2px 0}.wb b{color:var(--ink)}
+#rows tr:not(.why-row){cursor:pointer}
 td img{width:84px;height:60px;object-fit:cover;border-radius:6px;background:#ccc;display:block}
 .obj a{font-weight:600}.obj .m{display:block}
 .small{font-size:12px;color:var(--muted)}
@@ -115,7 +120,7 @@ details{margin-top:24px}summary{cursor:pointer;font-weight:600;color:var(--muted
   <input id="fText" placeholder="Filter: kommun, title, broker">
   <label class="small"><input type="checkbox" id="fNew"> only new</label>
   <span class="small" id="count"></span>
-  <span class="small" style="opacity:.75">Click any column heading to sort</span>
+  <span class="small" style="opacity:.75">Click any column heading to sort · click a row for the score motivation</span>
 </div>
 <div class="tw"><table id="tbl"><thead><tr>
   <th data-k="rank" class="num on">#</th>
@@ -127,14 +132,16 @@ details{margin-top:24px}summary{cursor:pointer;font-weight:600;color:var(--muted
   <th data-k="living_m2" class="num">m²</th>
   <th data-k="build_year" class="num">Built</th>
   <th data-k="drive_h" class="num">Drive</th>
-  <th data-k="score" class="num">Score</th>
+  <th data-k="score" class="num">Overall</th>
+  <th data-k="survival_score" class="num">Survival</th>
+  <th data-k="invest_score" class="num">Invest</th>
   <th data-k="days_tracked" class="num">Days</th>
   <th>Status</th>
 </tr></thead><tbody id="rows"></tbody></table></div>
 
 <details><summary>Market, regions and changes since the last run</summary><div id="market" style="margin-top:10px"></div></details>
 
-<p class="small" style="margin-top:30px">Sources: Hemnet and Booli (Gård/Skog plus Villa/Hus with 3 ha or more). Score is a deterministic pre-score from listing text and facts; the top three and their reasons are Claude's daily judgement. Criteria live in the shared plan document.</p>
+<p class="small" style="margin-top:30px">Sources: Hemnet and Booli (Gård/Skog plus Villa/Hus with 3 ha or more). Overall is the mean of Survival (water, land, heating, shelter, seclusion, reachability) and Invest (price per ha, land value, condition, location, market). Both are deterministic pre-scores from listing text and facts; the top three and their reasons are Claude's daily judgement. Criteria live in the shared plan document.</p>
 </div>
 <script id="data" type="application/json">__DATA__</script>
 <script>
@@ -164,13 +171,14 @@ let rh='';
 if (TOP.length){
   rh = `<div class="grid">` + TOP.slice(0,3).map((r,i)=>{ const L0 = findL(r); const l = L0||{}; const gone = !L0;
     return `<div class="card">${l.image?`<img src="${esc(l.image)}" alt="">`:''}<div class="b">
-    <div class="row"><span class="tag pick">#${i+1}</span><span class="score">${r.score??l.score??''}</span></div>
+    <div class="row"><span class="tag pick">#${i+1}</span><span class="score">${r.score??l.score??''}<span class="ss">${(l.survival_score!=null)?` &nbsp;S ${l.survival_score} &nbsp;I ${l.invest_score}`:''}</span></span></div>
     <div class="t"><a href="${esc(r.url||l.url)}" target="_blank" rel="noopener">${esc(r.title||l.title)}</a>${gone?' <span class="tag cut">no longer listed</span>':''}</div>
     <div class="m">${esc(r.kommun||l.kommun)} · ${esc(r.region||l.region||'')} · ${(r.land_ha||l.land_ha)?(r.land_ha||l.land_ha)+' ha':''}${l.living_m2?' · '+l.living_m2+' m²':''}${l.build_year?' · built '+l.build_year:''}${l.drive_h?' · '+l.drive_h+' h':''}</div>
     <div class="price">${kr(r.price||l.price)}</div>
     <div class="why"><b>Survival:</b> ${esc(r.prepping_why||r.why||'')}</div>
     <div class="why"><b>Investment:</b> ${esc(r.invest_why||'')}</div>
     ${r.maintenance?`<div class="m"><b>Maintenance:</b> ${esc(r.maintenance)}</div>`:''}
+    ${l.survival_why?`<div class="m"><b>Score:</b> S ${l.survival_score} (${esc(l.survival_why)}) I ${l.invest_score} (${esc(l.invest_why)})</div>`:''}
     ${r.recommendation?`<div class="rec">${esc(r.recommendation)}</div>`:''}
     </div></div>`}).join('') + `</div>`;
   if (TOP.length>3) rh += `<p class="small" style="margin-top:8px"><b>Also judged worth a look:</b> ` + TOP.slice(3).map((r,i)=>`#${i+4} <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a> (${esc(r.kommun)}, ${kr(r.price)})`).join(' · ') + `</p>`;
@@ -205,10 +213,16 @@ function render(){
     <td class="num">${l.living_m2??'–'}</td>
     <td class="num">${l.build_year??'–'}</td>
     <td class="num">${l.drive_h!=null?l.drive_h+' h':'–'}</td>
-    <td class="num"><b>${l.score}</b></td>
+    <td class="num sc"><b>${l.score}</b></td>
+    <td class="num sc2">${l.survival_score??'–'}</td>
+    <td class="num sc3">${l.invest_score??'–'}</td>
     <td class="num">${l.days_tracked??'–'}</td>
     <td>${status(l)}</td>
-  </tr>`).join('') || `<tr><td colspan="12" class="small">Nothing matches these filters.</td></tr>`;
+  </tr>
+  <tr class="why-row" data-for="${esc(l.id)}" hidden><td></td><td colspan="12">
+    <div class="wb"><b>Survival ${l.survival_score??''}:</b> ${esc(l.survival_why||'no motivation yet')}</div>
+    <div class="wb"><b>Investment ${l.invest_score??''}:</b> ${esc(l.invest_why||'')}</div>
+  </td></tr>`).join('') || `<tr><td colspan="12" class="small">Nothing matches these filters.</td></tr>`;
   document.querySelectorAll('th[data-k]').forEach(th=>{
     if (!th.querySelector('.sa')) th.insertAdjacentHTML('beforeend', '<span class="sa"></span>');
     const on = th.dataset.k===sortKey;
@@ -218,6 +232,11 @@ function render(){
   });
 }
 document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{ const k=th.dataset.k; if (sortKey===k) sortDir=-sortDir; else { sortKey=k; sortDir = (k==='rank'||k==='price'||k==='price_per_ha'||k==='drive_h'||k==='title') ? 1 : -1; } render(); }));
+document.getElementById('rows').addEventListener('click', ev=>{
+  if (ev.target.closest('a')) return;
+  const tr = ev.target.closest('tr'); if (!tr || tr.classList.contains('why-row')) return;
+  const w = tr.nextElementSibling; if (w && w.classList.contains('why-row')) { w.hidden = !w.hidden; tr.classList.toggle('open', !w.hidden); }
+});
 ['fRegion','fText','fNew'].forEach(id=>document.getElementById(id).addEventListener('input',render));
 render();
 
