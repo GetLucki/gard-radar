@@ -175,7 +175,7 @@ def scrape_hemnet(browser, base=None):
     base = _fmt(base or HEMNET_SEARCHES["gard"])
     out, total = [], None
     for n in range(1, MAX_PAGES + 1):
-        ctx, page, ap = goto_state(browser, base + str(n), tries=2)
+        ctx, page, ap = goto_state(browser, base + str(n), tries=3)
         ctx.close()
         if total is None:
             for k, v in ap.get("ROOT_QUERY", {}).items():
@@ -302,6 +302,13 @@ def _norm_title(t):
     return re.sub(r"[^a-zåäö0-9]", "", (t or "").lower())
 
 
+def stable_key(l):
+    """Source-independent identity: kommun + normalised title + price rounded
+    to 10 000 kr. A listing that moves from a Hemnet id to a Booli id (or
+    back) keeps its history."""
+    return f"{(l.get('kommun') or '').lower()}|{_norm_title(l.get('title'))}|{round((l.get('price') or 0) / 10000)}"
+
+
 def dedupe(listings):
     """Merge Booli duplicates into Hemnet entries when price and position agree."""
     hemnet = [l for l in listings if l["source"] == "hemnet"]
@@ -323,6 +330,7 @@ def dedupe(listings):
                 dup = h
                 break
         if dup:
+            dup["alt_ids"] = sorted(set(dup.get("alt_ids", []) + [b["id"]]))
             if dup["source"] == "hemnet":
                 dup["alt_url"] = b["url"]
                 dup["days_text"] = b.get("days_text")
@@ -520,8 +528,27 @@ def refresh_details():
 
 def main():
     prev = load_json(DATA / "listings.json", {"listings": []})
-    prev_by_id = {l["id"]: l for l in prev.get("listings", [])}
+    prev_by_key = {}
+    for l in prev.get("listings", []):
+        l.setdefault("key", stable_key(l))
+        prev_by_key.setdefault(l["key"], l)
     seen = load_json(DATA / "seen.json", {})
+    # migrate seen.json from source ids to stable keys (keeps the earliest first_seen)
+    if seen and not seen.get("_keyed"):
+        id_to_key = {l["id"]: l["key"] for l in prev.get("listings", [])}
+        migrated = {"_keyed": True}
+        for sid, rec in seen.items():
+            if sid.startswith("_"):
+                continue
+            k = id_to_key.get(sid) or stable_key({"kommun": rec.get("kommun"), "title": rec.get("title"), "price": (rec.get("prices") or [0])[-1]})
+            cur = migrated.get(k)
+            if not cur or rec.get("first_seen", "9999") < cur.get("first_seen", "9999"):
+                rec["ids"] = sorted(set((cur or {}).get("ids", []) + [sid]))
+                migrated[k] = rec
+            else:
+                cur["ids"] = sorted(set(cur.get("ids", []) + [sid]))
+        seen = migrated
+    seen.setdefault("_keyed", True)
     details = load_json(DATA / "details.json", {})
 
     with sync_playwright() as p:
@@ -535,13 +562,19 @@ def main():
             boo_total[name] = tot
         hem, hem_total, hemnet_ok = [], {}, True
         for name, u in HEMNET_SEARCHES.items():
-            try:
-                part, tot = scrape_hemnet(browser, u)
-                hem += part
-                hem_total[name] = tot
-            except Exception as e:
-                hemnet_ok = False
-                log(f"hemnet {name} skipped (bot check or error): {str(e)[:120]}")
+            for attempt in (1, 2):
+                try:
+                    part, tot = scrape_hemnet(browser, u)
+                    hem += part
+                    hem_total[name] = tot
+                    break
+                except Exception as e:
+                    log(f"hemnet {name} attempt {attempt} failed: {str(e)[:120]}")
+                    if attempt == 1:
+                        time.sleep(60)  # Cloudflare usually relents after a pause
+                    else:
+                        hemnet_ok = False
+                        log(f"hemnet {name} skipped for today")
         raw, seen_ids = [], set()
         for l in hem + boo:  # pages shift while paging, so the same id can appear twice
             if l["id"] not in seen_ids:
@@ -576,15 +609,18 @@ def main():
     for l in matched:
         l["drive_h"] = drive_hours(l.get("kommun"), l.get("lat"), l.get("lon"))
         l["price_per_ha"] = round(l["price"] / l["land_ha"]) if l.get("land_ha") else None
-        rec = seen.get(l["id"])
+        l["key"] = stable_key(l)
+        rec = seen.get(l["key"])
         if rec:
             l["first_seen"] = rec["first_seen"]
             if rec["prices"][-1] != l["price"]:
                 rec["prices"].append(l["price"])
                 rec["price_dates"].append(TODAY)
+            rec["ids"] = sorted(set(rec.get("ids", []) + [l["id"]]))
+            rec.pop("gone", None)
         else:
-            seen[l["id"]] = rec = {"first_seen": TODAY, "prices": [l["price"]], "price_dates": [TODAY],
-                                   "title": l.get("title"), "kommun": l.get("kommun")}
+            seen[l["key"]] = rec = {"first_seen": TODAY, "prices": [l["price"]], "price_dates": [TODAY],
+                                    "title": l.get("title"), "kommun": l.get("kommun"), "ids": [l["id"]]}
             l["first_seen"] = TODAY
         l["price_history"] = list(zip(rec["price_dates"], rec["prices"]))
         l["days_tracked"] = (datetime.date.today() - datetime.date.fromisoformat(l["first_seen"])).days
@@ -598,17 +634,32 @@ def main():
     matched.sort(key=lambda x: (-x["score"], x["price"]))
 
     # changes vs previous run
-    cur_ids = {l["id"] for l in matched}
-    new = [l for l in matched if l["id"] not in prev_by_id]
-    gone = [prev_by_id[i] for i in prev_by_id if i not in cur_ids]
-    price_changes = []
+    cur_keys = {l["key"] for l in matched}
+    # a price change also changes the key, so match previous entries by kommun+title too
+    prev_by_kt = {k.rsplit("|", 1)[0]: v for k, v in prev_by_key.items()}
+    new, price_changes = [], []
     for l in matched:
-        p0 = prev_by_id.get(l["id"], {}).get("price")
-        if p0 and p0 != l["price"]:
+        if l["key"] in prev_by_key:
+            continue
+        old = prev_by_kt.get(l["key"].rsplit("|", 1)[0])
+        if old and old.get("price") and old["price"] != l["price"]:
             price_changes.append({"id": l["id"], "title": l["title"], "kommun": l["kommun"],
-                                  "old": p0, "new": l["price"], "url": l["url"]})
+                                  "old": old["price"], "new": l["price"], "url": l["url"]})
+            # carry history over from the old key
+            old_rec = seen.get(old["key"])
+            if old_rec and old_rec is not seen.get(l["key"]):
+                cur_rec = seen[l["key"]]
+                cur_rec["first_seen"] = min(cur_rec["first_seen"], old_rec["first_seen"])
+                cur_rec["prices"] = old_rec["prices"] + [l["price"]]
+                cur_rec["price_dates"] = old_rec["price_dates"] + [TODAY]
+                l["first_seen"] = cur_rec["first_seen"]
+                seen.pop(old["key"], None)
+        else:
+            new.append(l)
+    cur_kt = {k.rsplit("|", 1)[0] for k in cur_keys}
+    gone = [v for k, v in prev_by_key.items() if k not in cur_keys and k.rsplit("|", 1)[0] not in cur_kt]
     for g in gone:
-        seen.setdefault(g["id"], {}).update({"gone": TODAY})
+        seen.setdefault(g["key"], {}).update({"gone": TODAY})
     changes = {
         "date": TODAY,
         "new": [{"id": l["id"], "title": l["title"], "kommun": l["kommun"], "price": l["price"],

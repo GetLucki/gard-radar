@@ -1,5 +1,6 @@
 {
- "hemnet:21788638": {
+ "_keyed": true,
+ "årjäng|backarönningen1|120": {
   "first_seen": "2026-09-17",
   "prices": [
    1200000
@@ -9,9 +10,11 @@
   ],
   "title": "Backa Rönningen 1",
   "kommun": "Årjäng",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21788638"
+  ]
  },
- "hemnet:21700418": {
+ "tibro|västerhönsa113mfl|200": {
   "first_seen": "2026-09-17",
   "prices": [
    1995000
@@ -21,9 +24,11 @@
   ],
   "title": "VÄSTERHÖNSA 1:13 m.fl",
   "kommun": "Tibro",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21700418"
+  ]
  },
- "hemnet:21788228": {
+ "svenljunga|svenljungaölebo16|140": {
   "first_seen": "2026-09-17",
   "prices": [
    1400000
@@ -33,9 +38,11 @@
   ],
   "title": "SVENLJUNGA ÖLEBO 1:6",
   "kommun": "Svenljunga",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21788228"
+  ]
  },
- "hemnet:21571650": {
+ "bengtsfors|barkerudsjövik1|300": {
   "first_seen": "2026-09-17",
   "prices": [
    2995000
@@ -45,9 +52,11 @@
   ],
   "title": "Barkerud Sjövik 1",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21571650"
+  ]
  },
- "hemnet:21787338": {
+ "töreboda|borrebodasörgården23|270": {
   "first_seen": "2026-09-17",
   "prices": [
    2695000
@@ -57,9 +66,11 @@
   ],
   "title": "Borreboda Sörgården 23",
   "kommun": "Töreboda",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21787338"
+  ]
  },
- "hemnet:21786708": {
+ "ljungby|boarpstakagård1|270": {
   "first_seen": "2026-09-17",
   "prices": [
    2700000
@@ -69,9 +80,11 @@
   ],
   "title": "Boarp Stakagård 1",
   "kommun": "Ljungby",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21786708"
+  ]
  },
- "hemnet:21784286": {
+ "dals-ed|solumryggstödet1|115": {
   "first_seen": "2026-09-17",
   "prices": [
    1150000
@@ -81,9 +94,11 @@
   ],
   "title": "Solum Ryggstödet 1",
   "kommun": "Dals-Ed",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21784286"
+  ]
  },
- "hemnet:21784275": {
+ "dals-ed|sämsämsmon1|135": {
   "first_seen": "2026-09-17",
   "prices": [
    1350000
@@ -93,9 +108,11 @@
   ],
   "title": "Säm Sämsmon 1",
   "kommun": "Dals-Ed",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21784275"
+  ]
  },
- "hemnet:21687595": {
+ "alvesta|blädingeboda1|465": {
   "first_seen": "2026-09-17",
   "prices": [
    4650000
@@ -105,9 +122,11 @@
   ],
   "title": "Blädinge Boda 1",
   "kommun": "Alvesta",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21687595"
+  ]
  },
- "hemnet:21785520": {
+ "mark|nödingebackagården2|170": {
   "first_seen": "2026-09-17",
   "prices": [
    1700000
@@ -117,9 +136,11 @@
   ],
   "title": "Nödinge Backagården 2",
   "kommun": "Mark",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21785520"
+  ]
  },
- "hemnet:21785474": {
+ "mark|nödinge75|480": {
   "first_seen": "2026-09-17",
   "prices": [
    4800000
@@ -129,9 +150,11 @@
   ],
   "title": "Nödinge 7:5",
   "kommun": "Mark",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21785474"
+  ]
  },
- "hemnet:21785021": {
+ "värnamo|boda|328": {
   "first_seen": "2026-09-17",
   "prices": [
    3275000
@@ -141,9 +164,11 @@
   ],
   "title": "Boda",
   "kommun": "Värnamo",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21785021"
+  ]
  },
- "hemnet:21780174": {
+ "askersund|ruderudfallet110|235": {
   "first_seen": "2026-09-17",
   "prices": [
    2350000
@@ -153,9 +178,11 @@
   ],
   "title": "Rude Rudfallet 110",
   "kommun": "Askersund",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21780174"
+  ]
  },
- "hemnet:21784724": {
+ "hultsfred|torp8|250": {
   "first_seen": "2026-09-17",
   "prices": [
    2500000
@@ -165,9 +192,11 @@
   ],
   "title": "Torp 8",
   "kommun": "Hultsfred",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21784724"
+  ]
  },
- "hemnet:21784757": {
+ "ulricehamn|härbjörnarp110|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -177,9 +206,11 @@
   ],
   "title": "Härbjörnarp 110",
   "kommun": "Ulricehamn",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21784757"
+  ]
  },
- "hemnet:21784652": {
+ "bollebygd|fagerhult|370": {
   "first_seen": "2026-09-17",
   "prices": [
    3700000
@@ -189,9 +220,11 @@
   ],
   "title": "Fagerhult",
   "kommun": "Bollebygd",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21784652"
+  ]
  },
- "hemnet:21784069": {
+ "hylte|boberg101|240": {
   "first_seen": "2026-09-17",
   "prices": [
    2400000
@@ -201,9 +234,11 @@
   ],
   "title": "Boberg 101",
   "kommun": "Hylte",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21784069"
+  ]
  },
- "hemnet:21783804": {
+ "bengtsfors|skogstraxutanförbengtsfors|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -213,9 +248,11 @@
   ],
   "title": "Skog strax utanför Bengtsfors",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21783804"
+  ]
  },
- "hemnet:21685395": {
+ "vetlanda|rösaöstergård4|448": {
   "first_seen": "2026-09-17",
   "prices": [
    4475000
@@ -225,9 +262,11 @@
   ],
   "title": "Rösa Östergård 4",
   "kommun": "Vetlanda",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21685395"
+  ]
  },
- "hemnet:21745726": {
+ "säffle|kettilsbynnoli|470": {
   "first_seen": "2026-09-17",
   "prices": [
    4700000
@@ -237,9 +276,11 @@
   ],
   "title": "Kettilsbyn Noli",
   "kommun": "Säffle",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21745726"
+  ]
  },
- "hemnet:21780692": {
+ "sävsjö|västramo6|330": {
   "first_seen": "2026-09-17",
   "prices": [
    3295000
@@ -249,9 +290,12 @@
   ],
   "title": "Västra Mo 6",
   "kommun": "Sävsjö",
-  "gone": "2026-09-20"
+  "ids": [
+   "booli:6250239",
+   "hemnet:21780692"
+  ]
  },
- "hemnet:21744501": {
+ "älmhult|höghult2288|270": {
   "first_seen": "2026-09-17",
   "prices": [
    2695000
@@ -261,9 +305,11 @@
   ],
   "title": "Höghult 2288",
   "kommun": "Älmhult",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21744501"
+  ]
  },
- "hemnet:21777377": {
+ "ale|stockedalen150|498": {
   "first_seen": "2026-09-17",
   "prices": [
    4975000
@@ -273,9 +319,11 @@
   ],
   "title": "Stockedalen 150",
   "kommun": "Ale",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21777377"
+  ]
  },
- "hemnet:21775432": {
+ "vaggeryd|älgebo114|165": {
   "first_seen": "2026-09-17",
   "prices": [
    1650000
@@ -285,9 +333,11 @@
   ],
   "title": "ÄLGEBO 1:14 ",
   "kommun": "Vaggeryd",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21775432"
+  ]
  },
- "hemnet:21777073": {
+ "mark|ramhultavägen47|400": {
   "first_seen": "2026-09-17",
   "prices": [
    3995000
@@ -297,9 +347,11 @@
   ],
   "title": "Ramhultavägen 47",
   "kommun": "Mark",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21777073"
+  ]
  },
- "hemnet:21776152": {
+ "askersund|öjetorp671|120": {
   "first_seen": "2026-09-17",
   "prices": [
    1195000
@@ -309,9 +361,11 @@
   ],
   "title": "Öjetorp 671",
   "kommun": "Askersund",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21776152"
+  ]
  },
- "hemnet:21778059": {
+ "säffle|ingrirudhagalund|170": {
   "first_seen": "2026-09-17",
   "prices": [
    1700000
@@ -321,9 +375,11 @@
   ],
   "title": "Ingrirud Hagalund",
   "kommun": "Säffle",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21778059"
+  ]
  },
- "hemnet:21777193": {
+ "värnamo|funtabo1|295": {
   "first_seen": "2026-09-17",
   "prices": [
    2950000
@@ -333,9 +389,11 @@
   ],
   "title": "Funtabo 1",
   "kommun": "Värnamo",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21777193"
+  ]
  },
- "hemnet:21776076": {
+ "markaryd|hulabäck1187|105": {
   "first_seen": "2026-09-17",
   "prices": [
    1050000
@@ -345,9 +403,11 @@
   ],
   "title": "Hulabäck 1187",
   "kommun": "Markaryd",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21776076"
+  ]
  },
- "hemnet:21775802": {
+ "vetlanda|stenberga78|175": {
   "first_seen": "2026-09-17",
   "prices": [
    1750000
@@ -357,9 +417,11 @@
   ],
   "title": "Stenberga 78",
   "kommun": "Vetlanda",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21775802"
+  ]
  },
- "hemnet:21748189": {
+ "färgelanda|grönlanda8|430": {
   "first_seen": "2026-09-17",
   "prices": [
    4300000
@@ -369,9 +431,12 @@
   ],
   "title": "Grönlanda 8",
   "kommun": "Färgelanda",
-  "gone": "2026-09-20"
+  "ids": [
+   "booli:6177972",
+   "hemnet:21748189"
+  ]
  },
- "hemnet:21775702": {
+ "hylte|nädhult214|150": {
   "first_seen": "2026-09-17",
   "prices": [
    1500000
@@ -381,9 +446,11 @@
   ],
   "title": "Nädhult 2:14",
   "kommun": "Hylte",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21775702"
+  ]
  },
- "hemnet:21775356": {
+ "gislaved|stret|325": {
   "first_seen": "2026-09-17",
   "prices": [
    3250000
@@ -393,9 +460,11 @@
   ],
   "title": "Stret",
   "kommun": "Gislaved",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21775356"
+  ]
  },
- "hemnet:21775426": {
+ "mellerud|jonstorpidalskog|130": {
   "first_seen": "2026-09-17",
   "prices": [
    1300000
@@ -405,9 +474,11 @@
   ],
   "title": "Jonstorp i Dalskog",
   "kommun": "Mellerud",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21775426"
+  ]
  },
- "hemnet:21774881": {
+ "gullspång|torsvidsörgården35|180": {
   "first_seen": "2026-09-17",
   "prices": [
    1795000
@@ -417,9 +488,11 @@
   ],
   "title": "Torsvid Sörgården 35",
   "kommun": "Gullspång",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21774881"
+  ]
  },
- "hemnet:21730495": {
+ "vårgårda|eklandabrändehov1|200": {
   "first_seen": "2026-09-17",
   "prices": [
    1995000
@@ -429,9 +502,11 @@
   ],
   "title": "Eklanda Brändehov 1",
   "kommun": "Vårgårda",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21730495"
+  ]
  },
- "hemnet:21773210": {
+ "ljungby|lönshult2|480": {
   "first_seen": "2026-09-17",
   "prices": [
    4800000
@@ -441,9 +516,11 @@
   ],
   "title": "Lönshult 2",
   "kommun": "Ljungby",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21773210"
+  ]
  },
- "hemnet:21774015": {
+ "lilla edet|attlered122|295": {
   "first_seen": "2026-09-17",
   "prices": [
    2950000
@@ -453,9 +530,11 @@
   ],
   "title": "Attlered 122",
   "kommun": "Lilla Edet",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21774015"
+  ]
  },
- "hemnet:21773856": {
+ "mark|forshallsvägen10|335": {
   "first_seen": "2026-09-17",
   "prices": [
    3350000
@@ -465,9 +544,11 @@
   ],
   "title": "Forshallsvägen 10",
   "kommun": "Mark",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21773856"
+  ]
  },
- "hemnet:21746938": {
+ "laholm|högarydsvägen59|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -477,9 +558,11 @@
   ],
   "title": "Högarydsvägen 59",
   "kommun": "Laholm",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21746938"
+  ]
  },
- "hemnet:21772540": {
+ "vårgårda|nårunga51delav|260": {
   "first_seen": "2026-09-17",
   "prices": [
    2600000
@@ -489,9 +572,11 @@
   ],
   "title": "Nårunga 5:1, del av",
   "kommun": "Vårgårda",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21772540"
+  ]
  },
- "hemnet:21772105": {
+ "askersund|stimmerkulla315|320": {
   "first_seen": "2026-09-17",
   "prices": [
    3200000
@@ -501,9 +586,11 @@
   ],
   "title": "Stimmerkulla 315",
   "kommun": "Askersund",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21772105"
+  ]
  },
- "hemnet:21766339": {
+ "årjäng|västramörtnäs503|258": {
   "first_seen": "2026-09-17",
   "prices": [
    2575000
@@ -513,9 +600,11 @@
   ],
   "title": "Västra Mörtnäs 503",
   "kommun": "Årjäng",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21766339"
+  ]
  },
- "hemnet:21770188": {
+ "hylte|bosgård102|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -525,9 +614,11 @@
   ],
   "title": "Bosgård 102",
   "kommun": "Hylte",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21770188"
+  ]
  },
- "hemnet:21769758": {
+ "lilla edet|intagan128|350": {
   "first_seen": "2026-09-17",
   "prices": [
    3500000
@@ -537,9 +628,11 @@
   ],
   "title": "Intagan 128",
   "kommun": "Lilla Edet",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21769758"
+  ]
  },
- "hemnet:21769217": {
+ "åmål|spakebol|280": {
   "first_seen": "2026-09-17",
   "prices": [
    2800000
@@ -549,9 +642,11 @@
   ],
   "title": "Spakebol",
   "kommun": "Åmål",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21769217"
+  ]
  },
- "hemnet:21769169": {
+ "sävsjö|sunnerbysävjedal1|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -561,9 +656,11 @@
   ],
   "title": "Sunnerby Sävjedal 1",
   "kommun": "Sävsjö",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21769169"
+  ]
  },
- "hemnet:21768653": {
+ "värnamo|tånnöstenhyltan1|300": {
   "first_seen": "2026-09-17",
   "prices": [
    3000000
@@ -573,9 +670,11 @@
   ],
   "title": "Tånnö Stenhyltan 1",
   "kommun": "Värnamo",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21768653"
+  ]
  },
- "hemnet:21767996": {
+ "sävsjö|skogsfastighet46haihjälmseryd|175": {
   "first_seen": "2026-09-17",
   "prices": [
    1750000
@@ -585,9 +684,12 @@
   ],
   "title": "Skogsfastighet 46 ha i Hjälmseryd",
   "kommun": "Sävsjö",
+  "ids": [
+   "hemnet:21767996"
+  ],
   "gone": "2026-09-20"
  },
- "hemnet:21765955": {
+ "laholm|svenshult13|220": {
   "first_seen": "2026-09-17",
   "prices": [
    2200000
@@ -597,9 +699,11 @@
   ],
   "title": "Svenshult 13",
   "kommun": "Laholm",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21765955"
+  ]
  },
- "hemnet:21719773": {
+ "varberg|gunnarsjöbro1|340": {
   "first_seen": "2026-09-17",
   "prices": [
    3395000
@@ -609,9 +713,11 @@
   ],
   "title": "Gunnarsjö Bro 1",
   "kommun": "Varberg",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21719773"
+  ]
  },
- "hemnet:21729166": {
+ "värnamo|hult1|300": {
   "first_seen": "2026-09-17",
   "prices": [
    2995000
@@ -621,9 +727,11 @@
   ],
   "title": "Hult 1",
   "kommun": "Värnamo",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21729166"
+  ]
  },
- "hemnet:21764616": {
+ "bengtsfors|strand|480": {
   "first_seen": "2026-09-17",
   "prices": [
    4800000
@@ -633,9 +741,12 @@
   ],
   "title": "Strand",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "booli:6216013",
+   "hemnet:21764616"
+  ]
  },
- "hemnet:21765090": {
+ "vimmerby|skäfshult440|250": {
   "first_seen": "2026-09-17",
   "prices": [
    2500000
@@ -645,9 +756,11 @@
   ],
   "title": "Skäfshult 440",
   "kommun": "Vimmerby",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21765090"
+  ]
  },
- "hemnet:21764487": {
+ "ljungby|kärringeträdestorp1|270": {
   "first_seen": "2026-09-17",
   "prices": [
    2700000
@@ -657,9 +770,11 @@
   ],
   "title": "Kärringe Trädestorp 1",
   "kommun": "Ljungby",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21764487"
+  ]
  },
- "hemnet:21760635": {
+ "säffle|skoginorraed|265": {
   "first_seen": "2026-09-17",
   "prices": [
    2650000
@@ -669,9 +784,11 @@
   ],
   "title": "Skog i Norra Ed",
   "kommun": "Säffle",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21760635"
+  ]
  },
- "hemnet:21761841": {
+ "varberg|karlgustavsonås1|325": {
   "first_seen": "2026-09-17",
   "prices": [
    3250000
@@ -681,9 +798,11 @@
   ],
   "title": "Karl Gustav Sonås 1",
   "kommun": "Varberg",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21761841"
+  ]
  },
- "hemnet:21761494": {
+ "hultsfred|hultsfredhultsfred319mfl|140": {
   "first_seen": "2026-09-17",
   "prices": [
    1400000
@@ -693,9 +812,11 @@
   ],
   "title": "HULTSFRED HULTSFRED 3:19 m.fl.",
   "kommun": "Hultsfred",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21761494"
+  ]
  },
- "hemnet:21696707": {
+ "hylte|sjöbolwilhelmsgården1|260": {
   "first_seen": "2026-09-17",
   "prices": [
    2600000
@@ -705,9 +826,11 @@
   ],
   "title": "Sjöbol Wilhelmsgården 1",
   "kommun": "Hylte",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21696707"
+  ]
  },
- "hemnet:21753531": {
+ "årjäng|stommenmobacken1|230": {
   "first_seen": "2026-09-17",
   "prices": [
    2300000
@@ -717,9 +840,11 @@
   ],
   "title": "Stommen Mobacken 1",
   "kommun": "Årjäng",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21753531"
+  ]
  },
- "hemnet:21759461": {
+ "säffle|torstensbyntorerud|150": {
   "first_seen": "2026-09-17",
   "prices": [
    1500000
@@ -729,9 +854,11 @@
   ],
   "title": "Torstensbyn Torerud",
   "kommun": "Säffle",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21759461"
+  ]
  },
- "hemnet:21755800": {
+ "säffle|skogsfastighetilångserud70ha|360": {
   "first_seen": "2026-09-17",
   "prices": [
    3600000
@@ -741,21 +868,12 @@
   ],
   "title": "Skogsfastighet i Långserud, 70 ha",
   "kommun": "Säffle",
+  "ids": [
+   "hemnet:21755800"
+  ],
   "gone": "2026-09-20"
  },
- "hemnet:21750818": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2500000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Ryksdamm 280",
-  "kommun": "Ale",
-  "gone": "2026-09-20"
- },
- "hemnet:21750512": {
+ "säffle|norraskarbolenebacken|350": {
   "first_seen": "2026-09-17",
   "prices": [
    3500000
@@ -765,9 +883,11 @@
   ],
   "title": "Norra Skarbol Enebacken",
   "kommun": "Säffle",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21750512"
+  ]
  },
- "hemnet:21751622": {
+ "säffle|bäcken|190": {
   "first_seen": "2026-09-17",
   "prices": [
    1900000
@@ -777,9 +897,11 @@
   ],
   "title": "Bäcken",
   "kommun": "Säffle",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21751622"
+  ]
  },
- "hemnet:21750320": {
+ "askersund|svinnerstahögelund134|210": {
   "first_seen": "2026-09-17",
   "prices": [
    2100000
@@ -789,9 +911,11 @@
   ],
   "title": "Svinnersta Högelund 134",
   "kommun": "Askersund",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21750320"
+  ]
  },
- "hemnet:21750055": {
+ "mellerud|järnsbön|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -801,9 +925,11 @@
   ],
   "title": "Järns-Bön ",
   "kommun": "Mellerud",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21750055"
+  ]
  },
- "hemnet:21747865": {
+ "bengtsfors|ormansbyn17|190": {
   "first_seen": "2026-09-17",
   "prices": [
    1900000
@@ -813,9 +939,11 @@
   ],
   "title": "Ormansbyn 17",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21747865"
+  ]
  },
- "hemnet:21675603": {
+ "laholm|högarydsvägen32|210": {
   "first_seen": "2026-09-17",
   "prices": [
    2095000
@@ -825,9 +953,11 @@
   ],
   "title": "Högarydsvägen 32",
   "kommun": "Laholm",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21675603"
+  ]
  },
- "hemnet:21747460": {
+ "bengtsfors|södralundeklund|170": {
   "first_seen": "2026-09-17",
   "prices": [
    1700000
@@ -837,9 +967,11 @@
   ],
   "title": "Södra Lund Eklund",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21747460"
+  ]
  },
- "hemnet:21746665": {
+ "varberg|björnasväg1björnas|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4499000
@@ -849,9 +981,12 @@
   ],
   "title": "Björnas väg 1, Björnas",
   "kommun": "Varberg",
+  "ids": [
+   "hemnet:21746665"
+  ],
   "gone": "2026-09-20"
  },
- "hemnet:21741956": {
+ "alingsås|gennevedsvägen108|298": {
   "first_seen": "2026-09-17",
   "prices": [
    2975000
@@ -861,9 +996,11 @@
   ],
   "title": "Gennevedsvägen 108",
   "kommun": "Alingsås",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21741956"
+  ]
  },
- "hemnet:21742304": {
+ "årjäng|nybyggerud1|280": {
   "first_seen": "2026-09-17",
   "prices": [
    2800000
@@ -873,9 +1010,11 @@
   ],
   "title": "Nybyggerud 1",
   "kommun": "Årjäng",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21742304"
+  ]
  },
- "hemnet:21741877": {
+ "tidaholm|klämman8|280": {
   "first_seen": "2026-09-17",
   "prices": [
    2800000
@@ -885,9 +1024,12 @@
   ],
   "title": "Klämman 8",
   "kommun": "Tidaholm",
-  "gone": "2026-09-20"
+  "ids": [
+   "booli:6162749",
+   "hemnet:21741877"
+  ]
  },
- "hemnet:21740864": {
+ "bengtsfors|asslebynskarpa|380": {
   "first_seen": "2026-09-17",
   "prices": [
    3800000
@@ -897,9 +1039,11 @@
   ],
   "title": "Asslebyn Skarpa",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21740864"
+  ]
  },
- "hemnet:21738584": {
+ "markaryd|rishultsvägen|110": {
   "first_seen": "2026-09-17",
   "prices": [
    1100000
@@ -909,9 +1053,11 @@
   ],
   "title": "Rishultsvägen",
   "kommun": "Markaryd",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21738584"
+  ]
  },
- "hemnet:21738400": {
+ "bengtsfors|laxarbybacka|350": {
   "first_seen": "2026-09-17",
   "prices": [
    3500000
@@ -921,9 +1067,11 @@
   ],
   "title": "Laxarby-Backa",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21738400"
+  ]
  },
- "hemnet:21738327": {
+ "årjäng|svensbyn|250": {
   "first_seen": "2026-09-17",
   "prices": [
    2500000
@@ -933,9 +1081,11 @@
   ],
   "title": "Svensbyn",
   "kommun": "Årjäng",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21738327"
+  ]
  },
- "hemnet:21735807": {
+ "gislaved|kvarnaberget10|300": {
   "first_seen": "2026-09-17",
   "prices": [
    3000000
@@ -945,9 +1095,12 @@
   ],
   "title": "Kvarnaberget 10",
   "kommun": "Gislaved",
-  "gone": "2026-09-20"
+  "ids": [
+   "booli:6146845",
+   "hemnet:21735807"
+  ]
  },
- "hemnet:21734123": {
+ "vetlanda|näshultsvägen7|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -957,9 +1110,11 @@
   ],
   "title": "Näshultsvägen 7",
   "kommun": "Vetlanda",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21734123"
+  ]
  },
- "hemnet:21729254": {
+ "mark|törestorp5|490": {
   "first_seen": "2026-09-17",
   "prices": [
    4900000
@@ -969,9 +1124,11 @@
   ],
   "title": "Törestorp 5",
   "kommun": "Mark",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21729254"
+  ]
  },
- "hemnet:21726755": {
+ "hjo|svärtan11|445": {
   "first_seen": "2026-09-17",
   "prices": [
    4450000
@@ -981,9 +1138,12 @@
   ],
   "title": "Svärtan 11",
   "kommun": "Hjo",
+  "ids": [
+   "hemnet:21726755"
+  ],
   "gone": "2026-09-20"
  },
- "hemnet:21728392": {
+ "tranemo|månstadboda2|500": {
   "first_seen": "2026-09-17",
   "prices": [
    5000000
@@ -993,9 +1153,11 @@
   ],
   "title": "Månstad Boda 2",
   "kommun": "Tranemo",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21728392"
+  ]
  },
- "hemnet:21728408": {
+ "falkenberg|vräk|350": {
   "first_seen": "2026-09-17",
   "prices": [
    3500000
@@ -1005,9 +1167,11 @@
   ],
   "title": "Vräk",
   "kommun": "Falkenberg",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21728408"
+  ]
  },
- "hemnet:21727345": {
+ "hjo|målareskogen2|340": {
   "first_seen": "2026-09-17",
   "prices": [
    3400000
@@ -1017,9 +1181,11 @@
   ],
   "title": "Målareskogen 2",
   "kommun": "Hjo",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21727345"
+  ]
  },
- "hemnet:21722653": {
+ "årjäng|töcksmarksbön|425": {
   "first_seen": "2026-09-17",
   "prices": [
    4250000
@@ -1029,9 +1195,11 @@
   ],
   "title": "Töcksmarks-Bön",
   "kommun": "Årjäng",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21722653"
+  ]
  },
- "hemnet:21723977": {
+ "årjäng|stenslandaöstby1|180": {
   "first_seen": "2026-09-17",
   "prices": [
    1795000
@@ -1041,9 +1209,11 @@
   ],
   "title": "Stenslanda Östby 1",
   "kommun": "Årjäng",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21723977"
+  ]
  },
- "hemnet:21589055": {
+ "älmhult|abrahamsryd5|170": {
   "first_seen": "2026-09-17",
   "prices": [
    1695000
@@ -1053,9 +1223,11 @@
   ],
   "title": "Abrahamsryd 5",
   "kommun": "Älmhult",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21589055"
+  ]
  },
- "hemnet:21723936": {
+ "säffle|dottebolbråten|250": {
   "first_seen": "2026-09-17",
   "prices": [
    2495000
@@ -1065,9 +1237,11 @@
   ],
   "title": "Dottebol Bråten ",
   "kommun": "Säffle",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21723936"
+  ]
  },
- "hemnet:21695134": {
+ "älmhult|gölshult1339|300": {
   "first_seen": "2026-09-17",
   "prices": [
    3000000
@@ -1077,9 +1251,11 @@
   ],
   "title": "Gölshult 1339",
   "kommun": "Älmhult",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21695134"
+  ]
  },
- "hemnet:21692640": {
+ "älmhult|vashult4463|150": {
   "first_seen": "2026-09-17",
   "prices": [
    1500000
@@ -1089,9 +1265,11 @@
   ],
   "title": "Vashult 4463",
   "kommun": "Älmhult",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21692640"
+  ]
  },
- "hemnet:21690486": {
+ "vårgårda|hol271|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -1101,9 +1279,11 @@
   ],
   "title": "Hol 27:1",
   "kommun": "Vårgårda",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21690486"
+  ]
  },
- "hemnet:21688676": {
+ "ljungby|åbysäteri4|130": {
   "first_seen": "2026-09-17",
   "prices": [
    1300000
@@ -1113,9 +1293,12 @@
   ],
   "title": "Åby Säteri 4",
   "kommun": "Ljungby",
-  "gone": "2026-09-20"
+  "ids": [
+   "booli:6045149",
+   "hemnet:21688676"
+  ]
  },
- "hemnet:21675475": {
+ "ljungby|rydöstergård17|280": {
   "first_seen": "2026-09-17",
   "prices": [
    2798000
@@ -1125,9 +1308,11 @@
   ],
   "title": "Ryd Östergård 17",
   "kommun": "Ljungby",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21675475"
+  ]
  },
- "hemnet:21649951": {
+ "älmhult|prästgårdsvägen4|420": {
   "first_seen": "2026-09-17",
   "prices": [
    4200000
@@ -1137,9 +1322,11 @@
   ],
   "title": "Prästgårdsvägen 4",
   "kommun": "Älmhult",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21649951"
+  ]
  },
- "hemnet:21599369": {
+ "mark|sätilahede331|160": {
   "first_seen": "2026-09-17",
   "prices": [
    1600000
@@ -1149,9 +1336,11 @@
   ],
   "title": "Sätila-Hede 3:31",
   "kommun": "Mark",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21599369"
+  ]
  },
- "hemnet:21650845": {
+ "svenljunga|svenljungayttrebacka15113|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -1161,9 +1350,11 @@
   ],
   "title": "SVENLJUNGA YTTRE BACKA 1:5 & 1:13",
   "kommun": "Svenljunga",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21650845"
+  ]
  },
- "hemnet:21646614": {
+ "hultsfred|sönnerhultnerbyn2|250": {
   "first_seen": "2026-09-17",
   "prices": [
    2500000
@@ -1173,9 +1364,11 @@
   ],
   "title": "Sönnerhult Nerbyn 2",
   "kommun": "Hultsfred",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21646614"
+  ]
  },
- "hemnet:21638457": {
+ "laholm|killhult161|340": {
   "first_seen": "2026-09-17",
   "prices": [
    3400000
@@ -1185,9 +1378,11 @@
   ],
   "title": "Killhult 161",
   "kommun": "Laholm",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21638457"
+  ]
  },
- "hemnet:21632344": {
+ "bengtsfors|herrenäs|350": {
   "first_seen": "2026-09-17",
   "prices": [
    3500000
@@ -1197,9 +1392,11 @@
   ],
   "title": "Herrenäs",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21632344"
+  ]
  },
- "hemnet:21613749": {
+ "bengtsfors|bönsgård12|259": {
   "first_seen": "2026-09-17",
   "prices": [
    2590000
@@ -1209,9 +1406,11 @@
   ],
   "title": "Böns Gård 1&2",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21613749"
+  ]
  },
- "hemnet:21627862": {
+ "askersund|emme438|235": {
   "first_seen": "2026-09-17",
   "prices": [
    2350000
@@ -1221,9 +1420,11 @@
   ],
   "title": "Emme 438",
   "kommun": "Askersund",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21627862"
+  ]
  },
- "hemnet:21624611": {
+ "varberg|stamnared36|490": {
   "first_seen": "2026-09-17",
   "prices": [
    4900000
@@ -1233,9 +1434,12 @@
   ],
   "title": "Stamnared 36",
   "kommun": "Varberg",
-  "gone": "2026-09-20"
+  "ids": [
+   "booli:5909058",
+   "hemnet:21624611"
+  ]
  },
- "hemnet:21615577": {
+ "askersund|dunsjö240|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -1245,9 +1449,11 @@
   ],
   "title": "Dunsjö 240",
   "kommun": "Askersund",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21615577"
+  ]
  },
- "hemnet:21545732": {
+ "bengtsfors|södrabacken2|275": {
   "first_seen": "2026-09-17",
   "prices": [
    2750000
@@ -1257,9 +1463,11 @@
   ],
   "title": "Södra Backen 2",
   "kommun": "Bengtsfors",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21545732"
+  ]
  },
- "hemnet:21543455": {
+ "vimmerby|vimmerbyöstrahult13delav|400": {
   "first_seen": "2026-09-17",
   "prices": [
    3995000
@@ -1269,9 +1477,11 @@
   ],
   "title": "VIMMERBY ÖSTRAHULT 1:3 del av",
   "kommun": "Vimmerby",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21543455"
+  ]
  },
- "hemnet:19391342": {
+ "laxå|storamosshult6|500": {
   "first_seen": "2026-09-17",
   "prices": [
    4995000
@@ -1281,9 +1491,12 @@
   ],
   "title": "Stora Mosshult 6",
   "kommun": "Laxå",
-  "gone": "2026-09-20"
+  "ids": [
+   "booli:5344757",
+   "hemnet:19391342"
+  ]
  },
- "hemnet:18045316": {
+ "markaryd|snörsjö25|285": {
   "first_seen": "2026-09-17",
   "prices": [
    2850000
@@ -1293,9 +1506,11 @@
   ],
   "title": "Snörsjö 2:5",
   "kommun": "Markaryd",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:18045316"
+  ]
  },
- "booli:6271712": {
+ "varberg|gunnarsjögudmundared2|400": {
   "first_seen": "2026-09-17",
   "prices": [
    3999000
@@ -1304,9 +1519,12 @@
    "2026-09-17"
   ],
   "title": "Gunnarsjö Gudmundared 2",
-  "kommun": "Varberg"
+  "kommun": "Varberg",
+  "ids": [
+   "booli:6271712"
+  ]
  },
- "booli:6271027": {
+ "alvesta|elensås4|315": {
   "first_seen": "2026-09-17",
   "prices": [
    3150000
@@ -1315,9 +1533,12 @@
    "2026-09-17"
   ],
   "title": "Elensås 4",
-  "kommun": "Alvesta"
+  "kommun": "Alvesta",
+  "ids": [
+   "booli:6271027"
+  ]
  },
- "booli:6265788": {
+ "laholm|ingvarsbygget5|150": {
   "first_seen": "2026-09-17",
   "prices": [
    1500000
@@ -1326,9 +1547,12 @@
    "2026-09-17"
   ],
   "title": "Ingvarsbygget 5",
-  "kommun": "Laholm"
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6265788"
+  ]
  },
- "booli:6220980": {
+ "tranemo|soxbo1|195": {
   "first_seen": "2026-09-17",
   "prices": [
    1950000
@@ -1337,9 +1561,12 @@
    "2026-09-17"
   ],
   "title": "Soxbo 1",
-  "kommun": "Tranemo"
+  "kommun": "Tranemo",
+  "ids": [
+   "booli:6220980"
+  ]
  },
- "booli:6221166": {
+ "laholm|bölarpabacke1|255": {
   "first_seen": "2026-09-17",
   "prices": [
    2550000
@@ -1348,9 +1575,12 @@
    "2026-09-17"
   ],
   "title": "Bölarpabacke 1",
-  "kommun": "Laholm"
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6221166"
+  ]
  },
- "booli:6237422": {
+ "ale|uspastorp150|300": {
   "first_seen": "2026-09-17",
   "prices": [
    3000000
@@ -1359,9 +1589,12 @@
    "2026-09-17"
   ],
   "title": "Uspastorp 150",
-  "kommun": "Ale"
+  "kommun": "Ale",
+  "ids": [
+   "booli:6237422"
+  ]
  },
- "booli:6217633": {
+ "mellerud|hjortensfyrväg12|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -1370,9 +1603,12 @@
    "2026-09-17"
   ],
   "title": "Hjortens Fyrväg 12",
-  "kommun": "Mellerud"
+  "kommun": "Mellerud",
+  "ids": [
+   "booli:6217633"
+  ]
  },
- "booli:5872603": {
+ "älmhult|råshultnorregård47|250": {
   "first_seen": "2026-09-17",
   "prices": [
    2500000
@@ -1381,9 +1617,12 @@
    "2026-09-17"
   ],
   "title": "Råshult Norregård 47",
-  "kommun": "Älmhult"
+  "kommun": "Älmhult",
+  "ids": [
+   "booli:5872603"
+  ]
  },
- "booli:6078955": {
+ "lilla edet|lekvall241|380": {
   "first_seen": "2026-09-17",
   "prices": [
    3800000
@@ -1392,9 +1631,12 @@
    "2026-09-17"
   ],
   "title": "Lekvall 241",
-  "kommun": "Lilla Edet"
+  "kommun": "Lilla Edet",
+  "ids": [
+   "booli:6078955"
+  ]
  },
- "booli:6231490": {
+ "laholm|södraskogaby120|487": {
   "first_seen": "2026-09-17",
   "prices": [
    4870000
@@ -1403,9 +1645,12 @@
    "2026-09-17"
   ],
   "title": "Södra Skogaby 120",
-  "kommun": "Laholm"
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6231490"
+  ]
  },
- "booli:6118759": {
+ "hylte|baskered110|112": {
   "first_seen": "2026-09-17",
   "prices": [
    1125000
@@ -1414,9 +1659,12 @@
    "2026-09-17"
   ],
   "title": "Baskered 110",
-  "kommun": "Hylte"
+  "kommun": "Hylte",
+  "ids": [
+   "booli:6118759"
+  ]
  },
- "booli:6208001": {
+ "bengtsfors|stategen2|385": {
   "first_seen": "2026-09-17",
   "prices": [
    3850000
@@ -1425,9 +1673,12 @@
    "2026-09-17"
   ],
   "title": "Stategen 2",
-  "kommun": "Bengtsfors"
+  "kommun": "Bengtsfors",
+  "ids": [
+   "booli:6208001"
+  ]
  },
- "booli:6255187": {
+ "alingsås|gennevedsvägen108|450": {
   "first_seen": "2026-09-17",
   "prices": [
    4500000
@@ -1436,9 +1687,12 @@
    "2026-09-17"
   ],
   "title": "Gennevedsvägen 108",
-  "kommun": "Alingsås"
+  "kommun": "Alingsås",
+  "ids": [
+   "booli:6255187"
+  ]
  },
- "booli:6184995": {
+ "hylte|bexet202|418": {
   "first_seen": "2026-09-17",
   "prices": [
    4175000
@@ -1447,9 +1701,12 @@
    "2026-09-17"
   ],
   "title": "Bexet 202",
-  "kommun": "Hylte"
+  "kommun": "Hylte",
+  "ids": [
+   "booli:6184995"
+  ]
  },
- "booli:6089402": {
+ "ulricehamn|tvärredsrydet102|170": {
   "first_seen": "2026-09-17",
   "prices": [
    1700000
@@ -1458,9 +1715,12 @@
    "2026-09-17"
   ],
   "title": "Tvärreds Rydet 102",
-  "kommun": "Ulricehamn"
+  "kommun": "Ulricehamn",
+  "ids": [
+   "booli:6089402"
+  ]
  },
- "booli:None": {
+ "hylte|halarna103|130": {
   "first_seen": "2026-09-17",
   "prices": [
    2908000,
@@ -1512,20 +1772,12 @@
   ],
   "title": "Halarna 103",
   "kommun": "Hylte",
-  "gone": "2026-09-17"
+  "gone": "2026-09-17",
+  "ids": [
+   "booli:None"
+  ]
  },
- "booli:6250239": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3295000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Västra Mo 6",
-  "kommun": "Sävsjö"
- },
- "booli:6247955": {
+ "tibro|kroppetorpmatildero1|200": {
   "first_seen": "2026-09-17",
   "prices": [
    1995000
@@ -1534,9 +1786,12 @@
    "2026-09-17"
   ],
   "title": "Kroppetorp Matildero 1",
-  "kommun": "Tibro"
+  "kommun": "Tibro",
+  "ids": [
+   "booli:6247955"
+  ]
  },
- "booli:6130046": {
+ "bengtsfors|ärtemarksbön14|375": {
   "first_seen": "2026-09-17",
   "prices": [
    3750000
@@ -1545,9 +1800,12 @@
    "2026-09-17"
   ],
   "title": "Ärtemarks-Bön 14",
-  "kommun": "Bengtsfors"
+  "kommun": "Bengtsfors",
+  "ids": [
+   "booli:6130046"
+  ]
  },
- "booli:6240295": {
+ "vaggeryd|basseberglilla1|200": {
   "first_seen": "2026-09-17",
   "prices": [
    1995000
@@ -1556,9 +1814,12 @@
    "2026-09-17"
   ],
   "title": "Basseberg Lilla 1",
-  "kommun": "Vaggeryd"
+  "kommun": "Vaggeryd",
+  "ids": [
+   "booli:6240295"
+  ]
  },
- "booli:6129570": {
+ "markaryd|gräsholma1517|160": {
   "first_seen": "2026-09-17",
   "prices": [
    1600000
@@ -1567,9 +1828,12 @@
    "2026-09-17"
   ],
   "title": "Gräsholma 1517",
-  "kommun": "Markaryd"
+  "kommun": "Markaryd",
+  "ids": [
+   "booli:6129570"
+  ]
  },
- "booli:6112124": {
+ "mark|byslättsvägen4|300": {
   "first_seen": "2026-09-17",
   "prices": [
    3000000
@@ -1578,9 +1842,12 @@
    "2026-09-17"
   ],
   "title": "Byslättsvägen 4",
-  "kommun": "Mark"
+  "kommun": "Mark",
+  "ids": [
+   "booli:6112124"
+  ]
  },
- "booli:5957786": {
+ "ulricehamn|fästeredssundlövkullen177|425": {
   "first_seen": "2026-09-17",
   "prices": [
    4250000
@@ -1589,9 +1856,12 @@
    "2026-09-17"
   ],
   "title": "Fästeredssund Lövkullen 177",
-  "kommun": "Ulricehamn"
+  "kommun": "Ulricehamn",
+  "ids": [
+   "booli:5957786"
+  ]
  },
- "booli:5894307": {
+ "värnamo|granstalidahultet1|120": {
   "first_seen": "2026-09-17",
   "prices": [
    1200000
@@ -1600,9 +1870,12 @@
    "2026-09-17"
   ],
   "title": "Granstalida Hultet 1",
-  "kommun": "Värnamo"
+  "kommun": "Värnamo",
+  "ids": [
+   "booli:5894307"
+  ]
  },
- "booli:6235058": {
+ "laholm|trälshult73|190": {
   "first_seen": "2026-09-17",
   "prices": [
    1895000
@@ -1611,9 +1884,12 @@
    "2026-09-17"
   ],
   "title": "Trälshult 73",
-  "kommun": "Laholm"
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6235058"
+  ]
  },
- "booli:6234936": {
+ "årjäng|västravikervikebo1|320": {
   "first_seen": "2026-09-17",
   "prices": [
    3200000
@@ -1622,9 +1898,12 @@
    "2026-09-17"
   ],
   "title": "Västra Viker Vikebo 1",
-  "kommun": "Årjäng"
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6234936"
+  ]
  },
- "booli:6148170": {
+ "ljungby|övrebohult1|110": {
   "first_seen": "2026-09-17",
   "prices": [
    1100000
@@ -1633,9 +1912,12 @@
    "2026-09-17"
   ],
   "title": "Övre Bohult 1",
-  "kommun": "Ljungby"
+  "kommun": "Ljungby",
+  "ids": [
+   "booli:6148170"
+  ]
  },
- "booli:5962778": {
+ "mark|haga1|440": {
   "first_seen": "2026-09-17",
   "prices": [
    4400000
@@ -1644,9 +1926,12 @@
    "2026-09-17"
   ],
   "title": "Haga 1",
-  "kommun": "Mark"
+  "kommun": "Mark",
+  "ids": [
+   "booli:5962778"
+  ]
  },
- "booli:6228666": {
+ "markaryd|mjäryd1297|250": {
   "first_seen": "2026-09-17",
   "prices": [
    2500000
@@ -1655,9 +1940,12 @@
    "2026-09-17"
   ],
   "title": "Mjäryd 1297",
-  "kommun": "Markaryd"
+  "kommun": "Markaryd",
+  "ids": [
+   "booli:6228666"
+  ]
  },
- "booli:5911265": {
+ "svenljunga|ullasjöskepphultmyrledet1|280": {
   "first_seen": "2026-09-17",
   "prices": [
    2800000
@@ -1666,9 +1954,12 @@
    "2026-09-17"
   ],
   "title": "Ullasjö Skepphult Myrledet 1",
-  "kommun": "Svenljunga"
+  "kommun": "Svenljunga",
+  "ids": [
+   "booli:5911265"
+  ]
  },
- "booli:6217979": {
+ "vaggeryd|adresssaknas|460": {
   "first_seen": "2026-09-17",
   "prices": [
    4600000
@@ -1677,9 +1968,12 @@
    "2026-09-17"
   ],
   "title": "Adress saknas",
-  "kommun": "Vaggeryd"
+  "kommun": "Vaggeryd",
+  "ids": [
+   "booli:6217979"
+  ]
  },
- "booli:6136141": {
+ "årjäng|hjällensödraängen1|250": {
   "first_seen": "2026-09-17",
   "prices": [
    2500000
@@ -1688,655 +1982,12 @@
    "2026-09-17"
   ],
   "title": "Hjällen Södra Ängen 1",
-  "kommun": "Årjäng"
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6136141"
+  ]
  },
- "booli:6216013": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4800000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Strand",
-  "kommun": "Bengtsfors"
- },
- "booli:6162110": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2700000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Klägghult 2",
-  "kommun": "Svenljunga"
- },
- "booli:6200964": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2995000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Ramsjön 111A-B",
-  "kommun": "Laholm"
- },
- "booli:6200324": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4999000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Stamnared 106",
-  "kommun": "Varberg"
- },
- "booli:6136231": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1850000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Kilane 501",
-  "kommun": "Åmål"
- },
- "booli:6132467": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3200000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Björsgård 1",
-  "kommun": "Laxå"
- },
- "booli:6045173": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1700000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Nästebacka",
-  "kommun": "Årjäng"
- },
- "booli:6196231": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4295000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Abrahamsryd 5",
-  "kommun": "Älmhult"
- },
- "booli:6172695": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4995000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Bästerna Bokehult 1",
-  "kommun": "Alvesta"
- },
- "booli:6188277": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3850000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Slättö Lunden 1",
-  "kommun": "Sävsjö"
- },
- "booli:6170058": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4750000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Skepplandavägen 14",
-  "kommun": "Ale"
- },
- "booli:6171560": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1200000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Gunnarstorp Nolgården 18",
-  "kommun": "Gullspång"
- },
- "booli:6175339": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3300000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Bastås Sjöviken 1",
-  "kommun": "Vårgårda"
- },
- "booli:6170293": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4700000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Kettilsbyn",
-  "kommun": "Säffle"
- },
- "booli:6162749": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2800000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Klämman 8",
-  "kommun": "Tidaholm"
- },
- "booli:5982145": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2900000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Lena Rosengården",
-  "kommun": "Vårgårda"
- },
- "booli:6137590": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3500000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Skogsfastighet i Kinnared",
-  "kommun": "Hylte"
- },
- "booli:6154665": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3900000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Gennevedsvägen 108",
-  "kommun": "Alingsås"
- },
- "booli:4957920": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1695000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Sundsmarken Håbergsledet 1",
-  "kommun": "Mariestad"
- },
- "booli:6146845": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3000000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Kvarnaberget 10",
-  "kommun": "Gislaved"
- },
- "booli:6184285": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4600000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Hössna Grytåsen 101",
-  "kommun": "Ulricehamn"
- },
- "booli:6157858": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2400000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Äspenäs 17",
-  "kommun": "Bengtsfors"
- },
- "booli:6136984": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2500000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Backen 8",
-  "kommun": "Gullspång"
- },
- "booli:6118803": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3300000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Ryd 7",
-  "kommun": "Sävsjö"
- },
- "booli:6114701": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Gettrabo 3",
-  "kommun": "Vaggeryd"
- },
- "booli:5827656": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2375000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Stora Ostabygd 3",
-  "kommun": "Tidaholm"
- },
- "booli:6170614": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1900000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Eneryda Ronnstorp 1",
-  "kommun": "Älmhult"
- },
- "booli:6146890": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2310000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Hämnäs Åmot 1",
-  "kommun": "Årjäng"
- },
- "booli:6085312": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3750000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Tidavad Blackgården 4",
-  "kommun": "Mariestad"
- },
- "booli:6045149": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1300000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Åby Säteri 4",
-  "kommun": "Ljungby"
- },
- "booli:6198624": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3995000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Millebygden Åraslöv 30",
-  "kommun": "Älmhult"
- },
- "booli:6165970": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3400000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Skrädene Ögårdarna 1",
-  "kommun": "Årjäng"
- },
- "booli:6156039": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2300000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Kymbo Ekelund 1",
-  "kommun": "Tidaholm"
- },
- "booli:6155006": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2250000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Gråbol Tomta 1",
-  "kommun": "Årjäng"
- },
- "booli:6156608": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Älebäcken 1",
-  "kommun": "Karlsborg"
- },
- "booli:5961037": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4700000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Strömsbergsgatan 23",
-  "kommun": "Åmål"
- },
- "booli:5914567": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2995000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Hultet Fridkulla",
-  "kommun": "Mark"
- },
- "booli:6063969": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4050000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Handbynäs Stenkullen 1",
-  "kommun": "Svenljunga"
- },
- "booli:6135310": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1350000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Gastorp Nyholm 1",
-  "kommun": "Eksjö"
- },
- "booli:5909058": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4900000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Stamnared 36",
-  "kommun": "Varberg"
- },
- "booli:6151827": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2200000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Illesäter 3",
-  "kommun": "Färgelanda"
- },
- "booli:5739979": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1295000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Boda Nytorp 18",
-  "kommun": "Töreboda"
- },
- "booli:5699238": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3475000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Kraksbyn 301",
-  "kommun": "Åmål",
-  "gone": "2026-09-17"
- },
- "booli:5961228": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2212000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Slageryd Västergård 2",
-  "kommun": "Vetlanda"
- },
- "booli:6079958": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2150000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Kolvarp Valens 1",
-  "kommun": "Värnamo"
- },
- "booli:5344757": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4995000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Stora Mosshult 6",
-  "kommun": "Laxå"
- },
- "booli:5957586": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2900000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Östadkulle Björkelund 1",
-  "kommun": "Vårgårda"
- },
- "booli:5957800": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1875000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Ressbyn 101",
-  "kommun": "Åmål"
- },
- "booli:6081985": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2985000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Magravägen 83",
-  "kommun": "Alingsås",
-  "gone": "2026-09-20"
- },
- "booli:6159248": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3300000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Skog i Torserud",
-  "kommun": "Säffle",
-  "gone": "2026-09-20"
- },
- "hemnet:21765522": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3995000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Bredsäter Svaneberg 1",
-  "kommun": "Mariestad",
-  "gone": "2026-09-20"
- },
- "hemnet:21482745": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2995000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Högalid 31",
-  "kommun": "Tranemo",
-  "gone": "2026-09-20"
- },
- "hemnet:21736564": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1995000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Backa Backadal 1",
-  "kommun": "Mark",
-  "gone": "2026-09-20"
- },
- "hemnet:21602269": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Siggaboda 2",
-  "kommun": "Älmhult",
-  "gone": "2026-09-20"
- },
- "hemnet:21528467": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3475000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Kraksbyn 301",
-  "kommun": "Åmål",
-  "gone": "2026-09-20"
- },
- "booli:6215766": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2330000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Särestad Norakull 215",
-  "kommun": "Falkenberg"
- },
- "booli:6220417": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3600000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Horla Storsjövik 1",
-  "kommun": "Vårgårda"
- },
- "booli:6200211": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2000000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Södra Böle 110",
-  "kommun": "Dals-Ed"
- },
- "booli:6212333": {
+ "svenljunga|klägghult2|270": {
   "first_seen": "2026-09-17",
   "prices": [
    2700000
@@ -2346,9 +1997,715 @@
   ],
   "title": "Klägghult 2",
   "kommun": "Svenljunga",
-  "gone": "2026-09-18"
+  "ids": [
+   "booli:6162110",
+   "booli:6212333"
+  ]
  },
- "booli:6084899": {
+ "laholm|ramsjön111ab|300": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Ramsjön 111A-B",
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6200964"
+  ]
+ },
+ "varberg|stamnared106|500": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4999000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Stamnared 106",
+  "kommun": "Varberg",
+  "ids": [
+   "booli:6200324"
+  ]
+ },
+ "åmål|kilane501|185": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1850000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Kilane 501",
+  "kommun": "Åmål",
+  "ids": [
+   "booli:6136231"
+  ]
+ },
+ "laxå|björsgård1|320": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3200000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Björsgård 1",
+  "kommun": "Laxå",
+  "ids": [
+   "booli:6132467"
+  ]
+ },
+ "årjäng|nästebacka|170": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1700000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Nästebacka",
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6045173"
+  ]
+ },
+ "älmhult|abrahamsryd5|430": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4295000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Abrahamsryd 5",
+  "kommun": "Älmhult",
+  "ids": [
+   "booli:6196231"
+  ]
+ },
+ "alvesta|bästernabokehult1|500": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Bästerna Bokehult 1",
+  "kommun": "Alvesta",
+  "ids": [
+   "booli:6172695"
+  ]
+ },
+ "sävsjö|slättölunden1|385": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3850000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Slättö Lunden 1",
+  "kommun": "Sävsjö",
+  "ids": [
+   "booli:6188277"
+  ]
+ },
+ "ale|skepplandavägen14|475": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4750000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Skepplandavägen 14",
+  "kommun": "Ale",
+  "ids": [
+   "booli:6170058"
+  ]
+ },
+ "gullspång|gunnarstorpnolgården18|120": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1200000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Gunnarstorp Nolgården 18",
+  "kommun": "Gullspång",
+  "ids": [
+   "booli:6171560"
+  ]
+ },
+ "vårgårda|baståssjöviken1|330": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3300000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Bastås Sjöviken 1",
+  "kommun": "Vårgårda",
+  "ids": [
+   "booli:6175339"
+  ]
+ },
+ "säffle|kettilsbyn|470": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4700000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Kettilsbyn",
+  "kommun": "Säffle",
+  "ids": [
+   "booli:6170293"
+  ]
+ },
+ "vårgårda|lenarosengården|290": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2900000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Lena Rosengården",
+  "kommun": "Vårgårda",
+  "ids": [
+   "booli:5982145"
+  ]
+ },
+ "hylte|skogsfastighetikinnared|350": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3500000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Skogsfastighet i Kinnared",
+  "kommun": "Hylte",
+  "ids": [
+   "booli:6137590"
+  ]
+ },
+ "alingsås|gennevedsvägen108|390": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3900000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Gennevedsvägen 108",
+  "kommun": "Alingsås",
+  "ids": [
+   "booli:6154665"
+  ]
+ },
+ "mariestad|sundsmarkenhåbergsledet1|170": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1695000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Sundsmarken Håbergsledet 1",
+  "kommun": "Mariestad",
+  "ids": [
+   "booli:4957920"
+  ]
+ },
+ "ulricehamn|hössnagrytåsen101|460": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4600000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Hössna Grytåsen 101",
+  "kommun": "Ulricehamn",
+  "ids": [
+   "booli:6184285"
+  ]
+ },
+ "bengtsfors|äspenäs17|240": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2400000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Äspenäs 17",
+  "kommun": "Bengtsfors",
+  "ids": [
+   "booli:6157858"
+  ]
+ },
+ "gullspång|backen8|250": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2500000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Backen 8",
+  "kommun": "Gullspång",
+  "ids": [
+   "booli:6136984"
+  ]
+ },
+ "sävsjö|ryd7|330": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3300000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Ryd 7",
+  "kommun": "Sävsjö",
+  "ids": [
+   "booli:6118803"
+  ]
+ },
+ "vaggeryd|gettrabo3|450": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4500000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Gettrabo 3",
+  "kommun": "Vaggeryd",
+  "ids": [
+   "booli:6114701"
+  ]
+ },
+ "tidaholm|storaostabygd3|238": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2375000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Stora Ostabygd 3",
+  "kommun": "Tidaholm",
+  "ids": [
+   "booli:5827656"
+  ]
+ },
+ "älmhult|enerydaronnstorp1|190": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1900000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Eneryda Ronnstorp 1",
+  "kommun": "Älmhult",
+  "ids": [
+   "booli:6170614"
+  ]
+ },
+ "årjäng|hämnäsåmot1|231": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2310000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Hämnäs Åmot 1",
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6146890"
+  ]
+ },
+ "mariestad|tidavadblackgården4|375": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3750000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Tidavad Blackgården 4",
+  "kommun": "Mariestad",
+  "ids": [
+   "booli:6085312"
+  ]
+ },
+ "älmhult|millebygdenåraslöv30|400": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Millebygden Åraslöv 30",
+  "kommun": "Älmhult",
+  "ids": [
+   "booli:6198624"
+  ]
+ },
+ "årjäng|skrädeneögårdarna1|340": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3400000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Skrädene Ögårdarna 1",
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6165970"
+  ]
+ },
+ "tidaholm|kymboekelund1|230": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2300000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Kymbo Ekelund 1",
+  "kommun": "Tidaholm",
+  "ids": [
+   "booli:6156039"
+  ]
+ },
+ "årjäng|gråboltomta1|225": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2250000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Gråbol Tomta 1",
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6155006"
+  ]
+ },
+ "karlsborg|älebäcken1|450": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4500000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Älebäcken 1",
+  "kommun": "Karlsborg",
+  "ids": [
+   "booli:6156608"
+  ]
+ },
+ "åmål|strömsbergsgatan23|470": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4700000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Strömsbergsgatan 23",
+  "kommun": "Åmål",
+  "ids": [
+   "booli:5961037"
+  ]
+ },
+ "mark|hultetfridkulla|300": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Hultet Fridkulla",
+  "kommun": "Mark",
+  "ids": [
+   "booli:5914567"
+  ]
+ },
+ "svenljunga|handbynässtenkullen1|405": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4050000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Handbynäs Stenkullen 1",
+  "kommun": "Svenljunga",
+  "ids": [
+   "booli:6063969"
+  ]
+ },
+ "eksjö|gastorpnyholm1|135": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1350000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Gastorp Nyholm 1",
+  "kommun": "Eksjö",
+  "ids": [
+   "booli:6135310"
+  ]
+ },
+ "färgelanda|illesäter3|220": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2200000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Illesäter 3",
+  "kommun": "Färgelanda",
+  "ids": [
+   "booli:6151827"
+  ]
+ },
+ "töreboda|bodanytorp18|130": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1295000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Boda Nytorp 18",
+  "kommun": "Töreboda",
+  "ids": [
+   "booli:5739979"
+  ]
+ },
+ "åmål|kraksbyn301|348": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3475000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Kraksbyn 301",
+  "kommun": "Åmål",
+  "ids": [
+   "booli:5699238",
+   "hemnet:21528467"
+  ]
+ },
+ "vetlanda|slagerydvästergård2|221": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2212000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Slageryd Västergård 2",
+  "kommun": "Vetlanda",
+  "ids": [
+   "booli:5961228"
+  ]
+ },
+ "värnamo|kolvarpvalens1|215": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2150000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Kolvarp Valens 1",
+  "kommun": "Värnamo",
+  "ids": [
+   "booli:6079958"
+  ]
+ },
+ "vårgårda|östadkullebjörkelund1|290": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2900000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Östadkulle Björkelund 1",
+  "kommun": "Vårgårda",
+  "ids": [
+   "booli:5957586"
+  ]
+ },
+ "åmål|ressbyn101|188": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1875000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Ressbyn 101",
+  "kommun": "Åmål",
+  "ids": [
+   "booli:5957800"
+  ]
+ },
+ "alingsås|magravägen83|298": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2985000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Magravägen 83",
+  "kommun": "Alingsås",
+  "ids": [
+   "booli:6081985"
+  ],
+  "gone": "2026-09-20"
+ },
+ "säffle|skogitorserud|330": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3300000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Skog i Torserud",
+  "kommun": "Säffle",
+  "ids": [
+   "booli:6159248"
+  ],
+  "gone": "2026-09-20"
+ },
+ "mariestad|bredsätersvaneberg1|400": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Bredsäter Svaneberg 1",
+  "kommun": "Mariestad",
+  "ids": [
+   "hemnet:21765522"
+  ]
+ },
+ "tranemo|högalid31|300": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Högalid 31",
+  "kommun": "Tranemo",
+  "ids": [
+   "hemnet:21482745"
+  ]
+ },
+ "mark|backabackadal1|200": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1995000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Backa Backadal 1",
+  "kommun": "Mark",
+  "ids": [
+   "hemnet:21736564"
+  ]
+ },
+ "älmhult|siggaboda2|450": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4500000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Siggaboda 2",
+  "kommun": "Älmhult",
+  "ids": [
+   "hemnet:21602269"
+  ]
+ },
+ "falkenberg|särestadnorakull215|233": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2330000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Särestad Norakull 215",
+  "kommun": "Falkenberg",
+  "ids": [
+   "booli:6215766"
+  ]
+ },
+ "vårgårda|horlastorsjövik1|360": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3600000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Horla Storsjövik 1",
+  "kommun": "Vårgårda",
+  "ids": [
+   "booli:6220417"
+  ]
+ },
+ "dals-ed|södraböle110|200": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2000000
+  ],
+  "price_dates": [
+   "2026-09-17"
+  ],
+  "title": "Södra Böle 110",
+  "kommun": "Dals-Ed",
+  "ids": [
+   "booli:6200211"
+  ]
+ },
+ "vimmerby|östantorp142|125": {
   "first_seen": "2026-09-17",
   "prices": [
    1250000
@@ -2357,9 +2714,12 @@
    "2026-09-17"
   ],
   "title": "Östantorp 142",
-  "kommun": "Vimmerby"
+  "kommun": "Vimmerby",
+  "ids": [
+   "booli:6084899"
+  ]
  },
- "booli:6177425": {
+ "gullspång|esshulta|350": {
   "first_seen": "2026-09-17",
   "prices": [
    3500000
@@ -2368,9 +2728,12 @@
    "2026-09-17"
   ],
   "title": "Esshulta",
-  "kommun": "Gullspång"
+  "kommun": "Gullspång",
+  "ids": [
+   "booli:6177425"
+  ]
  },
- "booli:6132250": {
+ "bengtsfors|fjällkasängen|230": {
   "first_seen": "2026-09-17",
   "prices": [
    2300000
@@ -2379,9 +2742,12 @@
    "2026-09-17"
   ],
   "title": "Fjäll Kasängen",
-  "kommun": "Bengtsfors"
+  "kommun": "Bengtsfors",
+  "ids": [
+   "booli:6132250"
+  ]
  },
- "booli:6152399": {
+ "årjäng|korsbynsand1|270": {
   "first_seen": "2026-09-17",
   "prices": [
    2700000
@@ -2390,9 +2756,12 @@
    "2026-09-17"
   ],
   "title": "Korsbyn Sand 1",
-  "kommun": "Årjäng"
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6152399"
+  ]
  },
- "booli:6087887": {
+ "tranemo|blåsutvägen24|395": {
   "first_seen": "2026-09-17",
   "prices": [
    3950000
@@ -2401,9 +2770,12 @@
    "2026-09-17"
   ],
   "title": "Blåsutvägen 24",
-  "kommun": "Tranemo"
+  "kommun": "Tranemo",
+  "ids": [
+   "booli:6087887"
+  ]
  },
- "booli:6132635": {
+ "laholm|ränneslövsängar222|420": {
   "first_seen": "2026-09-17",
   "prices": [
    4200000
@@ -2412,9 +2784,12 @@
    "2026-09-17"
   ],
   "title": "Ränneslövs Ängar 222",
-  "kommun": "Laholm"
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6132635"
+  ]
  },
- "booli:5687693": {
+ "älmhult|boastad120|500": {
   "first_seen": "2026-09-17",
   "prices": [
    4995000
@@ -2423,9 +2798,12 @@
    "2026-09-17"
   ],
   "title": "Boastad 120",
-  "kommun": "Älmhult"
+  "kommun": "Älmhult",
+  "ids": [
+   "booli:5687693"
+  ]
  },
- "booli:6102563": {
+ "älmhult|krampanäs2|480": {
   "first_seen": "2026-09-17",
   "prices": [
    4800000
@@ -2434,9 +2812,12 @@
    "2026-09-17"
   ],
   "title": "Krampanäs 2",
-  "kommun": "Älmhult"
+  "kommun": "Älmhult",
+  "ids": [
+   "booli:6102563"
+  ]
  },
- "booli:5521889": {
+ "hylte|lockabäckströmsberg|128": {
   "first_seen": "2026-09-17",
   "prices": [
    1275000
@@ -2445,9 +2826,12 @@
    "2026-09-17"
   ],
   "title": "Lockabäck Strömsberg",
-  "kommun": "Hylte"
+  "kommun": "Hylte",
+  "ids": [
+   "booli:5521889"
+  ]
  },
- "booli:6012355": {
+ "årjäng|hämnäsåmot1|200": {
   "first_seen": "2026-09-17",
   "prices": [
    2000000
@@ -2456,9 +2840,12 @@
    "2026-09-17"
   ],
   "title": "Hämnäs Åmot 1",
-  "kommun": "Årjäng"
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6012355"
+  ]
  },
- "booli:6073751": {
+ "gislaved|sålhultsgård|400": {
   "first_seen": "2026-09-17",
   "prices": [
    4000000
@@ -2467,9 +2854,12 @@
    "2026-09-17"
   ],
   "title": "Sålhults Gård",
-  "kommun": "Gislaved"
+  "kommun": "Gislaved",
+  "ids": [
+   "booli:6073751"
+  ]
  },
- "booli:6017613": {
+ "vårgårda|postvägen32|470": {
   "first_seen": "2026-09-17",
   "prices": [
    4700000
@@ -2478,9 +2868,12 @@
    "2026-09-17"
   ],
   "title": "Postvägen 32",
-  "kommun": "Vårgårda"
+  "kommun": "Vårgårda",
+  "ids": [
+   "booli:6017613"
+  ]
  },
- "hemnet:21774193": {
+ "vetlanda|lillahillhult16|170": {
   "first_seen": "2026-09-18",
   "prices": [
    1695000
@@ -2490,9 +2883,11 @@
   ],
   "title": "Lilla Hillhult 16",
   "kommun": "Vetlanda",
-  "gone": "2026-09-20"
+  "ids": [
+   "hemnet:21774193"
+  ]
  },
- "booli:6270854": {
+ "mark|björkesbackabäckaskog|400": {
   "first_seen": "2026-09-18",
   "prices": [
    3995000
@@ -2501,9 +2896,212 @@
    "2026-09-18"
   ],
   "title": "Björkesbacka Bäckaskog",
-  "kommun": "Mark"
+  "kommun": "Mark",
+  "ids": [
+   "booli:6270854"
+  ]
  },
- "booli:6216308": {
+ "färgelanda|milleryr10|340": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   3400000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Milleryr 10",
+  "kommun": "Färgelanda",
+  "ids": [
+   "booli:6066376"
+  ]
+ },
+ "säffle|hallandasörmon|135": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   1350000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Hallanda Sörmon",
+  "kommun": "Säffle",
+  "ids": [
+   "booli:6170048"
+  ],
+  "gone": "2026-09-20"
+ },
+ "laholm|östralånghultsbyggetklaragården|300": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   2995000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Östra Långhultsbygget Klaragården",
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6127191"
+  ],
+  "gone": "2026-09-20"
+ },
+ "bengtsfors|härsbynpunkten|288": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   2875000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Härsbyn Punkten",
+  "kommun": "Bengtsfors",
+  "ids": [
+   "booli:6149284"
+  ]
+ },
+ "mark|trantorpramnhult|390": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   3900000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Trantorp Ramnhult",
+  "kommun": "Mark",
+  "ids": [
+   "booli:6056274"
+  ]
+ },
+ "bengtsfors|sidan3230|240": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   2400000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Sidan 3:230",
+  "kommun": "Bengtsfors",
+  "ids": [
+   "booli:6085171"
+  ]
+ },
+ "varberg|valingegrunnarp1|295": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   2950000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Valinge Grunnarp 1",
+  "kommun": "Varberg",
+  "ids": [
+   "booli:6016943"
+  ]
+ },
+ "töreboda|ängafallet10|298": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   2975000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Ängafallet 10",
+  "kommun": "Töreboda",
+  "ids": [
+   "booli:6021271"
+  ]
+ },
+ "töreboda|habelsbolet117|310": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   3100000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Habelsbolet 1:17",
+  "kommun": "Töreboda",
+  "ids": [
+   "booli:5861175"
+  ]
+ },
+ "årjäng|karlandakorsbyn|405": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   4050000
+  ],
+  "price_dates": [
+   "2026-09-18"
+  ],
+  "title": "Karlanda-Korsbyn",
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6000361"
+  ]
+ },
+ "ale|ryksdamm280|210": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2500000,
+   2095000
+  ],
+  "price_dates": [
+   "2026-09-17",
+   "2026-09-20"
+  ],
+  "title": "Ryksdamm 280",
+  "kommun": "Ale",
+  "ids": [
+   "hemnet:21750818"
+  ]
+ },
+ "askersund|stimmerkulla801|370": {
+  "first_seen": "2026-09-20",
+  "prices": [
+   3700000
+  ],
+  "price_dates": [
+   "2026-09-20"
+  ],
+  "title": "Stimmerkulla 801",
+  "kommun": "Askersund",
+  "ids": [
+   "hemnet:21790844"
+  ]
+ },
+ "markaryd|tuthult1535|275": {
+  "first_seen": "2026-09-20",
+  "prices": [
+   2750000
+  ],
+  "price_dates": [
+   "2026-09-20"
+  ],
+  "title": "Tuthult 1535",
+  "kommun": "Markaryd",
+  "ids": [
+   "hemnet:21790064"
+  ]
+ },
+ "vaggeryd|fastorp|425": {
+  "first_seen": "2026-09-20",
+  "prices": [
+   4250000
+  ],
+  "price_dates": [
+   "2026-09-20"
+  ],
+  "title": "Fastorp ",
+  "kommun": "Vaggeryd",
+  "ids": [
+   "hemnet:21790270"
+  ]
+ },
+ "alingsås|ödenäsmellomgården426|480": {
   "first_seen": "2026-09-18",
   "prices": [
    4750000,
@@ -2514,913 +3112,12 @@
    "2026-09-20"
   ],
   "title": "Ödenäs Mellomgården 426",
-  "kommun": "Alingsås"
- },
- "booli:6066376": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   3400000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Milleryr 10",
-  "kommun": "Färgelanda"
- },
- "booli:6177972": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   4300000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Grönlanda 8",
-  "kommun": "Färgelanda"
- },
- "booli:6170048": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   1350000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Hallanda Sörmon",
-  "kommun": "Säffle",
-  "gone": "2026-09-20"
- },
- "booli:6127191": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   2995000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Östra Långhultsbygget Klaragården",
-  "kommun": "Laholm",
-  "gone": "2026-09-20"
- },
- "booli:6149284": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   2875000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Härsbyn Punkten",
-  "kommun": "Bengtsfors"
- },
- "booli:6056274": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   3900000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Trantorp Ramnhult",
-  "kommun": "Mark"
- },
- "booli:6085171": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   2400000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Sidan 3:230",
-  "kommun": "Bengtsfors"
- },
- "booli:6016943": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   2950000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Valinge Grunnarp 1",
-  "kommun": "Varberg"
- },
- "booli:6021271": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   2975000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Ängafallet 10",
-  "kommun": "Töreboda"
- },
- "booli:5861175": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   3100000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Habelsbolet 1:17",
-  "kommun": "Töreboda"
- },
- "booli:6000361": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   4050000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Karlanda-Korsbyn",
-  "kommun": "Årjäng"
- },
- "booli:6274473": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3700000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Stimmerkulla 801",
-  "kommun": "Askersund"
- },
- "booli:6273870": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4250000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Fastorp",
-  "kommun": "Vaggeryd"
- },
- "booli:6273731": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1695000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Lilla Hillhult 16",
-  "kommun": "Vetlanda"
- },
- "booli:6272989": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2750000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Tuthult 1535",
-  "kommun": "Markaryd"
- },
- "booli:6269519": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1200000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Backa Rönningen 1",
-  "kommun": "Årjäng"
- },
- "booli:6230019": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2695000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Borreboda Sörgården 23",
-  "kommun": "Töreboda"
- },
- "booli:6209799": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2700000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Boarp Stakagård 1",
-  "kommun": "Ljungby"
- },
- "booli:6248710": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2350000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Rude Rudfallet 110",
-  "kommun": "Askersund"
- },
- "booli:6259696": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Härbjörnarp 110",
-  "kommun": "Ulricehamn"
- },
- "booli:6259373": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Torp 8",
-  "kommun": "Hultsfred"
- },
- "booli:6259055": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1350000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Säm Sämsmon 1",
-  "kommun": "Dals-Ed"
- },
- "booli:6258567": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1150000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Solum Ryggstödet 1",
-  "kommun": "Dals-Ed"
- },
- "booli:6258239": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1700000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Nödinge Backagården 2",
-  "kommun": "Mark"
- },
- "booli:6246141": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4975000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Stockedalen 150",
-  "kommun": "Ale"
- },
- "booli:6243750": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1700000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Hagalund",
-  "kommun": "Säffle"
- },
- "booli:6243252": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2950000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Värnamo Funtabo 1:2",
-  "kommun": "Värnamo"
- },
- "booli:6239412": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1050000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Hulabäck 1187",
-  "kommun": "Markaryd"
- },
- "booli:6238174": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1300000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Jonstorp i Dalskog",
-  "kommun": "Mellerud"
- },
- "booli:6237207": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1795000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Torsvid Sörgården 35",
-  "kommun": "Gullspång"
- },
- "booli:6233070": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4800000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Lönshult 2",
-  "kommun": "Ljungby"
- },
- "booli:6231052": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3200000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Stimmerkulla 315",
-  "kommun": "Askersund"
- },
- "booli:6219050": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2575000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Västra Mörtnäs 503",
-  "kommun": "Årjäng"
- },
- "booli:6226636": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Intagan 128",
-  "kommun": "Lilla Edet"
- },
- "booli:6225704": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Sunnerby Sävjedal 1",
-  "kommun": "Sävsjö"
- },
- "booli:6223997": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3000000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Tånnö Stenhyltan 1",
-  "kommun": "Värnamo"
- },
- "booli:6218260": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2200000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Svenshult 13",
-  "kommun": "Laholm"
- },
- "booli:6216733": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Skäfshult 440",
-  "kommun": "Vimmerby"
- },
- "booli:6174768": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3250000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Karl Gustav Sonås 1",
-  "kommun": "Varberg"
- },
- "booli:6209096": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2650000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Skog i Norra Ed",
-  "kommun": "Säffle"
- },
- "booli:6206561": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Torstensbyn Torerud",
-  "kommun": "Säffle"
- },
- "booli:6196747": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2300000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Stommen Mobacken 1",
-  "kommun": "Årjäng"
- },
- "booli:6118047": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2095000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Ryksdamm 280",
-  "kommun": "Ale"
- },
- "booli:6184735": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Norra Skarbol Enebacken",
-  "kommun": "Säffle"
- },
- "booli:6149504": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3995000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Ramhultavägen 47",
-  "kommun": "Mark"
- },
- "booli:6187322": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1900000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Bäcken",
-  "kommun": "Säffle"
- },
- "booli:6185500": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2950000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Attlered 122",
-  "kommun": "Lilla Edet"
- },
- "booli:6183628": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2100000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Svinnersta Högelund 134",
-  "kommun": "Askersund"
- },
- "booli:6182687": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Järns-Bön",
-  "kommun": "Mellerud"
- },
- "booli:6148352": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3350000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Forshallsvägen 10",
-  "kommun": "Mark"
- },
- "booli:6176063": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1900000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Ormansbyn 17",
-  "kommun": "Bengtsfors"
- },
- "booli:6174755": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1700000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Södra Lund Eklund",
-  "kommun": "Bengtsfors"
- },
- "booli:6173435": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Högarydsvägen 59",
-  "kommun": "Laholm"
- },
- "booli:6166922": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2695000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Höghult 2288",
-  "kommun": "Älmhult"
- },
- "booli:6162331": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2800000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Nybyggerud 1",
-  "kommun": "Årjäng"
- },
- "booli:6157475": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3800000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Asslebyn Skarpa",
-  "kommun": "Bengtsfors"
- },
- "booli:6152509": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1100000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Rishultsvägen",
-  "kommun": "Markaryd"
- },
- "booli:6026723": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4650000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Blädinge Boda 1",
-  "kommun": "Alvesta"
- },
- "booli:6146350": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Näshultsvägen 7",
-  "kommun": "Vetlanda"
- },
- "booli:6135428": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1995000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Eklanda Brändehov 1",
-  "kommun": "Vårgårda"
- },
- "booli:6132151": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4900000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Törestorp 5",
-  "kommun": "Mark"
- },
- "booli:6132008": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2995000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Hult 1",
-  "kommun": "Värnamo"
- },
- "booli:6128444": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   5000000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Månstad Boda 2",
-  "kommun": "Tranemo"
- },
- "booli:6128222": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3400000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Målareskogen 2",
-  "kommun": "Hjo"
- },
- "booli:6121123": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1795000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Stenslanda Östby 1",
-  "kommun": "Årjäng"
- },
- "booli:6121030": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2495000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Dottebol Bråten",
-  "kommun": "Säffle"
- },
- "booli:6082668": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3395000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Gunnarsjö Bro 1",
-  "kommun": "Varberg"
- },
- "booli:6072190": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1995000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Västerhönsa 1:13",
-  "kommun": "Tibro"
- },
- "booli:6064920": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2600000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Sjöbol Wilhelmsgården 1",
-  "kommun": "Hylte"
- },
- "booli:6061825": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3000000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Gölshult 1339",
-  "kommun": "Älmhult"
- },
- "booli:6055561": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Vashult 4463",
-  "kommun": "Älmhult"
- },
- "booli:6012980": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2798000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Ryd Östergård 17",
-  "kommun": "Ljungby"
- },
- "booli:6006805": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2095000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Högarydsvägen 32",
-  "kommun": "Laholm"
- },
- "booli:5942284": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4200000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Prästgårdsvägen 4",
-  "kommun": "Älmhult"
- },
- "booli:5933227": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Sönnerhult Nerbyn 2",
-  "kommun": "Hultsfred"
- },
- "booli:5913908": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3400000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Killhult 161",
-  "kommun": "Laholm"
- },
- "booli:5900775": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Herrenäs 3:8",
-  "kommun": "Bengtsfors"
- },
- "booli:5862773": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2590000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Böns Gård 1",
-  "kommun": "Bengtsfors"
- },
- "booli:5804276": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1600000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Sätila-Hede 3:31",
-  "kommun": "Mark"
- },
- "booli:5813917": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1695000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Abrahamsryd 5",
-  "kommun": "Älmhult"
- },
- "booli:5781840": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2995000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Barkerud Sjövik 1",
-  "kommun": "Bengtsfors"
- },
- "booli:5727503": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2750000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Södra Backen 2",
-  "kommun": "Bengtsfors"
- },
- "booli:5692889": {
+  "kommun": "Alingsås",
+  "ids": [
+   "booli:6216308"
+  ]
+ },
+ "årjäng|upprannrönningen1|390": {
   "first_seen": "2026-09-20",
   "prices": [
    3900000
@@ -3429,83 +3126,9 @@
    "2026-09-20"
   ],
   "title": "Upprann Rönningen 1",
-  "kommun": "Årjäng"
- },
- "booli:6224867": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   3995000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Bredsäter Svaneberg 1",
-  "kommun": "Mariestad"
- },
- "booli:6210520": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1400000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Adress saknas",
-  "kommun": "Hultsfred"
- },
- "booli:6118176": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   1995000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Backa Backadal 1",
-  "kommun": "Mark"
- },
- "booli:6118766": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4250000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Töcksmarks-Bön",
-  "kommun": "Årjäng"
- },
- "booli:5863437": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Dunsjö 240",
-  "kommun": "Askersund"
- },
- "booli:5827718": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   4500000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Siggaboda 2",
-  "kommun": "Älmhult"
- },
- "booli:5613703": {
-  "first_seen": "2026-09-20",
-  "prices": [
-   2995000
-  ],
-  "price_dates": [
-   "2026-09-20"
-  ],
-  "title": "Högalid 31",
-  "kommun": "Tranemo"
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:5692889"
+  ]
  }
 }

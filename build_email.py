@@ -26,7 +26,11 @@ R = load("recommendations.json", {})
 L = load("listings.json", {"stats": {}, "listings": []})
 C = load("changes.json", {"new": [], "gone": [], "price_changes": []})
 S = L.get("stats", {})
-by_id = {l["id"]: l for l in L.get("listings", [])}
+by_id = {}
+for _l in L.get("listings", []):
+    by_id[_l["id"]] = _l
+    for _a in _l.get("alt_ids", []):
+        by_id[_a] = _l
 date = R.get("date") or S.get("date") or datetime.date.today().isoformat()
 site = CFG["site_url"]
 doc = CFG["doc_url"]

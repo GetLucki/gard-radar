@@ -140,9 +140,11 @@ const S = D.stats||{}, C = D.changes||{}, R = D.recs||{};
 const newIds = new Set((C.new||[]).map(x=>x.id));
 const cutIds = new Map((C.price_changes||[]).map(x=>[x.id,x]));
 const TOP = (R.top || R.top3 || []);
-const pickRank = new Map(TOP.map((r,i)=>[r.id,i+1]));
-const byId = Object.fromEntries(D.listings.map(l=>[l.id,l]));
+const pickRank = new Map();
+const byId = {}; D.listings.forEach(l=>{ byId[l.id]=l; (l.alt_ids||[]).forEach(a=>byId[a]=l); if (l.alt_url) byId['url:'+l.alt_url]=l; });
+const findL = r => byId[r.id] || byId['url:'+r.url] || D.listings.find(l=>l.url===r.url || l.alt_url===r.url) || null;
 
+TOP.forEach((r,i)=>{ const l = findL(r); if (l) pickRank.set(l.id, i+1); });
 // rank = position by score (ties by price)
 const L = [...D.listings].sort((a,b)=> (b.score-a.score) || (a.price-b.price)).map((l,i)=>({...l, rank:i+1}));
 
@@ -155,7 +157,7 @@ document.getElementById('chips').innerHTML = [
 // top three cards
 let rh='';
 if (TOP.length){
-  rh = `<div class="grid">` + TOP.slice(0,3).map((r,i)=>{ const l = byId[r.id]||{}; const gone = !byId[r.id];
+  rh = `<div class="grid">` + TOP.slice(0,3).map((r,i)=>{ const L0 = findL(r); const l = L0||{}; const gone = !L0;
     return `<div class="card">${l.image?`<img src="${esc(l.image)}" alt="">`:''}<div class="b">
     <div class="row"><span class="tag pick">#${i+1}</span><span class="score">${r.score??l.score??''}</span></div>
     <div class="t"><a href="${esc(r.url||l.url)}" target="_blank" rel="noopener">${esc(r.title||l.title)}</a>${gone?' <span class="tag cut">no longer listed</span>':''}</div>
