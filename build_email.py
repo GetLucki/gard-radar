@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the daily email (HTML + plain text) from data/recommendations.json,
+"""Render the weekly email (HTML + plain text) from data/recommendations.json,
 data/listings.json and data/changes.json. Fixed layout so every morning looks
 the same; Claude only supplies the judgement in recommendations.json.
 
@@ -126,7 +126,7 @@ else:
         items.append(f"<li><b>Price {arrow}</b>: <a href=\"{e(x['url'])}\">{e(x['title'])}</a>, {kr(x['old'])} to {kr(x['new'])}</li>")
     for x in (C.get("gone") or [])[:10]:
         items.append(f"<li><b>Gone</b>: {e(x.get('title'))}, {e(x.get('kommun'))}, {kr(x.get('price'))}</li>")
-    changes_html = "<ul>" + "".join(items) + "</ul>" if items else "<p>No changes since yesterday.</p>"
+    changes_html = "<ul>" + "".join(items) + "</ul>" if items else "<p>No changes since last week.</p>"
 
 dropped_html = ""
 if R.get("dropped"):
@@ -164,11 +164,11 @@ html_out = f"""<!doctype html><html><head><meta charset="utf-8"><style>{css}</st
 <h2>Market by region</h2>
 <table class="t"><tr><th>Region</th><th>Listings</th><th>New</th><th>Median asking</th></tr>{region_rows}</table>
 
-<h2>Changes since yesterday</h2>
+<h2>Changes since last week</h2>
 {changes_html}
 
 <p><a href="{e(site)}"><b>Open the full radar site</b></a> (all {S.get('matched', '?')} listings, filters, scores) · <a href="{e(doc)}">Plan document</a></p>
-<p class="small">Sources: Hemnet and Booli, scanned {e(L.get('generated', ''))}. Scores are a keyword pre-score; the picks and reasons are Claude's daily judgement. Verify everything at a viewing.</p>
+<p class="small">Sources: Hemnet and Booli, scanned {e(L.get('generated', ''))}. Scores are a keyword pre-score; the picks and reasons are Claude's judgement. Verify everything at a viewing.</p>
 </div></body></html>"""
 
 # ---------- plain text fallback ----------

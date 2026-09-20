@@ -1,17 +1,17 @@
 # Gård-radar
 
-Daily scan of Booli (primary, aggregates most broker listings) and Hemnet (best-effort, sits behind a Cloudflare check) for gårdar that match the family's criteria
+Weekly scan (Saturday 08:00) of Booli (primary, aggregates most broker listings) and Hemnet (best-effort, sits behind a Cloudflare check) for gårdar that match the family's criteria
 (price band, land size, kommun whitelist), pre-scored deterministically,
 then reviewed by Claude which writes the top-3 recommendations and sends the
-daily email from litpanda. Output is published to GitHub Pages from `docs/`.
+weekly email from litpanda. Output is published to GitHub Pages from `docs/`.
 
 - `config.json`: budget, land minimum, kommun whitelist with region and drive time from Göteborg.
 - `scanner/scan.py`: Playwright scraper. Writes `data/listings.json`, `data/changes.json`,
   `data/seen.json`, `data/digest_input.json` and `data/history/YYYY-MM-DD.json`.
 - `build_site.py`: renders `docs/index.html` from the data files.
-- Runner: `~/.claude/gard-radar-run.sh` (launchd `com.lukizhao.gard-radar`, daily 07:15).
+- Runner: `~/.claude/gard-radar-run.sh` (launchd `com.lukizhao.gard-radar`, weekly Sat 08:00).
 - Claude prompt: `~/.claude/scheduled-tasks/daily-gard-radar/SKILL.md`.
-- Criteria live in the shared Google Doc; Claude compares the doc with `config.json` daily.
+- Criteria live in the shared Google Doc; Claude compares the doc with `config.json` on each run.
 
 Manual run:
 

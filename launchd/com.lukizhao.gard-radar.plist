@@ -10,8 +10,9 @@
   </array>
   <key>StartCalendarInterval</key>
   <dict>
-    <key>Hour</key><integer>7</integer>
-    <key>Minute</key><integer>15</integer>
+    <key>Weekday</key><integer>6</integer>
+    <key>Hour</key><integer>8</integer>
+    <key>Minute</key><integer>0</integer>
   </dict>
   <key>StandardOutPath</key><string>/Users/lukizhao/.claude/gard-radar.log</string>
   <key>StandardErrorPath</key><string>/Users/lukizhao/.claude/gard-radar.log</string>

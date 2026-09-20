@@ -141,7 +141,7 @@ details{margin-top:24px}summary{cursor:pointer;font-weight:600;color:var(--muted
 
 <details><summary>Market, regions and changes since the last run</summary><div id="market" style="margin-top:10px"></div></details>
 
-<p class="small" style="margin-top:30px">Sources: Hemnet and Booli (Gård/Skog plus Villa/Hus with 3 ha or more). Overall is the mean of Survival (water, land, heating, shelter, seclusion, reachability) and Invest (price per ha, land value, condition, location, market). Both are deterministic pre-scores from listing text and facts; the top three and their reasons are Claude's daily judgement. Criteria live in the shared plan document.</p>
+<p class="small" style="margin-top:30px">Sources: Hemnet and Booli (Gård/Skog plus Villa/Hus with 3 ha or more). Overall is the mean of Survival (water, land, heating, shelter, seclusion, reachability) and Invest (price per ha, land value, condition, location, market). Both are deterministic pre-scores from listing text and facts; the top three and their reasons are Claude's judgement. Criteria live in the shared plan document.</p>
 </div>
 <script id="data" type="application/json">__DATA__</script>
 <script>
