@@ -1,143 +1,1682 @@
 {
- "date": "2026-09-18",
+ "date": "2026-09-20",
  "new": [
   {
-   "id": "booli:6270854",
-   "title": "Björkesbacka Bäckaskog",
-   "kommun": "Mark",
-   "price": 3995000,
-   "land_ha": 7.25,
-   "score": 33,
-   "url": "https://www.booli.se/annons/6270854"
+   "id": "booli:6239412",
+   "title": "Hulabäck 1187",
+   "kommun": "Markaryd",
+   "price": 1050000,
+   "land_ha": 7.0,
+   "score": 39,
+   "url": "https://www.booli.se/annons/6239412"
   },
   {
-   "id": "booli:6085171",
-   "title": "Sidan 3:230",
+   "id": "booli:6118176",
+   "title": "Backa Backadal 1",
+   "kommun": "Mark",
+   "price": 1995000,
+   "land_ha": 6.92,
+   "score": 37,
+   "url": "https://www.booli.se/annons/6118176"
+  },
+  {
+   "id": "booli:6185500",
+   "title": "Attlered 122",
+   "kommun": "Lilla Edet",
+   "price": 2950000,
+   "land_ha": 23.33,
+   "score": 32,
+   "url": "https://www.booli.se/annons/6185500"
+  },
+  {
+   "id": "booli:6128444",
+   "title": "Månstad Boda 2",
+   "kommun": "Tranemo",
+   "price": 5000000,
+   "land_ha": 43.1,
+   "score": 32,
+   "url": "https://www.booli.se/annons/6128444"
+  },
+  {
+   "id": "booli:6187322",
+   "title": "Bäcken",
+   "kommun": "Säffle",
+   "price": 1900000,
+   "land_ha": 5.0,
+   "score": 30,
+   "url": "https://www.booli.se/annons/6187322"
+  },
+  {
+   "id": "booli:6209096",
+   "title": "Skog i Norra Ed",
+   "kommun": "Säffle",
+   "price": 2650000,
+   "land_ha": 22.0,
+   "score": 30,
+   "url": "https://www.booli.se/annons/6209096"
+  },
+  {
+   "id": "booli:6152509",
+   "title": "Rishultsvägen",
+   "kommun": "Markaryd",
+   "price": 1100000,
+   "land_ha": 10.77,
+   "score": 29,
+   "url": "https://www.booli.se/annons/6152509"
+  },
+  {
+   "id": "booli:6259055",
+   "title": "Säm Sämsmon 1",
+   "kommun": "Dals-Ed",
+   "price": 1350000,
+   "land_ha": 12.0,
+   "score": 29,
+   "url": "https://www.booli.se/annons/6259055"
+  },
+  {
+   "id": "booli:6258239",
+   "title": "Nödinge Backagården 2",
+   "kommun": "Mark",
+   "price": 1700000,
+   "land_ha": 8.8,
+   "score": 29,
+   "url": "https://www.booli.se/annons/6258239"
+  },
+  {
+   "id": "booli:6135428",
+   "title": "Eklanda Brändehov 1",
+   "kommun": "Vårgårda",
+   "price": 1995000,
+   "land_ha": 10.1,
+   "score": 29,
+   "url": "https://www.booli.se/annons/6135428"
+  },
+  {
+   "id": "booli:6272989",
+   "title": "Tuthult 1535",
+   "kommun": "Markaryd",
+   "price": 2750000,
+   "land_ha": 17.55,
+   "score": 29,
+   "url": "https://www.booli.se/annons/6272989"
+  },
+  {
+   "id": "booli:6243252",
+   "title": "Värnamo Funtabo 1:2",
+   "kommun": "Värnamo",
+   "price": 2950000,
+   "land_ha": 19.5,
+   "score": 29,
+   "url": "https://www.booli.se/annons/6243252"
+  },
+  {
+   "id": "booli:6082668",
+   "title": "Gunnarsjö Bro 1",
+   "kommun": "Varberg",
+   "price": 3395000,
+   "land_ha": 15.5,
+   "score": 29,
+   "url": "https://www.booli.se/bostad/1617647"
+  },
+  {
+   "id": "booli:6226636",
+   "title": "Intagan 128",
+   "kommun": "Lilla Edet",
+   "price": 3500000,
+   "land_ha": 12.2,
+   "score": 29,
+   "url": "https://www.booli.se/annons/6226636"
+  },
+  {
+   "id": "booli:6132151",
+   "title": "Törestorp 5",
+   "kommun": "Mark",
+   "price": 4900000,
+   "land_ha": 18.3,
+   "score": 29,
+   "url": "https://www.booli.se/bostad/3421146"
+  },
+  {
+   "id": "booli:6258567",
+   "title": "Solum Ryggstödet 1",
+   "kommun": "Dals-Ed",
+   "price": 1150000,
+   "land_ha": 10.0,
+   "score": 27,
+   "url": "https://www.booli.se/annons/6258567"
+  },
+  {
+   "id": "booli:6218260",
+   "title": "Svenshult 13",
+   "kommun": "Laholm",
+   "price": 2200000,
+   "land_ha": 26.3,
+   "score": 27,
+   "url": "https://www.booli.se/bostad/1934828"
+  },
+  {
+   "id": "booli:6269519",
+   "title": "Backa Rönningen 1",
+   "kommun": "Årjäng",
+   "price": 1200000,
+   "land_ha": 9.4,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6269519"
+  },
+  {
+   "id": "booli:6238174",
+   "title": "Jonstorp i Dalskog",
+   "kommun": "Mellerud",
+   "price": 1300000,
+   "land_ha": 6.0,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6238174"
+  },
+  {
+   "id": "booli:6055561",
+   "title": "Vashult 4463",
+   "kommun": "Älmhult",
+   "price": 1500000,
+   "land_ha": 68.0,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6055561"
+  },
+  {
+   "id": "booli:6072190",
+   "title": "Västerhönsa 1:13",
+   "kommun": "Tibro",
+   "price": 1995000,
+   "land_ha": 14.8,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6072190"
+  },
+  {
+   "id": "booli:6209799",
+   "title": "Boarp Stakagård 1",
+   "kommun": "Ljungby",
+   "price": 2700000,
+   "land_ha": 20.1,
+   "score": 26,
+   "url": "https://www.booli.se/bostad/4147431"
+  },
+  {
+   "id": "booli:6012980",
+   "title": "Ryd Östergård 17",
+   "kommun": "Ljungby",
+   "price": 2798000,
+   "land_ha": 25.85,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6012980"
+  },
+  {
+   "id": "booli:6162331",
+   "title": "Nybyggerud 1",
+   "kommun": "Årjäng",
+   "price": 2800000,
+   "land_ha": 22.7,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6162331"
+  },
+  {
+   "id": "booli:6223997",
+   "title": "Tånnö Stenhyltan 1",
+   "kommun": "Värnamo",
+   "price": 3000000,
+   "land_ha": 16.49,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6223997"
+  },
+  {
+   "id": "booli:6148352",
+   "title": "Forshallsvägen 10",
+   "kommun": "Mark",
+   "price": 3350000,
+   "land_ha": 7.94,
+   "score": 26,
+   "url": "https://www.booli.se/bostad/3791512"
+  },
+  {
+   "id": "booli:5913908",
+   "title": "Killhult 161",
+   "kommun": "Laholm",
+   "price": 3400000,
+   "land_ha": 17.0,
+   "score": 26,
+   "url": "https://www.booli.se/annons/5913908"
+  },
+  {
+   "id": "booli:5942284",
+   "title": "Prästgårdsvägen 4",
+   "kommun": "Älmhult",
+   "price": 4200000,
+   "land_ha": 23.5,
+   "score": 26,
+   "url": "https://www.booli.se/annons/5942284"
+  },
+  {
+   "id": "booli:6273870",
+   "title": "Fastorp",
+   "kommun": "Vaggeryd",
+   "price": 4250000,
+   "land_ha": 24.0,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6273870"
+  },
+  {
+   "id": "booli:6118766",
+   "title": "Töcksmarks-Bön",
+   "kommun": "Årjäng",
+   "price": 4250000,
+   "land_ha": 30.6,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6118766"
+  },
+  {
+   "id": "booli:6225704",
+   "title": "Sunnerby Sävjedal 1",
+   "kommun": "Sävsjö",
+   "price": 4500000,
+   "land_ha": 37.46,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6225704"
+  },
+  {
+   "id": "booli:6233070",
+   "title": "Lönshult 2",
+   "kommun": "Ljungby",
+   "price": 4800000,
+   "land_ha": 33.36,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6233070"
+  },
+  {
+   "id": "booli:6246141",
+   "title": "Stockedalen 150",
+   "kommun": "Ale",
+   "price": 4975000,
+   "land_ha": 11.3,
+   "score": 26,
+   "url": "https://www.booli.se/annons/6246141"
+  },
+  {
+   "id": "booli:6064920",
+   "title": "Sjöbol Wilhelmsgården 1",
+   "kommun": "Hylte",
+   "price": 2600000,
+   "land_ha": 7.09,
+   "score": 24,
+   "url": "https://www.booli.se/bostad/4306713"
+  },
+  {
+   "id": "booli:6132008",
+   "title": "Hult 1",
+   "kommun": "Värnamo",
+   "price": 2995000,
+   "land_ha": 14.43,
+   "score": 24,
+   "url": "https://www.booli.se/bostad/1650446"
+  },
+  {
+   "id": "booli:5781840",
+   "title": "Barkerud Sjövik 1",
    "kommun": "Bengtsfors",
-   "price": 2400000,
-   "land_ha": 32.2,
+   "price": 2995000,
+   "land_ha": 19.7,
+   "score": 24,
+   "url": "https://www.booli.se/annons/5781840"
+  },
+  {
+   "id": "booli:6237207",
+   "title": "Torsvid Sörgården 35",
+   "kommun": "Gullspång",
+   "price": 1795000,
+   "land_ha": 7.97,
    "score": 23,
-   "url": "https://www.booli.se/annons/6085171"
+   "url": "https://www.booli.se/annons/6237207"
+  },
+  {
+   "id": "booli:6121123",
+   "title": "Stenslanda Östby 1",
+   "kommun": "Årjäng",
+   "price": 1795000,
+   "land_ha": 6.83,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6121123"
+  },
+  {
+   "id": "booli:6176063",
+   "title": "Ormansbyn 17",
+   "kommun": "Bengtsfors",
+   "price": 1900000,
+   "land_ha": 10.19,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6176063"
+  },
+  {
+   "id": "booli:6196747",
+   "title": "Stommen Mobacken 1",
+   "kommun": "Årjäng",
+   "price": 2300000,
+   "land_ha": 10.1,
+   "score": 23,
+   "url": "https://www.booli.se/bostad/4305114"
+  },
+  {
+   "id": "booli:6259373",
+   "title": "Torp 8",
+   "kommun": "Hultsfred",
+   "price": 2500000,
+   "land_ha": 13.2,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6259373"
+  },
+  {
+   "id": "booli:6219050",
+   "title": "Västra Mörtnäs 503",
+   "kommun": "Årjäng",
+   "price": 2575000,
+   "land_ha": 10.83,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6219050"
+  },
+  {
+   "id": "booli:6230019",
+   "title": "Borreboda Sörgården 23",
+   "kommun": "Töreboda",
+   "price": 2695000,
+   "land_ha": 10.2,
+   "score": 23,
+   "url": "https://www.booli.se/bostad/4339581"
+  },
+  {
+   "id": "booli:6259696",
+   "title": "Härbjörnarp 110",
+   "kommun": "Ulricehamn",
+   "price": 4500000,
+   "land_ha": 7.0,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6259696"
+  },
+  {
+   "id": "booli:6182687",
+   "title": "Järns-Bön",
+   "kommun": "Mellerud",
+   "price": 4500000,
+   "land_ha": 14.0,
+   "score": 23,
+   "url": "https://www.booli.se/annons/6182687"
+  },
+  {
+   "id": "booli:6210520",
+   "title": "Adress saknas",
+   "kommun": "Hultsfred",
+   "price": 1400000,
+   "land_ha": 12.7,
+   "score": 22,
+   "url": "https://www.booli.se/annons/6210520"
+  },
+  {
+   "id": "booli:6118047",
+   "title": "Ryksdamm 280",
+   "kommun": "Ale",
+   "price": 2095000,
+   "land_ha": 4.92,
+   "score": 22,
+   "url": "https://www.booli.se/annons/6118047"
+  },
+  {
+   "id": "booli:6274473",
+   "title": "Stimmerkulla 801",
+   "kommun": "Askersund",
+   "price": 3700000,
+   "land_ha": 20.6,
+   "score": 22,
+   "url": "https://www.booli.se/annons/6274473"
+  },
+  {
+   "id": "booli:5804276",
+   "title": "Sätila-Hede 3:31",
+   "kommun": "Mark",
+   "price": 1600000,
+   "land_ha": null,
+   "score": 21,
+   "url": "https://www.booli.se/annons/5804276"
+  },
+  {
+   "id": "booli:6174755",
+   "title": "Södra Lund Eklund",
+   "kommun": "Bengtsfors",
+   "price": 1700000,
+   "land_ha": 9.4,
+   "score": 21,
+   "url": "https://www.booli.se/annons/6174755"
+  },
+  {
+   "id": "booli:6121030",
+   "title": "Dottebol Bråten",
+   "kommun": "Säffle",
+   "price": 2495000,
+   "land_ha": 9.5,
+   "score": 21,
+   "url": "https://www.booli.se/annons/6121030"
+  },
+  {
+   "id": "booli:6149504",
+   "title": "Ramhultavägen 47",
+   "kommun": "Mark",
+   "price": 3995000,
+   "land_ha": 7.6,
+   "score": 21,
+   "url": "https://www.booli.se/annons/6149504"
+  },
+  {
+   "id": "booli:6243750",
+   "title": "Hagalund",
+   "kommun": "Säffle",
+   "price": 1700000,
+   "land_ha": 5.0,
+   "score": 20,
+   "url": "https://www.booli.se/annons/6243750"
+  },
+  {
+   "id": "booli:6184735",
+   "title": "Norra Skarbol Enebacken",
+   "kommun": "Säffle",
+   "price": 3500000,
+   "land_ha": 10.8,
+   "score": 20,
+   "url": "https://www.booli.se/annons/6184735"
+  },
+  {
+   "id": "booli:6173435",
+   "title": "Högarydsvägen 59",
+   "kommun": "Laholm",
+   "price": 4500000,
+   "land_ha": 5.06,
+   "score": 20,
+   "url": "https://www.booli.se/bostad/1661907"
+  },
+  {
+   "id": "booli:6216733",
+   "title": "Skäfshult 440",
+   "kommun": "Vimmerby",
+   "price": 2500000,
+   "land_ha": 8.4,
+   "score": 19,
+   "url": "https://www.booli.se/annons/6216733"
+  },
+  {
+   "id": "booli:6174768",
+   "title": "Karl Gustav Sonås 1",
+   "kommun": "Varberg",
+   "price": 3250000,
+   "land_ha": 4.5,
+   "score": 19,
+   "url": "https://www.booli.se/annons/6174768"
+  },
+  {
+   "id": "booli:6146350",
+   "title": "Näshultsvägen 7",
+   "kommun": "Vetlanda",
+   "price": 4500000,
+   "land_ha": 18.8,
+   "score": 19,
+   "url": "https://www.booli.se/annons/6146350"
+  },
+  {
+   "id": "booli:6166922",
+   "title": "Höghult 2288",
+   "kommun": "Älmhult",
+   "price": 2695000,
+   "land_ha": 6.25,
+   "score": 18,
+   "url": "https://www.booli.se/bostad/3860736"
+  },
+  {
+   "id": "booli:6128222",
+   "title": "Målareskogen 2",
+   "kommun": "Hjo",
+   "price": 3400000,
+   "land_ha": 8.0,
+   "score": 18,
+   "url": "https://www.booli.se/bostad/4251660"
+  },
+  {
+   "id": "booli:6061825",
+   "title": "Gölshult 1339",
+   "kommun": "Älmhult",
+   "price": 3000000,
+   "land_ha": 5.8,
+   "score": 17,
+   "url": "https://www.booli.se/bostad/4288599"
+  },
+  {
+   "id": "booli:6157475",
+   "title": "Asslebyn Skarpa",
+   "kommun": "Bengtsfors",
+   "price": 3800000,
+   "land_ha": 6.0,
+   "score": 17,
+   "url": "https://www.booli.se/annons/6157475"
+  },
+  {
+   "id": "booli:6206561",
+   "title": "Torstensbyn Torerud",
+   "kommun": "Säffle",
+   "price": 1500000,
+   "land_ha": 4.0,
+   "score": 16,
+   "url": "https://www.booli.se/annons/6206561"
+  },
+  {
+   "id": "booli:6006805",
+   "title": "Högarydsvägen 32",
+   "kommun": "Laholm",
+   "price": 2095000,
+   "land_ha": null,
+   "score": 16,
+   "url": "https://www.booli.se/bostad/4301030"
+  },
+  {
+   "id": "booli:5613703",
+   "title": "Högalid 31",
+   "kommun": "Tranemo",
+   "price": 2995000,
+   "land_ha": 4.33,
+   "score": 16,
+   "url": "https://www.booli.se/bostad/4300518"
+  },
+  {
+   "id": "booli:5699238",
+   "title": "Kraksbyn 301",
+   "kommun": "Åmål",
+   "price": 3475000,
+   "land_ha": 4.2,
+   "score": 16,
+   "url": "https://www.booli.se/bostad/1703812"
+  },
+  {
+   "id": "booli:6026723",
+   "title": "Blädinge Boda 1",
+   "kommun": "Alvesta",
+   "price": 4650000,
+   "land_ha": 3.7,
+   "score": 16,
+   "url": "https://www.booli.se/annons/6026723"
+  },
+  {
+   "id": "booli:5813917",
+   "title": "Abrahamsryd 5",
+   "kommun": "Älmhult",
+   "price": 1695000,
+   "land_ha": null,
+   "score": 15,
+   "url": "https://www.booli.se/annons/5813917"
+  },
+  {
+   "id": "booli:5900775",
+   "title": "Herrenäs 3:8",
+   "kommun": "Bengtsfors",
+   "price": 3500000,
+   "land_ha": null,
+   "score": 15,
+   "url": "https://www.booli.se/annons/5900775"
+  },
+  {
+   "id": "booli:5692889",
+   "title": "Upprann Rönningen 1",
+   "kommun": "Årjäng",
+   "price": 3900000,
+   "land_ha": null,
+   "score": 15,
+   "url": "https://www.booli.se/annons/5692889"
+  },
+  {
+   "id": "booli:6183628",
+   "title": "Svinnersta Högelund 134",
+   "kommun": "Askersund",
+   "price": 2100000,
+   "land_ha": 5.1,
+   "score": 14,
+   "url": "https://www.booli.se/annons/6183628"
+  },
+  {
+   "id": "booli:5933227",
+   "title": "Sönnerhult Nerbyn 2",
+   "kommun": "Hultsfred",
+   "price": 2500000,
+   "land_ha": 5.8,
+   "score": 14,
+   "url": "https://www.booli.se/annons/5933227"
+  },
+  {
+   "id": "booli:6231052",
+   "title": "Stimmerkulla 315",
+   "kommun": "Askersund",
+   "price": 3200000,
+   "land_ha": 8.45,
+   "score": 14,
+   "url": "https://www.booli.se/bostad/4484499"
+  },
+  {
+   "id": "booli:6224867",
+   "title": "Bredsäter Svaneberg 1",
+   "kommun": "Mariestad",
+   "price": 3995000,
+   "land_ha": 4.43,
+   "score": 13,
+   "url": "https://www.booli.se/annons/6224867"
+  },
+  {
+   "id": "booli:5863437",
+   "title": "Dunsjö 240",
+   "kommun": "Askersund",
+   "price": 4500000,
+   "land_ha": 5.3,
+   "score": 13,
+   "url": "https://www.booli.se/annons/5863437"
+  },
+  {
+   "id": "booli:5862773",
+   "title": "Böns Gård 1",
+   "kommun": "Bengtsfors",
+   "price": 2590000,
+   "land_ha": 3.4,
+   "score": 11,
+   "url": "https://www.booli.se/annons/5862773"
+  },
+  {
+   "id": "booli:5727503",
+   "title": "Södra Backen 2",
+   "kommun": "Bengtsfors",
+   "price": 2750000,
+   "land_ha": 3.0,
+   "score": 11,
+   "url": "https://www.booli.se/annons/5727503"
+  },
+  {
+   "id": "booli:5827718",
+   "title": "Siggaboda 2",
+   "kommun": "Älmhult",
+   "price": 4500000,
+   "land_ha": 3.77,
+   "score": 10,
+   "url": "https://www.booli.se/bostad/4089213"
+  },
+  {
+   "id": "booli:6273731",
+   "title": "Lilla Hillhult 16",
+   "kommun": "Vetlanda",
+   "price": 1695000,
+   "land_ha": 3.27,
+   "score": 9,
+   "url": "https://www.booli.se/bostad/1734121"
+  },
+  {
+   "id": "booli:6248710",
+   "title": "Rude Rudfallet 110",
+   "kommun": "Askersund",
+   "price": 2350000,
+   "land_ha": 4.69,
+   "score": 9,
+   "url": "https://www.booli.se/annons/6248710"
+  }
+ ],
+ "gone": [
+  {
+   "id": "hemnet:21730495",
+   "title": "Eklanda Brändehov 1",
+   "kommun": "Vårgårda",
+   "price": 1995000,
+   "url": "https://www.hemnet.se/bostad/gard-2rum-vargarda-vargarda-kommun-eklanda-brandehov-1-21730495",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21748189",
+   "title": "Grönlanda 8",
+   "kommun": "Färgelanda",
+   "price": 4300000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-hogsater-fargelanda-kommun-gronlanda-8-21748189",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21589055",
+   "title": "Abrahamsryd 5",
+   "kommun": "Älmhult",
+   "price": 1695000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-almhults-kommun-abrahamsryd-5-21589055",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21753531",
+   "title": "Stommen Mobacken 1",
+   "kommun": "Årjäng",
+   "price": 2300000,
+   "url": "https://www.hemnet.se/bostad/gard-3rum-arjang-arjangs-kommun-stommen-mobacken-1-21753531",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21773856",
+   "title": "Forshallsvägen 10",
+   "kommun": "Mark",
+   "price": 3350000,
+   "url": "https://www.hemnet.se/bostad/villa-5rum-orby-marks-kommun-forshallsvagen-10-21773856",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21729166",
+   "title": "Hult 1",
+   "kommun": "Värnamo",
+   "price": 2995000,
+   "url": "https://www.hemnet.se/bostad/villa-5,5rum-gallaryd-varnamo-kommun-hult-1-21729166",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21780692",
+   "title": "Västra Mo 6",
+   "kommun": "Sävsjö",
+   "price": 3295000,
+   "url": "https://www.hemnet.se/bostad/gard-4rum-nya-hjalmseryd-savsjo-kommun-vastra-mo-6-21780692",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21719773",
+   "title": "Gunnarsjö Bro 1",
+   "kommun": "Varberg",
+   "price": 3395000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-kungsater-varbergs-kommun-gunnarsjo-bro-1-21719773",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21770188",
+   "title": "Bosgård 102",
+   "kommun": "Hylte",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-hylte-kommun-bosgard-102-21770188",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21774881",
+   "title": "Torsvid Sörgården 35",
+   "kommun": "Gullspång",
+   "price": 1795000,
+   "url": "https://www.hemnet.se/bostad/gard-4rum-torsvid-gullspangs-kommun-torsvid-sorgarden-35-21774881",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21786708",
+   "title": "Boarp Stakagård 1",
+   "kommun": "Ljungby",
+   "price": 2700000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-ljungby-ljungby-kommun-boarp-stakagard-1-21786708",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21741956",
+   "title": "Gennevedsvägen 108",
+   "kommun": "Alingsås",
+   "price": 2975000,
+   "url": "https://www.hemnet.se/bostad/villa-6rum-stora-mellby-alingsas-kommun-gennevedsvagen-108-21741956",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21772105",
+   "title": "Stimmerkulla 315",
+   "kommun": "Askersund",
+   "price": 3200000,
+   "url": "https://www.hemnet.se/bostad/gard-70m2-askersunds-kommun-stimmerkulla-315-21772105",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21766339",
+   "title": "Västra Mörtnäs 503",
+   "kommun": "Årjäng",
+   "price": 2575000,
+   "url": "https://www.hemnet.se/bostad/gard-11rum-arjangs-kommun-vastra-mortnas-503-21766339",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21769758",
+   "title": "Intagan 128",
+   "kommun": "Lilla Edet",
+   "price": 3500000,
+   "url": "https://www.hemnet.se/bostad/villa-7rum-intagan-lilla-edets-kommun-intagan-128-21769758",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:19391342",
+   "title": "Stora Mosshult 6",
+   "kommun": "Laxå",
+   "price": 4995000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-laxa-kommun-stora-mosshult-6-19391342",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21613749",
+   "title": "Böns Gård 1&2",
+   "kommun": "Bengtsfors",
+   "price": 2590000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-odskolt-bengtsfors-kommun-bons-gard-1-2-21613749",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21776076",
+   "title": "Hulabäck 1187",
+   "kommun": "Markaryd",
+   "price": 1050000,
+   "url": "https://www.hemnet.se/bostad/gard-70m2-markaryds-kommun-hulaback-1187-21776076",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21688676",
+   "title": "Åby Säteri 4",
+   "kommun": "Ljungby",
+   "price": 1300000,
+   "url": "https://www.hemnet.se/bostad/gard-lagan-ljungby-kommun-aby-sateri-4-21688676",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21774015",
+   "title": "Attlered 122",
+   "kommun": "Lilla Edet",
+   "price": 2950000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-attlered-lilla-edets-kommun-attlered-122-21774015",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21638457",
+   "title": "Killhult 161",
+   "kommun": "Laholm",
+   "price": 3400000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-nordana-vaxtorp-laholms-kommun-killhult-161-21638457",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21728392",
+   "title": "Månstad Boda 2",
+   "kommun": "Tranemo",
+   "price": 5000000,
+   "url": "https://www.hemnet.se/bostad/gard-tranemo-kommun-manstad-boda-2-21728392",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21723936",
+   "title": "Dottebol Bråten ",
+   "kommun": "Säffle",
+   "price": 2495000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-saffle-kommun-dottebol-braten-21723936",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21696707",
+   "title": "Sjöbol Wilhelmsgården 1",
+   "kommun": "Hylte",
+   "price": 2600000,
+   "url": "https://www.hemnet.se/bostad/gard-4rum-torup-hylte-kommun-sjobol-wilhelmsgarden-1-21696707",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21675475",
+   "title": "Ryd Östergård 17",
+   "kommun": "Ljungby",
+   "price": 2798000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-hamneda-ljungby-kommun-ryd-ostergard-17-21675475",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21650845",
+   "title": "SVENLJUNGA YTTRE BACKA 1:5 & 1:13",
+   "kommun": "Svenljunga",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-svenljunga-kommun-svenljunga-yttre-backa-1-5-1-13-21650845",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21723977",
+   "title": "Stenslanda Östby 1",
+   "kommun": "Årjäng",
+   "price": 1795000,
+   "url": "https://www.hemnet.se/bostad/gard-4rum-arjangs-kommun-stenslanda-ostby-1-21723977",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21764487",
+   "title": "Kärringe Trädestorp 1",
+   "kommun": "Ljungby",
+   "price": 2700000,
+   "url": "https://www.hemnet.se/bostad/gard-2rum-smaland-ljungby-kommun-karringe-tradestorp-1-21764487",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21692640",
+   "title": "Vashult 4463",
+   "kommun": "Älmhult",
+   "price": 1500000,
+   "url": "https://www.hemnet.se/bostad/gard-almhults-kommun-vashult-4463-21692640",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21741877",
+   "title": "Klämman 8",
+   "kommun": "Tidaholm",
+   "price": 2800000,
+   "url": "https://www.hemnet.se/bostad/gard-tidaholms-kommun-klamman-8-21741877",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21729254",
+   "title": "Törestorp 5",
+   "kommun": "Mark",
+   "price": 4900000,
+   "url": "https://www.hemnet.se/bostad/villa-fotskal-marks-kommun-torestorp-5-21729254",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21775702",
+   "title": "Nädhult 2:14",
+   "kommun": "Hylte",
+   "price": 1500000,
+   "url": "https://www.hemnet.se/bostad/gard-kinnared-hylte-kommun-nadhult-2-14-21775702",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21747460",
+   "title": "Södra Lund Eklund",
+   "kommun": "Bengtsfors",
+   "price": 1700000,
+   "url": "https://www.hemnet.se/bostad/gard-2rum-sodra-lund-bengtsfors-kommun-sodra-lund-eklund-21747460",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21784286",
+   "title": "Solum Ryggstödet 1",
+   "kommun": "Dals-Ed",
+   "price": 1150000,
+   "url": "https://www.hemnet.se/bostad/gard-4rum-ed-dals-eds-kommun-solum-ryggstodet-1-21784286",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21785520",
+   "title": "Nödinge Backagården 2",
+   "kommun": "Mark",
+   "price": 1700000,
+   "url": "https://www.hemnet.se/bostad/gard-hajom-marks-kommun-nodinge-backagarden-2-21785520",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21700418",
+   "title": "VÄSTERHÖNSA 1:13 m.fl",
+   "kommun": "Tibro",
+   "price": 1995000,
+   "url": "https://www.hemnet.se/bostad/gard-tibro-tibro-kommun-vasterhonsa-1-13-m,fl-21700418",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21765955",
+   "title": "Svenshult 13",
+   "kommun": "Laholm",
+   "price": 2200000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-knared-laholms-kommun-svenshult-13-21765955",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21784724",
+   "title": "Torp 8",
+   "kommun": "Hultsfred",
+   "price": 2500000,
+   "url": "https://www.hemnet.se/bostad/gard-4rum-hultsfreds-kommun-torp-8-21784724",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21742304",
+   "title": "Nybyggerud 1",
+   "kommun": "Årjäng",
+   "price": 2800000,
+   "url": "https://www.hemnet.se/bostad/gard-arjang-arjangs-kommun-nybyggerud-1-21742304",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21722653",
+   "title": "Töcksmarks-Bön",
+   "kommun": "Årjäng",
+   "price": 4250000,
+   "url": "https://www.hemnet.se/bostad/gard-tocksfors-arjangs-kommun-tocksmarks-bon-21722653",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21769169",
+   "title": "Sunnerby Sävjedal 1",
+   "kommun": "Sävsjö",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-savsjo-kommun-sunnerby-savjedal-1-21769169",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:18045316",
+   "title": "Snörsjö 2:5",
+   "kommun": "Markaryd",
+   "price": 2850000,
+   "url": "https://www.hemnet.se/bostad/gard-stromsnasbruk-markaryds-kommun-snorsjo-2-5-18045316",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21755800",
+   "title": "Skogsfastighet i Långserud, 70 ha",
+   "kommun": "Säffle",
+   "price": 3600000,
+   "url": "https://www.hemnet.se/bostad/gard-saffle-kommun-skogsfastighet-i-langserud,-70-ha-21755800",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21734123",
+   "title": "Näshultsvägen 7",
+   "kommun": "Vetlanda",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-vetlanda-kommun-nashultsvagen-7-21734123",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21675603",
+   "title": "Högarydsvägen 32",
+   "kommun": "Laholm",
+   "price": 2095000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-hishult-laholms-kommun-hogarydsvagen-32-21675603",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21571650",
+   "title": "Barkerud Sjövik 1",
+   "kommun": "Bengtsfors",
+   "price": 2995000,
+   "url": "https://www.hemnet.se/bostad/gard-110m2-barkerud-bengtsfors-kommun-barkerud-sjovik-1-21571650",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21768653",
+   "title": "Tånnö Stenhyltan 1",
+   "kommun": "Värnamo",
+   "price": 3000000,
+   "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-tanno-stenhyltan-1-21768653",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21746938",
+   "title": "Högarydsvägen 59",
+   "kommun": "Laholm",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-hishult-laholms-kommun-hogarydsvagen-59-21746938",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21750055",
+   "title": "Järns-Bön ",
+   "kommun": "Mellerud",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-melleruds-kommun-jarns-bon-21750055",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21624611",
+   "title": "Stamnared 36",
+   "kommun": "Varberg",
+   "price": 4900000,
+   "url": "https://www.hemnet.se/bostad/gard-varbergs-kommun-stamnared-36-21624611",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21784069",
+   "title": "Boberg 101",
+   "kommun": "Hylte",
+   "price": 2400000,
+   "url": "https://www.hemnet.se/bostad/gard-hylte-kommun-boberg-101-21784069",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21744501",
+   "title": "Höghult 2288",
+   "kommun": "Älmhult",
+   "price": 2695000,
+   "url": "https://www.hemnet.se/bostad/gard-8rum-hoghult-almhults-kommun-hoghult-2288-21744501",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21649951",
+   "title": "Prästgårdsvägen 4",
+   "kommun": "Älmhult",
+   "price": 4200000,
+   "url": "https://www.hemnet.se/bostad/villa-4rum-hallaryd-almhults-kommun-prastgardsvagen-4-21649951",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21685395",
+   "title": "Rösa Östergård 4",
+   "kommun": "Vetlanda",
+   "price": 4475000,
+   "url": "https://www.hemnet.se/bostad/gard-11rum-smaland-vetlanda-kommun-rosa-ostergard-4-21685395",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21745726",
+   "title": "Kettilsbyn Noli",
+   "kommun": "Säffle",
+   "price": 4700000,
+   "url": "https://www.hemnet.se/bostad/gard-langserud-saffle-kommun-kettilsbyn-noli-21745726",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21775426",
+   "title": "Jonstorp i Dalskog",
+   "kommun": "Mellerud",
+   "price": 1300000,
+   "url": "https://www.hemnet.se/bostad/gard-melleruds-kommun-jonstorp-i-dalskog-21775426",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21788228",
+   "title": "SVENLJUNGA ÖLEBO 1:6",
+   "kommun": "Svenljunga",
+   "price": 1400000,
+   "url": "https://www.hemnet.se/bostad/gard-holsljunga-svenljunga-kommun-svenljunga-olebo-1-6-21788228",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21528467",
+   "title": "Kraksbyn 301",
+   "kommun": "Åmål",
+   "price": 3475000,
+   "url": "https://www.hemnet.se/bostad/villa-3rum-amals-kommun-kraksbyn-301-21528467",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21728408",
+   "title": "Vräk",
+   "kommun": "Falkenberg",
+   "price": 3500000,
+   "url": "https://www.hemnet.se/bostad/gard-falkenbergs-kommun-vrak-21728408",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21784652",
+   "title": "Fagerhult",
+   "kommun": "Bollebygd",
+   "price": 3700000,
+   "url": "https://www.hemnet.se/bostad/gard-tollsjo-bollebygds-kommun-fagerhult-21784652",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21726755",
+   "title": "Svärtan 11",
+   "kommun": "Hjo",
+   "price": 4450000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-svartan-grebban-hjo-kommun-svartan-11-21726755",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21690486",
+   "title": "Hol 27:1",
+   "kommun": "Vårgårda",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-hol-vargarda-kommun-hol-27-1-21690486",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21736564",
+   "title": "Backa Backadal 1",
+   "kommun": "Mark",
+   "price": 1995000,
+   "url": "https://www.hemnet.se/bostad/villa-7rum-oxaback-marks-kommun-backa-backadal-1-21736564",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21750818",
+   "title": "Ryksdamm 280",
+   "kommun": "Ale",
+   "price": 2500000,
+   "url": "https://www.hemnet.se/bostad/villa-5rum-skepplanda-ale-kommun-ryksdamm-280-21750818",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21759461",
+   "title": "Torstensbyn Torerud",
+   "kommun": "Säffle",
+   "price": 1500000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-kila-saffle-kommun-torstensbyn-torerud-21759461",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21751622",
+   "title": "Bäcken",
+   "kommun": "Säffle",
+   "price": 1900000,
+   "url": "https://www.hemnet.se/bostad/gard-saffle-kommun-backen-21751622",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21627862",
+   "title": "Emme 438",
+   "kommun": "Askersund",
+   "price": 2350000,
+   "url": "https://www.hemnet.se/bostad/gard-67m2-askersunds-kommun-emme-438-21627862",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21740864",
+   "title": "Asslebyn Skarpa",
+   "kommun": "Bengtsfors",
+   "price": 3800000,
+   "url": "https://www.hemnet.se/bostad/gard-bengtsfors-kommun-asslebyn-skarpa-21740864",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21784757",
+   "title": "Härbjörnarp 110",
+   "kommun": "Ulricehamn",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-finnekumla-ulricehamns-kommun-harbjornarp-110-21784757",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21773210",
+   "title": "Lönshult 2",
+   "kommun": "Ljungby",
+   "price": 4800000,
+   "url": "https://www.hemnet.se/bostad/gard-ljungby-kommun-lonshult-2-21773210",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21738584",
+   "title": "Rishultsvägen",
+   "kommun": "Markaryd",
+   "price": 1100000,
+   "url": "https://www.hemnet.se/bostad/gard-stromsnasbruk-markaryds-kommun-rishultsvagen-21738584",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21646614",
+   "title": "Sönnerhult Nerbyn 2",
+   "kommun": "Hultsfred",
+   "price": 2500000,
+   "url": "https://www.hemnet.se/bostad/gard-7rum-vena-hultsfreds-kommun-sonnerhult-nerbyn-2-21646614",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21772540",
+   "title": "Nårunga 5:1, del av",
+   "kommun": "Vårgårda",
+   "price": 2600000,
+   "url": "https://www.hemnet.se/bostad/gard-narunga-vargarda-kommun-narunga-5-1,-del-av-21772540",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21769217",
+   "title": "Spakebol",
+   "kommun": "Åmål",
+   "price": 2800000,
+   "url": "https://www.hemnet.se/bostad/gard-amals-kommun-spakebol-21769217",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21750512",
+   "title": "Norra Skarbol Enebacken",
+   "kommun": "Säffle",
+   "price": 3500000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-svanskog-saffle-kommun-norra-skarbol-enebacken-21750512",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21785474",
+   "title": "Nödinge 7:5",
+   "kommun": "Mark",
+   "price": 4800000,
+   "url": "https://www.hemnet.se/bostad/gard-hajom-marks-kommun-nodinge-7-5-21785474",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21784275",
+   "title": "Säm Sämsmon 1",
+   "kommun": "Dals-Ed",
+   "price": 1350000,
+   "url": "https://www.hemnet.se/bostad/gard-ed-dals-eds-kommun-sam-samsmon-1-21784275",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21747865",
+   "title": "Ormansbyn 17",
+   "kommun": "Bengtsfors",
+   "price": 1900000,
+   "url": "https://www.hemnet.se/bostad/gard-4rum-artemark-bengtsfors-kommun-ormansbyn-17-21747865",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21695134",
+   "title": "Gölshult 1339",
+   "kommun": "Älmhult",
+   "price": 3000000,
+   "url": "https://www.hemnet.se/bostad/gard-almhults-kommun-golshult-1339-21695134",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21777073",
+   "title": "Ramhultavägen 47",
+   "kommun": "Mark",
+   "price": 3995000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-satila-marks-kommun-ramhultavagen-47-21777073",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21778059",
+   "title": "Ingrirud Hagalund",
+   "kommun": "Säffle",
+   "price": 1700000,
+   "url": "https://www.hemnet.se/bostad/villa-62m2-ingrirud-saffle-kommun-ingrirud-hagalund-21778059",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21767996",
+   "title": "Skogsfastighet 46 ha i Hjälmseryd",
+   "kommun": "Sävsjö",
+   "price": 1750000,
+   "url": "https://www.hemnet.se/bostad/gard-gamla-hjalmseryd-savsjo-kommun-skogsfastighet-46-ha-i-hjalmseryd-21767996",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21738327",
+   "title": "Svensbyn",
+   "kommun": "Årjäng",
+   "price": 2500000,
+   "url": "https://www.hemnet.se/bostad/gard-arjang-arjangs-kommun-svensbyn-21738327",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21760635",
+   "title": "Skog i Norra Ed",
+   "kommun": "Säffle",
+   "price": 2650000,
+   "url": "https://www.hemnet.se/bostad/gard-saffle-kommun-skog-i-norra-ed-21760635",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21777193",
+   "title": "Funtabo 1",
+   "kommun": "Värnamo",
+   "price": 2950000,
+   "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-funtabo-1-21777193",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21735807",
+   "title": "Kvarnaberget 10",
+   "kommun": "Gislaved",
+   "price": 3000000,
+   "url": "https://www.hemnet.se/bostad/gard-160m2-gislaveds-kommun-kvarnaberget-10-21735807",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21775356",
+   "title": "Stret",
+   "kommun": "Gislaved",
+   "price": 3250000,
+   "url": "https://www.hemnet.se/bostad/gard-gislaveds-kommun-stret-21775356",
+   "days_tracked": 1
+  },
+  {
+   "id": "booli:6159248",
+   "title": "Skog i Torserud",
+   "kommun": "Säffle",
+   "price": 3300000,
+   "url": "https://www.booli.se/annons/6159248",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21738400",
+   "title": "Laxarby-Backa",
+   "kommun": "Bengtsfors",
+   "price": 3500000,
+   "url": "https://www.hemnet.se/bostad/gard-bengtsfors-kommun-laxarby-backa-21738400",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21632344",
+   "title": "Herrenäs",
+   "kommun": "Bengtsfors",
+   "price": 3500000,
+   "url": "https://www.hemnet.se/bostad/gard-bengtsfors-kommun-herrenas-21632344",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21764616",
+   "title": "Strand",
+   "kommun": "Bengtsfors",
+   "price": 4800000,
+   "url": "https://www.hemnet.se/bostad/gard-strand-bengtsfors-kommun-strand-21764616",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21775802",
+   "title": "Stenberga 78",
+   "kommun": "Vetlanda",
+   "price": 1750000,
+   "url": "https://www.hemnet.se/bostad/gard-3rum-stenberga-vetlanda-kommun-stenberga-78-21775802",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21780174",
+   "title": "Rude Rudfallet 110",
+   "kommun": "Askersund",
+   "price": 2350000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-askersunds-kommun-rude-rudfallet-110-21780174",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21765090",
+   "title": "Skäfshult 440",
+   "kommun": "Vimmerby",
+   "price": 2500000,
+   "url": "https://www.hemnet.se/bostad/villa-sodra-vi-vimmerby-kommun-skafshult-440-21765090",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21482745",
+   "title": "Högalid 31",
+   "kommun": "Tranemo",
+   "price": 2995000,
+   "url": "https://www.hemnet.se/bostad/villa-10rum-ambjornarp-tranemo-kommun-hogalid-31-21482745",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21761841",
+   "title": "Karl Gustav Sonås 1",
+   "kommun": "Varberg",
+   "price": 3250000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-karl-gustav-varbergs-kommun-karl-gustav-sonas-1-21761841",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21783804",
+   "title": "Skog strax utanför Bengtsfors",
+   "kommun": "Bengtsfors",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-bengtsfors-bengtsfors-kommun-skog-strax-utanfor-bengtsfors-21783804",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21602269",
+   "title": "Siggaboda 2",
+   "kommun": "Älmhult",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/villa-4rum-almhults-kommun-siggaboda-2-21602269",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21777377",
+   "title": "Stockedalen 150",
+   "kommun": "Ale",
+   "price": 4975000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-alingsas-ale-kommun-stockedalen-150-21777377",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21788638",
+   "title": "Backa Rönningen 1",
+   "kommun": "Årjäng",
+   "price": 1200000,
+   "url": "https://www.hemnet.se/bostad/villa-120m2-tocksfors-arjangs-kommun-backa-ronningen-1-21788638",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21761494",
+   "title": "HULTSFRED HULTSFRED 3:19 m.fl.",
+   "kommun": "Hultsfred",
+   "price": 1400000,
+   "url": "https://www.hemnet.se/bostad/gard-hultsfreds-kommun-hultsfred-hultsfred-3-19-m,fl,-21761494",
+   "days_tracked": 1
   },
   {
    "id": "booli:6127191",
    "title": "Östra Långhultsbygget Klaragården",
    "kommun": "Laholm",
    "price": 2995000,
-   "land_ha": 15.8,
-   "score": 23,
-   "url": "https://www.booli.se/annons/6127191"
+   "url": "https://www.booli.se/annons/6127191",
+   "days_tracked": 0
   },
   {
-   "id": "booli:5861175",
-   "title": "Habelsbolet 1:17",
-   "kommun": "Töreboda",
-   "price": 3100000,
-   "land_ha": 69.63,
-   "score": 23,
-   "url": "https://www.booli.se/annons/5861175"
+   "id": "hemnet:21543455",
+   "title": "VIMMERBY ÖSTRAHULT 1:3 del av",
+   "kommun": "Vimmerby",
+   "price": 3995000,
+   "url": "https://www.hemnet.se/bostad/gard-tuna-vimmerby-kommun-vimmerby-ostrahult-1-3-del-av-21543455",
+   "days_tracked": 1
   },
   {
-   "id": "booli:6000361",
-   "title": "Karlanda-Korsbyn",
-   "kommun": "Årjäng",
-   "price": 4050000,
-   "land_ha": 33.23,
-   "score": 23,
-   "url": "https://www.booli.se/annons/6000361"
-  },
-  {
-   "id": "booli:6056274",
-   "title": "Trantorp Ramnhult",
-   "kommun": "Mark",
-   "price": 3900000,
-   "land_ha": 5.62,
-   "score": 20,
-   "url": "https://www.booli.se/annons/6056274"
-  },
-  {
-   "id": "booli:6216308",
-   "title": "Ödenäs Mellomgården 426",
-   "kommun": "Alingsås",
-   "price": 4750000,
-   "land_ha": 11.0,
-   "score": 20,
-   "url": "https://www.booli.se/annons/6216308"
-  },
-  {
-   "id": "booli:6177972",
-   "title": "Grönlanda 8",
-   "kommun": "Färgelanda",
-   "price": 4300000,
-   "land_ha": 4.72,
-   "score": 19,
-   "url": "https://www.booli.se/annons/6177972"
-  },
-  {
-   "id": "booli:6149284",
-   "title": "Härsbyn Punkten",
-   "kommun": "Bengtsfors",
-   "price": 2875000,
-   "land_ha": 4.87,
-   "score": 13,
-   "url": "https://www.booli.se/annons/6149284"
-  },
-  {
-   "id": "booli:6021271",
-   "title": "Ängafallet 10",
-   "kommun": "Töreboda",
-   "price": 2975000,
-   "land_ha": 9.68,
-   "score": 12,
-   "url": "https://www.booli.se/annons/6021271"
-  },
-  {
-   "id": "booli:6016943",
-   "title": "Valinge Grunnarp 1",
+   "id": "hemnet:21746665",
+   "title": "Björnas väg 1, Björnas",
    "kommun": "Varberg",
-   "price": 2950000,
-   "land_ha": 4.8,
-   "score": 11,
-   "url": "https://www.booli.se/annons/6016943"
+   "price": 4499000,
+   "url": "https://www.hemnet.se/bostad/villa-5rum-varobacka-varbergs-kommun-bjornas-vag-1,-bjornas-21746665",
+   "days_tracked": 1
   },
   {
-   "id": "booli:6066376",
-   "title": "Milleryr 10",
-   "kommun": "Färgelanda",
+   "id": "hemnet:21750320",
+   "title": "Svinnersta Högelund 134",
+   "kommun": "Askersund",
+   "price": 2100000,
+   "url": "https://www.hemnet.se/bostad/gard-70m2-svinnersta-askersunds-kommun-svinnersta-hogelund-134-21750320",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21785021",
+   "title": "Boda",
+   "kommun": "Värnamo",
+   "price": 3275000,
+   "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-boda-21785021",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21599369",
+   "title": "Sätila-Hede 3:31",
+   "kommun": "Mark",
+   "price": 1600000,
+   "url": "https://www.hemnet.se/bostad/gard-satila-marks-kommun-satila-hede-3-31-21599369",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21687595",
+   "title": "Blädinge Boda 1",
+   "kommun": "Alvesta",
+   "price": 4650000,
+   "url": "https://www.hemnet.se/bostad/gard-7rum-bladinge-alvesta-kommun-bladinge-boda-1-21687595",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21727345",
+   "title": "Målareskogen 2",
+   "kommun": "Hjo",
    "price": 3400000,
-   "land_ha": 4.4,
-   "score": 11,
-   "url": "https://www.booli.se/bostad/4578515"
+   "url": "https://www.hemnet.se/bostad/gard-6rum-gate-hjo-kommun-malareskogen-2-21727345",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21765522",
+   "title": "Bredsäter Svaneberg 1",
+   "kommun": "Mariestad",
+   "price": 3995000,
+   "url": "https://www.hemnet.se/bostad/villa-7rum-mariestad-mariestads-kommun-bredsater-svaneberg-1-21765522",
+   "days_tracked": 1
+  },
+  {
+   "id": "booli:6081985",
+   "title": "Magravägen 83",
+   "kommun": "Alingsås",
+   "price": 2985000,
+   "url": "https://www.booli.se/bostad/1760939",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21545732",
+   "title": "Södra Backen 2",
+   "kommun": "Bengtsfors",
+   "price": 2750000,
+   "url": "https://www.hemnet.se/bostad/gard-8rum-artemark-bengtsfors-kommun-sodra-backen-2-21545732",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21787338",
+   "title": "Borreboda Sörgården 23",
+   "kommun": "Töreboda",
+   "price": 2695000,
+   "url": "https://www.hemnet.se/bostad/villa-4rum-borreboda-toreboda-kommun-borreboda-sorgarden-23-21787338",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21776152",
+   "title": "Öjetorp 671",
+   "kommun": "Askersund",
+   "price": 1195000,
+   "url": "https://www.hemnet.se/bostad/gard-40m2-mariedamm-askersunds-kommun-ojetorp-671-21776152",
+   "days_tracked": 1
+  },
+  {
+   "id": "hemnet:21615577",
+   "title": "Dunsjö 240",
+   "kommun": "Askersund",
+   "price": 4500000,
+   "url": "https://www.hemnet.se/bostad/gard-dunsjo-askersunds-kommun-dunsjo-240-21615577",
+   "days_tracked": 1
   },
   {
    "id": "hemnet:21774193",
    "title": "Lilla Hillhult 16",
    "kommun": "Vetlanda",
    "price": 1695000,
-   "land_ha": 3.27,
-   "score": 10,
-   "url": "https://www.hemnet.se/bostad/villa-6rum-aseda-vetlanda-kommun-lilla-hillhult-16-21774193"
+   "url": "https://www.hemnet.se/bostad/villa-6rum-aseda-vetlanda-kommun-lilla-hillhult-16-21774193",
+   "days_tracked": 0
   },
   {
    "id": "booli:6170048",
    "title": "Hallanda Sörmon",
    "kommun": "Säffle",
    "price": 1350000,
-   "land_ha": 4.1,
-   "score": 8,
-   "url": "https://www.booli.se/annons/6170048"
-  }
- ],
- "gone": [
-  {
-   "id": "booli:6212333",
-   "title": "Klägghult 2",
-   "kommun": "Svenljunga",
-   "price": 2700000,
-   "url": "https://www.booli.se/annons/6212333",
+   "url": "https://www.booli.se/annons/6170048",
    "days_tracked": 0
+  },
+  {
+   "id": "hemnet:21775432",
+   "title": "ÄLGEBO 1:14 ",
+   "kommun": "Vaggeryd",
+   "price": 1650000,
+   "url": "https://www.hemnet.se/bostad/gard-vaggeryd-vaggeryds-kommun-algebo-1-14-21775432",
+   "days_tracked": 1
   }
  ],
- "price_changes": [],
+ "price_changes": [
+  {
+   "id": "booli:6216308",
+   "title": "Ödenäs Mellomgården 426",
+   "kommun": "Alingsås",
+   "old": 4750000,
+   "new": 4800000,
+   "url": "https://www.booli.se/annons/6216308"
+  }
+ ],
  "first_run": false
 }

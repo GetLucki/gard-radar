@@ -298,6 +298,10 @@ def passes(l):
     return ha >= CFG["land_min_ha"]
 
 
+def _norm_title(t):
+    return re.sub(r"[^a-zåäö0-9]", "", (t or "").lower())
+
+
 def dedupe(listings):
     """Merge Booli duplicates into Hemnet entries when price and position agree."""
     hemnet = [l for l in listings if l["source"] == "hemnet"]
@@ -307,10 +311,15 @@ def dedupe(listings):
     for b in booli:
         dup = None
         for h in hemnet + kept_booli:
-            if h.get("kommun") != b.get("kommun") or not (h.get("lat") and b.get("lat")):
+            if h.get("kommun") != b.get("kommun"):
                 continue
-            if abs((h["price"] or 0) - (b["price"] or 0)) <= 0.01 * max(h["price"], 1) and \
-                    haversine_km(h["lat"], h["lon"], b["lat"], b["lon"]) < 0.4:
+            same_price = abs((h["price"] or 0) - (b["price"] or 0)) <= 0.01 * max(h["price"] or 1, 1)
+            if not same_price:
+                continue
+            near = bool(h.get("lat") and b.get("lat")) and haversine_km(h["lat"], h["lon"], b["lat"], b["lon"]) < 0.4
+            same_name = _norm_title(h.get("title")) and _norm_title(h.get("title")) == _norm_title(b.get("title"))
+            same_land = h.get("land_ha") and b.get("land_ha") and abs(h["land_ha"] - b["land_ha"]) <= 0.05 * max(h["land_ha"], 0.1)
+            if near or same_name or (same_land and (h.get("lat") is None or b.get("lat") is None)):
                 dup = h
                 break
         if dup:

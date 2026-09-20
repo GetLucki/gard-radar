@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Render docs/index.html from data/*.json. Pure stdlib, no templates."""
-import datetime
+"""Render docs/index.html from data/*.json. Pure stdlib, no templates.
+
+Layout (Luki, 2026-09-20): top three as cards with image, link and the two
+motivations (survival, investment), then one sortable table of every matching
+listing in rank order. Market and change details are folded into a collapsed
+block at the bottom.
+"""
 import glob
-import html
 import json
-import os
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
@@ -33,7 +36,6 @@ for f in sorted(glob.glob(str(DATA / "history" / "*.json")))[-30:]:
     except Exception:
         pass
 
-# public copies (without the big details cache)
 for name in ("listings.json", "changes.json", "recommendations.json"):
     if (DATA / name).exists():
         (DOCS / "data" / name).write_bytes((DATA / name).read_bytes())
@@ -57,137 +59,172 @@ page = r"""<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gård-radar</title>
 <style>
-:root{--bg:#f6f4ee;--card:#fff;--ink:#1f2a1f;--muted:#6b7266;--accent:#2f6b3a;--accent2:#b5541c;--line:#e3e0d6;--good:#2f6b3a;--warn:#b5541c}
-@media (prefers-color-scheme:dark){:root{--bg:#141712;--card:#1d221b;--ink:#e9ede4;--muted:#9aa394;--line:#2c3329;--accent:#7fc08a;--accent2:#e58a4d}}
+:root{--bg:#f6f4ee;--card:#fff;--ink:#1f2a1f;--muted:#6b7266;--accent:#2f6b3a;--accent2:#b5541c;--line:#e3e0d6;--blue:#2f5fa8}
+@media (prefers-color-scheme:dark){:root{--bg:#141712;--card:#1d221b;--ink:#e9ede4;--muted:#9aa394;--line:#2c3329;--accent:#7fc08a;--accent2:#e58a4d;--blue:#7fa6e8}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
-h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:28px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
-.sub{color:var(--muted);margin-bottom:18px}
-.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.wrap{max-width:1200px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:26px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.sub{color:var(--muted);margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+.chip{font-size:12px;padding:3px 9px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--muted)}
+.chip b{color:var(--ink)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
 .card img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#ccc}
-.card .b{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
-.t{font-weight:600;font-size:16px}.m{color:var(--muted);font-size:13px}
+.card .b{padding:12px 14px 14px;display:flex;flex-direction:column;gap:7px;flex:1}
+.t{font-weight:700;font-size:17px}.m{color:var(--muted);font-size:13px}
 .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
-.price{font-weight:700;font-size:17px}.score{font-weight:700;color:var(--accent);font-size:20px}
-.chips{display:flex;flex-wrap:wrap;gap:4px}.chip{font-size:11px;padding:2px 7px;border-radius:999px;background:var(--bg);border:1px solid var(--line);color:var(--muted)}
-.chip.on{color:var(--accent);border-color:var(--accent)}
-.tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:6px;background:var(--accent);color:#fff}
-.tag.cut{background:var(--accent2)}.tag.new{background:#2f5fa8}
-a{color:inherit}.links a{font-size:13px;color:var(--accent);margin-right:10px}
-.stats{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
-.stat .v{font-size:26px;font-weight:700}.stat .l{color:var(--muted);font-size:12px}
-table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:600;font-size:12px}
-.top{border-left:5px solid var(--accent)}.why{font-size:14px}
-.ctrl{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px}select,input{padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
-.note{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;white-space:pre-wrap}
+.price{font-weight:700;font-size:18px}.score{font-weight:700;color:var(--accent);font-size:22px}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:6px;background:var(--accent);color:#fff;white-space:nowrap}
+.tag.cut{background:var(--accent2)}.tag.new{background:var(--blue)}.tag.pick{background:var(--accent)}
+.why{font-size:14px}.why b{color:var(--accent)}
+.rec{font-size:14px;font-weight:600;padding:8px 10px;border-radius:8px;background:var(--bg);border:1px solid var(--line)}
+a{color:inherit}
+.ctrl{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 12px;align-items:center}
+select,input{padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:900px}
+th{position:sticky;top:0;background:var(--card);color:var(--muted);font-weight:600;font-size:12px;text-align:left;padding:10px 8px;border-bottom:2px solid var(--line);cursor:pointer;user-select:none;white-space:nowrap}
+th.on{color:var(--accent)}th.num,td.num{text-align:right}
+td{padding:8px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr:hover td{background:rgba(47,107,58,.06)}
+td.rank{font-weight:700;color:var(--accent);font-size:16px;text-align:center}
+td img{width:84px;height:60px;object-fit:cover;border-radius:6px;background:#ccc;display:block}
+.obj a{font-weight:600}.obj .m{display:block}
 .small{font-size:12px;color:var(--muted)}
-.spark{display:flex;align-items:flex-end;gap:2px;height:40px}.spark i{display:block;width:8px;background:var(--accent);border-radius:2px 2px 0 0;opacity:.8}
+details{margin-top:24px}summary{cursor:pointer;font-weight:600;color:var(--muted)}
+.note{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.spark{display:flex;align-items:flex-end;gap:2px;height:40px;margin-top:6px}.spark i{display:block;width:8px;background:var(--accent);border-radius:2px 2px 0 0;opacity:.8}
 </style>
 </head>
 <body><div class="wrap">
 <h1>Gård-radar</h1>
 <div class="sub" id="sub"></div>
-<div class="stats" id="stats"></div>
+<div class="chips" id="chips"></div>
 
-<h2>Today's picks</h2>
+<h2>Top three</h2>
 <div id="recs"></div>
 
-<h2>Market situation</h2>
-<div id="market"></div>
-
-<h2>Changes since last run</h2>
-<div id="changes"></div>
-
-<h2>All matching listings</h2>
+<h2>All matching listings, ranked</h2>
 <div class="ctrl">
   <select id="fRegion"><option value="">All regions</option></select>
-  <select id="fSort"><option value="score">Sort: score</option><option value="price">Sort: price</option><option value="ha">Sort: land</option><option value="new">Sort: newest</option><option value="drive">Sort: drive time</option></select>
-  <input id="fText" placeholder="Filter text (kommun, title)">
+  <input id="fText" placeholder="Filter: kommun, title, broker">
+  <label class="small"><input type="checkbox" id="fNew"> only new</label>
+  <span class="small" id="count"></span>
 </div>
-<div class="grid" id="list"></div>
-<p class="small" style="margin-top:30px">Sources: Hemnet (Gård/Skog) and Booli (Gård). Scores are a deterministic pre-score from listing text and facts; the top three are Claude's daily judgement. Criteria live in the shared plan document.</p>
+<div class="tw"><table id="tbl"><thead><tr>
+  <th data-k="rank" class="num on">#</th>
+  <th></th>
+  <th data-k="title">Property</th>
+  <th data-k="price" class="num">Price</th>
+  <th data-k="land_ha" class="num">Land</th>
+  <th data-k="price_per_ha" class="num">kr/ha</th>
+  <th data-k="living_m2" class="num">m²</th>
+  <th data-k="build_year" class="num">Built</th>
+  <th data-k="drive_h" class="num">Drive</th>
+  <th data-k="score" class="num">Score</th>
+  <th data-k="days_tracked" class="num">Days</th>
+  <th>Status</th>
+</tr></thead><tbody id="rows"></tbody></table></div>
+
+<details><summary>Market, regions and changes since the last run</summary><div id="market" style="margin-top:10px"></div></details>
+
+<p class="small" style="margin-top:30px">Sources: Hemnet and Booli (Gård/Skog plus Villa/Hus with 3 ha or more). Score is a deterministic pre-score from listing text and facts; the top three and their reasons are Claude's daily judgement. Criteria live in the shared plan document.</p>
 </div>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const kr = n => n==null ? '–' : n.toLocaleString('sv-SE') + ' kr';
 const esc = s => (s??'').toString().replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const newIds = new Set((D.changes.new||[]).map(x=>x.id));
-const cutIds = new Map((D.changes.price_changes||[]).map(x=>[x.id,x]));
-const S = D.stats||{};
-document.getElementById('sub').textContent = `Updated ${D.generated||'?'} · ${kr(D.config.price_min)} to ${kr(D.config.price_max)} · at least ${D.config.land_min_ha} ha · ${Object.keys(D.config.kommuner).length} kommuner within reach of ${D.config.base.name}`;
-document.getElementById('stats').innerHTML = [
-  ['Matching listings', S.matched], ['New today', S.new], ['Gone', S.gone], ['Price cuts', S.price_cuts],
-  ['Median asking', kr(S.median_price)], ['Median kr/ha', kr(S.median_price_per_ha)]
-].map(([l,v])=>`<div class="stat"><div class="v">${v??'–'}</div><div class="l">${l}</div></div>`).join('');
+const S = D.stats||{}, C = D.changes||{}, R = D.recs||{};
+const newIds = new Set((C.new||[]).map(x=>x.id));
+const cutIds = new Map((C.price_changes||[]).map(x=>[x.id,x]));
+const TOP = (R.top || R.top3 || []);
+const pickRank = new Map(TOP.map((r,i)=>[r.id,i+1]));
+const byId = Object.fromEntries(D.listings.map(l=>[l.id,l]));
 
-// recommendations
-const R = D.recs||{}; const byId = Object.fromEntries(D.listings.map(l=>[l.id,l]));
+// rank = position by score (ties by price)
+const L = [...D.listings].sort((a,b)=> (b.score-a.score) || (a.price-b.price)).map((l,i)=>({...l, rank:i+1}));
+
+document.getElementById('sub').textContent = `Updated ${D.generated||'?'} · ${kr(D.config.price_min)} to ${kr(D.config.price_max)} · at least ${D.config.land_min_ha} ha · ${Object.keys(D.config.kommuner).length} kommuner within reach of ${D.config.base.name}`;
+document.getElementById('chips').innerHTML = [
+  ['matching', S.matched], ['new today', S.new], ['gone', S.gone], ['price cuts', S.price_cuts],
+  ['median asking', kr(S.median_price)], ['median per ha', kr(S.median_price_per_ha)]
+].map(([l,v])=>`<span class="chip"><b>${v??'–'}</b> ${l}</span>`).join('') + (R.date?`<span class="chip">picks dated <b>${esc(R.date)}</b></span>`:'');
+
+// top three cards
 let rh='';
-const TOP = R.top || R.top3 || [];
 if (TOP.length){
-  rh += `<div class="grid">` + TOP.map((r,i)=>{ const l = byId[r.id]||{}; return `<div class="card top">${l.image?`<img src="${esc(l.image)}" alt="">`:''}<div class="b">
-    <div class="row"><span class="tag">#${i+1}</span><span class="score">${r.score??l.score??''}</span></div>
-    <div class="t"><a href="${esc(r.url||l.url)}" target="_blank" rel="noopener">${esc(r.title||l.title)}</a></div>
-    <div class="m">${esc(r.kommun||l.kommun)} · ${esc(l.region||'')} · ${l.land_ha?l.land_ha+' ha':''} ${l.living_m2?'· '+l.living_m2+' m²':''} ${l.drive_h?'· '+l.drive_h+' h':''}</div>
+  rh = `<div class="grid">` + TOP.slice(0,3).map((r,i)=>{ const l = byId[r.id]||{}; const gone = !byId[r.id];
+    return `<div class="card">${l.image?`<img src="${esc(l.image)}" alt="">`:''}<div class="b">
+    <div class="row"><span class="tag pick">#${i+1}</span><span class="score">${r.score??l.score??''}</span></div>
+    <div class="t"><a href="${esc(r.url||l.url)}" target="_blank" rel="noopener">${esc(r.title||l.title)}</a>${gone?' <span class="tag cut">no longer listed</span>':''}</div>
+    <div class="m">${esc(r.kommun||l.kommun)} · ${esc(r.region||l.region||'')} · ${(r.land_ha||l.land_ha)?(r.land_ha||l.land_ha)+' ha':''}${l.living_m2?' · '+l.living_m2+' m²':''}${l.build_year?' · built '+l.build_year:''}${l.drive_h?' · '+l.drive_h+' h':''}</div>
     <div class="price">${kr(r.price||l.price)}</div>
-    <div class="why">${r.prepping_why?`<b>Survival:</b> ${esc(r.prepping_why)}<br>`:''}${r.invest_why?`<b>Investment:</b> ${esc(r.invest_why)}<br>`:''}${r.rank_why?`<b>Rank:</b> ${esc(r.rank_why)}<br>`:''}${r.maintenance?`<b>Maintenance:</b> ${esc(r.maintenance)}<br>`:''}${r.recommendation?`<b>Recommendation:</b> ${esc(r.recommendation)}`:esc(r.why||'')}</div></div></div>`}).join('') + `</div>`;
-  if (R.dropped && R.dropped.length) rh += `<p class="small" style="margin-top:10px"><b>Dropped from the top three:</b> ` + R.dropped.map(d=>`${esc(d.title)} (${esc(d.why)})`).join('; ') + `</p>`;
-  rh += `<p class="small">Recommendations dated ${esc(R.date||'')}.</p>`;
-} else rh = `<div class="note">No recommendations yet. The Claude step writes them after the first full run.</div>`;
+    <div class="why"><b>Survival:</b> ${esc(r.prepping_why||r.why||'')}</div>
+    <div class="why"><b>Investment:</b> ${esc(r.invest_why||'')}</div>
+    ${r.maintenance?`<div class="m"><b>Maintenance:</b> ${esc(r.maintenance)}</div>`:''}
+    ${r.recommendation?`<div class="rec">${esc(r.recommendation)}</div>`:''}
+    </div></div>`}).join('') + `</div>`;
+  if (TOP.length>3) rh += `<p class="small" style="margin-top:8px"><b>Also judged worth a look:</b> ` + TOP.slice(3).map((r,i)=>`#${i+4} <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a> (${esc(r.kommun)}, ${kr(r.price)})`).join(' · ') + `</p>`;
+  if (R.dropped && R.dropped.length) rh += `<p class="small"><b>Left the list:</b> ` + R.dropped.map(d=>`${esc(d.title)} (${esc(d.why)})`).join('; ') + `</p>`;
+} else rh = `<div class="note">No judgement yet. The daily step writes the top three after the scan.</div>`;
 document.getElementById('recs').innerHTML = rh;
 
-// market
+// table
+const regions = [...new Set(L.map(l=>l.region))].sort();
+const fR = document.getElementById('fRegion'); regions.forEach(r=>{const o=document.createElement('option');o.value=r;o.textContent=r;fR.appendChild(o)});
+let sortKey='rank', sortDir=1;
+function status(l){
+  const out=[];
+  if (pickRank.has(l.id)) out.push(`<span class="tag pick">pick #${pickRank.get(l.id)}</span>`);
+  if (newIds.has(l.id)) out.push(`<span class="tag new">new</span>`);
+  const c=cutIds.get(l.id); if (c) out.push(`<span class="tag ${c.new<c.old?'cut':''}">${c.new<c.old?'price cut':'price up'}</span>`);
+  if (l.upcoming) out.push(`<span class="chip">upcoming</span>`);
+  return out.join(' ');
+}
+function render(){
+  const r=fR.value, q=document.getElementById('fText').value.toLowerCase(), onlyNew=document.getElementById('fNew').checked;
+  let rows = L.filter(l => (!r || l.region===r) && (!onlyNew || newIds.has(l.id)) && (!q || (l.title+' '+l.kommun+' '+(l.location||'')+' '+(l.broker||'')).toLowerCase().includes(q)));
+  rows.sort((a,b)=>{ let x=a[sortKey], y=b[sortKey]; if (typeof x==='string') return sortDir*x.localeCompare(y||'', 'sv'); x=(x==null?Infinity*sortDir:x); y=(y==null?Infinity*sortDir:y); return sortDir*(x-y); });
+  document.getElementById('count').textContent = `${rows.length} of ${L.length}`;
+  document.getElementById('rows').innerHTML = rows.map(l=>`<tr>
+    <td class="rank">${l.rank}</td>
+    <td>${l.image?`<a href="${esc(l.url)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(l.image)}" alt=""></a>`:''}</td>
+    <td class="obj"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a><span class="m">${esc(l.kommun)} · ${esc(l.region)} · ${esc(l.type||'')}${l.alt_url?` · <a href="${esc(l.alt_url)}" target="_blank" rel="noopener">Booli</a>`:''}</span></td>
+    <td class="num">${kr(l.price)}</td>
+    <td class="num">${l.land_ha!=null?l.land_ha+' ha':'?'}</td>
+    <td class="num">${l.price_per_ha?l.price_per_ha.toLocaleString('sv-SE'):'–'}</td>
+    <td class="num">${l.living_m2??'–'}</td>
+    <td class="num">${l.build_year??'–'}</td>
+    <td class="num">${l.drive_h!=null?l.drive_h+' h':'–'}</td>
+    <td class="num"><b>${l.score}</b></td>
+    <td class="num">${l.days_tracked??'–'}</td>
+    <td>${status(l)}</td>
+  </tr>`).join('') || `<tr><td colspan="12" class="small">Nothing matches these filters.</td></tr>`;
+  document.querySelectorAll('th[data-k]').forEach(th=>th.classList.toggle('on', th.dataset.k===sortKey));
+}
+document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{ const k=th.dataset.k; if (sortKey===k) sortDir=-sortDir; else { sortKey=k; sortDir = (k==='rank'||k==='price'||k==='price_per_ha'||k==='drive_h'||k==='title') ? 1 : -1; } render(); }));
+['fRegion','fText','fNew'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+render();
+
+// collapsed market block
 let mh = R.market_summary ? `<div class="note">${esc(R.market_summary)}</div>` : '';
 const reg = S.by_region||{};
-mh += `<table style="margin-top:12px"><tr><th>Region</th><th>Listings</th><th>New</th><th>Median asking</th></tr>` +
-  Object.entries(reg).sort((a,b)=>b[1].count-a[1].count).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v.count}</td><td>${v.new}</td><td>${kr(v.median_price)}</td></tr>`).join('') + `</table>`;
+mh += `<table style="min-width:0;margin-top:12px"><tr><th>Region</th><th class="num">Listings</th><th class="num">New</th><th class="num">Median asking</th></tr>` +
+  Object.entries(reg).sort((a,b)=>b[1].count-a[1].count).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="num">${v.count}</td><td class="num">${v.new}</td><td class="num">${kr(v.median_price)}</td></tr>`).join('') + `</table>`;
 const fmtTot = v => v==null ? '–' : (typeof v==='object' ? Object.entries(v).map(([k,n])=>`${n??'–'} ${k}`).join(', ') : v);
-if (S.national_in_band) mh += `<p class="small">Nationally in the price band today: Hemnet ${fmtTot(S.national_in_band.hemnet)}; Booli ${fmtTot(S.national_in_band.booli)}.</p>`;
+if (S.national_in_band) mh += `<p class="small">Nationally in the price band: Hemnet ${fmtTot(S.national_in_band.hemnet)}; Booli ${fmtTot(S.national_in_band.booli)}.</p>`;
+let ch='';
+(C.new||[]).forEach(x=> ch += `<li><span class="tag new">new</span> <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>, ${esc(x.kommun)}, ${kr(x.price)}, score ${x.score}</li>`);
+(C.price_changes||[]).forEach(x=> ch += `<li><span class="tag ${x.new<x.old?'cut':''}">${x.new<x.old?'price cut':'price up'}</span> <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>, ${kr(x.old)} to ${kr(x.new)}</li>`);
+(C.gone||[]).forEach(x=> ch += `<li><span class="chip">gone</span> ${esc(x.title)}, ${esc(x.kommun)}, ${kr(x.price)}</li>`);
+mh += ch ? `<ul style="margin-top:10px">${ch}</ul>` : `<p class="small" style="margin-top:10px">No changes since the last run.</p>`;
 if (D.history && D.history.length>1){
   const max = Math.max(...D.history.map(h=>h.matched||0),1);
-  mh += `<div class="small" style="margin-top:8px">Matching listings, last ${D.history.length} runs</div><div class="spark">` + D.history.map(h=>`<i title="${h.date}: ${h.matched}" style="height:${Math.max(3,Math.round(40*h.matched/max))}px"></i>`).join('') + `</div>`;
+  mh += `<div class="small">Matching listings, last ${D.history.length} runs</div><div class="spark">` + D.history.map(h=>`<i title="${h.date}: ${h.matched}" style="height:${Math.max(3,Math.round(40*h.matched/max))}px"></i>`).join('') + `</div>`;
 }
 document.getElementById('market').innerHTML = mh;
-
-// changes
-const C = D.changes||{}; let ch='';
-if (C.first_run) ch += `<div class="note">First run: everything counts as new. Changes will be meaningful from tomorrow.</div>`;
-else {
-  ch += `<table><tr><th>Type</th><th>Listing</th><th>Kommun</th><th>Price</th></tr>`;
-  (C.new||[]).forEach(x=> ch += `<tr><td><span class="tag new">new</span></td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${esc(x.kommun)}</td><td>${kr(x.price)} · score ${x.score}</td></tr>`);
-  (C.price_changes||[]).forEach(x=> ch += `<tr><td><span class="tag ${x.new<x.old?'cut':''}">${x.new<x.old?'price cut':'price up'}</span></td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${esc(x.kommun)}</td><td>${kr(x.old)} → ${kr(x.new)}</td></tr>`);
-  (C.gone||[]).forEach(x=> ch += `<tr><td><span class="chip">gone</span></td><td>${esc(x.title)}</td><td>${esc(x.kommun)}</td><td>${kr(x.price)} · tracked ${x.days_tracked??'?'} d</td></tr>`);
-  ch += `</table>`;
-  if (!(C.new||[]).length && !(C.price_changes||[]).length && !(C.gone||[]).length) ch = `<div class="note">No changes since the last run.</div>`;
-}
-document.getElementById('changes').innerHTML = ch;
-
-// list
-const regions = [...new Set(D.listings.map(l=>l.region))].sort();
-const fR = document.getElementById('fRegion'); regions.forEach(r=>{const o=document.createElement('option');o.value=r;o.textContent=r;fR.appendChild(o)});
-const PARTS = {water:'water',land:'land',buildings:'buildings',heating:'heat',maintenance:'low-maint',seclusion:'seclusion',drive:'drive',price:'price'};
-function render(){
-  const r = fR.value, s = document.getElementById('fSort').value, q = document.getElementById('fText').value.toLowerCase();
-  let L = D.listings.filter(l => (!r || l.region===r) && (!q || (l.title+' '+l.kommun+' '+(l.location||'')).toLowerCase().includes(q)));
-  const key = {score:l=>-l.score, price:l=>l.price, ha:l=>-(l.land_ha||0), new:l=>-(new Date(l.first_seen)), drive:l=>l.drive_h??99}[s];
-  L.sort((a,b)=>key(a)-key(b));
-  document.getElementById('list').innerHTML = L.map(l=>{
-    const cut = cutIds.get(l.id); const parts = l.score_parts||{};
-    return `<div class="card">${l.image?`<img loading="lazy" src="${esc(l.image)}" alt="">`:''}<div class="b">
-      <div class="row"><div>${newIds.has(l.id)?'<span class="tag new">new</span> ':''}${cut?`<span class="tag ${cut.new<cut.old?'cut':''}">${cut.new<cut.old?'price cut':'price up'}</span> `:''}${l.upcoming?'<span class="chip">upcoming</span>':''}</div><span class="score">${l.score}</span></div>
-      <div class="t"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a></div>
-      <div class="m">${esc(l.kommun)} · ${esc(l.region)} · ${esc(l.type||'')}</div>
-      <div class="row"><span class="price">${kr(l.price)}</span><span class="m">${l.land_ha?l.land_ha+' ha':'land ?'}${l.price_per_ha?' · '+kr(l.price_per_ha)+'/ha':''}</span></div>
-      <div class="m">${l.living_m2?l.living_m2+' m² · ':''}${esc(l.rooms||'')}${l.build_year?' · byggår '+l.build_year:''}${l.drive_h?' · '+l.drive_h+' h from '+esc(D.config.base.name):''} · tracked ${l.days_tracked} d</div>
-      <div class="chips">${Object.entries(PARTS).map(([k,lab])=>`<span class="chip ${parts[k]>0?'on':''}">${lab} ${parts[k]??0}</span>`).join('')}</div>
-      <div class="chips">${(l.signals||[]).map(x=>`<span class="chip on">${esc(x)}</span>`).join('')}</div>
-      <div class="links"><a href="${esc(l.url)}" target="_blank" rel="noopener">${l.source==='hemnet'?'Hemnet':'Booli'}</a>${l.alt_url?`<a href="${esc(l.alt_url)}" target="_blank" rel="noopener">Booli</a>`:''}<span class="small">${esc(l.broker||'')}</span></div>
-    </div></div>`}).join('') || '<div class="note">Nothing matches these filters.</div>';
-}
-['fRegion','fSort','fText'].forEach(id=>document.getElementById(id).addEventListener('input',render)); render();
 </script>
 </body></html>
 """

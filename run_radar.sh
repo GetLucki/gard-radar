@@ -18,6 +18,16 @@ ts() { date '+%F %T'; }
 cd "$REPO" || { echo "$(ts) gard-radar: repo saknas: $REPO" >&2; exit 1; }
 echo "$(ts) gard-radar: startar"
 
+# 0. Vänta in nätet. Macen vaknar ofta precis vid 07:15 och wifi kommer upp
+#    någon minut senare; 2026-09-19 och 09-20 föll hela körningen på det.
+net_ok() { curl -s -m 8 -o /dev/null -w '%{http_code}' https://www.booli.se/ 2>/dev/null | grep -qE '^(2|3|4)'; }
+for i in {1..60}; do
+  if net_ok; then break; fi
+  (( i == 1 )) && echo "$(ts) gard-radar: inget nät ännu, väntar (max 10 min)"
+  sleep 10
+done
+net_ok || { echo "$(ts) gard-radar: fortfarande inget nät efter 10 min, avbryter"; echo "$(ts) inget nät efter 10 min väntan" > data/scan_failed.txt; }
+
 # 1. scan (writes data/scan_failed.txt on crash, so Claude can report it)
 if [[ "$SKIP_SCAN" != "1" ]]; then
   "$PY" scanner/scan.py 2>&1 | tail -n 40

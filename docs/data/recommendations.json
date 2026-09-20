@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-18",
-  "market_summary": "222 listings match the hard filters this morning, up from 209, but the 14 counted as new are mostly noise: ten of them are Booli sold-price records (Slutpris or Sista bud pages, sold between March and September) that the scanner read as live listings, so they are not for sale and cannot be judged. The only genuine newcomers are Björkesbacka Bäckaskog in Mark (coming soon, 7.25 ha, 3 995 000 kr, no readable description yet) and Lilla Hillhult 16 in Vetlanda, a small old house on newly planted spruce that fails the low-maintenance bar. The one listing marked gone, Klägghult 2, is a Booli re-index: the record claiming a 2022 build year vanished and the 1964 record remains, so it is treated as a 1964 house from today. No price changes anywhere. Median asking is 2 995 000 kr and about 263 000 kr per hectare, essentially flat on yesterday; supply still sits in Småland and Dalsland/Värmland. The five picks are the same houses as yesterday and all five still need the same broker questions on facade, roof, windows and water before anyone drives anywhere, so this is a week for phone calls, not viewings.",
+  "date": "2026-09-20",
+  "market_summary": "184 listings match the hard filters today, but the headline numbers are a source artefact, not a market move: the Hemnet scan failed this run, so all 118 Hemnet records show as gone and 80 of the same properties reappear as new under their Booli ids. Nothing has actually left the market among the houses we follow, and no genuine newcomer built after 1965 has arrived. The one recorded price rise, Ödenäs Mellomgården 426 in Alingsås, is a Booli sold-price page and not a live listing. Median asking is 2 962 500 kr and about 300 000 kr per hectare on the Booli-only set, higher than the 263 000 kr we saw with Hemnet included, because Booli carries more small-plot villas. The five picks are the same houses as before, now referenced by their Booli ids, and the job for this week is unchanged: phone the brokers about facade, roof, windows and water before anyone drives anywhere.",
   "top": [
     {
-      "id": "hemnet:21719773",
+      "id": "booli:6082668",
       "title": "Gunnarsjö Bro 1",
       "kommun": "Varberg",
       "region": "Halland inland",
       "price": 3395000,
       "land_ha": 15.5,
-      "url": "https://www.hemnet.se/bostad/gard-5rum-kungsater-varbergs-kommun-gunnarsjo-bro-1-21719773",
+      "url": "https://www.booli.se/bostad/1617647",
       "score": 70,
       "prepping_why": "15.5 ha of open land one hour from Göteborg in Kungsäter, with bergvärme, solar panels and two working vedspisar already installed, so heat and power resilience exist on day one. The 123 m2 house has an 80 m2 basement with matkällare and laundry, and the ladugård holds a workshop, slaughter room and machine hall. Water source is not stated and must be asked. An empty house on bergvärme can be held at background heat cheaply, which is the empty-house plan in the doc.",
-      "invest_why": "At 219 000 kr per ha the land is priced below the 263 000 kr median while sitting in Halland, top three on every five-year price series. Four months on Booli means the seller should take an offer. Weakness for resale is the outbuilding stock: an 1850s timmerhus, hönshus and smedja look charming but add nothing a buyer like us will pay for.",
+      "invest_why": "At 219 000 kr per ha the land is priced below the median while sitting in Halland, top three on every five-year price series. Four months on Booli means the seller should take an offer. Weakness for resale is the outbuilding stock: an 1850s timmerhus, hönshus and smedja look charming but add nothing a buyer like us will pay for.",
       "rank_why": "Closest, most land and most installed systems of the five; the 1964 build year sits one year under the 1965 line and is treated as the same era. It stays on top only if facade and roof turn out to be brick, render or metal.",
       "maintenance": "Built 1964, 1.5 floors with basement; facade, roof and windows not stated. Within ten years: the older upstairs bathroom, probably a window round, and a decision to demolish or re-roof the 1850s timmerhus, hönshus and smedja, which are the real maintenance load. Empty-house risks: basement damp if the drainage is old, and five separate buildings to secure against break-ins.",
       "recommendation": "Ask the broker for facade, roof and window materials and the water source first, then book a viewing; the main house is the right era and the land and systems are already in place."
     },
     {
-      "id": "hemnet:21766339",
+      "id": "booli:6219050",
       "title": "Västra Mörtnäs 503",
       "kommun": "Årjäng",
       "region": "Dalsland/Värmland",
       "price": 2575000,
-      "land_ha": 10.8,
-      "url": "https://www.hemnet.se/bostad/gard-11rum-arjangs-kommun-vastra-mortnas-503-21766339",
+      "land_ha": 10.83,
+      "url": "https://www.booli.se/annons/6219050",
       "score": 62,
       "prepping_why": "A 1982 villa of 183 m2 over three floors with three wood-burning stoves, a sauna and a separate apartment with its own entrance, on 10.8 ha of forest and open land in a secluded spot outside Årjäng with hunting rights. A 1980s house on a slab or drained basement takes standing empty far better than any old gård house on this list. Water source and forest share are not stated.",
-      "invest_why": "238 000 kr per ha is under the median, in Värmland where villa prices rose 9.1 percent in the last year and Norwegian second-home demand keeps the market liquid. The forest share decides the value floor; ask for it. One month on Booli, so no price pressure yet.",
+      "invest_why": "238 000 kr per ha is under the median, in Värmland where villa prices rose 9.1 percent in the last year and Norwegian second-home demand keeps the market liquid. The forest share decides the value floor; ask for it. One month on Booli and bidding has started, so it may not wait for a slow buyer.",
       "rank_why": "The best house on the list for the safe-house purpose, but 2.4 hours from Göteborg and 5 ha less land than Gunnarsjö Bro 1; it moves to first place if that one fails the facade question.",
       "maintenance": "Built 1982; facade, roof and windows not stated but likely original 1980s, so expect a roof and window round within ten years if not already done. Empty-house risks: frost in a three-floor water system unless drained or kept on background heat, and a remote location that invites break-ins without a neighbour's eye.",
-      "recommendation": "Ask the broker for the water source, forest share, facade and roof materials first; on paper this is the house type the doc asks for."
+      "recommendation": "Ask the broker for the water source, forest share, facade and roof materials first, and ask where the bidding stands; on paper this is the house type the doc asks for."
     },
     {
       "id": "booli:6162110",
@@ -42,90 +42,84 @@
       "url": "https://www.booli.se/annons/6162110",
       "score": 56,
       "prepping_why": "7.1 ha at Kalv in southern Svenljunga, a lake district on the Halland border 1.2 hours from Göteborg, with a 1964 house of 120 m2 living and 100 m2 other area, seven rooms, and a stated running cost of 3 152 kr per month, which is low for a house this size. Water, heating and the land mix are still unknown because Booli shows only the fact box and the broker page has not been read.",
-      "invest_why": "380 000 kr per ha is above the median, so the price carries the house rather than the land, which only works if the house is truly finished. 44 days on Booli with 1 500 page views and no bidding, listed by LF Fastighetsförmedling, so there is no rush.",
-      "rank_why": "Closest to home after Gunnarsjö Bro 1 and the cheapest of the three sub-1.5-hour houses; it no longer carries the possible 2022 build year that lifted it yesterday, so it sits behind the two houses whose descriptions we have read in full and ahead of Norra Skarbol on distance and price.",
+      "invest_why": "380 000 kr per ha is above the median, so the price carries the house rather than the land, which only works if the house is truly finished. About one month on Booli with no bidding, listed by LF Fastighetsförmedling, so there is no rush.",
+      "rank_why": "Closest to home after Gunnarsjö Bro 1 and the cheapest of the three sub-1.5-hour houses; it sits behind the two houses whose descriptions we have read in full and ahead of Norra Skarbol on distance and price.",
       "maintenance": "Built 1964; facade, roof and windows not stated. Within ten years: expect a roof check and a window round unless the broker shows they have been done. Empty-house risks: unknown water system, and no information yet on neighbours or road visibility.",
       "recommendation": "Ask the broker for facade, roof, windows, water source and forest share first; drop it if the facade is painted wood."
     },
     {
-      "id": "hemnet:21750512",
+      "id": "booli:6184735",
       "title": "Norra Skarbol Enebacken",
       "kommun": "Säffle",
       "region": "Dalsland/Värmland",
       "price": 3500000,
       "land_ha": 10.8,
-      "url": "https://www.hemnet.se/bostad/gard-6rum-svanskog-saffle-kommun-norra-skarbol-enebacken-21750512",
+      "url": "https://www.booli.se/annons/6184735",
       "score": 55,
       "prepping_why": "A 1994 house of 131 m2 with six rooms, a guest house and a stable with seven boxes, on 10.8 ha in one piece around the buildings just north of Svanskog. The single-block land and the second dwelling fit the plan; water, heating and the forest share are not stated. A 1990s house drains and winterises easily.",
-      "invest_why": "324 000 kr per ha is above the median, so the price carries the buildings; Svanskog is a lake village with Norwegian buyers within reach. Two months on Booli and 4 700 page views suggest interest without a sale, so there is room to negotiate.",
+      "invest_why": "324 000 kr per ha is above the median, so the price carries the buildings; Svanskog is a lake village with Norwegian buyers within reach. Two months on Booli with plenty of page views and no sale, so there is room to negotiate.",
       "rank_why": "Newest house among the verified descriptions, but less land value per krona than the three above, no stated wood heating or water, and 2.2 hours from Göteborg.",
       "maintenance": "Built 1994; facade, roof and windows not stated, likely original, so expect a roof inspection and a window round within ten years. Stable and guest house are two extra roofs to keep. Empty-house risks: frost in the stable water line, and a horse farm that looks abandoned attracts visitors.",
       "recommendation": "Ask the broker for heating, water source and forest share first; skip if there is no wood heating and no forest."
     },
     {
-      "id": "hemnet:19391342",
+      "id": "booli:5344757",
       "title": "Stora Mosshult 6",
       "kommun": "Laxå",
       "region": "Skaraborg/Vättern",
       "price": 4995000,
-      "land_ha": 19.0,
-      "url": "https://www.hemnet.se/bostad/gard-6rum-laxa-kommun-stora-mosshult-6-19391342",
+      "land_ha": 19.5,
+      "url": "https://www.booli.se/annons/5344757",
       "score": 50,
-      "prepping_why": "A 1980 villa of 180 m2 with four bedrooms and two bathrooms, a lillstuga with a working vedspis, an insulated 100 m2 workshop on a cast slab, and 19 ha of which about 10 ha is arable on a hilltop in Tiveden near lakes Unden and Grytsjön. That is the most arable land and the most food capacity on this list. Water source and main-house heating are not stated.",
-      "invest_why": "263 000 kr per ha is exactly the median, but the asking price is the very top of the budget and the old listing id says it has been on and off the market for a long time. Tiveden national park is a genuine tourism draw; Laxå kommun is a thin resale market.",
+      "prepping_why": "A 1980 villa of 180 m2 with four bedrooms and two bathrooms, a lillstuga with a working vedspis, an insulated 100 m2 workshop on a cast slab, and 19.5 ha of which about 10 ha is arable on a hilltop in Tiveden near lakes Unden and Grytsjön. That is the most arable land and the most food capacity on this list. Water source and main-house heating are not stated.",
+      "invest_why": "256 000 kr per ha is around the median, but the asking price is the very top of the budget and Booli shows the property has been on the market for two years, which says the price is wrong. Tiveden national park is a genuine tourism draw; Laxå kommun is a thin resale market.",
       "rank_why": "House and land are right, but 2.6 hours from Göteborg breaks the 2.5-hour rule, the price is the ceiling, and an unfinished truck-garage extension is a half-built liability.",
       "maintenance": "Built 1980; facade and roof not stated, the workshop has two-glass windows so the house probably does too. Within ten years: finish or remove the unfinished garage extension, likely window replacement. Empty-house risks: frost in a large two-bathroom water system, and the long drive means fewer visits.",
-      "recommendation": "Watch, wait for a price cut; at 4 995 000 kr and 2.6 hours it is right on paper but wrong on price and distance."
+      "recommendation": "Watch, wait for a price cut; two years unsold at 4 995 000 kr and 2.6 hours away means the seller, not us, has to move first."
     }
   ],
-  "dropped": [
-    {
-      "id": "booli:6212333",
-      "title": "Klägghult 2",
-      "why": "Not sold: Booli removed the duplicate record that claimed a 2022 build year and 150 m2, so the property continues as booli:6162110 with build year 1964 and 120 m2. Same house, same price, judged as a 1964 house from today."
-    }
-  ],
+  "dropped": [],
   "criteria_changes": [],
   "watch": [
     {
-      "id": "hemnet:21774015",
-      "title": "Attlered 122",
-      "note": "22 ha in one piece with 17 ha forest for 2 950 000 kr, 50 minutes from Göteborg; back on the list if the broker confirms a post-1965 house or a documented total renovation."
-    },
-    {
-      "id": "hemnet:21748189",
-      "title": "Grönlanda 8",
-      "note": "Modern energy-efficient villa plus old torp, smedja and guest house in a fully secluded spot, but only 4.7 ha for 4 300 000 kr and three extra old buildings to keep; public viewing 26 September 11:30 if anyone is passing Högsäter."
-    },
-    {
-      "id": "hemnet:21769758",
-      "title": "Intagan 128",
-      "note": "1975 sutteräng house 50 minutes from Göteborg with 12 ha of pasture and arable, but no forest, no wood heating stated, and it lies on the Göta älv side the doc says to avoid for landslide risk."
-    },
-    {
-      "id": "hemnet:21729254",
-      "title": "Törestorp 5",
-      "note": "House in very good condition on 18 ha with a new stable 50 minutes from Göteborg, but 4 900 000 kr and no build year; ask before dismissing."
-    },
-    {
-      "id": "hemnet:21786708",
-      "title": "Boarp Stakagård 1",
-      "note": "2 000 m3sk of forest is worth about 1 860 000 kr at southern prices, so the 1933 house costs about 840 000 kr; the house fails the bar but the land is the cheapest forest on the list."
-    },
-    {
-      "id": "hemnet:21741956",
-      "title": "Gennevedsvägen 108",
-      "note": "34.6 ha for 2 975 000 kr, 40 minutes from Göteborg, 1909 house renovated in recent years; worth a call for the renovation paperwork and the land split."
-    },
-    {
-      "id": "booli:6271712",
-      "title": "Gunnarsjö Gudmundared 2",
-      "note": "29 ha for 3 999 000 kr in the same village as Gunnarsjö Bro 1, coming soon; 1936 house so land play only."
+      "id": "booli:6026723",
+      "title": "Blädinge Boda 1",
+      "note": "New on the Booli list: a 1967 house of 155 m2 plus 90 m2 biarea in Alvesta, cut 38 percent to 4 650 000 kr after 110 days; the only confirmed post-1965 newcomer today, but 3.7 ha at 1 256 000 kr per ha is a villa price with no forest to speak of, so it only matters if it falls towards 3 000 000 kr."
     },
     {
       "id": "booli:6270854",
       "title": "Björkesbacka Bäckaskog",
-      "note": "New today, coming soon in Mark: 145 m2 house on 7.25 ha for 3 995 000 kr, 50 minutes from Göteborg; no build year or description yet, judge when the broker text appears."
+      "note": "Coming soon in Mark: 145 m2 house on 7.25 ha for 3 995 000 kr, 50 minutes from Göteborg; still no build year or description, judge when the broker text appears."
+    },
+    {
+      "id": "booli:6185500",
+      "title": "Attlered 122",
+      "note": "23 ha in one piece with 17 ha forest for 2 950 000 kr, 50 minutes from Göteborg, Ludvig & Co; back on the list if the broker confirms a post-1965 house or a documented total renovation."
+    },
+    {
+      "id": "booli:6226636",
+      "title": "Intagan 128",
+      "note": "1975 sutteräng house 50 minutes from Göteborg with 12 ha of pasture and arable, bidding has started, but no forest, no wood heating stated, and it lies on the Göta älv side the doc says to avoid for landslide risk."
+    },
+    {
+      "id": "booli:6132151",
+      "title": "Törestorp 5",
+      "note": "House in very good condition on 18 ha with a new stable 50 minutes from Göteborg, but 4 900 000 kr and no build year; ask before dismissing."
+    },
+    {
+      "id": "booli:6209799",
+      "title": "Boarp Stakagård 1",
+      "note": "2 000 m3sk of forest is worth about 1 860 000 kr at southern prices, so the 1933 house costs about 840 000 kr; the house fails the bar but the land is the cheapest forest on the list."
+    },
+    {
+      "id": "booli:6154665",
+      "title": "Gennevedsvägen 108",
+      "note": "34.6 ha for 3 900 000 kr, 40 minutes from Göteborg, 1909 house renovated in recent years; worth a call for the renovation paperwork and the land split."
+    },
+    {
+      "id": "booli:6271712",
+      "title": "Gunnarsjö Gudmundared 2",
+      "note": "29 ha for 3 999 000 kr in the same village as Gunnarsjö Bro 1, three days on Booli; 1936 house so land play only."
     }
   ]
 }
