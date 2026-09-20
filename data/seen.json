@@ -1564,7 +1564,8 @@
   "kommun": "Tranemo",
   "ids": [
    "booli:6220980"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "laholm|bölarpabacke1|255": {
   "first_seen": "2026-09-17",
@@ -1578,7 +1579,8 @@
   "kommun": "Laholm",
   "ids": [
    "booli:6221166"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "ale|uspastorp150|300": {
   "first_seen": "2026-09-17",
@@ -1592,7 +1594,8 @@
   "kommun": "Ale",
   "ids": [
    "booli:6237422"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "mellerud|hjortensfyrväg12|450": {
   "first_seen": "2026-09-17",
@@ -1606,7 +1609,8 @@
   "kommun": "Mellerud",
   "ids": [
    "booli:6217633"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "älmhult|råshultnorregård47|250": {
   "first_seen": "2026-09-17",
@@ -1634,7 +1638,8 @@
   "kommun": "Lilla Edet",
   "ids": [
    "booli:6078955"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "laholm|södraskogaby120|487": {
   "first_seen": "2026-09-17",
@@ -1648,7 +1653,8 @@
   "kommun": "Laholm",
   "ids": [
    "booli:6231490"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "hylte|baskered110|112": {
   "first_seen": "2026-09-17",
@@ -1662,7 +1668,8 @@
   "kommun": "Hylte",
   "ids": [
    "booli:6118759"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "bengtsfors|stategen2|385": {
   "first_seen": "2026-09-17",
@@ -1676,7 +1683,8 @@
   "kommun": "Bengtsfors",
   "ids": [
    "booli:6208001"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "alingsås|gennevedsvägen108|450": {
   "first_seen": "2026-09-17",
@@ -1704,7 +1712,8 @@
   "kommun": "Hylte",
   "ids": [
    "booli:6184995"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "ulricehamn|tvärredsrydet102|170": {
   "first_seen": "2026-09-17",
@@ -1718,7 +1727,8 @@
   "kommun": "Ulricehamn",
   "ids": [
    "booli:6089402"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "hylte|halarna103|130": {
   "first_seen": "2026-09-17",
@@ -1803,7 +1813,8 @@
   "kommun": "Bengtsfors",
   "ids": [
    "booli:6130046"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "vaggeryd|basseberglilla1|200": {
   "first_seen": "2026-09-17",
@@ -1831,7 +1842,8 @@
   "kommun": "Markaryd",
   "ids": [
    "booli:6129570"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "mark|byslättsvägen4|300": {
   "first_seen": "2026-09-17",
@@ -1845,7 +1857,8 @@
   "kommun": "Mark",
   "ids": [
    "booli:6112124"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "ulricehamn|fästeredssundlövkullen177|425": {
   "first_seen": "2026-09-17",
@@ -1859,7 +1872,8 @@
   "kommun": "Ulricehamn",
   "ids": [
    "booli:5957786"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "värnamo|granstalidahultet1|120": {
   "first_seen": "2026-09-17",
@@ -1873,7 +1887,8 @@
   "kommun": "Värnamo",
   "ids": [
    "booli:5894307"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "laholm|trälshult73|190": {
   "first_seen": "2026-09-17",
@@ -1915,7 +1930,8 @@
   "kommun": "Ljungby",
   "ids": [
    "booli:6148170"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "mark|haga1|440": {
   "first_seen": "2026-09-17",
@@ -1929,7 +1945,8 @@
   "kommun": "Mark",
   "ids": [
    "booli:5962778"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "markaryd|mjäryd1297|250": {
   "first_seen": "2026-09-17",
@@ -1985,7 +2002,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6136141"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "svenljunga|klägghult2|270": {
   "first_seen": "2026-09-17",
@@ -2042,7 +2060,8 @@
   "kommun": "Åmål",
   "ids": [
    "booli:6136231"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "laxå|björsgård1|320": {
   "first_seen": "2026-09-17",
@@ -2056,7 +2075,8 @@
   "kommun": "Laxå",
   "ids": [
    "booli:6132467"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "årjäng|nästebacka|170": {
   "first_seen": "2026-09-17",
@@ -2070,7 +2090,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6045173"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "älmhult|abrahamsryd5|430": {
   "first_seen": "2026-09-17",
@@ -2140,7 +2161,8 @@
   "kommun": "Gullspång",
   "ids": [
    "booli:6171560"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "vårgårda|baståssjöviken1|330": {
   "first_seen": "2026-09-17",
@@ -2182,7 +2204,8 @@
   "kommun": "Vårgårda",
   "ids": [
    "booli:5982145"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "hylte|skogsfastighetikinnared|350": {
   "first_seen": "2026-09-17",
@@ -2238,7 +2261,8 @@
   "kommun": "Ulricehamn",
   "ids": [
    "booli:6184285"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "bengtsfors|äspenäs17|240": {
   "first_seen": "2026-09-17",
@@ -2252,7 +2276,8 @@
   "kommun": "Bengtsfors",
   "ids": [
    "booli:6157858"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "gullspång|backen8|250": {
   "first_seen": "2026-09-17",
@@ -2266,7 +2291,8 @@
   "kommun": "Gullspång",
   "ids": [
    "booli:6136984"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "sävsjö|ryd7|330": {
   "first_seen": "2026-09-17",
@@ -2280,7 +2306,8 @@
   "kommun": "Sävsjö",
   "ids": [
    "booli:6118803"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "vaggeryd|gettrabo3|450": {
   "first_seen": "2026-09-17",
@@ -2294,7 +2321,8 @@
   "kommun": "Vaggeryd",
   "ids": [
    "booli:6114701"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "tidaholm|storaostabygd3|238": {
   "first_seen": "2026-09-17",
@@ -2308,7 +2336,8 @@
   "kommun": "Tidaholm",
   "ids": [
    "booli:5827656"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "älmhult|enerydaronnstorp1|190": {
   "first_seen": "2026-09-17",
@@ -2322,7 +2351,8 @@
   "kommun": "Älmhult",
   "ids": [
    "booli:6170614"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "årjäng|hämnäsåmot1|231": {
   "first_seen": "2026-09-17",
@@ -2336,7 +2366,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6146890"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "mariestad|tidavadblackgården4|375": {
   "first_seen": "2026-09-17",
@@ -2364,7 +2395,8 @@
   "kommun": "Älmhult",
   "ids": [
    "booli:6198624"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "årjäng|skrädeneögårdarna1|340": {
   "first_seen": "2026-09-17",
@@ -2378,7 +2410,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6165970"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "tidaholm|kymboekelund1|230": {
   "first_seen": "2026-09-17",
@@ -2392,7 +2425,8 @@
   "kommun": "Tidaholm",
   "ids": [
    "booli:6156039"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "årjäng|gråboltomta1|225": {
   "first_seen": "2026-09-17",
@@ -2406,7 +2440,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6155006"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "karlsborg|älebäcken1|450": {
   "first_seen": "2026-09-17",
@@ -2420,7 +2455,8 @@
   "kommun": "Karlsborg",
   "ids": [
    "booli:6156608"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "åmål|strömsbergsgatan23|470": {
   "first_seen": "2026-09-17",
@@ -2462,7 +2498,8 @@
   "kommun": "Svenljunga",
   "ids": [
    "booli:6063969"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "eksjö|gastorpnyholm1|135": {
   "first_seen": "2026-09-17",
@@ -2476,7 +2513,8 @@
   "kommun": "Eksjö",
   "ids": [
    "booli:6135310"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "färgelanda|illesäter3|220": {
   "first_seen": "2026-09-17",
@@ -2490,7 +2528,8 @@
   "kommun": "Färgelanda",
   "ids": [
    "booli:6151827"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "töreboda|bodanytorp18|130": {
   "first_seen": "2026-09-17",
@@ -2533,7 +2572,8 @@
   "kommun": "Vetlanda",
   "ids": [
    "booli:5961228"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "värnamo|kolvarpvalens1|215": {
   "first_seen": "2026-09-17",
@@ -2547,7 +2587,8 @@
   "kommun": "Värnamo",
   "ids": [
    "booli:6079958"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "vårgårda|östadkullebjörkelund1|290": {
   "first_seen": "2026-09-17",
@@ -2675,7 +2716,8 @@
   "kommun": "Falkenberg",
   "ids": [
    "booli:6215766"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "vårgårda|horlastorsjövik1|360": {
   "first_seen": "2026-09-17",
@@ -2689,7 +2731,8 @@
   "kommun": "Vårgårda",
   "ids": [
    "booli:6220417"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "dals-ed|södraböle110|200": {
   "first_seen": "2026-09-17",
@@ -2703,7 +2746,8 @@
   "kommun": "Dals-Ed",
   "ids": [
    "booli:6200211"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "vimmerby|östantorp142|125": {
   "first_seen": "2026-09-17",
@@ -2717,7 +2761,8 @@
   "kommun": "Vimmerby",
   "ids": [
    "booli:6084899"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "gullspång|esshulta|350": {
   "first_seen": "2026-09-17",
@@ -2745,7 +2790,8 @@
   "kommun": "Bengtsfors",
   "ids": [
    "booli:6132250"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "årjäng|korsbynsand1|270": {
   "first_seen": "2026-09-17",
@@ -2759,7 +2805,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6152399"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "tranemo|blåsutvägen24|395": {
   "first_seen": "2026-09-17",
@@ -2787,7 +2834,8 @@
   "kommun": "Laholm",
   "ids": [
    "booli:6132635"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "älmhult|boastad120|500": {
   "first_seen": "2026-09-17",
@@ -2815,7 +2863,8 @@
   "kommun": "Älmhult",
   "ids": [
    "booli:6102563"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "hylte|lockabäckströmsberg|128": {
   "first_seen": "2026-09-17",
@@ -2829,7 +2878,8 @@
   "kommun": "Hylte",
   "ids": [
    "booli:5521889"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "årjäng|hämnäsåmot1|200": {
   "first_seen": "2026-09-17",
@@ -2843,7 +2893,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6012355"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "gislaved|sålhultsgård|400": {
   "first_seen": "2026-09-17",
@@ -2857,7 +2908,8 @@
   "kommun": "Gislaved",
   "ids": [
    "booli:6073751"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "vårgårda|postvägen32|470": {
   "first_seen": "2026-09-17",
@@ -2871,7 +2923,8 @@
   "kommun": "Vårgårda",
   "ids": [
    "booli:6017613"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "vetlanda|lillahillhult16|170": {
   "first_seen": "2026-09-18",
@@ -2913,7 +2966,8 @@
   "kommun": "Färgelanda",
   "ids": [
    "booli:6066376"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "säffle|hallandasörmon|135": {
   "first_seen": "2026-09-18",
@@ -2971,7 +3025,8 @@
   "kommun": "Mark",
   "ids": [
    "booli:6056274"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "bengtsfors|sidan3230|240": {
   "first_seen": "2026-09-18",
@@ -2985,7 +3040,8 @@
   "kommun": "Bengtsfors",
   "ids": [
    "booli:6085171"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "varberg|valingegrunnarp1|295": {
   "first_seen": "2026-09-18",
@@ -2999,7 +3055,8 @@
   "kommun": "Varberg",
   "ids": [
    "booli:6016943"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "töreboda|ängafallet10|298": {
   "first_seen": "2026-09-18",
@@ -3013,7 +3070,8 @@
   "kommun": "Töreboda",
   "ids": [
    "booli:6021271"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "töreboda|habelsbolet117|310": {
   "first_seen": "2026-09-18",
@@ -3027,7 +3085,8 @@
   "kommun": "Töreboda",
   "ids": [
    "booli:5861175"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "årjäng|karlandakorsbyn|405": {
   "first_seen": "2026-09-18",
@@ -3041,7 +3100,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6000361"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "ale|ryksdamm280|210": {
   "first_seen": "2026-09-17",
@@ -3115,7 +3175,8 @@
   "kommun": "Alingsås",
   "ids": [
    "booli:6216308"
-  ]
+  ],
+  "gone": "2026-09-20"
  },
  "årjäng|upprannrönningen1|390": {
   "first_seen": "2026-09-20",

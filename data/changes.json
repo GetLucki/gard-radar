@@ -1,7 +1,496 @@
 {
  "date": "2026-09-20",
  "new": [],
- "gone": [],
+ "gone": [
+  {
+   "id": "booli:5894307",
+   "title": "Granstalida Hultet 1",
+   "kommun": "Värnamo",
+   "price": 1200000,
+   "url": "https://www.booli.se/annons/5894307",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6112124",
+   "title": "Byslättsvägen 4",
+   "kommun": "Mark",
+   "price": 3000000,
+   "url": "https://www.booli.se/bostad/4578465",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6151827",
+   "title": "Illesäter 3",
+   "kommun": "Färgelanda",
+   "price": 2200000,
+   "url": "https://www.booli.se/bostad/4559787",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6156608",
+   "title": "Älebäcken 1",
+   "kommun": "Karlsborg",
+   "price": 4500000,
+   "url": "https://www.booli.se/bostad/4559786",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6089402",
+   "title": "Tvärreds Rydet 102",
+   "kommun": "Ulricehamn",
+   "price": 1700000,
+   "url": "https://www.booli.se/bostad/4578456",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6045173",
+   "title": "Nästebacka",
+   "kommun": "Årjäng",
+   "price": 1700000,
+   "url": "https://www.booli.se/annons/6045173",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6136231",
+   "title": "Kilane 501",
+   "kommun": "Åmål",
+   "price": 1850000,
+   "url": "https://www.booli.se/bostad/4560102",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6200211",
+   "title": "Södra Böle 110",
+   "kommun": "Dals-Ed",
+   "price": 2000000,
+   "url": "https://www.booli.se/annons/6200211",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6156039",
+   "title": "Kymbo Ekelund 1",
+   "kommun": "Tidaholm",
+   "price": 2300000,
+   "url": "https://www.booli.se/bostad/4565259",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6085171",
+   "title": "Sidan 3:230",
+   "kommun": "Bengtsfors",
+   "price": 2400000,
+   "url": "https://www.booli.se/annons/6085171",
+   "days_tracked": 2
+  },
+  {
+   "id": "booli:6152399",
+   "title": "Korsbyn Sand 1",
+   "kommun": "Årjäng",
+   "price": 2700000,
+   "url": "https://www.booli.se/annons/6152399",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:5861175",
+   "title": "Habelsbolet 1:17",
+   "kommun": "Töreboda",
+   "price": 3100000,
+   "url": "https://www.booli.se/annons/5861175",
+   "days_tracked": 2
+  },
+  {
+   "id": "booli:6000361",
+   "title": "Karlanda-Korsbyn",
+   "kommun": "Årjäng",
+   "price": 4050000,
+   "url": "https://www.booli.se/annons/6000361",
+   "days_tracked": 2
+  },
+  {
+   "id": "booli:6217633",
+   "title": "Hjortens Fyrväg 12",
+   "kommun": "Mellerud",
+   "price": 4500000,
+   "url": "https://www.booli.se/annons/6217633",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6184285",
+   "title": "Hössna Grytåsen 101",
+   "kommun": "Ulricehamn",
+   "price": 4600000,
+   "url": "https://www.booli.se/bostad/4131562",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6102563",
+   "title": "Krampanäs 2",
+   "kommun": "Älmhult",
+   "price": 4800000,
+   "url": "https://www.booli.se/annons/6102563",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:5827656",
+   "title": "Stora Ostabygd 3",
+   "kommun": "Tidaholm",
+   "price": 2375000,
+   "url": "https://www.booli.se/bostad/4559953",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6078955",
+   "title": "Lekvall 241",
+   "kommun": "Lilla Edet",
+   "price": 3800000,
+   "url": "https://www.booli.se/annons/6078955",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6155006",
+   "title": "Gråbol Tomta 1",
+   "kommun": "Årjäng",
+   "price": 2250000,
+   "url": "https://www.booli.se/annons/6155006",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6056274",
+   "title": "Trantorp Ramnhult",
+   "kommun": "Mark",
+   "price": 3900000,
+   "url": "https://www.booli.se/annons/6056274",
+   "days_tracked": 2
+  },
+  {
+   "id": "booli:6184995",
+   "title": "Bexet 202",
+   "kommun": "Hylte",
+   "price": 4175000,
+   "url": "https://www.booli.se/annons/6184995",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:5957786",
+   "title": "Fästeredssund Lövkullen 177",
+   "kommun": "Ulricehamn",
+   "price": 4250000,
+   "url": "https://www.booli.se/annons/5957786",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6216308",
+   "title": "Ödenäs Mellomgården 426",
+   "kommun": "Alingsås",
+   "price": 4800000,
+   "url": "https://www.booli.se/annons/6216308",
+   "days_tracked": 2
+  },
+  {
+   "id": "booli:5521889",
+   "title": "Lockabäck Strömsberg",
+   "kommun": "Hylte",
+   "price": 1275000,
+   "url": "https://www.booli.se/bostad/3834179",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6079958",
+   "title": "Kolvarp Valens 1",
+   "kommun": "Värnamo",
+   "price": 2150000,
+   "url": "https://www.booli.se/bostad/4135335",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6237422",
+   "title": "Uspastorp 150",
+   "kommun": "Ale",
+   "price": 3000000,
+   "url": "https://www.booli.se/annons/6237422",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6118803",
+   "title": "Ryd 7",
+   "kommun": "Sävsjö",
+   "price": 3300000,
+   "url": "https://www.booli.se/bostad/4559914",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6073751",
+   "title": "Sålhults Gård",
+   "kommun": "Gislaved",
+   "price": 4000000,
+   "url": "https://www.booli.se/annons/6073751",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6118759",
+   "title": "Baskered 110",
+   "kommun": "Hylte",
+   "price": 1125000,
+   "url": "https://www.booli.se/annons/6118759",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6220980",
+   "title": "Soxbo 1",
+   "kommun": "Tranemo",
+   "price": 1950000,
+   "url": "https://www.booli.se/annons/6220980",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6220417",
+   "title": "Horla Storsjövik 1",
+   "kommun": "Vårgårda",
+   "price": 3600000,
+   "url": "https://www.booli.se/annons/6220417",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6171560",
+   "title": "Gunnarstorp Nolgården 18",
+   "kommun": "Gullspång",
+   "price": 1200000,
+   "url": "https://www.booli.se/bostad/4560081",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6136141",
+   "title": "Hjällen Södra Ängen 1",
+   "kommun": "Årjäng",
+   "price": 2500000,
+   "url": "https://www.booli.se/bostad/4560283",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6165970",
+   "title": "Skrädene Ögårdarna 1",
+   "kommun": "Årjäng",
+   "price": 3400000,
+   "url": "https://www.booli.se/annons/6165970",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6208001",
+   "title": "Stategen 2",
+   "kommun": "Bengtsfors",
+   "price": 3850000,
+   "url": "https://www.booli.se/annons/6208001",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6017613",
+   "title": "Postvägen 32",
+   "kommun": "Vårgårda",
+   "price": 4700000,
+   "url": "https://www.booli.se/bostad/4118085",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6135310",
+   "title": "Gastorp Nyholm 1",
+   "kommun": "Eksjö",
+   "price": 1350000,
+   "url": "https://www.booli.se/bostad/4560096",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6215766",
+   "title": "Särestad Norakull 215",
+   "kommun": "Falkenberg",
+   "price": 2330000,
+   "url": "https://www.booli.se/annons/6215766",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6221166",
+   "title": "Bölarpabacke 1",
+   "kommun": "Laholm",
+   "price": 2550000,
+   "url": "https://www.booli.se/bostad/2803031",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:5962778",
+   "title": "Haga 1",
+   "kommun": "Mark",
+   "price": 4400000,
+   "url": "https://www.booli.se/bostad/4578370",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6114701",
+   "title": "Gettrabo 3",
+   "kommun": "Vaggeryd",
+   "price": 4500000,
+   "url": "https://www.booli.se/bostad/4560257",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6132250",
+   "title": "Fjäll Kasängen",
+   "kommun": "Bengtsfors",
+   "price": 2300000,
+   "url": "https://www.booli.se/annons/6132250",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6136984",
+   "title": "Backen 8",
+   "kommun": "Gullspång",
+   "price": 2500000,
+   "url": "https://www.booli.se/bostad/4560042",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6021271",
+   "title": "Ängafallet 10",
+   "kommun": "Töreboda",
+   "price": 2975000,
+   "url": "https://www.booli.se/annons/6021271",
+   "days_tracked": 2
+  },
+  {
+   "id": "booli:6148170",
+   "title": "Övre Bohult 1",
+   "kommun": "Ljungby",
+   "price": 1100000,
+   "url": "https://www.booli.se/annons/6148170",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:5982145",
+   "title": "Lena Rosengården",
+   "kommun": "Vårgårda",
+   "price": 2900000,
+   "url": "https://www.booli.se/bostad/4135718",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6016943",
+   "title": "Valinge Grunnarp 1",
+   "kommun": "Varberg",
+   "price": 2950000,
+   "url": "https://www.booli.se/annons/6016943",
+   "days_tracked": 2
+  },
+  {
+   "id": "booli:6063969",
+   "title": "Handbynäs Stenkullen 1",
+   "kommun": "Svenljunga",
+   "price": 4050000,
+   "url": "https://www.booli.se/bostad/4559924",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6132635",
+   "title": "Ränneslövs Ängar 222",
+   "kommun": "Laholm",
+   "price": 4200000,
+   "url": "https://www.booli.se/annons/6132635",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6231490",
+   "title": "Södra Skogaby 120",
+   "kommun": "Laholm",
+   "price": 4870000,
+   "url": "https://www.booli.se/annons/6231490",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6132467",
+   "title": "Björsgård 1",
+   "kommun": "Laxå",
+   "price": 3200000,
+   "url": "https://www.booli.se/bostad/4560070",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6198624",
+   "title": "Millebygden Åraslöv 30",
+   "kommun": "Älmhult",
+   "price": 3995000,
+   "url": "https://www.booli.se/bostad/4305643",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6129570",
+   "title": "Gräsholma 1517",
+   "kommun": "Markaryd",
+   "price": 1600000,
+   "url": "https://www.booli.se/annons/6129570",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6066376",
+   "title": "Milleryr 10",
+   "kommun": "Färgelanda",
+   "price": 3400000,
+   "url": "https://www.booli.se/bostad/4578515",
+   "days_tracked": 2
+  },
+  {
+   "id": "booli:6012355",
+   "title": "Hämnäs Åmot 1",
+   "kommun": "Årjäng",
+   "price": 2000000,
+   "url": "https://www.booli.se/annons/6012355",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6146890",
+   "title": "Hämnäs Åmot 1",
+   "kommun": "Årjäng",
+   "price": 2310000,
+   "url": "https://www.booli.se/annons/6146890",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6157858",
+   "title": "Äspenäs 17",
+   "kommun": "Bengtsfors",
+   "price": 2400000,
+   "url": "https://www.booli.se/annons/6157858",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6170614",
+   "title": "Eneryda Ronnstorp 1",
+   "kommun": "Älmhult",
+   "price": 1900000,
+   "url": "https://www.booli.se/bostad/4272913",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6130046",
+   "title": "Ärtemarks-Bön 14",
+   "kommun": "Bengtsfors",
+   "price": 3750000,
+   "url": "https://www.booli.se/bostad/4578375",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:5961228",
+   "title": "Slageryd Västergård 2",
+   "kommun": "Vetlanda",
+   "price": 2212000,
+   "url": "https://www.booli.se/bostad/4559796",
+   "days_tracked": 3
+  },
+  {
+   "id": "booli:6084899",
+   "title": "Östantorp 142",
+   "kommun": "Vimmerby",
+   "price": 1250000,
+   "url": "https://www.booli.se/bostad/2791236",
+   "days_tracked": 3
+  }
+ ],
  "price_changes": [],
  "first_run": false
 }

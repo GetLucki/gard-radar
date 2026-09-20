@@ -391,6 +391,16 @@ def fetch_detail(browser, l):
     finally:
         if ctx:
             ctx.close()
+    # Booli often has no photo on the search card but plenty on the listing page
+    # (verified 2026-09-20). Take the first one when the card gave us nothing.
+    if ap and not l.get("image"):
+        for k, v in ap.items():
+            if k.startswith("Image") and isinstance(v, dict):
+                iid = v.get("id") or k.split(":")[-1]
+                direct = v.get("url") or v.get("src")
+                if direct or iid:
+                    l["image"] = direct or f"https://bcdn.se/images/cache/{iid}_1440x0.jpg"
+                    break
     try:
         title = page.title() if page else ""
     except Exception:
@@ -568,6 +578,8 @@ def rescore_only():
     pphs = [l["price_per_ha"] for l in matched if l.get("price_per_ha")]
     med_pph = statistics.median(pphs) if pphs else None
     for l in matched:
+        if not l.get("image") and details.get(l["id"], {}).get("image"):
+            l["image"] = details[l["id"]]["image"]
         score(l, details.get(l["id"], {}).get("text", ""), med_pph)
     matched.sort(key=lambda x: (-x["score"], x["price"]))
     cur["listings"] = matched
@@ -599,7 +611,9 @@ def refresh_details():
     maintenance criteria; the daily run only fetches never-seen listings."""
     cur = load_json(DATA / "listings.json", {"listings": []})
     details = load_json(DATA / "details.json", {})
-    todo = [l for l in cur.get("listings", []) if "FAKTA" not in details.get(l["id"], {}).get("text", "")]
+    force = "all" in sys.argv
+    todo = [l for l in cur.get("listings", [])
+            if force or "FAKTA" not in details.get(l["id"], {}).get("text", "")]
     log(f"refreshing {len(todo)} detail pages")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -608,9 +622,11 @@ def refresh_details():
                 txt = fetch_detail(browser, l)
                 if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|"
                              r"är inte längre till salu|^slutpris|\bslutpris\b.{0,40}\bkr\b|"
-                             r"är såld|sista bud", txt, re.I):
+                             r"är såld|lagfart utfärdades", txt, re.I):
                     l["stale"] = True
                 details[l["id"]] = {"text": txt, "fetched": TODAY, "stale": bool(l.get("stale"))}
+                if l.get("image"):
+                    details[l["id"]]["image"] = l["image"]
             except Exception as e:
                 details[l["id"]] = {"text": details.get(l["id"], {}).get("text", ""), "fetched": TODAY, "error": str(e)[:200]}
             if i % 10 == 0:
@@ -685,7 +701,7 @@ def main():
         # refetch descriptions older than a week: Booli turns a sold listing
         # into a "Slutpris" page without removing it from the for-sale search,
         # so a stale cache keeps sold farms on the list (seen 2026-09-20).
-        stale_before = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+        stale_before = (datetime.date.today() - datetime.timedelta(days=3)).isoformat()
         todo = [l for l in matched if l["id"] not in details][:DETAIL_LIMIT]
         room = DETAIL_LIMIT - len(todo)
         if room > 0:
@@ -699,9 +715,11 @@ def main():
                 txt = fetch_detail(browser, l)
                 if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|"
                              r"är inte längre till salu|^slutpris|\bslutpris\b.{0,40}\bkr\b|"
-                             r"är såld|sista bud", txt, re.I):
+                             r"är såld|lagfart utfärdades", txt, re.I):
                     l["stale"] = True
                 details[l["id"]] = {"text": txt, "fetched": TODAY, "stale": bool(l.get("stale"))}
+                if l.get("image"):
+                    details[l["id"]]["image"] = l["image"]
             except Exception as e:  # keep going, the card teaser still scores
                 details[l["id"]] = {"text": "", "fetched": TODAY, "error": str(e)[:200]}
             if i % 10 == 0:
@@ -739,6 +757,8 @@ def main():
     pphs = [l["price_per_ha"] for l in matched if l.get("price_per_ha")]
     med_pph = statistics.median(pphs) if pphs else None
     for l in matched:
+        if not l.get("image") and details.get(l["id"], {}).get("image"):
+            l["image"] = details[l["id"]]["image"]
         score(l, details.get(l["id"], {}).get("text", ""), med_pph)
     matched.sort(key=lambda x: (-x["score"], x["price"]))
 
