@@ -1,0 +1,4 @@
+2026-09-26 08:01:15 RuntimeError: could not load https://www.booli.se/sok/till-salu?objectType=g%C3%A5rd&minListPrice=1000000&maxListPrice=5000000&page=1: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("#__NEXT_DATA__")
+
