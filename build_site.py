@@ -27,6 +27,7 @@ def load(name, default):
 listings = load("listings.json", {"stats": {}, "listings": []})
 changes = load("changes.json", {"new": [], "gone": [], "price_changes": []})
 recs = load("recommendations.json", {})
+board = load("board.json", {"entries": [], "added_today": []})
 history = []
 for f in sorted(glob.glob(str(DATA / "history" / "*.json")))[-30:]:
     try:
@@ -36,7 +37,7 @@ for f in sorted(glob.glob(str(DATA / "history" / "*.json")))[-30:]:
     except Exception:
         pass
 
-for name in ("listings.json", "changes.json", "recommendations.json"):
+for name in ("listings.json", "changes.json", "recommendations.json", "board.json"):
     if (DATA / name).exists():
         (DOCS / "data" / name).write_bytes((DATA / name).read_bytes())
 (DOCS / ".nojekyll").write_text("")
@@ -48,6 +49,7 @@ payload = {
     "listings": listings.get("listings", []),
     "changes": changes,
     "recs": recs,
+    "board": board,
     "history": history,
 }
 json_blob = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
@@ -81,6 +83,7 @@ h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:26px 0 10px;border-bot
 .rec{font-size:14px;font-weight:600;padding:8px 10px;border-radius:8px;background:var(--bg);border:1px solid var(--line)}
 a{color:inherit}
 .ctrl{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 12px;align-items:center}
+button{padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--accent);cursor:pointer;font-weight:600;font-size:13px}
 select,input{padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px}
 .tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
 table{width:100%;border-collapse:collapse;font-size:14px;min-width:900px}
@@ -111,15 +114,19 @@ details{margin-top:24px}summary{cursor:pointer;font-weight:600;color:var(--muted
 <div class="sub" id="sub"></div>
 <div class="chips" id="chips"></div>
 
+<h2>New since the last run</h2>
+<div id="newList"></div>
+
 <h2>Top three</h2>
 <div id="recs"></div>
 
-<h2>All matching listings, ranked</h2>
+<h2>The standing list, ranked</h2>
 <div class="ctrl">
   <select id="fRegion"><option value="">All regions</option></select>
   <input id="fText" placeholder="Filter: kommun, title, broker">
   <label class="small"><input type="checkbox" id="fNew"> only new</label>
   <span class="small" id="count"></span>
+  <button id="showAll" hidden></button>
   <span class="small" style="opacity:.75">Click any column heading to sort · click a row for the score motivation</span>
 </div>
 <div class="tw"><table id="tbl"><thead><tr>
@@ -151,7 +158,10 @@ const esc = s => (s??'').toString().replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&
 const S = D.stats||{}, C = D.changes||{}, R = D.recs||{};
 const newIds = new Set((C.new||[]).map(x=>x.id));
 const cutIds = new Map((C.price_changes||[]).map(x=>[x.id,x]));
-const TOP = (R.top || R.top3 || []);
+const BRD = D.board||{};
+const TOP = (BRD.entries && BRD.entries.length ? BRD.entries : (R.top || R.top3 || []));
+const addedToday = new Set(BRD.added_today || R.added_today || []);
+const BOARD_MAX = (D.config && D.config.board_max) || 50;
 const pickRank = new Map();
 const byId = {}; D.listings.forEach(l=>{ byId[l.id]=l; (l.alt_ids||[]).forEach(a=>byId[a]=l); if (l.alt_url) byId['url:'+l.alt_url]=l; });
 const findL = r => byId[r.id] || byId['url:'+r.url] || D.listings.find(l=>l.url===r.url || l.alt_url===r.url) || null;
@@ -159,6 +169,7 @@ const findL = r => byId[r.id] || byId['url:'+r.url] || D.listings.find(l=>l.url=
 TOP.forEach((r,i)=>{ const l = findL(r); if (l) pickRank.set(l.id, i+1); });
 // rank = position by score (ties by price)
 const L = [...D.listings].sort((a,b)=> (b.score-a.score) || (a.price-b.price)).map((l,i)=>({...l, rank:i+1}));
+let showAll = false;
 
 document.getElementById('sub').textContent = `Updated ${D.generated||'?'} · ${kr(D.config.price_min)} to ${kr(D.config.price_max)} · at least ${D.config.land_min_ha} ha · ${Object.keys(D.config.kommuner).length} kommuner within reach of ${D.config.base.name}`;
 document.getElementById('chips').innerHTML = [
@@ -171,7 +182,7 @@ let rh='';
 if (TOP.length){
   rh = `<div class="grid">` + TOP.slice(0,3).map((r,i)=>{ const L0 = findL(r); const l = L0||{}; const gone = !L0;
     return `<div class="card">${l.image?`<img src="${esc(l.image)}" alt="">`:''}<div class="b">
-    <div class="row"><span class="tag pick">#${i+1}</span><span class="score">${r.score??l.score??''}<span class="ss">${(l.survival_score!=null)?` &nbsp;S ${l.survival_score} &nbsp;I ${l.invest_score}`:''}</span></span></div>
+    <div class="row"><span class="tag pick">#${i+1}</span>${addedToday.has(r.id)?'<span class="tag new">NEW</span>':''}<span class="score">${r.score??l.score??''}<span class="ss">${(l.survival_score!=null)?` &nbsp;S ${l.survival_score} &nbsp;I ${l.invest_score}`:''}</span></span></div>
     <div class="t"><a href="${esc(r.url||l.url)}" target="_blank" rel="noopener">${esc(r.title||l.title)}</a>${gone?' <span class="tag cut">no longer listed</span>':''}</div>
     <div class="m">${esc(r.kommun||l.kommun)} · ${esc(r.region||l.region||'')} · ${(r.land_ha||l.land_ha)?(r.land_ha||l.land_ha)+' ha':''}${l.living_m2?' · '+l.living_m2+' m²':''}${l.build_year?' · built '+l.build_year:''}${l.drive_h?' · '+l.drive_h+' h':''}</div>
     <div class="price">${kr(r.price||l.price)}</div>
@@ -186,6 +197,18 @@ if (TOP.length){
 } else rh = `<div class="note">No judgement yet. The daily step writes the top three after the scan.</div>`;
 document.getElementById('recs').innerHTML = rh;
 
+// what entered the standing list in the latest run
+const freshOnes = TOP.filter(e=>addedToday.has(e.id));
+document.getElementById('newList').innerHTML = freshOnes.length
+  ? `<div class="tw"><table style="min-width:0"><tr><th>#</th><th>Property</th><th class="num">Price</th><th class="num">Land</th><th class="num">Overall</th><th class="num">S</th><th class="num">I</th><th>Recommendation</th></tr>` +
+    freshOnes.map(e=>{ const pos = TOP.findIndex(x=>x.id===e.id)+1; return `<tr><td class="rank">${pos}</td>
+      <td class="obj"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="m">${esc(e.kommun)} · ${esc(e.region||'')}${e.build_year?' · built '+e.build_year:''}${e.drive_h?' · '+e.drive_h+' h':''}</span></td>
+      <td class="num">${kr(e.price)}</td><td class="num">${e.land_ha!=null?e.land_ha+' ha':'?'}</td>
+      <td class="num"><b>${e.score??''}</b></td><td class="num sc2">${e.survival_score??''}</td><td class="num sc3">${e.invest_score??''}</td>
+      <td>${esc(e.recommendation||'')}</td></tr>
+      <tr><td></td><td colspan="7" class="small"><b>Survival:</b> ${esc(e.prepping_why||'')} <b>Investment:</b> ${esc(e.invest_why||'')}</td></tr>`}).join('') + `</table></div>`
+  : `<div class="note">Nothing new entered the list in the latest run. Everything below is unchanged.</div>`;
+
 // table
 const regions = [...new Set(L.map(l=>l.region))].sort();
 const fR = document.getElementById('fRegion'); regions.forEach(r=>{const o=document.createElement('option');o.value=r;o.textContent=r;fR.appendChild(o)});
@@ -193,7 +216,7 @@ let sortKey='rank', sortDir=1;
 function status(l){
   const out=[];
   if (pickRank.has(l.id)) out.push(`<span class="tag pick">pick #${pickRank.get(l.id)}</span>`);
-  if (newIds.has(l.id)) out.push(`<span class="tag new">new</span>`);
+  if (addedToday.has(l.id) || newIds.has(l.id)) out.push(`<span class="tag new">NEW</span>`);
   const c=cutIds.get(l.id); if (c) out.push(`<span class="tag ${c.new<c.old?'cut':''}">${c.new<c.old?'price cut':'price up'}</span>`);
   if (l.upcoming) out.push(`<span class="chip">upcoming</span>`);
   return out.join(' ');
@@ -202,7 +225,11 @@ function render(){
   const r=fR.value, q=document.getElementById('fText').value.toLowerCase(), onlyNew=document.getElementById('fNew').checked;
   let rows = L.filter(l => (!r || l.region===r) && (!onlyNew || newIds.has(l.id)) && (!q || (l.title+' '+l.kommun+' '+(l.location||'')+' '+(l.broker||'')).toLowerCase().includes(q)));
   rows.sort((a,b)=>{ let x=a[sortKey], y=b[sortKey]; if (typeof x==='string') return sortDir*x.localeCompare(y||'', 'sv'); x=(x==null?Infinity*sortDir:x); y=(y==null?Infinity*sortDir:y); return sortDir*(x-y); });
-  document.getElementById('count').textContent = `${rows.length} of ${L.length}`;
+  const total = rows.length;
+  if (!showAll && !q && !r && !onlyNew) rows = rows.slice(0, BOARD_MAX);
+  document.getElementById('count').textContent = `${rows.length} of ${L.length}` + (rows.length < total ? ` (top ${BOARD_MAX})` : '');
+  const btn = document.getElementById('showAll');
+  if (btn) { btn.hidden = (rows.length >= total && !showAll); btn.textContent = showAll ? `show top ${BOARD_MAX}` : `show all ${L.length}`; }
   document.getElementById('rows').innerHTML = rows.map(l=>`<tr>
     <td class="rank">${l.rank}</td>
     <td>${l.image?`<a href="${esc(l.url)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(l.image)}" alt=""></a>`:''}</td>
@@ -237,6 +264,7 @@ document.getElementById('rows').addEventListener('click', ev=>{
   const tr = ev.target.closest('tr'); if (!tr || tr.classList.contains('why-row')) return;
   const w = tr.nextElementSibling; if (w && w.classList.contains('why-row')) { w.hidden = !w.hidden; tr.classList.toggle('open', !w.hidden); }
 });
+document.getElementById('showAll').addEventListener('click',()=>{showAll=!showAll;render();});
 ['fRegion','fText','fNew'].forEach(id=>document.getElementById(id).addEventListener('input',render));
 render();
 

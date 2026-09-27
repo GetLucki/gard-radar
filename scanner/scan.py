@@ -118,6 +118,55 @@ def drive_hours(kommun, lat, lon):
     return None
 
 
+FLIGHT_RE = re.compile(r'self\.__next_f\.push\(\[1,\s*"((?:[^"\\]|\\.)*)"\]\)')
+FLIGHT_KEY_RE = re.compile(r'"((?:ROOT_QUERY|ListableProperty|Image|Amenity|Area_V3|Presenter)[^"]*(?:\\.[^"]*)*)":\{')
+
+
+def _match_object(text, start):
+    """Returnera JSON-objektet som börjar på index start (pekar på '{')."""
+    depth, in_str, esc = 0, False, False
+    for i in range(start, len(text)):
+        c = text[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                in_str = False
+        elif c == '"':
+            in_str = True
+        elif c == "{":
+            depth += 1
+        elif c == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start:i + 1]
+    return None
+
+
+def flight_apollo(html):
+    """Booli gick över till Next.js App Router 2026-09 och har inte längre
+    #__NEXT_DATA__. Samma Apollo-cache ligger nu i flight-strömmen
+    (self.__next_f), så vi plockar ut den och återskapar samma uppslagstabell
+    som förut, med nycklar som ListableProperty:{...} och Image:{...}."""
+    chunks = FLIGHT_RE.findall(html)
+    if not chunks:
+        return {}
+    payload = "".join(json.loads('"' + c + '"') for c in chunks)
+    out = {}
+    for m in FLIGHT_KEY_RE.finditer(payload):
+        key = m.group(1).replace('\\"', '"')
+        raw = _match_object(payload, m.end() - 1)
+        if not raw:
+            continue
+        try:
+            out[key] = json.loads(raw)
+        except Exception:
+            continue
+    return out
+
+
 def apollo_state(page):
     raw = page.locator("#__NEXT_DATA__").inner_text(timeout=20000)
     nd = json.loads(raw)
@@ -138,9 +187,17 @@ def goto_state(browser, url, tries=3):
         page.set_default_timeout(60000)
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_selector("#__NEXT_DATA__", state="attached", timeout=15000)
-            time.sleep(random.uniform(0.8, 1.8))
-            return ctx, page, apollo_state(page)
+            try:
+                page.wait_for_selector("#__NEXT_DATA__", state="attached", timeout=8000)
+                time.sleep(random.uniform(0.8, 1.8))
+                return ctx, page, apollo_state(page)
+            except Exception:
+                # App Router (Booli sedan september 2026): datan ligger i flight-strömmen
+                time.sleep(random.uniform(0.8, 1.8))
+                ap = flight_apollo(page.content())
+                if ap:
+                    return ctx, page, ap
+                raise
         except Exception as e:
             last = e
             title = ""
