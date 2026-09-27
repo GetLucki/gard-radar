@@ -1,13 +1,511 @@
 GÅRD-RADAR 2026-09-27
-0 new on the list, 0 on the standing list, 139 matching in total
+50 new on the list, 50 on the standing list, 139 matching in total
 
 IN ONE PARAGRAPH
-No summary written today.
+139 listings match the filters this week. One new farm came in (Bexet 202 in Hylte, 4 175 000 kr for 7.9 ha, no description yet) and five left the market, among them Svenshult 13 in Laholm and Prästgårdsvägen 4 in Älmhult; nobody cut or raised a price. The median asking price is 2 995 000 kr and the median land price is about 227 500 kr per ha, with Småland (44) and Dalsland/Värmland (33) carrying most of the supply and the Göteborg hinterland and Halland inland the most expensive. Since the board was empty, the top 50 were judged from scratch today: very few houses pass the low-maintenance bar, so the best buys this week are well-kept farms with wood heating that have sat for months, which leaves room to negotiate.
 
 NEW SINCE THE LAST RUN
-Nothing new entered the list today. Everything below is unchanged.
+1. Attlered 122, Lilla Edet · Göteborg hinterland · 23.3 ha · 130 m² · 0.8 h, 2 950 000 kr
+   Scores: overall 63, survival 41, invest 85
+   Survival: 23 ha in one block with 17 ha productive forest for firewood and 4 ha free inägomark for food, plus a jordkällare, a hen house and a large barn with power. No neighbours overlooking the house. Well and heating are not stated, and the land lies near Lödöse in the Göta älv valley, so check clay and landslide maps.
+   Investment: About 127 000 kr per ha, well under the median; 17 ha of southern forest may carry a large share of the 2 950 000 kr asking price. 0.8 h from Göteborg in the hinterland gives the best resale liquidity on the list.
+   Why this rank: One of the best land-for-money deals close to Göteborg; held back by an older 1.5-storey house of unknown condition.
+   Maintenance: 1.5-plan house, build year and facade unknown, most likely painted timber; expect facade painting and possibly windows within ten years.
+   Recommendation: Ask the broker for X first: skogsbruksplan with volume, build year, facade and roof material, water source and heating, then book a viewing if the house holds up.
+   https://www.hemnet.se/bostad/gard-5rum-attlered-lilla-edets-kommun-attlered-122-21774015
 
-THE STANDING LIST, TOP 0
+2. Månstad Boda 2, Tranemo · Göteborg hinterland · 43.1 ha · 1.4 h, 5 000 000 kr
+   Scores: overall 63, survival 41, invest 85
+   Survival: 43 ha with 10 ha arable and 16 ha forest ready for harvest, several outbuildings and a sawmill that lets you cut your own timber. Good road access, but water, heating and the house itself are not described.
+   Investment: About 116 000 kr per ha, well under the median, and forest ready to harvest can return part of the price. At 5 000 000 kr it is at the top of the budget, and after 4 months on the market there is room to negotiate.
+   Why this rank: Strong land and investment case, but the listing says nothing about the house and a large set of old buildings runs against the low-maintenance rule.
+   Maintenance: House unknown; many economy buildings and a sawmill idle since 1998 are a maintenance burden unless demolished.
+   Recommendation: Ask the broker for X first: the house's build year and condition, which buildings are sound, and the harvest volume in the skogsbruksplan.
+   https://www.hemnet.se/bostad/gard-tranemo-kommun-manstad-boda-2-21728392
+
+3. Boarp Stakagård 1, Ljungby · Småland · 20.1 ha · 120 m² · byggår 1933 · 2.0 h, 2 700 000 kr
+   Scores: overall 62, survival 48, invest 76
+   Survival: 20 ha with 17.9 ha forest and pasture and arable next to the house, kakelugnar for wood heat, a workshop and a quiet village setting 15 minutes from Ljungby. Well not stated.
+   Investment: About 134 000 kr per ha; around 2 000 m3sk of mostly young spruce and oak has long-term value but little to harvest soon. Kronoberg has the strongest five-year holiday-home trend.
+   Why this rank: Good land and wood heat at a mid-band price; held back by a 1933 timber house.
+   Maintenance: 1933 timber house with wood floors and tile stoves; expect facade painting, likely windows and a check of roof and electrics within ten years.
+   Recommendation: Ask the broker for X first: roof and window age, water source and the besiktning, then decide on a viewing.
+   https://www.hemnet.se/bostad/gard-5rum-ljungby-ljungby-kommun-boarp-stakagard-1-21786708
+
+4. Västra Mo 6, Sävsjö · Småland · 15.0 ha · 98 m² · byggår 1954 · 2.5 h, 3 295 000 kr
+   Scores: overall 62, survival 61, invest 63
+   Survival: 15 ha with 10 ha forest and 5 ha arable and pasture, fishing rights in Mosjön 1.2 km away, wood heating noted and two barns. 2.5 h from Göteborg is at the edge of the range.
+   Investment: About 220 000 kr per ha, close to the median; the forest was partly cut in 2020 and has not been replanted, which lowers its value and may bring a replanting duty.
+   Why this rank: Solid survival land, but a 1954 house, two old barns and an unplanted clearing hold it back.
+   Maintenance: 1954 house, facade unknown; two barns (one from 1924) are a maintenance liability.
+   Recommendation: Watch, wait for a price cut; the unplanted clearing and old barns do not justify 3 295 000 kr.
+   https://www.hemnet.se/bostad/gard-4rum-nya-hjalmseryd-savsjo-kommun-vastra-mo-6-21780692
+
+5. Hult 1, Värnamo · Småland · 14.43 ha · 5 m² · byggår 1909 · 1.9 h, 2 995 000 kr
+   Scores: overall 61, survival 60, invest 62
+   Survival: 14.4 ha with 11 ha forest and 3.4 ha pasture in a secluded forest clearing, hunting and fishing rights with a boat place, barn and a root cellar under the garage. Water and heating are not stated.
+   Investment: About 208 000 kr per ha, just under the median; 4 months on the market suggests room to negotiate. Småland lake country resells well to German and Dutch buyers.
+   Why this rank: Good seclusion and land, but the 1909 house and a half-finished stable conversion pull it down.
+   Maintenance: 1909 timber house with renovated surfaces and kitchen; facade, roof and windows likely need work within ten years (listed living area of 5 m2 is a data error).
+   Recommendation: Ask the broker for X first: facade, roof and window age plus water source and heating.
+   https://www.hemnet.se/bostad/villa-5,5rum-gallaryd-varnamo-kommun-hult-1-21729166
+
+6. Nädhult 2:14, Hylte · Halland inland · 16.1 ha · 1.3 h, 1 500 000 kr
+   Scores: overall 60, survival 35, invest 85
+   Survival: A forest property with no buildings: 14.7 ha young forest and 1 ha inägomark. No house means no safe house.
+   Investment: Cheapest land on the list at about 93 000 kr per ha, well-managed young spruce with high growth. A pure forest investment, not a gård.
+   Why this rank: High investment score, but it fails the core purpose because there is no dwelling.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house; only relevant later as extra forest next to a farm we already own.
+   https://www.hemnet.se/bostad/gard-kinnared-hylte-kommun-nadhult-2-14-21775702
+
+7. Killhult 161, Laholm · Halland inland · 16.75 ha · 112 m² · 1.7 h, 3 400 000 kr
+   Scores: overall 60, survival 46, invest 73
+   Survival: Excellent for survival: 17 ha in one block with its own pond and a border on Stensån, 11.5 ha arable and pasture, an efficient wood boiler with accumulator tanks and 27 solar panels (about 7 000 kWh a year). Organic farm, livestock barns ready for animals.
+   Investment: About 203 000 kr per ha, under the median, in Halland inland which resells well. Ten months on the market gives a strong negotiating position.
+   Why this rank: One of the most complete prepping setups on the list; held back by an unknown house age and only 5.5 ha forest.
+   Maintenance: Main house of unknown age with a 2005 extension; facade and roof unknown, stable buildings will need upkeep.
+   Recommendation: Book a viewing, after asking for the besiktning and the main house's build year and roof age; ten months on the market means a bid under asking is realistic.
+   https://www.hemnet.se/bostad/gard-6rum-nordana-vaxtorp-laholms-kommun-killhult-161-21638457
+
+8. Åby Säteri 4, Ljungby · Småland · 10.0 ha · 2.0 h, 1 300 000 kr
+   Scores: overall 58, survival 40, invest 76
+   Survival: 11 ha land with 5 ha forest and 6 ha inägomark and fishing rights, but the house burned down and only a foundation with connections remains.
+   Investment: About 130 000 kr per ha, and building new would give a modern house to our spec, but that is a large project and cost on top of the price.
+   Why this rank: No habitable house and a build project, which contradicts the turnkey rule.
+   Maintenance: No house; a new build would need bygglov and a full budget.
+   Recommendation: Skip, no house and a build project; turnkey only.
+   https://www.hemnet.se/bostad/gard-lagan-ljungby-kommun-aby-sateri-4-21688676
+
+9. Nödinge Backagården 2, Mark · Göteborg hinterland · 8.8 ha · 0.8 h, 1 700 000 kr
+   Scores: overall 58, survival 48, invest 67
+   Survival: 8.8 ha of arable around the house sloping down to the stream Surtan, secluded, 0.8 h from Göteborg. A 180 m2 house.
+   Investment: About 193 000 kr per ha in the hinterland, but the house needs renovation and maintenance per the broker, which is exactly what we want to avoid.
+   Why this rank: The listing itself says renovation is needed, which the plan lists under avoid.
+   Maintenance: House in need of renovation and maintenance; big capex within a few years.
+   Recommendation: Skip, a renovation object by the broker's own words.
+   https://www.hemnet.se/bostad/gard-hajom-marks-kommun-nodinge-backagarden-2-21785520
+
+10. Klämman 8, Tidaholm · Skaraborg/Vättern · 33.92 ha · 1.8 h, 2 800 000 kr
+   Scores: overall 58, survival 37, invest 79
+   Survival: 34 ha with 26.8 ha productive forest, the farm centre on a small rise surrounded by inägomark, secluded. Water and heating not stated.
+   Investment: Only about 83 000 kr per ha, so the forest likely covers much of the price. Bidding is already underway, so the final price will be higher.
+   Why this rank: Great land value but an older house and simple outbuildings, and an active bidding war.
+   Maintenance: Older house, likely timber; simpler economy buildings. Expect facade, roof and window work.
+   Recommendation: Ask the broker for X first: current bid level, house build year and condition; only worth chasing if the bid stays well under 5 000 000 kr.
+   https://www.hemnet.se/bostad/gard-tidaholms-kommun-klamman-8-21741877
+
+11. Intagan 128, Lilla Edet · Göteborg hinterland · 12.37 ha · 158 m² · byggår 1975 · 0.8 h, 3 500 000 kr
+   Scores: overall 57, survival 49, invest 65
+   Survival: 12.4 ha of pasture and arable with its own access to Göta älv, a 1975 split-level house with room for five bedrooms. No outbuildings, no forest, no stated wood heating, and 7.5 km from Trollhättan is close to town.
+   Investment: About 283 000 kr per ha, above the median, but a 1975 house passes the build-year test. Göta älv clay slopes are named in the plan as a landslide risk.
+   Why this rank: One of few houses built after 1965, but landslide risk, no forest and no barn hold it back.
+   Maintenance: 1975 sutteräng house; check facade, roof and windows, which may be original from 1975.
+   Recommendation: Ask the broker for X first: SGU landslide and MSB flood maps for the plot, facade and roof material, heating.
+   https://www.hemnet.se/bostad/villa-7rum-intagan-lilla-edets-kommun-intagan-128-21769758
+
+12. Ryd Östergård 17, Ljungby · Småland · 25.85 ha · 150 m² · byggår 1909 · 2.0 h, 2 798 000 kr
+   Scores: overall 56, survival 46, invest 66
+   Survival: Strong: own beach and boat place on Hornasjön, fishing rights in three waters, modern wood heating, 15 ha forest for firewood, 8 ha pasture, a three-level barn and a sauna. 2 h from Göteborg.
+   Investment: About 108 000 kr per ha, well under the median; 1 250 m3sk of forest is worth about 1.1 MSEK, so the house and beach come cheap. Seven months on the market means room to bid under.
+   Why this rank: Best value for survival on the list in the Småland band; only the 1909 house holds it back.
+   Maintenance: 1909 house with a new bathroom and an Anticimex inspection; facade, roof and windows should be checked, older timber likely needs paint.
+   Recommendation: Book a viewing, and read the Anticimex report first for roof, facade and damp.
+   https://www.hemnet.se/bostad/gard-6rum-hamneda-ljungby-kommun-ryd-ostergard-17-21675475
+
+13. Snörsjö 2:5, Markaryd · Småland · 31.2 ha · 1.9 h, 2 850 000 kr
+   Scores: overall 56, survival 31, invest 80
+   Survival: A forest property with no buildings, 31 ha, good forest road. No house.
+   Investment: About 91 000 kr per ha, 1 700 m3sk worth about 1.6 MSEK against 2 850 000 kr; on the market almost five years, which says it is overpriced.
+   Why this rank: No dwelling and overpriced for its volume.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house and priced above its timber value.
+   https://www.hemnet.se/bostad/gard-stromsnasbruk-markaryds-kommun-snorsjo-2-5-18045316
+
+14. Törestorp 5, Mark · Göteborg hinterland · 18.3 ha · 0.8 h, 4 900 000 kr
+   Scores: overall 56, survival 41, invest 72
+   Survival: 18 ha with 5 ha forest and 12 ha arable and pasture, 0.8 h from Göteborg, and a newly built stable and machine hall. Water and heating not stated.
+   Investment: About 268 000 kr per ha, above the median, but the house is in very good condition per the broker and the new hall needs no work. The hinterland has the best resale and hästgård demand.
+   Why this rank: A turnkey house near Göteborg with new outbuildings is rare; held back by price near the top of the budget and little forest.
+   Maintenance: House in very good condition and a new stable and hall; check facade and roof material.
+   Recommendation: Book a viewing, after asking for build year, facade, heating and water; four months on the market allows a bid.
+   https://www.hemnet.se/bostad/villa-fotskal-marks-kommun-torestorp-5-21729254
+
+15. Torsvid Sörgården 35, Gullspång · Skaraborg/Vättern · 7.7 ha · 96 m² · byggår 1925 · 2.4 h, 1 795 000 kr
+   Scores: overall 54, survival 46, invest 62
+   Survival: 7.7 ha of forest and pasture with water in Lillskagern and fishing rights, a large barn and outbuildings. Heating is ground-source heat pump, which needs power, so wood heat would need adding.
+   Investment: About 233 000 kr per ha, near the median, 2.4 h away in Skaraborg where resale is steady; bathroom from 2022 and low running costs.
+   Why this rank: Cheap and liveable, but a 1925 house needing modernisation and no wood heat hold it back.
+   Maintenance: 1925 house in usable condition but needing modernisation; expect windows, facade and kitchen within ten years.
+   Recommendation: Watch, wait for a price cut; modernisation need and no wood heat.
+   https://www.hemnet.se/bostad/gard-4rum-torsvid-gullspangs-kommun-torsvid-sorgarden-35-21774881
+
+16. VÄSTERHÖNSA 1:13 m.fl, Tibro · Skaraborg/Vättern · 14.8 ha · 2.0 h, 1 995 000 kr
+   Scores: overall 54, survival 33, invest 75
+   Survival: 15 ha of arable, forest and pasture with a 320 m2 barn and three separate building plots, but no house.
+   Investment: About 135 000 kr per ha; the three plots could be sold on, but we would have to build.
+   Why this rank: No dwelling, so it fails the safe-house purpose.
+   Maintenance: Barn only; no house.
+   Recommendation: Skip, no house; would require a new build.
+   https://www.hemnet.se/bostad/gard-tibro-tibro-kommun-vasterhonsa-1-13-m,fl-21700418
+
+17. Grönlanda 8, Färgelanda · Dalsland/Värmland · 4.7 ha · 160 m² · 1.4 h, 4 300 000 kr
+   Scores: overall 54, survival 73, invest 35
+   Survival: Very secluded with a modern energy-efficient villa, a historic torp with a wood range and a guest cottage, so three dwellings. Hunting rights and room for animals, but only 4.7 ha and little forest.
+   Investment: About 915 000 kr per ha, four times the median, so almost all value sits in buildings. Dalsland resells steadily but not fast.
+   Why this rank: The modern villa is one of few houses that may meet the low-maintenance spec, but the land is thin for the price.
+   Maintenance: Modern villa likely low maintenance; the old torp and cottage add upkeep.
+   Recommendation: Ask the broker for X first: villa build year, facade and roof, and whether neighbouring forest can be bought.
+   https://www.hemnet.se/bostad/gard-6rum-hogsater-fargelanda-kommun-gronlanda-8-21748189
+
+18. Sunnerby Sävjedal 1, Sävsjö · Småland · 37.46 ha · byggår 1944 · 2.5 h, 4 500 000 kr
+   Scores: overall 54, survival 33, invest 76
+   Survival: 37.5 ha by Storsjön with 23.5 ha forest and 11 ha arable, a good barn and machine hall. Heating and well not stated; 2.5 h is the edge of the range.
+   Investment: About 120 000 kr per ha; 2 831 m3sk is worth about 2.6 MSEK against 4 500 000 kr, so the land holds its value. Kronoberg and Jönköping resell well.
+   Why this rank: Strong land and lake setting; held back by a small 92 m2 house from 1944 and the long drive.
+   Maintenance: 1944 house renovated in 2000, 92 m2; check facade and roof, which may be at end of life.
+   Recommendation: Ask the broker for X first: what the 2000 renovation covered (roof, windows, electrics) and heating type.
+   https://www.hemnet.se/bostad/gard-savsjo-kommun-sunnerby-savjedal-1-21769169
+
+19. Forshallsvägen 10, Mark · Göteborg hinterland · 7.9 ha · 100 m² · byggår 1930 · 0.8 h, 3 350 000 kr
+   Scores: overall 53, survival 64, invest 42
+   Survival: A cared-for horse farm at the end of a gravel road, 7.9 ha of pasture with a stream and a lake nearby, a wood-burning range, root cellar and guest cottage. Little forest for firewood.
+   Investment: About 424 000 kr per ha, well above the median, but the hinterland location 0.8 h from Göteborg has strong horse-farm demand.
+   Why this rank: Pleasant and well kept but a 1930 house and small land for the price.
+   Maintenance: 1930 white house with a tile roof, well kept; expect facade painting and a window check within ten years.
+   Recommendation: Watch, wait for a price cut; pays for charm rather than land.
+   https://www.hemnet.se/bostad/villa-5rum-orby-marks-kommun-forshallsvagen-10-21773856
+
+20. Södra Lund Eklund, Bengtsfors · Dalsland/Värmland · 9.4 ha · 70 m² · byggår 1909 · 2.0 h, 1 700 000 kr
+   Scores: overall 52, survival 48, invest 57
+   Survival: 9.4 ha with 6 ha forest (about 1 900 m3sk), pasture, a wood range and two islands in Svärdlång. A simple 70 m2 summer cottage, not a year-round house.
+   Investment: About 181 000 kr per ha; the forest alone may cover most of the 1 700 000 kr, but the house has little value.
+   Why this rank: Good forest for the money, but the cottage is simple and from the 1850s.
+   Maintenance: Simple timber cottage with origins in the 1850s; needs substantial work to become a winter safe house.
+   Recommendation: Skip, a summer cottage that would need a big upgrade.
+   https://www.hemnet.se/bostad/gard-2rum-sodra-lund-bengtsfors-kommun-sodra-lund-eklund-21747460
+
+21. Stenslanda Östby 1, Årjäng · Dalsland/Värmland · 6.83 ha · 80 m² · byggår 1939 · 2.4 h, 1 795 000 kr
+   Scores: overall 52, survival 46, invest 57
+   Survival: 6.8 ha with arable, a forest parcel for firewood and hunting, and a barn with animal stalls. Heating and well not stated.
+   Investment: About 263 000 kr per ha, above the median, 2.4 h away in Värmland with a positive villa trend.
+   Why this rank: Cheap but a red timber house from 1939 is the opposite of the low-maintenance spec.
+   Maintenance: 1939 red timber house with tile roof and old-style windows; repainting every 8 to 12 years.
+   Recommendation: Skip, red timber house that needs regular painting.
+   https://www.hemnet.se/bostad/gard-4rum-arjangs-kommun-stenslanda-ostby-1-21723977
+
+22. Sjöbol Wilhelmsgården 1, Hylte · Halland inland · 7.0 ha · 77 m² · byggår 1909 · 1.3 h, 2 600 000 kr
+   Scores: overall 52, survival 54, invest 49
+   Survival: 7 ha with 5 ha arable, a renovated house, a separate 60 m2 cottage and newly renovated livestock buildings. Heating and water not stated.
+   Investment: About 371 000 kr per ha, well above the median; the price reflects a running business turning over about 1 MSEK a year, which we do not need.
+   Why this rank: Paying for a business we will not run, and little forest.
+   Maintenance: 1909 house with major recent improvements; barns newly renovated.
+   Recommendation: Skip, priced as a running business rather than a safe house.
+   https://www.hemnet.se/bostad/gard-4rum-torup-hylte-kommun-sjobol-wilhelmsgarden-1-21696707
+
+23. Tånnö Stenhyltan 1, Värnamo · Småland · 16.49 ha · 1.9 h, 3 000 000 kr
+   Scores: overall 52, survival 37, invest 67
+   Survival: 16 ha with 8 ha forest, 4 ha pasture and 4 ha arable around the farm, barn with workshop. Ground-source heat, fibre and a modernised sewage system, but no wood heat stated.
+   Investment: About 182 000 kr per ha, under the median, 15 minutes from Värnamo; an upstairs rental flat gives flexibility.
+   Why this rank: Good modern systems in an early-1900s house; held back by timber construction and no stated wood heat.
+   Maintenance: Early-1900s house with character; facade, roof and windows likely old and need work within ten years.
+   Recommendation: Ask the broker for X first: facade, roof and window age and whether a wood stove exists.
+   https://www.hemnet.se/bostad/gard-varnamo-kommun-tanno-stenhyltan-1-21768653
+
+24. SVENLJUNGA YTTRE BACKA 1:5 & 1:13, Svenljunga · Göteborg hinterland · 22.96 ha · 1.2 h, 4 500 000 kr
+   Scores: overall 52, survival 38, invest 67
+   Survival: Two forest properties on a headland in lake Fegen, no buildings.
+   Investment: 5 300 m3sk looks cheap, but the land lies inside Naturreservat Fegen, which limits forestry and building.
+   Why this rank: No house, and nature-reserve rules cut both value and use.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house and inside a nature reserve.
+   https://www.hemnet.se/bostad/gard-svenljunga-kommun-svenljunga-yttre-backa-1-5-1-13-21650845
+
+25. Stamnared 36, Varberg · Halland inland · 15.21 ha · 1.0 h, 4 900 000 kr
+   Scores: overall 52, survival 41, invest 62
+   Survival: 15.2 ha in three parcels with 12.3 ha forest and 3.7 ha pasture and arable, 1 h from Göteborg. Water and heating not stated.
+   Investment: About 322 000 kr per ha, above the median; eleven months on the market at 4 900 000 kr says the price is too high.
+   Why this rank: Good location, but a house last fully renovated in the 1950s at a top-of-budget price.
+   Maintenance: House totally renovated in the mid-1950s, then ongoing upkeep; expect roof, windows and systems within ten years.
+   Recommendation: Watch, wait for a price cut; overpriced after eleven months.
+   https://www.hemnet.se/bostad/gard-varbergs-kommun-stamnared-36-21624611
+
+26. Stora Mosshult 6, Laxå · Skaraborg/Vättern · 19.0 ha · 180 m² · byggår 1980 · 2.6 h, 4 995 000 kr
+   Scores: overall 52, survival 50, invest 55
+   Survival: 19.5 ha with 10 ha arable, a 1980 villa with two bathrooms, a small cottage with a wood range, an insulated workshop. Lakes Unden and Grytsjön nearby. 2.6 h exceeds the 2.5 h limit.
+   Investment: About 263 000 kr per ha; on the market for two years, so the price is far too high. Tiveden is undervalued but resells slowly.
+   Why this rank: A 1980 villa passes the build-year test, but distance and an unfinished truck garage hold it back.
+   Maintenance: 1980 villa; check facade, roof and windows; the extension over the workshop is not finished.
+   Recommendation: Watch, wait for a price cut; two years unsold at 4 995 000 kr.
+   https://www.hemnet.se/bostad/gard-6rum-laxa-kommun-stora-mosshult-6-19391342
+
+27. Hulabäck 1187, Markaryd · Småland · 7.0 ha · 70 m² · 1.9 h, 1 050 000 kr
+   Scores: overall 51, survival 40, invest 62
+   Survival: 7 ha, but the house is fire-damaged, gutted and without power.
+   Investment: Cheap at 1 050 000 kr, but it is a full rebuild or demolition sold with a disclaimer clause.
+   Why this rank: A renovation object by definition.
+   Maintenance: Fire-damaged shell; needs full renovation or demolition.
+   Recommendation: Skip, fire-damaged renovation object.
+   https://www.hemnet.se/bostad/gard-70m2-markaryds-kommun-hulaback-1187-21776076
+
+28. Vashult 4463, Älmhult · Småland · 67.96 ha · 2.3 h, 1 500 000 kr
+   Scores: overall 51, survival 36, invest 66
+   Survival: The 1 500 000 kr only buys the house, outbuildings and plot, not the 68 ha; more land must be bid for separately.
+   Investment: The 22 000 kr per ha is misleading; true land price is unknown until bids are placed on extra land.
+   Why this rank: The headline land area is not what the price buys.
+   Maintenance: House of unknown age with large surfaces; condition not described.
+   Recommendation: Ask the broker for X first: price for house plus 10 to 20 ha of forest, and the house's condition.
+   https://www.hemnet.se/bostad/gard-almhults-kommun-vashult-4463-21692640
+
+29. Eklanda Brändehov 1, Vårgårda · Göteborg hinterland · 10.1 ha · 30 m² · 0.9 h, 1 995 000 kr
+   Scores: overall 51, survival 35, invest 67
+   Survival: 10 ha of forest, planted forest and pasture in a very secluded spot, but only a 30 m2 building, suited as a summer cabin.
+   Investment: About 198 000 kr per ha in the hinterland, 0.9 h away; value is almost all land.
+   Why this rank: No real house to live in for a year.
+   Maintenance: 30 m2 cabin; would need a new house.
+   Recommendation: Skip, a cabin plot rather than a gård.
+   https://www.hemnet.se/bostad/gard-2rum-vargarda-vargarda-kommun-eklanda-brandehov-1-21730495
+
+30. Stommen Mobacken 1, Årjäng · Dalsland/Värmland · 10.11 ha · 57 m² · 2.4 h, 2 300 000 kr
+   Scores: overall 51, survival 55, invest 47
+   Survival: 10 ha with a house, a small cottage, a converted workshop with sleeping space and a large barn with a pub. Secluded, hunting rights. Heating and water not stated.
+   Investment: About 227 500 kr per ha, right at the median, 2.4 h away; the pub and event rooms add value for uthyrning, not for us.
+   Why this rank: Many buildings means much upkeep, against the low-maintenance rule.
+   Maintenance: 57 m2 main house plus several buildings of unknown age; high total upkeep.
+   Recommendation: Skip, too many buildings to keep up.
+   https://www.hemnet.se/bostad/gard-3rum-arjang-arjangs-kommun-stommen-mobacken-1-21753531
+
+31. SVENLJUNGA ÖLEBO 1:6, Svenljunga · Göteborg hinterland · 18.0 ha · 1.2 h, 1 400 000 kr
+   Scores: overall 50, survival 25, invest 75
+   Survival: 18 ha of growing forest with a small cabin and a tractor garage. No house.
+   Investment: About 78 000 kr per ha, very cheap forest with high growth; a good pure forest buy.
+   Why this rank: No dwelling.
+   Maintenance: Hunting cabin and garage only.
+   Recommendation: Skip, no house; interesting only as a forest investment.
+   https://www.hemnet.se/bostad/gard-holsljunga-svenljunga-kommun-svenljunga-olebo-1-6-21788228
+
+32. Ed Nissatorp 1, Värnamo · Småland · 20.0 ha · 1.9 h, 2 200 000 kr
+   Scores: overall 50, survival 30, invest 70
+   Survival: A 20 ha forest parcel with no buildings, sold only as an addition to a property already owned in Värnamo kommun. The whole property with a torp is 3 500 000 kr.
+   Investment: 3 170 m3sk is worth about 2.9 MSEK against 2 200 000 kr, but we cannot buy it by fastighetsreglering since we own nothing there.
+   Why this rank: Not buyable for us at this price.
+   Maintenance: No buildings in this parcel.
+   Recommendation: Ask the broker for X first: the 3 500 000 kr offer with the torp, its condition, well and heating.
+   https://www.hemnet.se/bostad/gard-varnamo-kommun-ed-nissatorp-1-21792825
+
+33. Fagerhult, Bollebygd · Göteborg hinterland · 31.3 ha · 0.6 h, 3 700 000 kr
+   Scores: overall 50, survival 25, invest 75
+   Survival: 31 ha forest property with no buildings.
+   Investment: About 118 000 kr per ha, 4 266 m3sk worth about 4 MSEK against 3 700 000 kr, 0.6 h from Göteborg. A good forest buy.
+   Why this rank: No dwelling.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house; a forest investment, not a safe house.
+   https://www.hemnet.se/bostad/gard-tollsjo-bollebygds-kommun-fagerhult-21784652
+
+34. Härbjörnarp 110, Ulricehamn · Göteborg hinterland · 7.0 ha · 191 m² · 1.3 h, 4 500 000 kr
+   Scores: overall 50, survival 41, invest 59
+   Survival: 7 ha of land and water between two lakes, a 190 m2 house, barn and workshop. Heating and well not stated.
+   Investment: About 643 000 kr per ha, nearly three times the median, so most value is in the house.
+   Why this rank: Lovely setting but expensive per hectare with little forest.
+   Maintenance: House of unknown age, 190 m2; condition not described.
+   Recommendation: Ask the broker for X first: build year, facade, roof and heating; at 4 500 000 kr the house must be turnkey.
+   https://www.hemnet.se/bostad/gard-6rum-finnekumla-ulricehamns-kommun-harbjornarp-110-21784757
+
+35. Hol 27:1, Vårgårda · Göteborg hinterland · 46.6 ha · 0.9 h, 4 500 000 kr
+   Scores: overall 50, survival 25, invest 75
+   Survival: 46.6 ha forest with no buildings, near water.
+   Investment: About 97 000 kr per ha, 5 467 m3sk worth about 5 MSEK against 4 500 000 kr, 0.9 h from Göteborg.
+   Why this rank: No dwelling.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house.
+   https://www.hemnet.se/bostad/gard-hol-vargarda-kommun-hol-27-1-21690486
+
+36. Boberg 101, Hylte · Halland inland · 12.6 ha · 1.3 h, 2 400 000 kr
+   Scores: overall 49, survival 31, invest 67
+   Survival: 12.6 ha on a rise along a gravel road with no through traffic, a 1927 manor house, barn and workshop. Water and heating not stated.
+   Investment: About 190 000 kr per ha, under the median, in Halland inland; bidding is already underway so the price will rise.
+   Why this rank: Good seclusion, but a 1927 house and an active bidding war.
+   Maintenance: 1927 timber house; expect facade, roof and windows within ten years.
+   Recommendation: Watch, wait for a price cut; old timber house already in bidding.
+   https://www.hemnet.se/bostad/gard-hylte-kommun-boberg-101-21784069
+
+37. Solum Ryggstödet 1, Dals-Ed · Dalsland/Värmland · 10.0 ha · 70 m² · byggår 1909 · 1.9 h, 1 150 000 kr
+   Scores: overall 48, survival 37, invest 59
+   Survival: 10 ha near the Norwegian border with a new skogsbruksplan, secluded, hunting in the local VVO. Heating and water not stated.
+   Investment: Cheap at about 115 000 kr per ha and 1 150 000 kr total, but a 70 m2 1909 house is a capex risk.
+   Why this rank: Cheap entry, but a small old timber house.
+   Maintenance: 1909 house of 70 m2; expect major work on facade, roof and windows.
+   Recommendation: Skip, small old timber house.
+   https://www.hemnet.se/bostad/gard-4rum-ed-dals-eds-kommun-solum-ryggstodet-1-21784286
+
+38. Jonstorp i Dalskog, Mellerud · Dalsland/Värmland · 6.0 ha · 1.5 h, 1 300 000 kr
+   Scores: overall 48, survival 34, invest 61
+   Survival: A private peninsula in lake Erve with a jetty and 6 ha mixed forest, but the house is a simple summer cottage without modern facilities.
+   Investment: About 217 000 kr per ha; the shoreline is attractive but strandskydd limits building.
+   Why this rank: Not a year-round house.
+   Maintenance: Old simple summer cottage without modern facilities.
+   Recommendation: Skip, summer cottage with no modern facilities.
+   https://www.hemnet.se/bostad/gard-melleruds-kommun-jonstorp-i-dalskog-21775426
+
+39. Böns Gård 1&2, Bengtsfors · Dalsland/Värmland · 3.43 ha · 102 m² · byggår 1815 · 2.0 h, 2 590 000 kr
+   Scores: overall 48, survival 65, invest 32
+   Survival: Two dwellings, two barns, a sauna, 2 ha pasture, lakes and forest nearby. The tile stove is not approved for use.
+   Investment: About 755 000 kr per ha, well above the median, for only 3.4 ha; eleven months on the market.
+   Why this rank: An early-1800s house and very little land for the price.
+   Maintenance: Main house from the early 1800s; high upkeep, the tile stove needs approval.
+   Recommendation: Skip, old timber and too little land.
+   https://www.hemnet.se/bostad/gard-5rum-odskolt-bengtsfors-kommun-bons-gard-1-2-21613749
+
+40. Nybyggerud 1, Årjäng · Dalsland/Värmland · 22.67 ha · 2.4 h, 2 800 000 kr
+   Scores: overall 48, survival 36, invest 60
+   Survival: 22 ha in one block around the buildings near lakes, a large forest store. Heating and water not stated; 2.4 h away.
+   Investment: About 124 000 kr per ha; 5 291 m3sk is worth about 3 MSEK at middle-Sweden prices, which covers the 2 800 000 kr asking price.
+   Why this rank: Excellent forest value, held back by a red timber house of unknown condition.
+   Maintenance: Red timber main building, age unknown; regular painting and likely windows and roof.
+   Recommendation: Ask the broker for X first: house build year, roof and heating; the forest alone justifies a look.
+   https://www.hemnet.se/bostad/gard-arjang-arjangs-kommun-nybyggerud-1-21742304
+
+41. Fastorp , Vaggeryd · Småland · 24.0 ha · 2.1 h, 4 250 000 kr
+   Scores: overall 48, survival 27, invest 68
+   Survival: 24 ha with 9 ha arable and pasture and 15.3 ha forest in one block, in a living village 4 km from Tofteryd. House details not in the listing text.
+   Investment: About 177 000 kr per ha, under the median, 2.1 h away in Jönköping county, which resells well.
+   Why this rank: Good land and a living village, but the house is not described.
+   Maintenance: Unknown; listing gives no house data.
+   Recommendation: Ask the broker for X first: house build year, facade, roof, heating and water.
+   https://www.hemnet.se/bostad/gard-vaggeryds-kommun-fastorp-21790270
+
+42. Västra Mörtnäs 503, Årjäng · Dalsland/Värmland · 10.83 ha · 183 m² · byggår 1982 · 2.4 h, 2 575 000 kr
+   Scores: overall 47, survival 42, invest 52
+   Survival: 10.8 ha with forest, a secluded setting, several wood stoves and an open fire, sauna and a separate flat. 2.4 h away.
+   Investment: About 238 000 kr per ha, close to the median; a 1982 villa passes the build-year test.
+   Why this rank: One of few post-1965 houses on the list; held back by distance and a very large 11-room house to heat.
+   Maintenance: 1982 villa; check facade, roof and windows, which may be original.
+   Recommendation: Ask the broker for X first: facade and roof material, window age and water source.
+   https://www.hemnet.se/bostad/gard-11rum-arjangs-kommun-vastra-mortnas-503-21766339
+
+43. Rishultsvägen, Markaryd · Småland · 10.77 ha · 1.9 h, 1 100 000 kr
+   Scores: overall 46, survival 21, invest 70
+   Survival: 11 ha forest with two building plots but no house.
+   Investment: About 102 000 kr per ha, 1 368 m3sk; bidding underway.
+   Why this rank: No dwelling.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house.
+   https://www.hemnet.se/bostad/gard-stromsnasbruk-markaryds-kommun-rishultsvagen-21738584
+
+44. Torp 8, Hultsfred · Småland · 13.2 ha · 129 m² · byggår 1912 · 3.0 h, 2 500 000 kr
+   Scores: overall 46, survival 42, invest 51
+   Survival: 13.2 ha with inägomark and varied forest, shares in two lakes, hunting and fishing. 3.0 h from Göteborg exceeds the 2.5 h limit.
+   Investment: About 189 000 kr per ha, under the median, but distance lowers resale.
+   Why this rank: Too far away.
+   Maintenance: 1912 house; expect facade, roof and windows within ten years.
+   Recommendation: Skip, 3 hours from Göteborg.
+   https://www.hemnet.se/bostad/gard-4rum-hultsfreds-kommun-torp-8-21784724
+
+45. Nårunga 5:1, del av, Vårgårda · Göteborg hinterland · 13.1 ha · 0.9 h, 2 600 000 kr
+   Scores: overall 46, survival 25, invest 67
+   Survival: 13 ha forest parcel with no buildings, sold via fastighetsreglering.
+   Investment: About 198 000 kr per ha, 2 885 m3sk; requires an existing adjacent property to buy.
+   Why this rank: No house and not buyable without adjacent land.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house and requires fastighetsreglering.
+   https://www.hemnet.se/bostad/gard-narunga-vargarda-kommun-narunga-5-1,-del-av-21772540
+
+46. Kärringe Trädestorp 1, Ljungby · Småland · 40 m² · 2.0 h, 2 700 000 kr
+   Scores: overall 46, survival 53, invest 39
+   Survival: 4.4 ha secluded with no near neighbours, a wood range and tile stove, a greenhouse and barn. The 40 m2 timber house is very small.
+   Investment: At 2 700 000 kr for 4.4 ha the land price is well above the median; sold with a hidden-defects disclaimer.
+   Why this rank: Small early-1800s timber house and a disclaimer on defects.
+   Maintenance: Early-1800s timber house renovated with ecological materials, larch facade; ongoing upkeep.
+   Recommendation: Skip, small old timber house sold with a defects disclaimer.
+   https://www.hemnet.se/bostad/gard-2rum-smaland-ljungby-kommun-karringe-tradestorp-1-21764487
+
+47. Vräk, Falkenberg · Halland inland · 24.0 ha · 1.3 h, 3 500 000 kr
+   Scores: overall 46, survival 25, invest 67
+   Survival: 24 ha forest with no buildings, bordering Högvadsån.
+   Investment: About 146 000 kr per ha, 4 000 m3sk; borders a village and an older building plan.
+   Why this rank: No dwelling.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house.
+   https://www.hemnet.se/bostad/gard-falkenbergs-kommun-vrak-21728408
+
+48. Kettilsbyn Noli, Säffle · Dalsland/Värmland · 42.0 ha · 2.2 h, 4 700 000 kr
+   Scores: overall 46, survival 32, invest 60
+   Survival: 42 ha with forest, a game pond, a main house, a furnished cottage and another simple dwelling, an old stable. 6 km from Långserud via E18. Heating and water not stated.
+   Investment: About 112 000 kr per ha; 3 600 m3sk worth about 2 MSEK at Värmland prices against 4 700 000 kr, so the buildings carry most of the price.
+   Why this rank: Many old buildings and a high price for the timber volume.
+   Maintenance: Several older buildings including a simple dwelling; high upkeep.
+   Recommendation: Watch, wait for a price cut; too many old buildings for the price.
+   https://www.hemnet.se/bostad/gard-langserud-saffle-kommun-kettilsbyn-noli-21745726
+
+49. Nödinge 7:5, Mark · Göteborg hinterland · 26.3 ha · 0.8 h, 4 800 000 kr
+   Scores: overall 46, survival 25, invest 67
+   Survival: 26 ha forest in two parcels with no buildings.
+   Investment: About 183 000 kr per ha; 6 280 m3sk worth about 5.8 MSEK against 4 800 000 kr, strong forest value 0.8 h from Göteborg.
+   Why this rank: No dwelling.
+   Maintenance: No buildings.
+   Recommendation: Skip, no house; a forest investment only.
+   https://www.hemnet.se/bostad/gard-hajom-marks-kommun-nodinge-7-5-21785474
+
+50. Bexet 202, Hylte · Halland inland · 7.92 ha · 1.3 h, 4 175 000 kr
+   Scores: overall 31, survival 20, invest 42
+   Survival: 7.9 ha in Hylte, 1.3 h from Göteborg, but the listing has no description, so water, heating and buildings are unknown. The pre-score only sees some forest.
+   Investment: At about 527 000 kr per ha it costs more than twice the median per hectare, so most of the price has to be in the house. Halland inland resells well, but that only helps if the house is good.
+   Why this rank: Held back by a high price per hectare and no information at all; it can only move up once the broker's prospectus is read.
+   Maintenance: Unknown: no build year, facade, roof or window data in the listing.
+   Recommendation: Ask the broker for the prospectus first: build year, facade, roof, well and heating, since at this price the house must be turnkey.
+   https://www.booli.se/annons/6184995
+
+THE STANDING LIST, TOP 50
+1. Attlered 122 [NEW], Lilla Edet, 2 950 000 kr, O63/S41/I85 - Ask the broker for X first: skogsbruksplan with volume, build year, facade and roof material, water source and heating, then book a viewing if the house holds up.
+2. Månstad Boda 2 [NEW], Tranemo, 5 000 000 kr, O63/S41/I85 - Ask the broker for X first: the house's build year and condition, which buildings are sound, and the harvest volume in the skogsbruksplan.
+3. Boarp Stakagård 1 [NEW], Ljungby, 2 700 000 kr, O62/S48/I76 - Ask the broker for X first: roof and window age, water source and the besiktning, then decide on a viewing.
+4. Västra Mo 6 [NEW], Sävsjö, 3 295 000 kr, O62/S61/I63 - Watch, wait for a price cut; the unplanted clearing and old barns do not justify 3 295 000 kr.
+5. Hult 1 [NEW], Värnamo, 2 995 000 kr, O61/S60/I62 - Ask the broker for X first: facade, roof and window age plus water source and heating.
+6. Nädhult 2:14 [NEW], Hylte, 1 500 000 kr, O60/S35/I85 - Skip, no house; only relevant later as extra forest next to a farm we already own.
+7. Killhult 161 [NEW], Laholm, 3 400 000 kr, O60/S46/I73 - Book a viewing, after asking for the besiktning and the main house's build year and roof age; ten months on the market means a bid under asking is realistic.
+8. Åby Säteri 4 [NEW], Ljungby, 1 300 000 kr, O58/S40/I76 - Skip, no house and a build project; turnkey only.
+9. Nödinge Backagården 2 [NEW], Mark, 1 700 000 kr, O58/S48/I67 - Skip, a renovation object by the broker's own words.
+10. Klämman 8 [NEW], Tidaholm, 2 800 000 kr, O58/S37/I79 - Ask the broker for X first: current bid level, house build year and condition; only worth chasing if the bid stays well under 5 000 000 kr.
+11. Intagan 128 [NEW], Lilla Edet, 3 500 000 kr, O57/S49/I65 - Ask the broker for X first: SGU landslide and MSB flood maps for the plot, facade and roof material, heating.
+12. Ryd Östergård 17 [NEW], Ljungby, 2 798 000 kr, O56/S46/I66 - Book a viewing, and read the Anticimex report first for roof, facade and damp.
+13. Snörsjö 2:5 [NEW], Markaryd, 2 850 000 kr, O56/S31/I80 - Skip, no house and priced above its timber value.
+14. Törestorp 5 [NEW], Mark, 4 900 000 kr, O56/S41/I72 - Book a viewing, after asking for build year, facade, heating and water; four months on the market allows a bid.
+15. Torsvid Sörgården 35 [NEW], Gullspång, 1 795 000 kr, O54/S46/I62 - Watch, wait for a price cut; modernisation need and no wood heat.
+16. VÄSTERHÖNSA 1:13 m.fl [NEW], Tibro, 1 995 000 kr, O54/S33/I75 - Skip, no house; would require a new build.
+17. Grönlanda 8 [NEW], Färgelanda, 4 300 000 kr, O54/S73/I35 - Ask the broker for X first: villa build year, facade and roof, and whether neighbouring forest can be bought.
+18. Sunnerby Sävjedal 1 [NEW], Sävsjö, 4 500 000 kr, O54/S33/I76 - Ask the broker for X first: what the 2000 renovation covered (roof, windows, electrics) and heating type.
+19. Forshallsvägen 10 [NEW], Mark, 3 350 000 kr, O53/S64/I42 - Watch, wait for a price cut; pays for charm rather than land.
+20. Södra Lund Eklund [NEW], Bengtsfors, 1 700 000 kr, O52/S48/I57 - Skip, a summer cottage that would need a big upgrade.
+21. Stenslanda Östby 1 [NEW], Årjäng, 1 795 000 kr, O52/S46/I57 - Skip, red timber house that needs regular painting.
+22. Sjöbol Wilhelmsgården 1 [NEW], Hylte, 2 600 000 kr, O52/S54/I49 - Skip, priced as a running business rather than a safe house.
+23. Tånnö Stenhyltan 1 [NEW], Värnamo, 3 000 000 kr, O52/S37/I67 - Ask the broker for X first: facade, roof and window age and whether a wood stove exists.
+24. SVENLJUNGA YTTRE BACKA 1:5 & 1:13 [NEW], Svenljunga, 4 500 000 kr, O52/S38/I67 - Skip, no house and inside a nature reserve.
+25. Stamnared 36 [NEW], Varberg, 4 900 000 kr, O52/S41/I62 - Watch, wait for a price cut; overpriced after eleven months.
+26. Stora Mosshult 6 [NEW], Laxå, 4 995 000 kr, O52/S50/I55 - Watch, wait for a price cut; two years unsold at 4 995 000 kr.
+27. Hulabäck 1187 [NEW], Markaryd, 1 050 000 kr, O51/S40/I62 - Skip, fire-damaged renovation object.
+28. Vashult 4463 [NEW], Älmhult, 1 500 000 kr, O51/S36/I66 - Ask the broker for X first: price for house plus 10 to 20 ha of forest, and the house's condition.
+29. Eklanda Brändehov 1 [NEW], Vårgårda, 1 995 000 kr, O51/S35/I67 - Skip, a cabin plot rather than a gård.
+30. Stommen Mobacken 1 [NEW], Årjäng, 2 300 000 kr, O51/S55/I47 - Skip, too many buildings to keep up.
+31. SVENLJUNGA ÖLEBO 1:6 [NEW], Svenljunga, 1 400 000 kr, O50/S25/I75 - Skip, no house; interesting only as a forest investment.
+32. Ed Nissatorp 1 [NEW], Värnamo, 2 200 000 kr, O50/S30/I70 - Ask the broker for X first: the 3 500 000 kr offer with the torp, its condition, well and heating.
+33. Fagerhult [NEW], Bollebygd, 3 700 000 kr, O50/S25/I75 - Skip, no house; a forest investment, not a safe house.
+34. Härbjörnarp 110 [NEW], Ulricehamn, 4 500 000 kr, O50/S41/I59 - Ask the broker for X first: build year, facade, roof and heating; at 4 500 000 kr the house must be turnkey.
+35. Hol 27:1 [NEW], Vårgårda, 4 500 000 kr, O50/S25/I75 - Skip, no house.
+36. Boberg 101 [NEW], Hylte, 2 400 000 kr, O49/S31/I67 - Watch, wait for a price cut; old timber house already in bidding.
+37. Solum Ryggstödet 1 [NEW], Dals-Ed, 1 150 000 kr, O48/S37/I59 - Skip, small old timber house.
+38. Jonstorp i Dalskog [NEW], Mellerud, 1 300 000 kr, O48/S34/I61 - Skip, summer cottage with no modern facilities.
+39. Böns Gård 1&2 [NEW], Bengtsfors, 2 590 000 kr, O48/S65/I32 - Skip, old timber and too little land.
+40. Nybyggerud 1 [NEW], Årjäng, 2 800 000 kr, O48/S36/I60 - Ask the broker for X first: house build year, roof and heating; the forest alone justifies a look.
+41. Fastorp  [NEW], Vaggeryd, 4 250 000 kr, O48/S27/I68 - Ask the broker for X first: house build year, facade, roof, heating and water.
+42. Västra Mörtnäs 503 [NEW], Årjäng, 2 575 000 kr, O47/S42/I52 - Ask the broker for X first: facade and roof material, window age and water source.
+43. Rishultsvägen [NEW], Markaryd, 1 100 000 kr, O46/S21/I70 - Skip, no house.
+44. Torp 8 [NEW], Hultsfred, 2 500 000 kr, O46/S42/I51 - Skip, 3 hours from Göteborg.
+45. Nårunga 5:1, del av [NEW], Vårgårda, 2 600 000 kr, O46/S25/I67 - Skip, no house and requires fastighetsreglering.
+46. Kärringe Trädestorp 1 [NEW], Ljungby, 2 700 000 kr, O46/S53/I39 - Skip, small old timber house sold with a defects disclaimer.
+47. Vräk [NEW], Falkenberg, 3 500 000 kr, O46/S25/I67 - Skip, no house.
+48. Kettilsbyn Noli [NEW], Säffle, 4 700 000 kr, O46/S32/I60 - Watch, wait for a price cut; too many old buildings for the price.
+49. Nödinge 7:5 [NEW], Mark, 4 800 000 kr, O46/S25/I67 - Skip, no house; a forest investment only.
+50. Bexet 202 [NEW], Hylte, 4 175 000 kr, O31/S20/I42 - Ask the broker for the prospectus first: build year, facade, roof, well and heating, since at this price the house must be turnkey.
 
 Site: https://getlucki.github.io/gard-radar/
 Plan doc: https://docs.google.com/document/d/18kvo9JlHNSf4bq_03BLHvNWpoI-9gbkVTSFe12Bi_V8/edit
