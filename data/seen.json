@@ -975,7 +975,8 @@
   "ids": [
    "booli:6154665",
    "hemnet:21741956"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "årjäng|nybyggerud1|280": {
   "first_seen": "2026-09-17",
@@ -1677,8 +1678,7 @@
   "kommun": "Hylte",
   "ids": [
    "booli:6184995"
-  ],
-  "gone": "2026-09-20"
+  ]
  },
  "ulricehamn|tvärredsrydet102|170": {
   "first_seen": "2026-09-17",
@@ -3230,7 +3230,8 @@
   "kommun": "Älmhult",
   "ids": [
    "booli:5942284"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "laholm|svenshult13|370": {
   "first_seen": "2026-09-17",
@@ -3246,7 +3247,8 @@
   "kommun": "Laholm",
   "ids": [
    "booli:6218260"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "årjäng|västravikervikebo1|330": {
   "first_seen": "2026-09-17",
@@ -3262,7 +3264,8 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:6234936"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "askersund|ruderudfallet110|330": {
   "first_seen": "2026-09-17",
@@ -3278,6 +3281,7 @@
   "kommun": "Askersund",
   "ids": [
    "booli:6248710"
-  ]
+  ],
+  "gone": "2026-09-27"
  }
 }
