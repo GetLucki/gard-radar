@@ -204,7 +204,7 @@ def json_objects(html, typename):
     return out
 
 
-def goto_html(browser, url, wait_selector, tries=3):
+def goto_html(browser, url, wait_selector, tries=3, content_marker=None):
     """Open url in a fresh context and return (ctx, page, html)."""
     last = None
     for attempt in range(1, tries + 1):
@@ -216,7 +216,16 @@ def goto_html(browser, url, wait_selector, tries=3):
             if wait_selector:
                 page.wait_for_selector(wait_selector, timeout=25000)
             time.sleep(random.uniform(0.6, 1.4))
-            return ctx, page, page.content()
+            html = page.content()
+            # Page 2 and up stream their payload after the first links render,
+            # so poll until the objects are actually in the HTML (2026-09-27).
+            if content_marker:
+                for _ in range(16):
+                    if content_marker in html:
+                        break
+                    time.sleep(0.5)
+                    html = page.content()
+            return ctx, page, html
         except Exception as exc:
             last = exc
             title = ""
@@ -302,7 +311,8 @@ def scrape_booli(browser, base=None):
     base = _fmt(base or BOOLI_SEARCHES["gard"])
     out, total = [], None
     for n in range(1, MAX_PAGES + 1):
-        ctx, page, html = goto_html(browser, base + str(n), "a[href*='/annons/'], a[href*='/bostad/']")
+        ctx, page, html = goto_html(browser, base + str(n), "a[href*='/annons/'], a[href*='/bostad/']",
+                                    content_marker='"__typename":"ListableProperty"')
         ctx.close()
         if total is None:
             m = re.search(r'"totalCount":(\d+)', html)
@@ -888,23 +898,44 @@ def main():
     save_json(HIST / f"{TODAY}.json", {"date": TODAY, "stats": stats,
                                         "ids": [(l["id"], l["price"], l["score"]) for l in matched]})
 
-    # compact input for the Claude step
-    top = matched[:15]
-    # the keyword pre-score is weak on maintenance, so always show Claude the
-    # modern or renovated houses too (build year 1965+ or maintenance >= 8)
-    lowmaint = [l for l in matched if (l.get("build_year") or 0) >= 1965 or l["score_parts"].get("maintenance", 0) >= 8][:20]
-    pick_ids = {l["id"] for l in top} | {l["id"] for l in lowmaint} | {n["id"] for n in new} | {c["id"] for c in price_changes}
+    # compact input for the Claude step. Incremental since 2026-09-27: only
+    # listings the board has not judged yet are sent, so a normal morning costs
+    # a handful of candidates instead of the whole market.
+    board = load_json(DATA / "board.json", {"entries": []})
+    board_ids = {e.get("id") for e in board.get("entries", [])}
+    board_ids |= {e.get("key") for e in board.get("entries", []) if e.get("key")}
+    board_max = int(CFG.get("board_max", 50))
+    per_run = int(CFG.get("judge_per_run", 50))
+    new_ids = {n["id"] for n in new}
+    changed_ids = {c["id"] for c in price_changes}
+
+    def unjudged(l):
+        return l["id"] not in board_ids and l.get("key") not in board_ids
+
+    fresh_c = [l for l in matched if unjudged(l) and (l["id"] in new_ids or l["id"] in changed_ids)]
+    room = board_max - len(board.get("entries", [])) - len(fresh_c)
+    fresh_ids = {l["id"] for l in fresh_c}
+    backfill = [l for l in matched if unjudged(l) and l["id"] not in fresh_ids][:max(0, room)]
+    candidates = (fresh_c + backfill)[:per_run]
+
     digest = []
-    for l in matched:
-        if l["id"] in pick_ids:
-            d = {k: l.get(k) for k in ("id", "title", "kommun", "region", "price", "land_ha", "living_m2",
-                                        "rooms", "type", "url", "alt_url", "drive_h", "price_per_ha", "score",
-                                        "score_parts", "signals", "first_seen", "days_tracked", "price_history",
-                                        "broker", "days_text", "build_year", "survival_score", "invest_score",
-                                        "survival_why", "invest_why")}
-            d["description"] = (details.get(l["id"], {}).get("text", "") or l.get("teaser") or "")[:1500]
-            digest.append(d)
-    save_json(DATA / "digest_input.json", {"date": TODAY, "stats": stats, "changes": changes, "listings": digest})
+    for l in candidates:
+        d = {k: l.get(k) for k in ("id", "key", "title", "kommun", "region", "price", "land_ha", "living_m2",
+                                    "rooms", "type", "url", "alt_url", "drive_h", "price_per_ha", "score",
+                                    "survival_score", "invest_score", "survival_why", "invest_why",
+                                    "first_seen", "days_tracked", "price_history", "broker", "days_text",
+                                    "build_year")}
+        d["description"] = (details.get(l["id"], {}).get("text", "") or l.get("teaser") or "")[:1500]
+        d["is_new_today"] = l["id"] in new_ids
+        digest.append(d)
+    save_json(DATA / "digest_input.json", {
+        "date": TODAY, "stats": stats, "changes": changes,
+        "board_size": len(board.get("entries", [])), "board_max": board_max,
+        "candidates_are_unjudged_only": True,
+        "listings": digest,
+    })
+    log("digest: %d candidates to judge (%d new or repriced, %d backfill); board holds %d"
+        % (len(digest), len(fresh_c), len(backfill), len(board.get("entries", []))))
     log(f"done: {len(matched)} matched, {len(new)} new, {len(gone)} gone, {len(price_changes)} price changes")
 
 
