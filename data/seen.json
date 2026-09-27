@@ -168,20 +168,6 @@
    "hemnet:21785021"
   ]
  },
- "askersund|ruderudfallet110|235": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2350000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Rude Rudfallet 110",
-  "kommun": "Askersund",
-  "ids": [
-   "hemnet:21780174"
-  ]
- },
  "hultsfred|torp8|250": {
   "first_seen": "2026-09-17",
   "prices": [
@@ -616,7 +602,8 @@
   "kommun": "Hylte",
   "ids": [
    "hemnet:21770188"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "lilla edet|intagan128|350": {
   "first_seen": "2026-09-17",
@@ -689,20 +676,6 @@
   ],
   "gone": "2026-09-20"
  },
- "laholm|svenshult13|220": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   2200000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Svenshult 13",
-  "kommun": "Laholm",
-  "ids": [
-   "hemnet:21765955"
-  ]
- },
  "varberg|gunnarsjöbro1|340": {
   "first_seen": "2026-09-17",
   "prices": [
@@ -758,7 +731,8 @@
   "kommun": "Vimmerby",
   "ids": [
    "hemnet:21765090"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "ljungby|kärringeträdestorp1|270": {
   "first_seen": "2026-09-17",
@@ -786,7 +760,8 @@
   "kommun": "Säffle",
   "ids": [
    "hemnet:21760635"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "varberg|karlgustavsonås1|325": {
   "first_seen": "2026-09-17",
@@ -927,7 +902,8 @@
   "kommun": "Mellerud",
   "ids": [
    "hemnet:21750055"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "bengtsfors|ormansbyn17|190": {
   "first_seen": "2026-09-17",
@@ -997,6 +973,7 @@
   "title": "Gennevedsvägen 108",
   "kommun": "Alingsås",
   "ids": [
+   "booli:6154665",
    "hemnet:21741956"
   ]
  },
@@ -1083,7 +1060,8 @@
   "kommun": "Årjäng",
   "ids": [
    "hemnet:21738327"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "gislaved|kvarnaberget10|300": {
   "first_seen": "2026-09-17",
@@ -1312,20 +1290,6 @@
    "hemnet:21675475"
   ]
  },
- "älmhult|prästgårdsvägen4|420": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   4200000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Prästgårdsvägen 4",
-  "kommun": "Älmhult",
-  "ids": [
-   "hemnet:21649951"
-  ]
- },
  "mark|sätilahede331|160": {
   "first_seen": "2026-09-17",
   "prices": [
@@ -1451,7 +1415,8 @@
   "kommun": "Askersund",
   "ids": [
    "hemnet:21615577"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "bengtsfors|södrabacken2|275": {
   "first_seen": "2026-09-17",
@@ -1904,20 +1869,6 @@
    "booli:6235058"
   ]
  },
- "årjäng|västravikervikebo1|320": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3200000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Västra Viker Vikebo 1",
-  "kommun": "Årjäng",
-  "ids": [
-   "booli:6234936"
-  ]
- },
  "ljungby|övrebohult1|110": {
   "first_seen": "2026-09-17",
   "prices": [
@@ -1988,7 +1939,8 @@
   "kommun": "Vaggeryd",
   "ids": [
    "booli:6217979"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "årjäng|hjällensödraängen1|250": {
   "first_seen": "2026-09-17",
@@ -2046,7 +1998,8 @@
   "kommun": "Varberg",
   "ids": [
    "booli:6200324"
-  ]
+  ],
+  "gone": "2026-09-27"
  },
  "åmål|kilane501|185": {
   "first_seen": "2026-09-17",
@@ -3190,6 +3143,141 @@
   "kommun": "Årjäng",
   "ids": [
    "booli:5692889"
+  ],
+  "gone": "2026-09-27"
+ },
+ "värnamo|ednissatorp1|220": {
+  "first_seen": "2026-09-27",
+  "prices": [
+   2200000
+  ],
+  "price_dates": [
+   "2026-09-27"
+  ],
+  "title": "Ed Nissatorp 1",
+  "kommun": "Värnamo",
+  "ids": [
+   "hemnet:21792825"
+  ]
+ },
+ "vaggeryd|nässja|390": {
+  "first_seen": "2026-09-27",
+  "prices": [
+   3900000
+  ],
+  "price_dates": [
+   "2026-09-27"
+  ],
+  "title": "Nässja",
+  "kommun": "Vaggeryd",
+  "ids": [
+   "hemnet:21792509"
+  ]
+ },
+ "värnamo|ednissatorp1|350": {
+  "first_seen": "2026-09-27",
+  "prices": [
+   3500000
+  ],
+  "price_dates": [
+   "2026-09-27"
+  ],
+  "title": "Ed Nissatorp 1",
+  "kommun": "Värnamo",
+  "ids": [
+   "booli:6283711"
+  ]
+ },
+ "ulricehamn|skärvenäs105|360": {
+  "first_seen": "2026-09-27",
+  "prices": [
+   3600000
+  ],
+  "price_dates": [
+   "2026-09-27"
+  ],
+  "title": "Skärvenäs 105",
+  "kommun": "Ulricehamn",
+  "ids": [
+   "booli:6281362"
+  ]
+ },
+ "mellerud|skålleruderiksbyn2|170": {
+  "first_seen": "2026-09-27",
+  "prices": [
+   1695000
+  ],
+  "price_dates": [
+   "2026-09-27"
+  ],
+  "title": "Skållerud Eriksbyn 2",
+  "kommun": "Mellerud",
+  "ids": [
+   "booli:6280457"
+  ]
+ },
+ "älmhult|prästgårdsvägen4|390": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   4200000,
+   3900000
+  ],
+  "price_dates": [
+   "2026-09-17",
+   "2026-09-27"
+  ],
+  "title": "Prästgårdsvägen 4",
+  "kommun": "Älmhult",
+  "ids": [
+   "booli:5942284"
+  ]
+ },
+ "laholm|svenshult13|370": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2200000,
+   3700000
+  ],
+  "price_dates": [
+   "2026-09-17",
+   "2026-09-27"
+  ],
+  "title": "Svenshult 13",
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6218260"
+  ]
+ },
+ "årjäng|västravikervikebo1|330": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3200000,
+   3300000
+  ],
+  "price_dates": [
+   "2026-09-17",
+   "2026-09-27"
+  ],
+  "title": "Västra Viker Vikebo 1",
+  "kommun": "Årjäng",
+  "ids": [
+   "booli:6234936"
+  ]
+ },
+ "askersund|ruderudfallet110|330": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   2350000,
+   3300000
+  ],
+  "price_dates": [
+   "2026-09-17",
+   "2026-09-27"
+  ],
+  "title": "Rude Rudfallet 110",
+  "kommun": "Askersund",
+  "ids": [
+   "booli:6248710"
   ]
  }
 }

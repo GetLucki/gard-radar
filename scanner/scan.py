@@ -154,6 +154,82 @@ def goto_state(browser, url, tries=3):
     raise RuntimeError(f"could not load {url}: {last}")
 
 
+EXTRACT_JS = """() => {
+    document.querySelectorAll('[id*="cookie" i],[class*="cookie" i],[id*="consent" i],[class*="consent" i],[id*="Cybot" i],[class*="onetrust" i],[aria-label*="cookie" i]').forEach(x => x.remove());
+    const h = [...document.querySelectorAll('h2,h3')].find(x => /beskrivning|om bostaden|om fastigheten/i.test(x.textContent));
+    let t = '';
+    if (h) { let el = h.nextElementSibling; let n = 0; while (el && n < 12) { t += el.innerText + '\\n'; el = el.nextElementSibling; n++; } }
+    const body = document.body.innerText || '';
+    const facts = body.split('\\n').filter(l => /byggar|byggår|boarea|biarea|tomtarea|areal|fasad|^tak|taktyp|uppvarmning|uppvärmning|vatten|avlopp|energiklass|driftkostnad|grund|fonster|fönster|ventilation|byggnadstyp|stomme|utropspris|slutpris/i.test(l) && l.length < 160);
+    const desc = t.trim().length > 200 ? t : body.slice(0, 6000);
+    return desc + '\\nFAKTA\\n' + [...new Set(facts)].slice(0, 40).join('\\n');
+}"""
+
+
+def json_objects(html, typename):
+    """Pull every {...} whose __typename is `typename` out of the page HTML.
+
+    Booli moved to the Next.js app router in late September 2026: the old
+    #__NEXT_DATA__ script tag is gone and the same GraphQL objects now sit in
+    the streamed flight payload. The object shapes themselves are unchanged.
+    """
+    out, needle = [], '"__typename":"' + typename + '"'
+    for m in re.finditer(re.escape(needle), html):
+        start = html.rfind("{", 0, m.start())
+        if start < 0:
+            continue
+        depth, i, in_str, esc = 0, start, False, False
+        while i < len(html):
+            c = html[i]
+            if in_str:
+                if esc:
+                    esc = False
+                elif c == "\\":
+                    esc = True
+                elif c == '"':
+                    in_str = False
+            elif c == '"':
+                in_str = True
+            elif c == "{":
+                depth += 1
+            elif c == "}":
+                depth -= 1
+                if depth == 0:
+                    try:
+                        out.append(json.loads(html[start:i + 1]))
+                    except Exception:
+                        pass
+                    break
+            i += 1
+    return out
+
+
+def goto_html(browser, url, wait_selector, tries=3):
+    """Open url in a fresh context and return (ctx, page, html)."""
+    last = None
+    for attempt in range(1, tries + 1):
+        ctx = browser.new_context(user_agent=UA, locale="sv-SE", viewport={"width": 1280, "height": 900})
+        page = ctx.new_page()
+        page.set_default_timeout(60000)
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            if wait_selector:
+                page.wait_for_selector(wait_selector, timeout=25000)
+            time.sleep(random.uniform(0.6, 1.4))
+            return ctx, page, page.content()
+        except Exception as exc:
+            last = exc
+            title = ""
+            try:
+                title = page.title()
+            except Exception:
+                pass
+            ctx.close()
+            log("  retry %d/%d for %s (title: %r)" % (attempt, tries, url[:80], title[:40]))
+            time.sleep(5 * attempt)
+    raise RuntimeError("could not load %s: %s" % (url, last))
+
+
 # ---------- Hemnet ----------
 
 HEMNET_SEARCHES = {
@@ -226,61 +302,51 @@ def scrape_booli(browser, base=None):
     base = _fmt(base or BOOLI_SEARCHES["gard"])
     out, total = [], None
     for n in range(1, MAX_PAGES + 1):
-        ctx, page, ap = goto_state(browser, base + str(n))
+        ctx, page, html = goto_html(browser, base + str(n), "a[href*='/annons/'], a[href*='/bostad/']")
         ctx.close()
         if total is None:
-            for k, v in ap.get("ROOT_QUERY", {}).items():
-                if k.startswith("searchForSaleV2") and isinstance(v, dict) and v.get("totalCount"):
-                    total = v["totalCount"]
-                    break
-        props = [v for k, v in ap.items() if k.startswith("ListableProperty:")]
+            m = re.search(r'"totalCount":(\d+)', html)
+            if m:
+                total = int(m.group(1))
+        props = json_objects(html, "ListableProperty")
         if not props:
             break
-        for p in props:
-            tr = ((p.get("tracking") or {}).get("properties") or {})
+        for pr in props:
+            tr = ((pr.get("tracking") or {}).get("properties") or {})
             dps = {d.get("key"): (d.get("value") or {}).get("plainText")
-                   for d in ((p.get("displayAttributes") or {}).get("dataPoints") or [])}
-            pos = p.get("position") or {}
-            img = None
-            for key, val in p.items():
-                if key.startswith("images(") and val:
-                    ref = val[0].get("__ref") if isinstance(val[0], dict) else None
-                    img = ref  # resolved below
-                    break
-            url = p.get("url") or ""
+                   for d in ((pr.get("displayAttributes") or {}).get("dataPoints") or [])}
+            pos = pr.get("position") or {}
+            imgs = pr.get("images") or []
+            image = None
+            if imgs and isinstance(imgs[0], dict):
+                iid = imgs[0].get("id")
+                image = imgs[0].get("url") or imgs[0].get("src") or (
+                    "https://bcdn.se/images/cache/%s_1440x0.jpg" % iid if iid else None)
+            url = pr.get("url") or tr.get("url") or ""
             out.append({
-                "id": f"booli:{p.get('listingId')}",
+                "id": "booli:%s" % pr.get("listingId"),
                 "source": "booli",
-                "title": p.get("title"),
-                "location": p.get("subtitle"),
+                "title": pr.get("title"),
+                "location": pr.get("subtitle"),
                 "kommun_raw": tr.get("municipality"),
                 "county": tr.get("county"),
-                "price": parse_price(p.get("displayPrice")),
+                "price": parse_price(pr.get("displayPrice")),
                 "land_ha": parse_area_ha(dps.get("rentOrPlotAreaText") or dps.get("plotArea")),
                 "living_m2": parse_m2(dps.get("livingArea")),
                 "rooms": dps.get("rooms"),
-                "type": p.get("objectType"),
+                "type": pr.get("objectType"),
                 "url": ("https://www.booli.se" + url) if url.startswith("/") else url,
                 "lat": pos.get("latitude"),
                 "lon": pos.get("longitude"),
                 "published": None,
-                "days_text": p.get("displayDate"),
-                "broker": (p.get("presenter") or {}).get("name"),
+                "days_text": pr.get("displayDate"),
+                "broker": (pr.get("presenter") or {}).get("name"),
                 "teaser": "",
-                "image_ref": img,
+                "image": image,
                 "upcoming": bool(tr.get("upcoming_sale")),
                 "labels": [],
             })
-            # resolve image: Booli's Image objects carry only an id, and the
-            # CDN url is built from it (verified 2026-09-20; before this, all
-            # Booli-only listings showed no photo at all).
-            if img and img in ap:
-                imgobj = ap[img]
-                url_direct = imgobj.get("url") or imgobj.get("src")
-                iid = imgobj.get("id") or (img.split(":")[-1] if ":" in img else None)
-                out[-1]["image"] = url_direct or (f"https://bcdn.se/images/cache/{iid}_1440x0.jpg" if iid else None)
-            out[-1].pop("image_ref", None)
-        log(f"booli page {n}: {len(props)} props (total {total})")
+        log("booli page %d: %d props (total %s)" % (n, len(props), total))
         if total is not None and n * 35 >= total:
             break
     return out, total
@@ -349,11 +415,15 @@ def dedupe(listings):
 # ---------- detail pages ----------
 
 def fetch_detail(browser, l):
-    text = ""
-    ap = None
-    ctx = page = None
+    """Fetch a listing page and return its text. Also picks up a photo when the
+    search card had none, and prepends the page title, which is how a sold Booli
+    listing announces itself ("Slutpris Gard pa ...")."""
+    text, ap, ctx, page = "", None, None, None
     try:
-        ctx, page, ap = goto_state(browser, l["url"], tries=2)
+        if l["source"] == "hemnet":
+            ctx, page, ap = goto_state(browser, l["url"], tries=2)
+        else:
+            ctx, page, _ = goto_html(browser, l["url"], None, tries=2)
     except Exception:
         return ""
     try:
@@ -363,48 +433,46 @@ def fetch_detail(browser, l):
                     desc = v.get("description") or ""
                     extra = []
                     for kk, vv in v.items():
-                        if kk in ("description", "__typename") or kk.startswith("images") or kk.startswith("thumbnails"):
+                        if kk in ("description", "__typename") or kk.startswith(("images", "thumbnails")):
                             continue
                         if isinstance(vv, (str, int, float)) and str(vv).strip():
-                            extra.append(f"{kk}: {vv}")
+                            extra.append("%s: %s" % (kk, vv))
                         elif isinstance(vv, dict) and vv.get("name"):
-                            extra.append(f"{kk}: {vv['name']}")
+                            extra.append("%s: %s" % (kk, vv["name"]))
                         elif isinstance(vv, list) and vv and all(isinstance(x, str) for x in vv):
-                            extra.append(f"{kk}: {', '.join(vv[:12])}")
+                            extra.append("%s: %s" % (kk, ", ".join(vv[:12])))
                     text = desc + "\nFAKTA\n" + "\n".join(extra)
                     if v.get("landArea"):
-                        l["land_ha"] = parse_area_ha(str(v["landArea"]) + " m²") or l.get("land_ha")
+                        l["land_ha"] = parse_area_ha(str(v["landArea"]) + " m2") or l.get("land_ha")
                     break
         if not text:
-            text = page.evaluate("""() => {
-                const h = [...document.querySelectorAll('h2,h3')].find(x => /beskrivning|om bostaden|om fastigheten/i.test(x.textContent));
-                let t = '';
-                if (h) { let el = h.nextElementSibling; let n = 0; while (el && n < 12) { t += el.innerText + '\\n'; el = el.nextElementSibling; n++; } }
-                document.querySelectorAll('[id*="cookie" i],[class*="cookie" i],[id*="consent" i],[class*="consent" i],[id*="Cybot" i],[class*="onetrust" i],[aria-label*="cookie" i]').forEach(x => x.remove());
-                const body = document.body.innerText || '';
-                const facts = body.split('\\n').filter(l => /byggår|boarea|biarea|tomtarea|areal|fasad|^tak|taktyp|uppvärmning|vatten|avlopp|energiklass|driftkostnad|grund|fönster|ventilation|byggnadstyp|stomme/i.test(l) && l.length < 160);
-                const desc = t.trim().length > 200 ? t : body.slice(0, 6000);
-                return desc + '\\nFAKTA\\n' + [...new Set(facts)].slice(0, 40).join('\\n');
-            }""")
+            text = page.evaluate(EXTRACT_JS)
+        if not l.get("image"):
+            if ap:
+                for k, v in ap.items():
+                    if k.startswith("Image") and isinstance(v, dict):
+                        iid = v.get("id") or k.split(":")[-1]
+                        direct = v.get("url") or v.get("src")
+                        if direct or iid:
+                            l["image"] = direct or ("https://bcdn.se/images/cache/%s_1440x0.jpg" % iid)
+                            break
+            if not l.get("image"):
+                try:
+                    srcs = page.eval_on_selector_all(
+                        "img", "e=>e.map(x=>x.currentSrc||x.src).filter(s=>s && /images\\/cache|bilder\\.hemnet/.test(s))")
+                    if srcs:
+                        l["image"] = srcs[0]
+                except Exception:
+                    pass
     except Exception:
         text = text or ""
     finally:
+        try:
+            title = page.title() if page else ""
+        except Exception:
+            title = ""
         if ctx:
             ctx.close()
-    # Booli often has no photo on the search card but plenty on the listing page
-    # (verified 2026-09-20). Take the first one when the card gave us nothing.
-    if ap and not l.get("image"):
-        for k, v in ap.items():
-            if k.startswith("Image") and isinstance(v, dict):
-                iid = v.get("id") or k.split(":")[-1]
-                direct = v.get("url") or v.get("src")
-                if direct or iid:
-                    l["image"] = direct or f"https://bcdn.se/images/cache/{iid}_1440x0.jpg"
-                    break
-    try:
-        title = page.title() if page else ""
-    except Exception:
-        title = ""
     text = (title + "\n" + (text or "")) if title else (text or "")
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text[:8000]
@@ -587,21 +655,8 @@ def rescore_only():
     save_json(DATA / "listings.json", cur)
     dig = load_json(DATA / "digest_input.json", {})
     changes = dig.get("changes", {})
-    top = matched[:15]
-    lowmaint = [l for l in matched if (l.get("build_year") or 0) >= 1965 or l["score_parts"].get("maintenance", 0) >= 8][:20]
-    pick_ids = {l["id"] for l in top} | {l["id"] for l in lowmaint} | {c["id"] for c in changes.get("price_changes", [])} | {n["id"] for n in changes.get("new", [])}
-    digest = []
-    for l in matched:
-        if l["id"] in pick_ids:
-            d = {k: l.get(k) for k in ("id", "title", "kommun", "region", "price", "land_ha", "living_m2",
-                                        "rooms", "type", "url", "alt_url", "drive_h", "price_per_ha", "score",
-                                        "score_parts", "signals", "first_seen", "days_tracked", "price_history",
-                                        "broker", "days_text", "build_year", "survival_score", "invest_score",
-                                        "survival_why", "invest_why")}
-            d["description"] = (details.get(l["id"], {}).get("text", "") or l.get("teaser") or "")[:1500]
-            digest.append(d)
-    dig["listings"] = digest
-    save_json(DATA / "digest_input.json", dig)
+    # rescore never touches digest_input.json: the daily scan owns it and it is
+    # deliberately incremental (only listings the board has not judged yet).
     log(f"rescored {len(matched)} listings; top: " + ", ".join(f"{l['title']} {l['score']}" for l in matched[:5]))
 
 
@@ -621,8 +676,8 @@ def refresh_details():
             try:
                 txt = fetch_detail(browser, l)
                 if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|"
-                             r"är inte längre till salu|^slutpris|\bslutpris\b.{0,40}\bkr\b|"
-                             r"är såld|lagfart utfärdades", txt, re.I):
+                             r"är inte längre till salu|är såld|lagfart utfärdades", txt, re.I) \
+                        or re.match(r"\s*slutpris\b", txt, re.I):
                     l["stale"] = True
                 details[l["id"]] = {"text": txt, "fetched": TODAY, "stale": bool(l.get("stale"))}
                 if l.get("image"):
@@ -714,8 +769,8 @@ def main():
             try:
                 txt = fetch_detail(browser, l)
                 if re.search(r"såld eller borttagen|annonsen är borttagen|objektet är sålt|"
-                             r"är inte längre till salu|^slutpris|\bslutpris\b.{0,40}\bkr\b|"
-                             r"är såld|lagfart utfärdades", txt, re.I):
+                             r"är inte längre till salu|är såld|lagfart utfärdades", txt, re.I) \
+                        or re.match(r"\s*slutpris\b", txt, re.I):
                     l["stale"] = True
                 details[l["id"]] = {"text": txt, "fetched": TODAY, "stale": bool(l.get("stale"))}
                 if l.get("image"):

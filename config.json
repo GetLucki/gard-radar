@@ -192,5 +192,7 @@
   "Småland": 4,
   "Dalsland/Värmland": 3,
   "Skaraborg/Vättern": 3
- }
+ },
+ "board_max": 50,
+ "judge_per_run": 50
 }
