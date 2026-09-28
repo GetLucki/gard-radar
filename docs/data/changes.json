@@ -1,58 +1,7 @@
 {
- "date": "2026-09-27",
- "new": [
-  {
-   "id": "booli:6184995",
-   "title": "Bexet 202",
-   "kommun": "Hylte",
-   "price": 4175000,
-   "land_ha": 7.92,
-   "score": 31,
-   "url": "https://www.booli.se/annons/6184995"
-  }
- ],
- "gone": [
-  {
-   "id": "booli:6154665",
-   "title": "Gennevedsvägen 108",
-   "kommun": "Alingsås",
-   "price": 2975000,
-   "url": "https://www.booli.se/annons/6154665",
-   "days_tracked": 10
-  },
-  {
-   "id": "booli:6218260",
-   "title": "Svenshult 13",
-   "kommun": "Laholm",
-   "price": 3700000,
-   "url": "https://www.booli.se/bostad/1934828",
-   "days_tracked": 10
-  },
-  {
-   "id": "booli:5942284",
-   "title": "Prästgårdsvägen 4",
-   "kommun": "Älmhult",
-   "price": 3900000,
-   "url": "https://www.booli.se/annons/5942284",
-   "days_tracked": 10
-  },
-  {
-   "id": "booli:6234936",
-   "title": "Västra Viker Vikebo 1",
-   "kommun": "Årjäng",
-   "price": 3300000,
-   "url": "https://www.booli.se/annons/6234936",
-   "days_tracked": 10
-  },
-  {
-   "id": "booli:6248710",
-   "title": "Rude Rudfallet 110",
-   "kommun": "Askersund",
-   "price": 3300000,
-   "url": "https://www.booli.se/annons/6248710",
-   "days_tracked": 10
-  }
- ],
+ "date": "2026-09-28",
+ "new": [],
+ "gone": [],
  "price_changes": [],
  "first_run": false
 }
