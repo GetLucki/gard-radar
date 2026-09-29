@@ -377,7 +377,8 @@
   "kommun": "Värnamo",
   "ids": [
    "hemnet:21777193"
-  ]
+  ],
+  "gone": "2026-09-29"
  },
  "markaryd|hulabäck1187|105": {
   "first_seen": "2026-09-17",
@@ -645,7 +646,8 @@
   "kommun": "Sävsjö",
   "ids": [
    "hemnet:21769169"
-  ]
+  ],
+  "gone": "2026-09-29"
  },
  "värnamo|tånnöstenhyltan1|300": {
   "first_seen": "2026-09-17",
@@ -3284,5 +3286,19 @@
    "booli:6248710"
   ],
   "gone": "2026-09-27"
+ },
+ "karlsborg|235hapåvabergetkarlsborg|300": {
+  "first_seen": "2026-09-29",
+  "prices": [
+   3000000
+  ],
+  "price_dates": [
+   "2026-09-29"
+  ],
+  "title": "23,5 ha på Vaberget, Karlsborg",
+  "kommun": "Karlsborg",
+  "ids": [
+   "hemnet:21795869"
+  ]
  }
 }

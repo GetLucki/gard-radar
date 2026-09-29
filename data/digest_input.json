@@ -1,10 +1,10 @@
 {
- "date": "2026-09-28",
+ "date": "2026-09-29",
  "stats": {
-  "date": "2026-09-28",
-  "matched": 139,
-  "new": 0,
-  "gone": 0,
+  "date": "2026-09-29",
+  "matched": 138,
+  "new": 1,
+  "gone": 2,
   "price_cuts": 0,
   "price_rises": 0,
   "median_price": 2995000,
@@ -12,11 +12,11 @@
   "national_in_band": {
    "hemnet": {
     "gard": 658,
-    "villa": 86
+    "villa": 85
    },
    "booli": {
-    "gard": 694,
-    "hus": 362
+    "gard": 695,
+    "hus": 367
    }
   },
   "hemnet_ok": true,
@@ -27,9 +27,9 @@
     "median_price": 3350000
    },
    "Småland": {
-    "count": 44,
+    "count": 42,
     "new": 0,
-    "median_price": 2972500
+    "median_price": 2922500
    },
    "Halland inland": {
     "count": 16,
@@ -37,9 +37,9 @@
     "median_price": 3322500
    },
    "Skaraborg/Vättern": {
-    "count": 17,
-    "new": 0,
-    "median_price": 2695000
+    "count": 18,
+    "new": 1,
+    "median_price": 2747500
    },
    "Dalsland/Värmland": {
     "count": 33,
@@ -49,14 +49,76 @@
   }
  },
  "changes": {
-  "date": "2026-09-28",
-  "new": [],
-  "gone": [],
+  "date": "2026-09-29",
+  "new": [
+   {
+    "id": "hemnet:21795869",
+    "title": "23,5 ha på Vaberget, Karlsborg",
+    "kommun": "Karlsborg",
+    "price": 3000000,
+    "land_ha": 23.5,
+    "score": 44,
+    "url": "https://www.hemnet.se/bostad/gard-karlsborgs-kommun-23,5-ha-pa-vaberget,-karlsborg-21795869"
+   }
+  ],
+  "gone": [
+   {
+    "id": "hemnet:21769169",
+    "title": "Sunnerby Sävjedal 1",
+    "kommun": "Sävsjö",
+    "price": 4500000,
+    "url": "https://www.hemnet.se/bostad/gard-savsjo-kommun-sunnerby-savjedal-1-21769169",
+    "days_tracked": 11
+   },
+   {
+    "id": "hemnet:21777193",
+    "title": "Funtabo 1",
+    "kommun": "Värnamo",
+    "price": 2950000,
+    "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-funtabo-1-21777193",
+    "days_tracked": 11
+   }
+  ],
   "price_changes": [],
   "first_run": false
  },
  "board_size": 50,
  "board_max": 50,
  "candidates_are_unjudged_only": true,
- "listings": []
+ "listings": [
+  {
+   "id": "hemnet:21795869",
+   "key": "karlsborg|235hapåvabergetkarlsborg|300",
+   "title": "23,5 ha på Vaberget, Karlsborg",
+   "kommun": "Karlsborg",
+   "region": "Skaraborg/Vättern",
+   "price": 3000000,
+   "land_ha": 23.5,
+   "living_m2": null,
+   "rooms": null,
+   "type": "Gård/skog",
+   "url": "https://www.hemnet.se/bostad/gard-karlsborgs-kommun-23,5-ha-pa-vaberget,-karlsborg-21795869",
+   "alt_url": null,
+   "drive_h": 2.4,
+   "price_per_ha": 127660,
+   "score": 44,
+   "survival_score": 23,
+   "invest_score": 65,
+   "survival_why": "23.5 ha with forest for firewood, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "127 660 kr per ha, well below the 227 723 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "first_seen": "2026-09-29",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-29",
+     3000000
+    ]
+   ],
+   "broker": "Ludvig & Co Fastighetsförmedling",
+   "days_text": null,
+   "build_year": null,
+   "description": "23,5 ha på Vaberget, Karlsborg - gård/skog till salu - Hemnet\nFörsäljning sker genom offentlig auktion av Tingsrätten förordnad God man med ett minimum pris om 3 000 000 SEK. Auktionen hålls på Ludvig & Co:s kontor i Skövde, 2026-11-06. Fastigheten består av ca 23,5 ha mark varav ca 20,3 ha utgörs av produktiv skogsmark med ett bedömt virkesförråd om 3 533 m³sk med gran som dominerande trädslag. Under planperioden kan ungefär 2 181 m³sk föryngringsavverkas. Fastigheten har del i väg och god åtkomst till skogsmarken. Fastigheten är bebyggd med en ladugård, ett skjul och en förrådsbyggnad.\nFAKTA\nid: 21795869\nformattedLandArea: 23,5 ha\nhousingForm: Gård/skog\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-karlsborgs-kommun-23,5-ha-pa-vaberget,-karlsborg-21795869\nstreetAddress: 23,5 ha på Vaberget, Karlsborg\ntenure: Äganderätt\ntitle: 23,5 ha på Vaberget, Karlsborg\nadTargeting: {\"item_types\":[6],\"price\":[4],\"municipality\":[93],\"region\":[19],\"country\":[1],\"water_distance\":[\"501-\"],\"property_price\":3000000,\"property_address\":\"23,5 ha på Vaberget, Karlsborg\",\"property_living_area\":null,\"property_zipcode\":\"\"}\nbiddingStarted: False\ndaysOnHemnet: 1\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1790579892.086\nlistingBrokerUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview&id=MDE4OHwwMDAwMDA0MTExMnw1OA.",
+   "is_new_today": true
+  }
+ ]
 }
