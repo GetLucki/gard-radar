@@ -1035,7 +1035,8 @@
   "kommun": "Markaryd",
   "ids": [
    "hemnet:21738584"
-  ]
+  ],
+  "gone": "2026-09-30"
  },
  "bengtsfors|laxarbybacka|350": {
   "first_seen": "2026-09-17",
@@ -1164,7 +1165,8 @@
   "kommun": "Hjo",
   "ids": [
    "hemnet:21727345"
-  ]
+  ],
+  "gone": "2026-09-30"
  },
  "årjäng|töcksmarksbön|425": {
   "first_seen": "2026-09-17",
@@ -1765,7 +1767,8 @@
   "title": "Kroppetorp Matildero 1",
   "kommun": "Tibro",
   "ids": [
-   "booli:6247955"
+   "booli:6247955",
+   "hemnet:21779923"
   ]
  },
  "bengtsfors|ärtemarksbön14|375": {
@@ -1912,7 +1915,8 @@
   "title": "Mjäryd 1297",
   "kommun": "Markaryd",
   "ids": [
-   "booli:6228666"
+   "booli:6228666",
+   "hemnet:21770952"
   ]
  },
  "svenljunga|ullasjöskepphultmyrledet1|280": {
@@ -2629,7 +2633,8 @@
   "kommun": "Tranemo",
   "ids": [
    "hemnet:21482745"
-  ]
+  ],
+  "gone": "2026-09-30"
  },
  "mark|backabackadal1|200": {
   "first_seen": "2026-09-17",
@@ -3299,6 +3304,48 @@
   "kommun": "Karlsborg",
   "ids": [
    "hemnet:21795869"
+  ]
+ },
+ "vetlanda|göljaryd1|435": {
+  "first_seen": "2026-09-30",
+  "prices": [
+   4350000
+  ],
+  "price_dates": [
+   "2026-09-30"
+  ],
+  "title": "Göljaryd 1",
+  "kommun": "Vetlanda",
+  "ids": [
+   "hemnet:21796613"
+  ]
+ },
+ "laholm|dansbygget2b|170": {
+  "first_seen": "2026-09-30",
+  "prices": [
+   1700000
+  ],
+  "price_dates": [
+   "2026-09-30"
+  ],
+  "title": "Dansbygget 2B",
+  "kommun": "Laholm",
+  "ids": [
+   "booli:6289542"
+  ]
+ },
+ "älmhult|lindåskråkeryd2397|400": {
+  "first_seen": "2026-09-30",
+  "prices": [
+   4000000
+  ],
+  "price_dates": [
+   "2026-09-30"
+  ],
+  "title": "Lindås Kråkeryd 2397",
+  "kommun": "Älmhult",
+  "ids": [
+   "booli:6289101"
   ]
  }
 }

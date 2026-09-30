@@ -1,32 +1,58 @@
 {
- "date": "2026-09-29",
+ "date": "2026-09-30",
  "new": [
   {
-   "id": "hemnet:21795869",
-   "title": "23,5 ha på Vaberget, Karlsborg",
-   "kommun": "Karlsborg",
-   "price": 3000000,
-   "land_ha": 23.5,
-   "score": 44,
-   "url": "https://www.hemnet.se/bostad/gard-karlsborgs-kommun-23,5-ha-pa-vaberget,-karlsborg-21795869"
+   "id": "hemnet:21796613",
+   "title": "Göljaryd 1",
+   "kommun": "Vetlanda",
+   "price": 4350000,
+   "land_ha": 32.62,
+   "score": 48,
+   "url": "https://www.hemnet.se/bostad/gard-vetlanda-vetlanda-kommun-goljaryd-1-21796613"
+  },
+  {
+   "id": "booli:6289542",
+   "title": "Dansbygget 2B",
+   "kommun": "Laholm",
+   "price": 1700000,
+   "land_ha": 11.3,
+   "score": 37,
+   "url": "https://www.booli.se/annons/6289542"
+  },
+  {
+   "id": "booli:6289101",
+   "title": "Lindås Kråkeryd 2397",
+   "kommun": "Älmhult",
+   "price": 4000000,
+   "land_ha": 3.0,
+   "score": 28,
+   "url": "https://www.booli.se/annons/6289101"
   }
  ],
  "gone": [
   {
-   "id": "hemnet:21769169",
-   "title": "Sunnerby Sävjedal 1",
-   "kommun": "Sävsjö",
-   "price": 4500000,
-   "url": "https://www.hemnet.se/bostad/gard-savsjo-kommun-sunnerby-savjedal-1-21769169",
-   "days_tracked": 11
+   "id": "hemnet:21738584",
+   "title": "Rishultsvägen",
+   "kommun": "Markaryd",
+   "price": 1100000,
+   "url": "https://www.hemnet.se/bostad/gard-stromsnasbruk-markaryds-kommun-rishultsvagen-21738584",
+   "days_tracked": 12
   },
   {
-   "id": "hemnet:21777193",
-   "title": "Funtabo 1",
-   "kommun": "Värnamo",
-   "price": 2950000,
-   "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-funtabo-1-21777193",
-   "days_tracked": 11
+   "id": "hemnet:21482745",
+   "title": "Högalid 31",
+   "kommun": "Tranemo",
+   "price": 2995000,
+   "url": "https://www.hemnet.se/bostad/villa-10rum-ambjornarp-tranemo-kommun-hogalid-31-21482745",
+   "days_tracked": 12
+  },
+  {
+   "id": "hemnet:21727345",
+   "title": "Målareskogen 2",
+   "kommun": "Hjo",
+   "price": 3400000,
+   "url": "https://www.hemnet.se/bostad/gard-6rum-gate-hjo-kommun-malareskogen-2-21727345",
+   "days_tracked": 12
   }
  ],
  "price_changes": [],

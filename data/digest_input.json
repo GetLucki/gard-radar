@@ -1,45 +1,45 @@
 {
- "date": "2026-09-29",
+ "date": "2026-09-30",
  "stats": {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "matched": 138,
-  "new": 1,
-  "gone": 2,
+  "new": 3,
+  "gone": 3,
   "price_cuts": 0,
   "price_rises": 0,
   "median_price": 2995000,
-  "median_price_per_ha": 227723,
+  "median_price_per_ha": 225962,
   "national_in_band": {
    "hemnet": {
-    "gard": 658,
-    "villa": 85
+    "gard": 665,
+    "villa": 83
    },
    "booli": {
-    "gard": 695,
+    "gard": 696,
     "hus": 367
    }
   },
   "hemnet_ok": true,
   "by_region": {
    "Göteborg hinterland": {
-    "count": 29,
+    "count": 28,
     "new": 0,
-    "median_price": 3350000
+    "median_price": 3425000
    },
    "Småland": {
-    "count": 42,
-    "new": 0,
-    "median_price": 2922500
+    "count": 43,
+    "new": 2,
+    "median_price": 3000000
    },
    "Halland inland": {
-    "count": 16,
-    "new": 0,
-    "median_price": 3322500
+    "count": 17,
+    "new": 1,
+    "median_price": 3250000
    },
    "Skaraborg/Vättern": {
-    "count": 18,
-    "new": 1,
-    "median_price": 2747500
+    "count": 17,
+    "new": 0,
+    "median_price": 2695000
    },
    "Dalsland/Värmland": {
     "count": 33,
@@ -49,34 +49,60 @@
   }
  },
  "changes": {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "new": [
    {
-    "id": "hemnet:21795869",
-    "title": "23,5 ha på Vaberget, Karlsborg",
-    "kommun": "Karlsborg",
-    "price": 3000000,
-    "land_ha": 23.5,
-    "score": 44,
-    "url": "https://www.hemnet.se/bostad/gard-karlsborgs-kommun-23,5-ha-pa-vaberget,-karlsborg-21795869"
+    "id": "hemnet:21796613",
+    "title": "Göljaryd 1",
+    "kommun": "Vetlanda",
+    "price": 4350000,
+    "land_ha": 32.62,
+    "score": 48,
+    "url": "https://www.hemnet.se/bostad/gard-vetlanda-vetlanda-kommun-goljaryd-1-21796613"
+   },
+   {
+    "id": "booli:6289542",
+    "title": "Dansbygget 2B",
+    "kommun": "Laholm",
+    "price": 1700000,
+    "land_ha": 11.3,
+    "score": 37,
+    "url": "https://www.booli.se/annons/6289542"
+   },
+   {
+    "id": "booli:6289101",
+    "title": "Lindås Kråkeryd 2397",
+    "kommun": "Älmhult",
+    "price": 4000000,
+    "land_ha": 3.0,
+    "score": 28,
+    "url": "https://www.booli.se/annons/6289101"
    }
   ],
   "gone": [
    {
-    "id": "hemnet:21769169",
-    "title": "Sunnerby Sävjedal 1",
-    "kommun": "Sävsjö",
-    "price": 4500000,
-    "url": "https://www.hemnet.se/bostad/gard-savsjo-kommun-sunnerby-savjedal-1-21769169",
-    "days_tracked": 11
+    "id": "hemnet:21738584",
+    "title": "Rishultsvägen",
+    "kommun": "Markaryd",
+    "price": 1100000,
+    "url": "https://www.hemnet.se/bostad/gard-stromsnasbruk-markaryds-kommun-rishultsvagen-21738584",
+    "days_tracked": 12
    },
    {
-    "id": "hemnet:21777193",
-    "title": "Funtabo 1",
-    "kommun": "Värnamo",
-    "price": 2950000,
-    "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-funtabo-1-21777193",
-    "days_tracked": 11
+    "id": "hemnet:21482745",
+    "title": "Högalid 31",
+    "kommun": "Tranemo",
+    "price": 2995000,
+    "url": "https://www.hemnet.se/bostad/villa-10rum-ambjornarp-tranemo-kommun-hogalid-31-21482745",
+    "days_tracked": 12
+   },
+   {
+    "id": "hemnet:21727345",
+    "title": "Målareskogen 2",
+    "kommun": "Hjo",
+    "price": 3400000,
+    "url": "https://www.hemnet.se/bostad/gard-6rum-gate-hjo-kommun-malareskogen-2-21727345",
+    "days_tracked": 12
    }
   ],
   "price_changes": [],
@@ -87,37 +113,105 @@
  "candidates_are_unjudged_only": true,
  "listings": [
   {
-   "id": "hemnet:21795869",
-   "key": "karlsborg|235hapåvabergetkarlsborg|300",
-   "title": "23,5 ha på Vaberget, Karlsborg",
-   "kommun": "Karlsborg",
-   "region": "Skaraborg/Vättern",
-   "price": 3000000,
-   "land_ha": 23.5,
+   "id": "hemnet:21796613",
+   "key": "vetlanda|göljaryd1|435",
+   "title": "Göljaryd 1",
+   "kommun": "Vetlanda",
+   "region": "Småland",
+   "price": 4350000,
+   "land_ha": 32.62,
    "living_m2": null,
    "rooms": null,
-   "type": "Gård/skog",
-   "url": "https://www.hemnet.se/bostad/gard-karlsborgs-kommun-23,5-ha-pa-vaberget,-karlsborg-21795869",
-   "alt_url": null,
-   "drive_h": 2.4,
-   "price_per_ha": 127660,
-   "score": 44,
-   "survival_score": 23,
-   "invest_score": 65,
-   "survival_why": "23.5 ha with forest for firewood, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "127 660 kr per ha, well below the 227 723 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
-   "first_seen": "2026-09-29",
+   "type": "Gård med skogsbruk",
+   "url": "https://www.hemnet.se/bostad/gard-vetlanda-vetlanda-kommun-goljaryd-1-21796613",
+   "alt_url": "https://www.booli.se/annons/6289430",
+   "drive_h": 2.6,
+   "price_per_ha": 133354,
+   "score": 48,
+   "survival_score": 26,
+   "invest_score": 69,
+   "survival_why": "32.62 ha with forest for firewood, arable or pasture, barn or workshop. Missing: no well stated, no wood heating stated.",
+   "invest_why": "133 354 kr per ha, well below the 225 962 kr median, forest holds its value, Småland resells well.",
+   "first_seen": "2026-09-30",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-29",
-     3000000
+     "2026-09-30",
+     4350000
     ]
    ],
    "broker": "Ludvig & Co Fastighetsförmedling",
-   "days_text": null,
+   "days_text": "Inkommet igår",
    "build_year": null,
-   "description": "23,5 ha på Vaberget, Karlsborg - gård/skog till salu - Hemnet\nFörsäljning sker genom offentlig auktion av Tingsrätten förordnad God man med ett minimum pris om 3 000 000 SEK. Auktionen hålls på Ludvig & Co:s kontor i Skövde, 2026-11-06. Fastigheten består av ca 23,5 ha mark varav ca 20,3 ha utgörs av produktiv skogsmark med ett bedömt virkesförråd om 3 533 m³sk med gran som dominerande trädslag. Under planperioden kan ungefär 2 181 m³sk föryngringsavverkas. Fastigheten har del i väg och god åtkomst till skogsmarken. Fastigheten är bebyggd med en ladugård, ett skjul och en förrådsbyggnad.\nFAKTA\nid: 21795869\nformattedLandArea: 23,5 ha\nhousingForm: Gård/skog\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-karlsborgs-kommun-23,5-ha-pa-vaberget,-karlsborg-21795869\nstreetAddress: 23,5 ha på Vaberget, Karlsborg\ntenure: Äganderätt\ntitle: 23,5 ha på Vaberget, Karlsborg\nadTargeting: {\"item_types\":[6],\"price\":[4],\"municipality\":[93],\"region\":[19],\"country\":[1],\"water_distance\":[\"501-\"],\"property_price\":3000000,\"property_address\":\"23,5 ha på Vaberget, Karlsborg\",\"property_living_area\":null,\"property_zipcode\":\"\"}\nbiddingStarted: False\ndaysOnHemnet: 1\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1790579892.086\nlistingBrokerUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview&id=MDE4OHwwMDAwMDA0MTExMnw1OA.",
+   "description": "Göljaryd 1 i Vetlanda, Vetlanda kommun - gård/skog till salu - Hemnet\nVäl sammanhållen och välskött gård i ett skifte om ca 37 ha med naturskönt läge. Gården består bostadshus, ekonomibyggnader, skog, inägomark, myr och vatten.\nSkogsmarken är varierad och har stor inslag av olika trädslag.\nFAKTA\nid: 21796613\narea: Vetlanda\nformattedLandArea: 32,6 ha\nhousingForm: Gård med skogsbruk\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-vetlanda-vetlanda-kommun-goljaryd-1-21796613\npostCode: 57476\nstreetAddress: Göljaryd 1\ntenure: Äganderätt\ntitle: Göljaryd 1\nadTargeting: {\"item_types\":[6],\"price\":[5],\"municipality\":[253],\"region\":[7],\"country\":[1],\"water_distance\":[\"201-300\"],\"property_price\":4350000,\"property_address\":\"Göljaryd 1\",\"property_living_area\":null,\"property_zipcode\":\"57476\"}\nbiddingStarted: False\ndaysOnHemnet: 1\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1790695992.571\nlistingBrokerUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview&id=MDE4OHwwMDAwMDA0MTExMHw1OA..\nlistingBrokerGalleryUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview_images&id=MDE4OHwwMDAwMDA0MTExMHw1OA..\ntimesViewed: 563\nisProjectUnit: False\nactivePackage: BASIC\nlandArea: 326185\nclosestWaterDistanceMeters: 250",
+   "is_new_today": true
+  },
+  {
+   "id": "booli:6289542",
+   "key": "laholm|dansbygget2b|170",
+   "title": "Dansbygget 2B",
+   "kommun": "Laholm",
+   "region": "Halland inland",
+   "price": 1700000,
+   "land_ha": 11.3,
+   "living_m2": 70,
+   "rooms": "4 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6289542",
+   "alt_url": null,
+   "drive_h": 1.7,
+   "price_per_ha": 150442,
+   "score": 37,
+   "survival_score": 16,
+   "invest_score": 58,
+   "survival_why": "some forest, 1.7 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "150 442 kr per ha, below the 225 962 kr median, forest holds its value, built 1914, Halland inland resells well.",
+   "first_seen": "2026-09-30",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-30",
+     1700000
+    ]
+   ],
+   "broker": "Fastighetsbyrån",
+   "days_text": "Inkommet igår",
+   "build_year": 1914,
+   "description": "Gård till salu på Dansbygget 2B, Hishult, Laholm – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 14\nKarta\nSpara\nTill salu\nDansbygget 2B\nGård · Hishult · Laholm\n\nUtropspris\n\n1 700 000 kr\nBoarea\n\n70 m²\n\nRum\n\n4 rum\n\nTomtarea\n\n113 000 m²\n\nByggår\n\n1914\n\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nUtropspriset per kvadratmeter är 24 300 kr/m²\n\nBostaden har 265 sidvisningar på Booli\n\nBostaden har varit till salu i 1 dag\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nDansbygget 2B, Hishult, Laholm\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nHallands län\nLaholms kommun\nDansbygget\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnvändarvillkor\nIntegritetspolicy\nO",
+   "is_new_today": true
+  },
+  {
+   "id": "booli:6289101",
+   "key": "älmhult|lindåskråkeryd2397|400",
+   "title": "Lindås Kråkeryd 2397",
+   "kommun": "Älmhult",
+   "region": "Småland",
+   "price": 4000000,
+   "land_ha": 3.0,
+   "living_m2": null,
+   "rooms": null,
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6289101",
+   "alt_url": null,
+   "drive_h": 2.3,
+   "price_per_ha": 1333333,
+   "score": 28,
+   "survival_score": 17,
+   "invest_score": 40,
+   "survival_why": "arable or pasture, 2.3 h from Göteborg. Missing: no well stated, little or no forest.",
+   "invest_why": "1 333 333 kr per ha, well above the 225 962 kr median, Småland resells well.",
+   "first_seen": "2026-09-30",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-09-30",
+     4000000
+    ]
+   ],
+   "broker": "Ludvig & Co",
+   "days_text": "Inkommet igår",
+   "build_year": null,
+   "description": "Gård till salu på Lindås Kråkeryd 2397, Älmhult, Älmhult – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 27\nKarta\nSpara\nTill salu\nLindås Kråkeryd 2397\nGård · Älmhult\n\nUtropspris\n\n4 000 000 kr\nTomtarea\n\n30 000 m²\n\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nBostaden har 240 sidvisningar på Booli\n\nBostaden har varit till salu i 1 dag\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nLindås Kråkeryd 2397, Älmhult\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nKronobergs län\nÄlmhults kommun\nLindås Kråkeryd\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnvändarvillkor\nIntegritetspolicy\nOm GDPR\nCookies\nCookieinställningar\nLadda ned\nGoogle Play\nApp Store\n\nBooli är",
    "is_new_today": true
   }
  ]

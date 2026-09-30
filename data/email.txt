@@ -1,20 +1,13 @@
-GÅRD-RADAR 2026-09-29
-1 new on the list, 50 on the standing list, 138 matching in total
+GÅRD-RADAR 2026-09-30
+0 new on the list, 49 on the standing list, 138 matching in total
 
 IN ONE PARAGRAPH
 138 listings match the filters today, one came in and two left (Sunnerby Sävjedal 1 in Sävsjö and Funtabo 1 in Värnamo), with no price cuts or rises. The median asking price is 2 995 000 kr and the median is 227 723 kr per ha. Småland and Dalsland/Värmland still carry most of the supply, and the only newcomer is a Karlsborg forest parcel in Skaraborg/Vättern. It is a pure forest lot sold at auction with no house, so the standing list is effectively unchanged for a buyer this week.
 
 NEW SINCE THE LAST RUN
-49. 23,5 ha på Vaberget, Karlsborg, Karlsborg · Skaraborg/Vättern · 23.5 ha · 2.4 h, 3 000 000 kr
-   Scores: overall 44, survival 23, invest 65
-   Survival: About 20.3 ha of productive spruce forest gives firewood indefinitely, and there is shared road access plus a ladugård, a shed and a storage building. There is no dwelling at all, no well is mentioned and no surface water is stated (the listing puts water more than 500 m away). As a safe house it fails the basic purpose until a house, well and avlopp are built, which means bygglov and several years of work.
-   Investment: The standing volume of 3 533 m3sk at the southern price of roughly 930 kr per m3sk is worth about 3.3 MSEK, above the 3 000 000 kr minimum, and 127 660 kr per ha is far below the 227 723 kr median. It is sold by public auction on 2026-11-06 ordered by the tingsrätt, so the final price will likely land above the minimum, and about 2 181 m3sk can be felled within the plan period, which gives real thinning and harvest income.
-   Why this rank: A strong forest investment, but it has no house and no water, which the plan treats as must-haves, so it sits well below every listing in the 2.0 to 3.5 MSEK band that has a finished house.
-   Maintenance: No house to maintain; the barn, shed and storage building have unknown roofs and condition, and the forest needs a skogsbruksplan and planned felling rather than building upkeep.
-   Recommendation: Skip, because there is no dwelling or water and building a safe house from scratch goes against the turnkey rule; revisit only if you ever want a separate forest investment.
-   https://www.hemnet.se/bostad/gard-karlsborgs-kommun-23,5-ha-pa-vaberget,-karlsborg-21795869
+Nothing new entered the list today. Everything below is unchanged.
 
-THE STANDING LIST, TOP 50
+THE STANDING LIST, TOP 49
 1. Attlered 122, Lilla Edet, 2 950 000 kr, O63/S41/I85 - Ask the broker for X first: skogsbruksplan with volume, build year, facade and roof material, water source and heating, then book a viewing if the house holds up.
 2. Månstad Boda 2, Tranemo, 5 000 000 kr, O63/S41/I85 - Ask the broker for X first: the house's build year and condition, which buildings are sound, and the harvest volume in the skogsbruksplan.
 3. Boarp Stakagård 1, Ljungby, 2 700 000 kr, O62/S48/I76 - Ask the broker for X first: roof and window age, water source and the besiktning, then decide on a viewing.
@@ -56,15 +49,14 @@ THE STANDING LIST, TOP 50
 39. Nybyggerud 1, Årjäng, 2 800 000 kr, O48/S36/I60 - Ask the broker for X first: house build year, roof and heating; the forest alone justifies a look.
 40. Fastorp , Vaggeryd, 4 250 000 kr, O48/S27/I68 - Ask the broker for X first: house build year, facade, roof, heating and water.
 41. Västra Mörtnäs 503, Årjäng, 2 575 000 kr, O47/S42/I52 - Ask the broker for X first: facade and roof material, window age and water source.
-42. Rishultsvägen, Markaryd, 1 100 000 kr, O46/S21/I70 - Skip, no house.
-43. Torp 8, Hultsfred, 2 500 000 kr, O46/S42/I51 - Skip, 3 hours from Göteborg.
-44. Nårunga 5:1, del av, Vårgårda, 2 600 000 kr, O46/S25/I67 - Skip, no house and requires fastighetsreglering.
-45. Kärringe Trädestorp 1, Ljungby, 2 700 000 kr, O46/S53/I39 - Skip, small old timber house sold with a defects disclaimer.
-46. Vräk, Falkenberg, 3 500 000 kr, O46/S25/I67 - Skip, no house.
-47. Kettilsbyn Noli, Säffle, 4 700 000 kr, O46/S32/I60 - Watch, wait for a price cut; too many old buildings for the price.
-48. Nödinge 7:5, Mark, 4 800 000 kr, O46/S25/I67 - Skip, no house; a forest investment only.
-49. 23,5 ha på Vaberget, Karlsborg [NEW], Karlsborg, 3 000 000 kr, O44/S23/I65 - Skip, because there is no dwelling or water and building a safe house from scratch goes against the turnkey rule; revisit only if you ever want a separate forest investment.
-50. Bexet 202, Hylte, 4 175 000 kr, O31/S20/I42 - Ask the broker for the prospectus first: build year, facade, roof, well and heating, since at this price the house must be turnkey.
+42. Torp 8, Hultsfred, 2 500 000 kr, O46/S42/I51 - Skip, 3 hours from Göteborg.
+43. Nårunga 5:1, del av, Vårgårda, 2 600 000 kr, O46/S25/I67 - Skip, no house and requires fastighetsreglering.
+44. Kärringe Trädestorp 1, Ljungby, 2 700 000 kr, O46/S53/I39 - Skip, small old timber house sold with a defects disclaimer.
+45. Vräk, Falkenberg, 3 500 000 kr, O46/S25/I67 - Skip, no house.
+46. Kettilsbyn Noli, Säffle, 4 700 000 kr, O46/S32/I60 - Watch, wait for a price cut; too many old buildings for the price.
+47. Nödinge 7:5, Mark, 4 800 000 kr, O46/S25/I67 - Skip, no house; a forest investment only.
+48. 23,5 ha på Vaberget, Karlsborg, Karlsborg, 3 000 000 kr, O44/S23/I65 - Skip, because there is no dwelling or water and building a safe house from scratch goes against the turnkey rule; revisit only if you ever want a separate forest investment.
+49. Bexet 202, Hylte, 4 175 000 kr, O31/S20/I42 - Ask the broker for the prospectus first: build year, facade, roof, well and heating, since at this price the house must be turnkey.
 
 Site: https://getlucki.github.io/gard-radar/
 Plan doc: https://docs.google.com/document/d/18kvo9JlHNSf4bq_03BLHvNWpoI-9gbkVTSFe12Bi_V8/edit
