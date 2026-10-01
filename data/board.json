@@ -1,15 +1,8 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-01",
  "market_summary": "138 listings match the filters today, one came in and two left (Sunnerby Sävjedal 1 in Sävsjö and Funtabo 1 in Värnamo), with no price cuts or rises. The median asking price is 2 995 000 kr and the median is 227 723 kr per ha. Småland and Dalsland/Värmland still carry most of the supply, and the only newcomer is a Karlsborg forest parcel in Skaraborg/Vättern. It is a pure forest lot sold at auction with no house, so the standing list is effectively unchanged for a buyer this week.",
  "added_today": [],
- "dropped": [
-  {
-   "title": "Rishultsvägen",
-   "kommun": "Markaryd",
-   "why": "no longer listed",
-   "date": "2026-09-30"
-  }
- ],
+ "dropped": [],
  "criteria_changes": [],
  "entries": [
   {
@@ -1218,6 +1211,12 @@
    "date": "2026-09-30",
    "added": 0,
    "dropped": 1,
+   "size": 49
+  },
+  {
+   "date": "2026-10-01",
+   "added": 0,
+   "dropped": 0,
    "size": 49
   }
  ]
