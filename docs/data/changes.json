@@ -1,58 +1,84 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-02",
  "new": [
   {
-   "id": "hemnet:21796613",
-   "title": "Göljaryd 1",
-   "kommun": "Vetlanda",
-   "price": 4350000,
-   "land_ha": 32.62,
+   "id": "hemnet:21499700",
+   "title": "Sjövik 1",
+   "kommun": "Alvesta",
+   "price": 2495000,
+   "land_ha": 6.0,
    "score": 48,
-   "url": "https://www.hemnet.se/bostad/gard-vetlanda-vetlanda-kommun-goljaryd-1-21796613"
+   "url": "https://www.hemnet.se/bostad/gard-6rum-hjortsberga-alvesta-kommun-sjovik-1-21499700"
   },
   {
-   "id": "booli:6289542",
-   "title": "Dansbygget 2B",
-   "kommun": "Laholm",
-   "price": 1700000,
-   "land_ha": 11.3,
-   "score": 37,
-   "url": "https://www.booli.se/annons/6289542"
+   "id": "hemnet:21797600",
+   "title": "Mjäryd 1288",
+   "kommun": "Markaryd",
+   "price": 1750000,
+   "land_ha": 18.74,
+   "score": 45,
+   "url": "https://www.hemnet.se/bostad/gard-4rum-stromsnasbruk-markaryds-kommun-mjaryd-1288-21797600"
   },
   {
-   "id": "booli:6289101",
-   "title": "Lindås Kråkeryd 2397",
-   "kommun": "Älmhult",
-   "price": 4000000,
-   "land_ha": 3.0,
-   "score": 28,
-   "url": "https://www.booli.se/annons/6289101"
+   "id": "booli:6292476",
+   "title": "Venavalla Rättaregården 1",
+   "kommun": "Herrljunga",
+   "price": 3900000,
+   "land_ha": 18.7,
+   "score": 41,
+   "url": "https://www.booli.se/bostad/4324264"
+  },
+  {
+   "id": "booli:6292490",
+   "title": "Övergården",
+   "kommun": "Säffle",
+   "price": 3750000,
+   "land_ha": 29.0,
+   "score": 38,
+   "url": "https://www.booli.se/annons/6292490"
+  },
+  {
+   "id": "booli:6290574",
+   "title": "Ornunga Fastorp 1",
+   "kommun": "Vårgårda",
+   "price": 4250000,
+   "land_ha": 4.5,
+   "score": 27,
+   "url": "https://www.booli.se/annons/6290574"
   }
  ],
  "gone": [
   {
-   "id": "hemnet:21738584",
-   "title": "Rishultsvägen",
-   "kommun": "Markaryd",
-   "price": 1100000,
-   "url": "https://www.hemnet.se/bostad/gard-stromsnasbruk-markaryds-kommun-rishultsvagen-21738584",
-   "days_tracked": 12
+   "id": "hemnet:21675603",
+   "title": "Högarydsvägen 32",
+   "kommun": "Laholm",
+   "price": 2095000,
+   "url": "https://www.hemnet.se/bostad/gard-5rum-hishult-laholms-kommun-hogarydsvagen-32-21675603",
+   "days_tracked": 13
   },
   {
-   "id": "hemnet:21482745",
-   "title": "Högalid 31",
-   "kommun": "Tranemo",
-   "price": 2995000,
-   "url": "https://www.hemnet.se/bostad/villa-10rum-ambjornarp-tranemo-kommun-hogalid-31-21482745",
-   "days_tracked": 12
+   "id": "booli:6271712",
+   "title": "Gunnarsjö Gudmundared 2",
+   "kommun": "Varberg",
+   "price": 3999000,
+   "url": "https://www.booli.se/annons/6271712",
+   "days_tracked": 13
   },
   {
-   "id": "hemnet:21727345",
-   "title": "Målareskogen 2",
-   "kommun": "Hjo",
-   "price": 3400000,
-   "url": "https://www.hemnet.se/bostad/gard-6rum-gate-hjo-kommun-malareskogen-2-21727345",
-   "days_tracked": 12
+   "id": "hemnet:21632344",
+   "title": "Herrenäs",
+   "kommun": "Bengtsfors",
+   "price": 3500000,
+   "url": "https://www.hemnet.se/bostad/gard-bengtsfors-kommun-herrenas-21632344",
+   "days_tracked": 13
+  },
+  {
+   "id": "hemnet:21788638",
+   "title": "Backa Rönningen 1",
+   "kommun": "Årjäng",
+   "price": 1200000,
+   "url": "https://www.hemnet.se/bostad/villa-120m2-tocksfors-arjangs-kommun-backa-ronningen-1-21788638",
+   "days_tracked": 13
   }
  ],
  "price_changes": [],

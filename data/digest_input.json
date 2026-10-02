@@ -1,39 +1,39 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-02",
  "stats": {
-  "date": "2026-09-30",
-  "matched": 138,
-  "new": 3,
-  "gone": 3,
+  "date": "2026-10-02",
+  "matched": 139,
+  "new": 5,
+  "gone": 4,
   "price_cuts": 0,
   "price_rises": 0,
   "median_price": 2995000,
-  "median_price_per_ha": 225962,
+  "median_price_per_ha": 227749,
   "national_in_band": {
    "hemnet": {
-    "gard": 665,
-    "villa": 83
+    "gard": 660,
+    "villa": 81
    },
    "booli": {
-    "gard": 696,
-    "hus": 367
+    "gard": 694,
+    "hus": 364
    }
   },
   "hemnet_ok": true,
   "by_region": {
    "Göteborg hinterland": {
-    "count": 28,
-    "new": 0,
-    "median_price": 3425000
+    "count": 30,
+    "new": 2,
+    "median_price": 3550000
    },
    "Småland": {
-    "count": 43,
+    "count": 45,
     "new": 2,
-    "median_price": 3000000
+    "median_price": 2995000
    },
    "Halland inland": {
-    "count": 17,
-    "new": 1,
+    "count": 15,
+    "new": 0,
     "median_price": 3250000
    },
    "Skaraborg/Vättern": {
@@ -42,176 +42,270 @@
     "median_price": 2695000
    },
    "Dalsland/Värmland": {
-    "count": 33,
-    "new": 0,
-    "median_price": 2750000
+    "count": 32,
+    "new": 1,
+    "median_price": 2775000
    }
   }
  },
  "changes": {
-  "date": "2026-09-30",
+  "date": "2026-10-02",
   "new": [
    {
-    "id": "hemnet:21796613",
-    "title": "Göljaryd 1",
-    "kommun": "Vetlanda",
-    "price": 4350000,
-    "land_ha": 32.62,
+    "id": "hemnet:21499700",
+    "title": "Sjövik 1",
+    "kommun": "Alvesta",
+    "price": 2495000,
+    "land_ha": 6.0,
     "score": 48,
-    "url": "https://www.hemnet.se/bostad/gard-vetlanda-vetlanda-kommun-goljaryd-1-21796613"
+    "url": "https://www.hemnet.se/bostad/gard-6rum-hjortsberga-alvesta-kommun-sjovik-1-21499700"
    },
    {
-    "id": "booli:6289542",
-    "title": "Dansbygget 2B",
-    "kommun": "Laholm",
-    "price": 1700000,
-    "land_ha": 11.3,
-    "score": 37,
-    "url": "https://www.booli.se/annons/6289542"
+    "id": "hemnet:21797600",
+    "title": "Mjäryd 1288",
+    "kommun": "Markaryd",
+    "price": 1750000,
+    "land_ha": 18.74,
+    "score": 45,
+    "url": "https://www.hemnet.se/bostad/gard-4rum-stromsnasbruk-markaryds-kommun-mjaryd-1288-21797600"
    },
    {
-    "id": "booli:6289101",
-    "title": "Lindås Kråkeryd 2397",
-    "kommun": "Älmhult",
-    "price": 4000000,
-    "land_ha": 3.0,
-    "score": 28,
-    "url": "https://www.booli.se/annons/6289101"
+    "id": "booli:6292476",
+    "title": "Venavalla Rättaregården 1",
+    "kommun": "Herrljunga",
+    "price": 3900000,
+    "land_ha": 18.7,
+    "score": 41,
+    "url": "https://www.booli.se/bostad/4324264"
+   },
+   {
+    "id": "booli:6292490",
+    "title": "Övergården",
+    "kommun": "Säffle",
+    "price": 3750000,
+    "land_ha": 29.0,
+    "score": 38,
+    "url": "https://www.booli.se/annons/6292490"
+   },
+   {
+    "id": "booli:6290574",
+    "title": "Ornunga Fastorp 1",
+    "kommun": "Vårgårda",
+    "price": 4250000,
+    "land_ha": 4.5,
+    "score": 27,
+    "url": "https://www.booli.se/annons/6290574"
    }
   ],
   "gone": [
    {
-    "id": "hemnet:21738584",
-    "title": "Rishultsvägen",
-    "kommun": "Markaryd",
-    "price": 1100000,
-    "url": "https://www.hemnet.se/bostad/gard-stromsnasbruk-markaryds-kommun-rishultsvagen-21738584",
-    "days_tracked": 12
+    "id": "hemnet:21675603",
+    "title": "Högarydsvägen 32",
+    "kommun": "Laholm",
+    "price": 2095000,
+    "url": "https://www.hemnet.se/bostad/gard-5rum-hishult-laholms-kommun-hogarydsvagen-32-21675603",
+    "days_tracked": 13
    },
    {
-    "id": "hemnet:21482745",
-    "title": "Högalid 31",
-    "kommun": "Tranemo",
-    "price": 2995000,
-    "url": "https://www.hemnet.se/bostad/villa-10rum-ambjornarp-tranemo-kommun-hogalid-31-21482745",
-    "days_tracked": 12
+    "id": "booli:6271712",
+    "title": "Gunnarsjö Gudmundared 2",
+    "kommun": "Varberg",
+    "price": 3999000,
+    "url": "https://www.booli.se/annons/6271712",
+    "days_tracked": 13
    },
    {
-    "id": "hemnet:21727345",
-    "title": "Målareskogen 2",
-    "kommun": "Hjo",
-    "price": 3400000,
-    "url": "https://www.hemnet.se/bostad/gard-6rum-gate-hjo-kommun-malareskogen-2-21727345",
-    "days_tracked": 12
+    "id": "hemnet:21632344",
+    "title": "Herrenäs",
+    "kommun": "Bengtsfors",
+    "price": 3500000,
+    "url": "https://www.hemnet.se/bostad/gard-bengtsfors-kommun-herrenas-21632344",
+    "days_tracked": 13
+   },
+   {
+    "id": "hemnet:21788638",
+    "title": "Backa Rönningen 1",
+    "kommun": "Årjäng",
+    "price": 1200000,
+    "url": "https://www.hemnet.se/bostad/villa-120m2-tocksfors-arjangs-kommun-backa-ronningen-1-21788638",
+    "days_tracked": 13
    }
   ],
   "price_changes": [],
   "first_run": false
  },
- "board_size": 50,
+ "board_size": 49,
  "board_max": 50,
  "candidates_are_unjudged_only": true,
  "listings": [
   {
-   "id": "hemnet:21796613",
-   "key": "vetlanda|göljaryd1|435",
-   "title": "Göljaryd 1",
-   "kommun": "Vetlanda",
+   "id": "hemnet:21499700",
+   "key": "alvesta|sjövik1|250",
+   "title": "Sjövik 1",
+   "kommun": "Alvesta",
    "region": "Småland",
-   "price": 4350000,
-   "land_ha": 32.62,
-   "living_m2": null,
-   "rooms": null,
-   "type": "Gård med skogsbruk",
-   "url": "https://www.hemnet.se/bostad/gard-vetlanda-vetlanda-kommun-goljaryd-1-21796613",
-   "alt_url": "https://www.booli.se/annons/6289430",
-   "drive_h": 2.6,
-   "price_per_ha": 133354,
+   "price": 2495000,
+   "land_ha": 6.0,
+   "living_m2": 125,
+   "rooms": "6 rum",
+   "type": "Gård med jordbruk",
+   "url": "https://www.hemnet.se/bostad/gard-6rum-hjortsberga-alvesta-kommun-sjovik-1-21499700",
+   "alt_url": "https://www.booli.se/annons/5646353",
+   "drive_h": 2.4,
+   "price_per_ha": 415833,
    "score": 48,
-   "survival_score": 26,
-   "invest_score": 69,
-   "survival_why": "32.62 ha with forest for firewood, arable or pasture, barn or workshop. Missing: no well stated, no wood heating stated.",
-   "invest_why": "133 354 kr per ha, well below the 225 962 kr median, forest holds its value, Småland resells well.",
-   "first_seen": "2026-09-30",
+   "survival_score": 55,
+   "invest_score": 40,
+   "survival_why": "lake or stream, 6 ha with forest for firewood, arable or pasture, second dwelling, barn or workshop. Missing: no well stated, no wood heating stated.",
+   "invest_why": "415 833 kr per ha, well above the 227 749 kr median, forest holds its value, condition is a capex risk, built 1770.",
+   "first_seen": "2026-10-02",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-30",
-     4350000
+     "2026-10-02",
+     2495000
     ]
    ],
-   "broker": "Ludvig & Co Fastighetsförmedling",
+   "broker": "LF Fastighetsförmedling Alvesta",
    "days_text": "Inkommet igår",
-   "build_year": null,
-   "description": "Göljaryd 1 i Vetlanda, Vetlanda kommun - gård/skog till salu - Hemnet\nVäl sammanhållen och välskött gård i ett skifte om ca 37 ha med naturskönt läge. Gården består bostadshus, ekonomibyggnader, skog, inägomark, myr och vatten.\nSkogsmarken är varierad och har stor inslag av olika trädslag.\nFAKTA\nid: 21796613\narea: Vetlanda\nformattedLandArea: 32,6 ha\nhousingForm: Gård med skogsbruk\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-vetlanda-vetlanda-kommun-goljaryd-1-21796613\npostCode: 57476\nstreetAddress: Göljaryd 1\ntenure: Äganderätt\ntitle: Göljaryd 1\nadTargeting: {\"item_types\":[6],\"price\":[5],\"municipality\":[253],\"region\":[7],\"country\":[1],\"water_distance\":[\"201-300\"],\"property_price\":4350000,\"property_address\":\"Göljaryd 1\",\"property_living_area\":null,\"property_zipcode\":\"57476\"}\nbiddingStarted: False\ndaysOnHemnet: 1\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1790695992.571\nlistingBrokerUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview&id=MDE4OHwwMDAwMDA0MTExMHw1OA..\nlistingBrokerGalleryUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview_images&id=MDE4OHwwMDAwMDA0MTExMHw1OA..\ntimesViewed: 563\nisProjectUnit: False\nactivePackage: BASIC\nlandArea: 326185\nclosestWaterDistanceMeters: 250",
+   "build_year": 1770,
+   "description": "Sjövik 1 i Hjortsberga, Alvesta kommun - gård/skog till salu - Hemnet\nVälkomna till Sjövik 1! Med fantastisk natur och utsikt mot närliggande sjö är detta en riktig idyll som bör upplevas på plats!\r\n\r\nBostadshuset om 125 kvm har en del som är från 1700-talet och här finns charmiga detaljer i form av bland annat eldstäder, trägolv och en känsla av närhet till den fina naturen utanför! Uppdelat i två olika etage på entréplan finner vi gott om sociala ytor i form av två vardagsrum varav ett med utgång till den inglasade altanen i fint söder-/västerläge. Vidare återfinns kök med matplats, toalett, badrum samt två sovrum varav ett med tillhörande walk in closet. En trappa upp finns ytterligare två sovrum med tillhörande klädkammare. I källarplan finns praktiska utrymmen inklusive tvättstuga, verkstad, förråd m.m. Uppvärmning sker via luft/vatten värmepump. \r\n\r\nFörutom bostadsbyggnaden finns en ladugård, gäststuga och en byggnad innehållandes garage samt en charmig ateljé.\r\n\r\nMarken om 5,7 ha består av både betesmark och skog. Till Alvesta är det 9 km och Växjö nås på ca 25 min med bil.                       \r\n\r\nSjövik 1 är något för dig som söker en lugn och naturskön plats att kalla hemma. Med närheten till Sjöatorpasjön och den vackra omgivningen är möjligheterna för friluftsliv och rekreation oändliga. Fiskerätt i Sjöatorpasjön.  \r\n\r\nVälkommen att kontakta ansvarig mäklare Tim Olofsson vid intresse!\nFAKTA\nid: 21499700\narea: Hjortsberga\nformattedLandArea: 6 ha\nformattedLivingAre",
    "is_new_today": true
   },
   {
-   "id": "booli:6289542",
-   "key": "laholm|dansbygget2b|170",
-   "title": "Dansbygget 2B",
-   "kommun": "Laholm",
-   "region": "Halland inland",
-   "price": 1700000,
-   "land_ha": 11.3,
-   "living_m2": 70,
+   "id": "hemnet:21797600",
+   "key": "markaryd|mjäryd1288|175",
+   "title": "Mjäryd 1288",
+   "kommun": "Markaryd",
+   "region": "Småland",
+   "price": 1750000,
+   "land_ha": 18.74,
+   "living_m2": 63,
    "rooms": "4 rum",
-   "type": "Gård",
-   "url": "https://www.booli.se/annons/6289542",
-   "alt_url": null,
-   "drive_h": 1.7,
-   "price_per_ha": 150442,
-   "score": 37,
-   "survival_score": 16,
-   "invest_score": 58,
-   "survival_why": "some forest, 1.7 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "150 442 kr per ha, below the 225 962 kr median, forest holds its value, built 1914, Halland inland resells well.",
-   "first_seen": "2026-09-30",
+   "type": "Gård/skog",
+   "url": "https://www.hemnet.se/bostad/gard-4rum-stromsnasbruk-markaryds-kommun-mjaryd-1288-21797600",
+   "alt_url": "https://www.booli.se/annons/6292331",
+   "drive_h": 1.9,
+   "price_per_ha": 93383,
+   "score": 45,
+   "survival_score": 30,
+   "invest_score": 60,
+   "survival_why": "18.74 ha with forest for firewood, second dwelling, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "93 383 kr per ha, well below the 227 749 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "first_seen": "2026-10-02",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-09-30",
-     1700000
+     "2026-10-02",
+     1750000
+    ]
+   ],
+   "broker": "Fastighetsbyrån Markaryd",
+   "days_text": "Inkommet igår",
+   "build_year": 1909,
+   "description": "Mjäryd 1288 i Strömsnäsbruk, Markaryds kommun - gård/skog till salu - Hemnet\nVälkommen till ett charmigt torp från 1909 med ca 18 ha mark i rofylld miljö utanför Strömsnäsbruk. Här omges vi av öppna gräsytor, uppvuxna träd och natur som skapar en lugn och avskild känsla. Bostaden erbjuder kök, vardagsrum och sovrum på entréplan samt genomgångsrum och sovrum på övre plan. En plats för dig som söker ett lantligt liv nära naturen.\nFAKTA\nid: 21797600\narea: Strömsnäsbruk\nformattedLandArea: 18,7 ha\nformattedLivingArea: 63 m²\nhousingForm: Gård/skog\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlegacyConstructionYear: 1909\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-4rum-stromsnasbruk-markaryds-kommun-mjaryd-1288-21797600\nlivingArea: 63\nnumberOfRooms: 4\npostCode: 28791\nstreetAddress: Mjäryd 1288\nsupplementalArea: 0\ntenure: Äganderätt\ntitle: Mjäryd 1288\nadTargeting: {\"item_types\":[6],\"rooms\":[7],\"price\":[2],\"municipality\":[140],\"region\":[9],\"country\":[1],\"water_distance\":[\"501-\"],\"agency_franchise\":[\"Fastighetsbyrån\"],\"property_price\":1750000,\"property_address\":\"Mjäryd 1288\",\"property_living_area\":63,\"property_zipcode\":\"28791\"}\nbiddingStarted: False\ndaysOnHemnet: 1\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1790842472.193\nlistingBrokerUrl: https://www.fastighetsbyran.com/sv/sverige/till-salu/kronobergs-lan/markaryds-kommun/objekt/?utm_source=hemnet.se&utm_medium=referral&utm_content=listing&objektID=3559296\nlistingBr",
+   "is_new_today": true
+  },
+  {
+   "id": "booli:6292476",
+   "key": "herrljunga|venavallarättaregården1|390",
+   "title": "Venavalla Rättaregården 1",
+   "kommun": "Herrljunga",
+   "region": "Göteborg hinterland",
+   "price": 3900000,
+   "land_ha": 18.7,
+   "living_m2": null,
+   "rooms": null,
+   "type": "Gård",
+   "url": "https://www.booli.se/bostad/4324264",
+   "alt_url": null,
+   "drive_h": 1.1,
+   "price_per_ha": 208556,
+   "score": 41,
+   "survival_score": 20,
+   "invest_score": 62,
+   "survival_why": "some forest, 1.1 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "208 556 kr per ha, below the 227 749 kr median, forest holds its value, built 1910, Göteborg hinterland resells well.",
+   "first_seen": "2026-10-02",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-10-02",
+     3900000
+    ]
+   ],
+   "broker": "LF Fastighetsförmedling",
+   "days_text": "Inkommet igår",
+   "build_year": 1910,
+   "description": "Gård till salu på Venavalla Rättaregården 1, Herrljunga, Herrljunga – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 29\nKarta\nSpara\nTill salu\nVenavalla Rättaregården 1\nGård · Herrljunga\n\nUtropspris\n\n3 900 000 kr\nBoarea\n\n135 m²\n\nBiarea\n\n88 m²\n\nTotalarea\n\n18,7 ha\n\nByggår\n\n1910\n\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nUtropspriset per kvadratmeter är 28 900 kr/m²\n\nBostaden har 365 sidvisningar på Booli\n\nBostaden har varit till salu i 1 dag\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\n11\nOkt\n\n11 oktober15:00 – 16:00\n\nAnmäl dig och läs mer\nVar redo för visning!\nSkaffa lånelöfte med SBAB!\nAnnons\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nVenavalla Rättaregården 1, Herrljunga\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nVästra Götalands län\nHerrljunga kommun\nVenavalla Rättaregården\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i",
+   "is_new_today": true
+  },
+  {
+   "id": "booli:6292490",
+   "key": "säffle|övergården|375",
+   "title": "Övergården",
+   "kommun": "Säffle",
+   "region": "Dalsland/Värmland",
+   "price": 3750000,
+   "land_ha": 29.0,
+   "living_m2": null,
+   "rooms": null,
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6292490",
+   "alt_url": null,
+   "drive_h": 2.2,
+   "price_per_ha": 129310,
+   "score": 38,
+   "survival_score": 12,
+   "invest_score": 63,
+   "survival_why": "some forest, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "129 310 kr per ha, well below the 227 749 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "first_seen": "2026-10-02",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-10-02",
+     3750000
+    ]
+   ],
+   "broker": null,
+   "days_text": "Inkommet igår",
+   "build_year": null,
+   "description": "Gård till salu på Övergården, Värmlandsnäs, Säffle – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nIndexerad bostad\n1 / 46\nKarta\nSpara\nTill salu\nÖvergården\nGård · Värmlandsnäs · Säffle\n\nUtropspris\n\n3 750 000 kr\nTotalarea\n\n29 ha\n\nLägg till anteckning\n\nBostaden har 204 sidvisningar på Booli\n\nBostaden har varit till salu i 1 dag\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nÖvergården, Värmlandsnäs, Säffle\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nVärmlands län\nSäffle kommun\nÖvergården\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnvändarvillkor\nIntegritetspolicy\nOm GDPR\nCookies\nCookieinställningar\nLadda ned\nGoogle Play\nApp Store\n\nBooli är en bostadssajt och en mäk",
+   "is_new_today": true
+  },
+  {
+   "id": "booli:6290574",
+   "key": "vårgårda|ornungafastorp1|425",
+   "title": "Ornunga Fastorp 1",
+   "kommun": "Vårgårda",
+   "region": "Göteborg hinterland",
+   "price": 4250000,
+   "land_ha": 4.5,
+   "living_m2": 110,
+   "rooms": "5 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6290574",
+   "alt_url": null,
+   "drive_h": 0.9,
+   "price_per_ha": 944444,
+   "score": 27,
+   "survival_score": 15,
+   "invest_score": 39,
+   "survival_why": "0.9 h from Göteborg. Missing: no well stated, little or no forest.",
+   "invest_why": "944 444 kr per ha, well above the 227 749 kr median, built 1930, Göteborg hinterland resells well.",
+   "first_seen": "2026-10-02",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-10-02",
+     4250000
     ]
    ],
    "broker": "Fastighetsbyrån",
-   "days_text": "Inkommet igår",
-   "build_year": 1914,
-   "description": "Gård till salu på Dansbygget 2B, Hishult, Laholm – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 14\nKarta\nSpara\nTill salu\nDansbygget 2B\nGård · Hishult · Laholm\n\nUtropspris\n\n1 700 000 kr\nBoarea\n\n70 m²\n\nRum\n\n4 rum\n\nTomtarea\n\n113 000 m²\n\nByggår\n\n1914\n\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nUtropspriset per kvadratmeter är 24 300 kr/m²\n\nBostaden har 265 sidvisningar på Booli\n\nBostaden har varit till salu i 1 dag\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nDansbygget 2B, Hishult, Laholm\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nHallands län\nLaholms kommun\nDansbygget\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnvändarvillkor\nIntegritetspolicy\nO",
-   "is_new_today": true
-  },
-  {
-   "id": "booli:6289101",
-   "key": "älmhult|lindåskråkeryd2397|400",
-   "title": "Lindås Kråkeryd 2397",
-   "kommun": "Älmhult",
-   "region": "Småland",
-   "price": 4000000,
-   "land_ha": 3.0,
-   "living_m2": null,
-   "rooms": null,
-   "type": "Gård",
-   "url": "https://www.booli.se/annons/6289101",
-   "alt_url": null,
-   "drive_h": 2.3,
-   "price_per_ha": 1333333,
-   "score": 28,
-   "survival_score": 17,
-   "invest_score": 40,
-   "survival_why": "arable or pasture, 2.3 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "1 333 333 kr per ha, well above the 225 962 kr median, Småland resells well.",
-   "first_seen": "2026-09-30",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-09-30",
-     4000000
-    ]
-   ],
-   "broker": "Ludvig & Co",
-   "days_text": "Inkommet igår",
-   "build_year": null,
-   "description": "Gård till salu på Lindås Kråkeryd 2397, Älmhult, Älmhult – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 27\nKarta\nSpara\nTill salu\nLindås Kråkeryd 2397\nGård · Älmhult\n\nUtropspris\n\n4 000 000 kr\nTomtarea\n\n30 000 m²\n\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nBostaden har 240 sidvisningar på Booli\n\nBostaden har varit till salu i 1 dag\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nLindås Kråkeryd 2397, Älmhult\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nKronobergs län\nÄlmhults kommun\nLindås Kråkeryd\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnvändarvillkor\nIntegritetspolicy\nOm GDPR\nCookies\nCookieinställningar\nLadda ned\nGoogle Play\nApp Store\n\nBooli är",
+   "days_text": "2 dagar på Booli",
+   "build_year": 1930,
+   "description": "Gård snart till salu på Ornunga Fastorp 1, Sydöstra, Vårgårda – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 45\nPlanritning\nKarta\nSpara\nSnart till salu\nOrnunga Fastorp 1\nGård · Sydöstra · Vårgårda\n\nUtropspris\n\n4 250 000 kr\nBoarea\n\n110 m²\n\nRum\n\n5 rum\n\nTomtarea\n\n45 003 m²\n\nTotalarea\n\n4,5 ha\n\nByggår\n\n1930\n\nEldstad\nUteplats\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 5 820 kr/mån\n\nUtropspriset per kvadratmeter är 38 600 kr/m²\n\nBostaden har 682 sidvisningar på Booli\n\nBostaden har varit snart till salu i 2 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\n9\nOkt\n\n9 oktober14:00 – 16:00\n\nAnmäl dig och läs mer\nVar redo för visning!\nSkaffa lånelöfte med SBAB!\nAnnons\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nOrnunga Fastorp 1, Sydöstra, Vårgårda\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nVästra Götalands län\nVårgårda kommun\nOrnunga Fastorp\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonseri",
    "is_new_today": true
   }
  ]

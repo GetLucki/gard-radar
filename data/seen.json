@@ -12,7 +12,8 @@
   "kommun": "Årjäng",
   "ids": [
    "hemnet:21788638"
-  ]
+  ],
+  "gone": "2026-10-02"
  },
  "tibro|västerhönsa113mfl|200": {
   "first_seen": "2026-09-17",
@@ -933,7 +934,8 @@
   "kommun": "Laholm",
   "ids": [
    "hemnet:21675603"
-  ]
+  ],
+  "gone": "2026-10-02"
  },
  "bengtsfors|södralundeklund|170": {
   "first_seen": "2026-09-17",
@@ -1363,7 +1365,8 @@
   "kommun": "Bengtsfors",
   "ids": [
    "hemnet:21632344"
-  ]
+  ],
+  "gone": "2026-10-02"
  },
  "bengtsfors|bönsgård12|259": {
   "first_seen": "2026-09-17",
@@ -1492,7 +1495,8 @@
   "kommun": "Varberg",
   "ids": [
    "booli:6271712"
-  ]
+  ],
+  "gone": "2026-10-02"
  },
  "alvesta|elensås4|315": {
   "first_seen": "2026-09-17",
@@ -2077,7 +2081,8 @@
   "title": "Bästerna Bokehult 1",
   "kommun": "Alvesta",
   "ids": [
-   "booli:6172695"
+   "booli:6172695",
+   "hemnet:21796114"
   ]
  },
  "sävsjö|slättölunden1|385": {
@@ -3345,7 +3350,78 @@
   "title": "Lindås Kråkeryd 2397",
   "kommun": "Älmhult",
   "ids": [
-   "booli:6289101"
+   "booli:6289101",
+   "hemnet:21796663"
+  ]
+ },
+ "markaryd|mjäryd1288|175": {
+  "first_seen": "2026-10-02",
+  "prices": [
+   1750000
+  ],
+  "price_dates": [
+   "2026-10-02"
+  ],
+  "title": "Mjäryd 1288",
+  "kommun": "Markaryd",
+  "ids": [
+   "hemnet:21797600"
+  ]
+ },
+ "alvesta|sjövik1|250": {
+  "first_seen": "2026-10-02",
+  "prices": [
+   2495000
+  ],
+  "price_dates": [
+   "2026-10-02"
+  ],
+  "title": "Sjövik 1",
+  "kommun": "Alvesta",
+  "ids": [
+   "hemnet:21499700"
+  ]
+ },
+ "säffle|övergården|375": {
+  "first_seen": "2026-10-02",
+  "prices": [
+   3750000
+  ],
+  "price_dates": [
+   "2026-10-02"
+  ],
+  "title": "Övergården",
+  "kommun": "Säffle",
+  "ids": [
+   "booli:6292490"
+  ]
+ },
+ "herrljunga|venavallarättaregården1|390": {
+  "first_seen": "2026-10-02",
+  "prices": [
+   3900000
+  ],
+  "price_dates": [
+   "2026-10-02"
+  ],
+  "title": "Venavalla Rättaregården 1",
+  "kommun": "Herrljunga",
+  "ids": [
+   "booli:6292476"
+  ]
+ },
+ "vårgårda|ornungafastorp1|425": {
+  "first_seen": "2026-10-02",
+  "prices": [
+   4250000
+  ],
+  "price_dates": [
+   "2026-10-02"
+  ],
+  "title": "Ornunga Fastorp 1",
+  "kommun": "Vårgårda",
+  "ids": [
+   "booli:6290574"
   ]
  }
 }
