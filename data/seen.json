@@ -562,7 +562,8 @@
   "kommun": "Vårgårda",
   "ids": [
    "hemnet:21772540"
-  ]
+  ],
+  "gone": "2026-10-03"
  },
  "askersund|stimmerkulla315|320": {
   "first_seen": "2026-09-17",
@@ -1295,7 +1296,8 @@
   "kommun": "Ljungby",
   "ids": [
    "hemnet:21675475"
-  ]
+  ],
+  "gone": "2026-10-03"
  },
  "mark|sätilahede331|160": {
   "first_seen": "2026-09-17",
@@ -1380,7 +1382,8 @@
   "kommun": "Bengtsfors",
   "ids": [
    "hemnet:21613749"
-  ]
+  ],
+  "gone": "2026-10-03"
  },
  "askersund|emme438|235": {
   "first_seen": "2026-09-17",
@@ -1686,7 +1689,8 @@
   "kommun": "Hylte",
   "ids": [
    "booli:6184995"
-  ]
+  ],
+  "gone": "2026-10-03"
  },
  "ulricehamn|tvärredsrydet102|170": {
   "first_seen": "2026-09-17",
@@ -2183,7 +2187,8 @@
   "kommun": "Hylte",
   "ids": [
    "booli:6137590"
-  ]
+  ],
+  "gone": "2026-10-03"
  },
  "alingsås|gennevedsvägen108|390": {
   "first_seen": "2026-09-17",
@@ -3422,6 +3427,34 @@
   "kommun": "Vårgårda",
   "ids": [
    "booli:6290574"
+  ]
+ },
+ "lilla edet|backer|350": {
+  "first_seen": "2026-10-03",
+  "prices": [
+   3500000
+  ],
+  "price_dates": [
+   "2026-10-03"
+  ],
+  "title": "Backer ",
+  "kommun": "Lilla Edet",
+  "ids": [
+   "hemnet:21889826"
+  ]
+ },
+ "alingsås|hundsjövägen5|380": {
+  "first_seen": "2026-10-03",
+  "prices": [
+   3795000
+  ],
+  "price_dates": [
+   "2026-10-03"
+  ],
+  "title": "Hundsjövägen 5",
+  "kommun": "Alingsås",
+  "ids": [
+   "booli:5770039"
   ]
  }
 }
