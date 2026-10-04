@@ -6,8 +6,6 @@
 # 3) headless Claude judges ONLY the unjudged candidates, 4) merge into the
 # standing top 50, render and send the email, 5) git commit + push -> Pages.
 
-source "$HOME/.claude/bin/net-wait.sh"
-
 REPO="${0:A:h}"
 PROMPT_FILE="$HOME/.claude/scheduled-tasks/daily-gard-radar/SKILL.md"
 SEND_FILE="$HOME/.claude/scheduled-tasks/daily-gard-radar/SEND.md"
@@ -21,11 +19,67 @@ ts() { date '+%F %T'; }
 cd "$REPO" || { echo "$(ts) gard-radar: repo saknas: $REPO" >&2; exit 1; }
 echo "$(ts) gard-radar: startar"
 
-# 0. Vänta in nätet. Wi-Fi och routern är av 23:30 till 07:00, så varje värd
-#    jobbet använder slås upp på riktigt innan vi börjar (se net-wait.sh).
-if ! NET_WAIT_LABEL=gard-radar net_wait www.booli.se www.hemnet.se api.anthropic.com github.com; then
-  echo "$(ts) inget nät efter väntan, kunde inte slå upp ${LAST_BAD_HOST:-okänd värd}" > data/scan_failed.txt
+# 0. Vänta in nätet. Wi-Fi och routern är avstängda 23:30 till 07:00, jobbet
+#    startar 07:40, och namnuppslagningen hinner inte alltid sätta sig: 3 och 4
+#    oktober 2026 lyckades skanningen medan bada Claude-stegen föll pa ENOTFOUND.
+#    Därför slas varje värd vi faktiskt använder upp, inte bara en webbsida.
+HOSTS=(www.booli.se www.hemnet.se api.anthropic.com github.com)
+
+resolve_ok() {
+  local host
+  for host in "${HOSTS[@]}"; do
+    # -t 5: hellre ett snabbt nej än att hänga pa en död resolver
+    if ! /usr/bin/dscacheutil -q host -a name "$host" 2>/dev/null | grep -q "ip_address"; then
+      if ! /usr/bin/host -W 5 "$host" >/dev/null 2>&1; then
+        LAST_BAD_HOST="$host"
+        return 1
+      fi
+    fi
+  done
+  return 0
+}
+
+net_ok() {
+  resolve_ok || return 1
+  curl -s -m 8 -o /dev/null -w '%{http_code}' https://www.booli.se/ 2>/dev/null | grep -qE '^(2|3|4)'
+}
+
+for i in {1..72}; do
+  if net_ok; then
+    (( i > 1 )) && echo "$(ts) gard-radar: nätet uppe efter $(( (i - 1) * 10 )) s"
+    break
+  fi
+  if (( i == 1 )); then
+    echo "$(ts) gard-radar: väntar pa nätet (saknas: ${LAST_BAD_HOST:-okänd värd}, max 12 min)"
+    # En nattlig Wi-Fi-paus lämnar ofta en inaktuell DNS-cache efter sig
+    /usr/bin/dscacheutil -flushcache 2>/dev/null
+    /usr/bin/sudo -n /usr/bin/killall -HUP mDNSResponder 2>/dev/null
+  fi
+  sleep 10
+done
+
+if ! net_ok; then
+  echo "$(ts) gard-radar: inget nät efter 12 min (saknas: ${LAST_BAD_HOST:-okänd värd}), avbryter"
+  echo "$(ts) inget nät efter 12 min väntan, kunde inte sla upp ${LAST_BAD_HOST:-okänd värd}" > data/scan_failed.txt
 fi
+
+# Kör ett claude -p med omförsök: ett enstaka ENOTFOUND ska inte kosta dagens mejl.
+claude_try() {
+  local label="$1"; shift
+  local attempt out rc
+  for attempt in 1 2 3; do
+    out="$("$@" 2>&1)"
+    rc=$?
+    print -r -- "$out" | tail -n 8
+    if (( rc == 0 )) && ! print -r -- "$out" | grep -qiE "API Error|ENOTFOUND|Can't reach the API server"; then
+      echo "$(ts) gard-radar: $label ok (försök $attempt)"
+      return 0
+    fi
+    echo "$(ts) gard-radar: $label misslyckades (försök $attempt, exit $rc)"
+    (( attempt < 3 )) && sleep $(( attempt * 30 ))
+  done
+  return 1
+}
 
 # 1. scan (writes data/scan_failed.txt on crash, so Claude can report it)
 if [[ "$SKIP_SCAN" != "1" ]]; then
@@ -39,7 +93,10 @@ python3 build_site.py
 # 3. Claude, step one: judge ONLY the listings nobody has judged yet
 JUDGED=0
 if [[ "$SKIP_CLAUDE" != "1" ]]; then
-  CLAUDE="$(find_claude)"
+  CLAUDE=""
+  for cand in /opt/homebrew/bin/claude "$HOME"/.nvm/versions/node/*/bin/claude(N-.om); do
+    [[ -x "$cand" ]] && { CLAUDE="$cand"; break; }
+  done
   if [[ -z "$CLAUDE" ]]; then
     echo "$(ts) gard-radar: ingen claude-binär hittad" >&2
   else
