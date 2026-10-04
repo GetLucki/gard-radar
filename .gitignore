@@ -4,3 +4,4 @@ __pycache__/
 scanner/*.log
 data/details.json
 .browser-profile/
+run_radar.sh.bak-*
