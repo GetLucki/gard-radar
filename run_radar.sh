@@ -19,15 +19,67 @@ ts() { date '+%F %T'; }
 cd "$REPO" || { echo "$(ts) gard-radar: repo saknas: $REPO" >&2; exit 1; }
 echo "$(ts) gard-radar: startar"
 
-# 0. Vänta in nätet. Macen vaknar ofta precis vid 07:40 och wifi kommer upp
-#    någon minut senare; 2026-09-19 och 09-20 föll hela körningen på det.
-net_ok() { curl -s -m 8 -o /dev/null -w '%{http_code}' https://www.booli.se/ 2>/dev/null | grep -qE '^(2|3|4)'; }
-for i in {1..60}; do
-  if net_ok; then break; fi
-  (( i == 1 )) && echo "$(ts) gard-radar: inget nät ännu, väntar (max 10 min)"
+# 0. Vänta in nätet. Wi-Fi och routern är avstängda 23:30 till 07:00, jobbet
+#    startar 07:40, och namnuppslagningen hinner inte alltid sätta sig: 3 och 4
+#    oktober 2026 lyckades skanningen medan bada Claude-stegen föll pa ENOTFOUND.
+#    Därför slas varje värd vi faktiskt använder upp, inte bara en webbsida.
+HOSTS=(www.booli.se www.hemnet.se api.anthropic.com github.com)
+
+resolve_ok() {
+  local host
+  for host in "${HOSTS[@]}"; do
+    # -t 5: hellre ett snabbt nej än att hänga pa en död resolver
+    if ! /usr/bin/dscacheutil -q host -a name "$host" 2>/dev/null | grep -q "ip_address"; then
+      if ! /usr/bin/host -W 5 "$host" >/dev/null 2>&1; then
+        LAST_BAD_HOST="$host"
+        return 1
+      fi
+    fi
+  done
+  return 0
+}
+
+net_ok() {
+  resolve_ok || return 1
+  curl -s -m 8 -o /dev/null -w '%{http_code}' https://www.booli.se/ 2>/dev/null | grep -qE '^(2|3|4)'
+}
+
+for i in {1..72}; do
+  if net_ok; then
+    (( i > 1 )) && echo "$(ts) gard-radar: nätet uppe efter $(( (i - 1) * 10 )) s"
+    break
+  fi
+  if (( i == 1 )); then
+    echo "$(ts) gard-radar: väntar pa nätet (saknas: ${LAST_BAD_HOST:-okänd värd}, max 12 min)"
+    # En nattlig Wi-Fi-paus lämnar ofta en inaktuell DNS-cache efter sig
+    /usr/bin/dscacheutil -flushcache 2>/dev/null
+    /usr/bin/sudo -n /usr/bin/killall -HUP mDNSResponder 2>/dev/null
+  fi
   sleep 10
 done
-net_ok || { echo "$(ts) gard-radar: fortfarande inget nät efter 10 min, avbryter"; echo "$(ts) inget nät efter 10 min väntan" > data/scan_failed.txt; }
+
+if ! net_ok; then
+  echo "$(ts) gard-radar: inget nät efter 12 min (saknas: ${LAST_BAD_HOST:-okänd värd}), avbryter"
+  echo "$(ts) inget nät efter 12 min väntan, kunde inte sla upp ${LAST_BAD_HOST:-okänd värd}" > data/scan_failed.txt
+fi
+
+# Kör ett claude -p med omförsök: ett enstaka ENOTFOUND ska inte kosta dagens mejl.
+claude_try() {
+  local label="$1"; shift
+  local attempt out rc
+  for attempt in 1 2 3; do
+    out="$("$@" 2>&1)"
+    rc=$?
+    print -r -- "$out" | tail -n 8
+    if (( rc == 0 )) && ! print -r -- "$out" | grep -qiE "API Error|ENOTFOUND|Can't reach the API server"; then
+      echo "$(ts) gard-radar: $label ok (försök $attempt)"
+      return 0
+    fi
+    echo "$(ts) gard-radar: $label misslyckades (försök $attempt, exit $rc)"
+    (( attempt < 3 )) && sleep $(( attempt * 30 ))
+  done
+  return 1
+}
 
 # 1. scan (writes data/scan_failed.txt on crash, so Claude can report it)
 if [[ "$SKIP_SCAN" != "1" ]]; then
@@ -51,14 +103,13 @@ if [[ "$SKIP_CLAUDE" != "1" ]]; then
     PROMPT="$(awk 'NR==1 && $0=="---" {infm=1; next} infm && $0=="---" {infm=0; next} !infm' "$PROMPT_FILE")"
     if [[ -n "$PROMPT" ]]; then
       rm -f data/new_judgements.json
-      "$CLAUDE" -p "$PROMPT" \
+      claude_try judge "$CLAUDE" -p "$PROMPT" \
         --permission-mode acceptEdits \
         --add-dir "$HOME/.claude" --add-dir "$REPO" \
         --allowedTools "Read,Write,Edit,Glob,Grep,\
 Bash(date:*),Bash(ls:*),Bash(cat:*),Bash(head:*),Bash(tail:*),\
 mcp__gsuite-kalender-privat__read_file,\
-mcp__gmail-litpanda-auto__send_message" 2>&1 | tail -n 8
-      echo "$(ts) gard-radar: judge exit ${pipestatus[1]}"
+mcp__gmail-litpanda-auto__send_message"
       [[ -f data/new_judgements.json ]] && JUDGED=1
     fi
   fi
@@ -73,11 +124,10 @@ python3 build_site.py
 if [[ "$SKIP_CLAUDE" != "1" && -s data/email.html ]]; then
   SEND_PROMPT="$(awk 'NR==1 && $0=="---" {infm=1; next} infm && $0=="---" {infm=0; next} !infm' "$SEND_FILE")"
   if [[ -n "$SEND_PROMPT" && -n "$CLAUDE" ]]; then
-    "$CLAUDE" -p "$SEND_PROMPT" \
+    claude_try send "$CLAUDE" -p "$SEND_PROMPT" \
       --permission-mode acceptEdits \
       --add-dir "$REPO" \
-      --allowedTools "Read,Glob,Grep,mcp__gmail-litpanda-auto__send_message" 2>&1 | tail -n 3
-    echo "$(ts) gard-radar: send exit ${pipestatus[1]}"
+      --allowedTools "Read,Glob,Grep,mcp__gmail-litpanda-auto__send_message"
   fi
 fi
 
