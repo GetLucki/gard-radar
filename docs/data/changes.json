@@ -1,65 +1,14 @@
 {
- "date": "2026-10-03",
- "new": [
-  {
-   "id": "hemnet:21889826",
-   "title": "Backer ",
-   "kommun": "Lilla Edet",
-   "price": 3500000,
-   "land_ha": 25.0,
-   "score": 46,
-   "url": "https://www.hemnet.se/bostad/gard-lilla-edets-kommun-backer-21889826"
-  },
+ "date": "2026-10-04",
+ "new": [],
+ "gone": [
   {
    "id": "booli:5770039",
    "title": "Hundsjövägen 5",
    "kommun": "Alingsås",
    "price": 3795000,
-   "land_ha": null,
-   "score": 30,
-   "url": "https://www.booli.se/bostad/3199514"
-  }
- ],
- "gone": [
-  {
-   "id": "hemnet:21675475",
-   "title": "Ryd Östergård 17",
-   "kommun": "Ljungby",
-   "price": 2798000,
-   "url": "https://www.hemnet.se/bostad/gard-6rum-hamneda-ljungby-kommun-ryd-ostergard-17-21675475",
-   "days_tracked": 15
-  },
-  {
-   "id": "hemnet:21613749",
-   "title": "Böns Gård 1&2",
-   "kommun": "Bengtsfors",
-   "price": 2590000,
-   "url": "https://www.hemnet.se/bostad/gard-5rum-odskolt-bengtsfors-kommun-bons-gard-1-2-21613749",
-   "days_tracked": 15
-  },
-  {
-   "id": "hemnet:21772540",
-   "title": "Nårunga 5:1, del av",
-   "kommun": "Vårgårda",
-   "price": 2600000,
-   "url": "https://www.hemnet.se/bostad/gard-narunga-vargarda-kommun-narunga-5-1,-del-av-21772540",
-   "days_tracked": 15
-  },
-  {
-   "id": "booli:6137590",
-   "title": "Skogsfastighet i Kinnared",
-   "kommun": "Hylte",
-   "price": 3500000,
-   "url": "https://www.booli.se/annons/6137590",
-   "days_tracked": 15
-  },
-  {
-   "id": "booli:6184995",
-   "title": "Bexet 202",
-   "kommun": "Hylte",
-   "price": 4175000,
-   "url": "https://www.booli.se/annons/6184995",
-   "days_tracked": 15
+   "url": "https://www.booli.se/bostad/3199514",
+   "days_tracked": 0
   }
  ],
  "price_changes": [],

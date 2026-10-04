@@ -3398,7 +3398,8 @@
   "title": "Övergården",
   "kommun": "Säffle",
   "ids": [
-   "booli:6292490"
+   "booli:6292490",
+   "hemnet:21891709"
   ]
  },
  "herrljunga|venavallarättaregården1|390": {
@@ -3455,6 +3456,7 @@
   "kommun": "Alingsås",
   "ids": [
    "booli:5770039"
-  ]
+  ],
+  "gone": "2026-10-04"
  }
 }
