@@ -1,14 +1,14 @@
 {
- "date": "2026-10-04",
+ "date": "2026-10-05",
  "new": [],
  "gone": [
   {
-   "id": "booli:5770039",
-   "title": "Hundsjövägen 5",
-   "kommun": "Alingsås",
-   "price": 3795000,
-   "url": "https://www.booli.se/bostad/3199514",
-   "days_tracked": 0
+   "id": "hemnet:21772105",
+   "title": "Stimmerkulla 315",
+   "kommun": "Askersund",
+   "price": 3200000,
+   "url": "https://www.hemnet.se/bostad/gard-70m2-askersunds-kommun-stimmerkulla-315-21772105",
+   "days_tracked": 17
   }
  ],
  "price_changes": [],
