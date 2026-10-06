@@ -1,14 +1,40 @@
 {
- "date": "2026-10-05",
- "new": [],
+ "date": "2026-10-06",
+ "new": [
+  {
+   "id": "booli:6298471",
+   "title": "Getebol Mossen",
+   "kommun": "Säffle",
+   "price": 1895000,
+   "land_ha": 6.5,
+   "score": 28,
+   "url": "https://www.booli.se/annons/6298471"
+  }
+ ],
  "gone": [
   {
-   "id": "hemnet:21772105",
-   "title": "Stimmerkulla 315",
-   "kommun": "Askersund",
-   "price": 3200000,
-   "url": "https://www.hemnet.se/bostad/gard-70m2-askersunds-kommun-stimmerkulla-315-21772105",
-   "days_tracked": 17
+   "id": "hemnet:21775356",
+   "title": "Stret",
+   "kommun": "Gislaved",
+   "price": 3250000,
+   "url": "https://www.hemnet.se/bostad/gard-gislaveds-kommun-stret-21775356",
+   "days_tracked": 18
+  },
+  {
+   "id": "booli:6162110",
+   "title": "Klägghult 2",
+   "kommun": "Svenljunga",
+   "price": 2700000,
+   "url": "https://www.booli.se/annons/6162110",
+   "days_tracked": 18
+  },
+  {
+   "id": "booli:5961037",
+   "title": "Strömsbergsgatan 23",
+   "kommun": "Åmål",
+   "price": 4700000,
+   "url": "https://www.booli.se/annons/5961037",
+   "days_tracked": 18
   }
  ],
  "price_changes": [],

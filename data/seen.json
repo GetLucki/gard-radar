@@ -450,7 +450,8 @@
   "kommun": "Gislaved",
   "ids": [
    "hemnet:21775356"
-  ]
+  ],
+  "gone": "2026-10-06"
  },
  "mellerud|jonstorpidalskog|130": {
   "first_seen": "2026-09-17",
@@ -1985,7 +1986,8 @@
   "ids": [
    "booli:6162110",
    "booli:6212333"
-  ]
+  ],
+  "gone": "2026-10-06"
  },
  "laholm|ramsjön111ab|300": {
   "first_seen": "2026-09-17",
@@ -2440,7 +2442,8 @@
   "kommun": "Åmål",
   "ids": [
    "booli:5961037"
-  ]
+  ],
+  "gone": "2026-10-06"
  },
  "mark|hultetfridkulla|300": {
   "first_seen": "2026-09-17",
@@ -3459,5 +3462,19 @@
    "booli:5770039"
   ],
   "gone": "2026-10-04"
+ },
+ "säffle|getebolmossen|190": {
+  "first_seen": "2026-10-06",
+  "prices": [
+   1895000
+  ],
+  "price_dates": [
+   "2026-10-06"
+  ],
+  "title": "Getebol Mossen",
+  "kommun": "Säffle",
+  "ids": [
+   "booli:6298471"
+  ]
  }
 }

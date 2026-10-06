@@ -1,35 +1,35 @@
 {
- "date": "2026-10-05",
+ "date": "2026-10-06",
  "stats": {
-  "date": "2026-10-05",
-  "matched": 134,
-  "new": 0,
-  "gone": 1,
+  "date": "2026-10-06",
+  "matched": 132,
+  "new": 1,
+  "gone": 3,
   "price_cuts": 0,
   "price_rises": 0,
   "median_price": 2995000,
-  "median_price_per_ha": 226842,
+  "median_price_per_ha": 227498,
   "national_in_band": {
    "hemnet": {
-    "gard": 655,
+    "gard": 646,
     "villa": 80
    },
    "booli": {
-    "gard": 687,
+    "gard": 685,
     "hus": 360
    }
   },
   "hemnet_ok": true,
   "by_region": {
    "Göteborg hinterland": {
-    "count": 30,
+    "count": 29,
     "new": 0,
-    "median_price": 3550000
+    "median_price": 3600000
    },
    "Småland": {
-    "count": 44,
+    "count": 43,
     "new": 0,
-    "median_price": 2997500
+    "median_price": 2995000
    },
    "Halland inland": {
     "count": 13,
@@ -43,29 +43,90 @@
    },
    "Dalsland/Värmland": {
     "count": 31,
-    "new": 0,
-    "median_price": 2800000
+    "new": 1,
+    "median_price": 2750000
    }
   }
  },
  "changes": {
-  "date": "2026-10-05",
-  "new": [],
+  "date": "2026-10-06",
+  "new": [
+   {
+    "id": "booli:6298471",
+    "title": "Getebol Mossen",
+    "kommun": "Säffle",
+    "price": 1895000,
+    "land_ha": 6.5,
+    "score": 28,
+    "url": "https://www.booli.se/annons/6298471"
+   }
+  ],
   "gone": [
    {
-    "id": "hemnet:21772105",
-    "title": "Stimmerkulla 315",
-    "kommun": "Askersund",
-    "price": 3200000,
-    "url": "https://www.hemnet.se/bostad/gard-70m2-askersunds-kommun-stimmerkulla-315-21772105",
-    "days_tracked": 17
+    "id": "hemnet:21775356",
+    "title": "Stret",
+    "kommun": "Gislaved",
+    "price": 3250000,
+    "url": "https://www.hemnet.se/bostad/gard-gislaveds-kommun-stret-21775356",
+    "days_tracked": 18
+   },
+   {
+    "id": "booli:6162110",
+    "title": "Klägghult 2",
+    "kommun": "Svenljunga",
+    "price": 2700000,
+    "url": "https://www.booli.se/annons/6162110",
+    "days_tracked": 18
+   },
+   {
+    "id": "booli:5961037",
+    "title": "Strömsbergsgatan 23",
+    "kommun": "Åmål",
+    "price": 4700000,
+    "url": "https://www.booli.se/annons/5961037",
+    "days_tracked": 18
    }
   ],
   "price_changes": [],
   "first_run": false
  },
- "board_size": 50,
+ "board_size": 49,
  "board_max": 50,
  "candidates_are_unjudged_only": true,
- "listings": []
+ "listings": [
+  {
+   "id": "booli:6298471",
+   "key": "säffle|getebolmossen|190",
+   "title": "Getebol Mossen",
+   "kommun": "Säffle",
+   "region": "Dalsland/Värmland",
+   "price": 1895000,
+   "land_ha": 6.5,
+   "living_m2": null,
+   "rooms": "5 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6298471",
+   "alt_url": null,
+   "drive_h": 2.2,
+   "price_per_ha": 291538,
+   "score": 28,
+   "survival_score": 12,
+   "invest_score": 45,
+   "survival_why": "some forest, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "291 538 kr per ha, above the 227 498 kr median, forest holds its value, built 1939, Dalsland/Värmland resells steadily.",
+   "first_seen": "2026-10-06",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-10-06",
+     1895000
+    ]
+   ],
+   "broker": "Fastighetsbyrån",
+   "days_text": "Inkommet igår",
+   "build_year": 1939,
+   "description": "Gård till salu på Getebol Mossen, Säffle, Säffle – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 87\nPlanritning\nKarta\nSpara\nTill salu\nGetebol Mossen\nGård · Säffle\n\nUtropspris\n\n1 895 000 kr\nBoarea\n\n116 m²\n\nBiarea\n\n16 m²\n\nRum\n\n5 rum\n\nTomtarea\n\n65 158 m²\n\nTotalarea\n\n6,5 ha\n\nByggår\n\n1939\n\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 3 211 kr/mån\n\nUtropspriset per kvadratmeter är 16 300 kr/m²\n\nBostaden har 22 sidvisningar på Booli\n\nBostaden har varit till salu i 1 dag\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nGetebol Mossen, Säffle\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nVärmlands län\nSäffle kommun\nGetebol Mossen\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKont",
+   "is_new_today": true
+  }
+ ]
 }

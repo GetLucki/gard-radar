@@ -1,40 +1,40 @@
 {
- "generated": "2026-10-05T08:09",
+ "generated": "2026-10-06T07:44",
  "config": {
   "price_min": 1000000,
   "price_max": 5000000,
   "land_min_ha": 3
  },
  "stats": {
-  "date": "2026-10-05",
-  "matched": 134,
-  "new": 0,
-  "gone": 1,
+  "date": "2026-10-06",
+  "matched": 132,
+  "new": 1,
+  "gone": 3,
   "price_cuts": 0,
   "price_rises": 0,
   "median_price": 2995000,
-  "median_price_per_ha": 226842,
+  "median_price_per_ha": 227498,
   "national_in_band": {
    "hemnet": {
-    "gard": 655,
+    "gard": 646,
     "villa": 80
    },
    "booli": {
-    "gard": 687,
+    "gard": 685,
     "hus": 360
    }
   },
   "hemnet_ok": true,
   "by_region": {
    "Göteborg hinterland": {
-    "count": 30,
+    "count": 29,
     "new": 0,
-    "median_price": 3550000
+    "median_price": 3600000
    },
    "Småland": {
-    "count": 44,
+    "count": 43,
     "new": 0,
-    "median_price": 2997500
+    "median_price": 2995000
    },
    "Halland inland": {
     "count": 13,
@@ -48,8 +48,8 @@
    },
    "Dalsland/Värmland": {
     "count": 31,
-    "new": 0,
-    "median_price": 2800000
+    "new": 1,
+    "median_price": 2750000
    }
   }
  },
@@ -61,7 +61,7 @@
    "location": "Vårgårda, Vårgårda kommun",
    "kommun_raw": "Vårgårda",
    "price": 1995000,
-   "land_ha": 10.1,
+   "land_ha": 10.13,
    "living_m2": 30,
    "rooms": "2 rum",
    "type": "Gård med jordbruk",
@@ -84,7 +84,7 @@
    "alt_url": "https://www.booli.se/annons/6135428",
    "days_text": "4 månader på Booli",
    "drive_h": 0.9,
-   "price_per_ha": 197525,
+   "price_per_ha": 196940,
    "key": "vårgårda|eklandabrändehov1|200",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -93,11 +93,11 @@
      1995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "lake or stream, 10.1 ha with forest for firewood, wood heating installed, secluded position, 0.9 h from Göteborg. Missing: no well stated.",
-   "invest_why": "197 525 kr per ha, below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "survival_why": "lake or stream, 10.13 ha with forest for firewood, wood heating installed, secluded position, 0.9 h from Göteborg. Missing: no well stated.",
+   "invest_why": "196 940 kr per ha, below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "water",
     "forest",
@@ -143,7 +143,7 @@
    "location": "Attlered, Lilla Edets kommun",
    "kommun_raw": "Lilla Edets",
    "price": 2950000,
-   "land_ha": 23.3,
+   "land_ha": 23.33,
    "living_m2": 130,
    "rooms": "5 rum",
    "type": "Gård/skog",
@@ -164,7 +164,7 @@
    "alt_url": "https://www.booli.se/annons/6185500",
    "days_text": "3 månader på Booli",
    "drive_h": 0.8,
-   "price_per_ha": 126609,
+   "price_per_ha": 126447,
    "key": "lilla edet|attlered122|295",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -173,11 +173,11 @@
      2950000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "23.3 ha with forest for firewood, arable or pasture, barn or workshop, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "126 609 kr per ha, well below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "survival_why": "23.33 ha with forest for firewood, arable or pasture, barn or workshop, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "126 447 kr per ha, well below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -252,11 +252,11 @@
      5000000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "43.1 ha with forest for firewood, arable or pasture, barn or workshop, 1.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "116 009 kr per ha, well below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "116 009 kr per ha, well below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -323,7 +323,7 @@
     "booli:6209799"
    ],
    "alt_url": "https://www.booli.se/bostad/4147431",
-   "days_text": "23 dagar på Booli",
+   "days_text": "24 dagar på Booli",
    "drive_h": 2.0,
    "price_per_ha": 134328,
    "key": "ljungby|boarpstakagård1|270",
@@ -334,11 +334,11 @@
      2700000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1933,
    "survival_why": "20.1 ha with forest for firewood, arable or pasture, wood heating installed, barn or workshop, 2 h from Göteborg. Missing: no well stated.",
-   "invest_why": "134 328 kr per ha, well below the 226 842 kr median, forest holds its value, built 1933, Småland resells well.",
+   "invest_why": "134 328 kr per ha, well below the 227 498 kr median, forest holds its value, built 1933, Småland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -416,11 +416,11 @@
      3295000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1954,
    "survival_why": "lake or stream, 15 ha with forest for firewood, arable or pasture, wood heating installed, barn or workshop. Missing: no well stated.",
-   "invest_why": "219 667 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1954.",
+   "invest_why": "219 667 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1954.",
    "signals": [
     "water",
     "forest",
@@ -469,7 +469,7 @@
    "location": "Gällaryd, Värnamo kommun",
    "kommun_raw": "Värnamo",
    "price": 2995000,
-   "land_ha": 14.4,
+   "land_ha": 14.43,
    "living_m2": 5,
    "rooms": "5,5 rum",
    "type": "Gård utan jordbruk",
@@ -493,7 +493,7 @@
    "alt_url": "https://www.booli.se/bostad/1650446",
    "days_text": "4 månader på Booli",
    "drive_h": 1.9,
-   "price_per_ha": 207986,
+   "price_per_ha": 207554,
    "key": "värnamo|hult1|300",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -502,11 +502,11 @@
      2995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
-   "survival_why": "lake or stream, 14.4 ha with forest for firewood, arable or pasture, barn or workshop, secluded position. Missing: no well stated, no wood heating stated.",
-   "invest_why": "207 986 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "survival_why": "lake or stream, 14.43 ha with forest for firewood, arable or pasture, barn or workshop, secluded position. Missing: no well stated, no wood heating stated.",
+   "invest_why": "207 554 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "water",
     "forest",
@@ -579,11 +579,11 @@
      1500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "16.1 ha with forest for firewood, arable or pasture, 1.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "93 168 kr per ha, well below the 226 842 kr median, forest holds its value, Halland inland resells well.",
+   "invest_why": "93 168 kr per ha, well below the 227 498 kr median, forest holds its value, Halland inland resells well.",
    "signals": [
     "forest",
     "arable"
@@ -657,11 +657,11 @@
      3400000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "16.7 ha with forest for firewood, arable or pasture, wood heating installed, 1.7 h from Göteborg. Missing: no well stated.",
-   "invest_why": "203 593 kr per ha, below the 226 842 kr median, forest holds its value, Halland inland resells well.",
+   "invest_why": "203 593 kr per ha, below the 227 498 kr median, forest holds its value, Halland inland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -737,11 +737,11 @@
      1300000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 10 ha with forest for firewood, arable or pasture, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "130 000 kr per ha, well below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "130 000 kr per ha, well below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "water",
     "forest",
@@ -818,11 +818,11 @@
      1695000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "own well, lake or stream, some forest, arable or pasture, wood heating installed.",
-   "invest_why": "423 750 kr per ha, well above the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "423 750 kr per ha, well above the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "well",
     "water",
@@ -891,7 +891,7 @@
     "booli:6258239"
    ],
    "alt_url": "https://www.booli.se/annons/6258239",
-   "days_text": "27 dagar på Booli",
+   "days_text": "28 dagar på Booli",
    "drive_h": 0.8,
    "price_per_ha": 193182,
    "key": "mark|nödingebackagården2|170",
@@ -902,11 +902,11 @@
      1700000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 8.8 ha with forest for firewood, arable or pasture, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "193 182 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, Göteborg hinterland resells well.",
+   "invest_why": "193 182 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, Göteborg hinterland resells well.",
    "signals": [
     "water",
     "forest",
@@ -952,7 +952,7 @@
    "location": "Tidaholm, Tidaholms kommun",
    "kommun_raw": "Tidaholms",
    "price": 2800000,
-   "land_ha": 33.9,
+   "land_ha": 33.92,
    "living_m2": null,
    "rooms": null,
    "type": "Gård/skog",
@@ -976,7 +976,7 @@
    "alt_url": "https://www.booli.se/annons/6162749",
    "days_text": "3 månader på Booli",
    "drive_h": 1.8,
-   "price_per_ha": 82596,
+   "price_per_ha": 82547,
    "key": "tidaholm|klämman8|280",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -985,11 +985,11 @@
      2800000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "33.9 ha with forest for firewood, arable or pasture, barn or workshop, 1.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "82 596 kr per ha, well below the 226 842 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "survival_why": "33.92 ha with forest for firewood, arable or pasture, barn or workshop, 1.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "82 547 kr per ha, well below the 227 498 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
    "signals": [
     "forest",
     "arable",
@@ -1069,11 +1069,11 @@
      3395000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1964,
    "survival_why": "lake or stream, 15.5 ha with forest for firewood, wood heating installed, barn or workshop, 1 h from Göteborg. Missing: no well stated.",
-   "invest_why": "219 032 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1964.",
+   "invest_why": "219 032 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1964.",
    "signals": [
     "water",
     "forest",
@@ -1121,7 +1121,7 @@
    "location": "Intagan, Lilla Edets kommun",
    "kommun_raw": "Lilla Edets",
    "price": 3500000,
-   "land_ha": 12.4,
+   "land_ha": 12.37,
    "living_m2": 158,
    "rooms": "7 rum",
    "type": "Gård utan jordbruk",
@@ -1146,7 +1146,7 @@
    "alt_url": "https://www.booli.se/annons/6226636",
    "days_text": "En månad på Booli",
    "drive_h": 0.8,
-   "price_per_ha": 282258,
+   "price_per_ha": 282943,
    "key": "lilla edet|intagan128|350",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -1155,11 +1155,11 @@
      3500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1975,
    "survival_why": "lake or stream, some forest, arable or pasture, barn or workshop, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "282 258 kr per ha, above the 226 842 kr median, forest holds its value, built 1975, Göteborg hinterland resells well.",
+   "invest_why": "282 943 kr per ha, above the 227 498 kr median, forest holds its value, built 1975, Göteborg hinterland resells well.",
    "signals": [
     "water",
     "arable",
@@ -1230,11 +1230,11 @@
      2850000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "31.2 ha with forest for firewood, arable or pasture, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "91 346 kr per ha, well below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "91 346 kr per ha, well below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest",
     "arable"
@@ -1308,11 +1308,11 @@
      4900000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "18.3 ha with forest for firewood, arable or pasture, barn or workshop, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "267 760 kr per ha, above the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "267 760 kr per ha, above the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -1358,7 +1358,7 @@
    "location": "Torsvid, Gullspångs kommun",
    "kommun_raw": "Gullspångs",
    "price": 1795000,
-   "land_ha": 7.7,
+   "land_ha": 7.67,
    "living_m2": 96,
    "rooms": "4 rum",
    "type": "Gård/skog",
@@ -1379,7 +1379,7 @@
    "alt_url": "https://www.booli.se/annons/6237207",
    "days_text": "En månad på Booli",
    "drive_h": 2.4,
-   "price_per_ha": 233117,
+   "price_per_ha": 234029,
    "key": "gullspång|torsvidsörgården35|180",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -1388,11 +1388,11 @@
      1795000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1925,
-   "survival_why": "lake or stream, 7.7 ha with forest for firewood, arable or pasture, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "233 117 kr per ha, above the 226 842 kr median, forest holds its value, built 1925, Skaraborg/Vättern resells steadily.",
+   "survival_why": "lake or stream, 7.67 ha with forest for firewood, arable or pasture, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "234 029 kr per ha, above the 227 498 kr median, forest holds its value, built 1925, Skaraborg/Vättern resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -1440,7 +1440,7 @@
    "location": "Tibro, Tibro kommun",
    "kommun_raw": "Tibro",
    "price": 1995000,
-   "land_ha": 14.8,
+   "land_ha": 14.81,
    "living_m2": null,
    "rooms": null,
    "type": "Gård/skog",
@@ -1463,7 +1463,7 @@
    "alt_url": "https://www.booli.se/annons/6072190",
    "days_text": "6 månader på Booli",
    "drive_h": 2.0,
-   "price_per_ha": 134797,
+   "price_per_ha": 134706,
    "key": "tibro|västerhönsa113mfl|200",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -1472,11 +1472,11 @@
      1995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "14.8 ha with forest for firewood, arable or pasture, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "134 797 kr per ha, well below the 226 842 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "survival_why": "14.81 ha with forest for firewood, arable or pasture, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "134 706 kr per ha, well below the 227 498 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
    "signals": [
     "forest",
     "arable",
@@ -1522,7 +1522,7 @@
    "location": "Högsäter, Färgelanda kommun",
    "kommun_raw": "Färgelanda",
    "price": 4300000,
-   "land_ha": 4.7,
+   "land_ha": 4.72,
    "living_m2": 160,
    "rooms": "6 rum",
    "type": "Gård med jordbruk",
@@ -1545,7 +1545,7 @@
    "alt_url": "https://www.booli.se/annons/6177972",
    "days_text": "3 månader på Booli",
    "drive_h": 1.4,
-   "price_per_ha": 914894,
+   "price_per_ha": 911017,
    "key": "färgelanda|grönlanda8|430",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -1554,11 +1554,11 @@
      4300000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, some forest, wood heating installed, second dwelling, barn or workshop. Missing: no well stated.",
-   "invest_why": "914 894 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
+   "invest_why": "911 017 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -1608,7 +1608,7 @@
    "location": "Örby, Marks kommun",
    "kommun_raw": "Marks",
    "price": 3350000,
-   "land_ha": 7.9,
+   "land_ha": 7.94,
    "living_m2": 100,
    "rooms": "5 rum",
    "type": "Gård utan jordbruk",
@@ -1633,7 +1633,7 @@
    "alt_url": "https://www.booli.se/bostad/3791512",
    "days_text": "3 månader på Booli",
    "drive_h": 0.8,
-   "price_per_ha": 424051,
+   "price_per_ha": 421914,
    "key": "mark|forshallsvägen10|335",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -1642,11 +1642,11 @@
      3350000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1930,
    "survival_why": "lake or stream, some forest, wood heating installed, barn or workshop, secluded position. Missing: no well stated.",
-   "invest_why": "424 051 kr per ha, well above the 226 842 kr median, forest holds its value, built 1930, Göteborg hinterland resells well.",
+   "invest_why": "421 914 kr per ha, well above the 227 498 kr median, forest holds its value, built 1930, Göteborg hinterland resells well.",
    "signals": [
     "water",
     "barn",
@@ -1726,11 +1726,11 @@
      1700000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "9.4 ha with forest for firewood, arable or pasture, wood heating installed, barn or workshop, 2 h from Göteborg. Missing: no well stated.",
-   "invest_why": "180 851 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "180 851 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "forest",
     "arable",
@@ -1809,11 +1809,11 @@
      1795000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1939,
    "survival_why": "lake or stream, 6.8 ha with forest for firewood, arable or pasture, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "263 971 kr per ha, above the 226 842 kr median, forest holds its value, built 1939, Dalsland/Värmland resells steadily.",
+   "invest_why": "263 971 kr per ha, above the 227 498 kr median, forest holds its value, built 1939, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -1891,11 +1891,11 @@
      2600000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "lake or stream, 7 ha with forest for firewood, arable or pasture, barn or workshop, 1.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "371 429 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "371 429 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "water",
     "forest",
@@ -1943,7 +1943,7 @@
    "location": "Värnamo, Värnamo kommun",
    "kommun_raw": "Värnamo",
    "price": 3000000,
-   "land_ha": 16.5,
+   "land_ha": 16.49,
    "living_m2": null,
    "rooms": null,
    "type": "Gård med jordbruk",
@@ -1964,7 +1964,7 @@
    "alt_url": "https://www.booli.se/annons/6223997",
    "days_text": "En månad på Booli",
    "drive_h": 1.9,
-   "price_per_ha": 181818,
+   "price_per_ha": 181928,
    "key": "värnamo|tånnöstenhyltan1|300",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -1973,11 +1973,11 @@
      3000000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "16.5 ha with forest for firewood, arable or pasture, barn or workshop, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "181 818 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, Småland resells well.",
+   "survival_why": "16.49 ha with forest for firewood, arable or pasture, barn or workshop, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "181 928 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, Småland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -2043,7 +2043,7 @@
     "booli:6273870"
    ],
    "alt_url": "https://www.booli.se/annons/6273870",
-   "days_text": "17 dagar på Booli",
+   "days_text": "18 dagar på Booli",
    "drive_h": 2.1,
    "price_per_ha": 177083,
    "key": "vaggeryd|fastorp|425",
@@ -2054,11 +2054,11 @@
      4250000
     ]
    ],
-   "days_tracked": 15,
-   "last_seen": "2026-10-05",
+   "days_tracked": 16,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 24 ha with forest for firewood, arable or pasture, 2.1 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "177 083 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, Småland resells well.",
+   "invest_why": "177 083 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, Småland resells well.",
    "signals": [
     "water",
     "forest",
@@ -2129,11 +2129,11 @@
      4500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 23 ha with forest for firewood, 1.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "195 652 kr per ha, below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "195 652 kr per ha, below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "water",
     "forest"
@@ -2207,11 +2207,11 @@
      4900000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "15.2 ha with forest for firewood, arable or pasture, barn or workshop, 1 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "322 368 kr per ha, above the 226 842 kr median, forest holds its value, condition is a capex risk, Halland inland resells well.",
+   "invest_why": "322 368 kr per ha, above the 227 498 kr median, forest holds its value, condition is a capex risk, Halland inland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -2287,11 +2287,11 @@
      4995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1980,
    "survival_why": "19 ha with forest for firewood, arable or pasture, wood heating installed, second dwelling, barn or workshop. Missing: no well stated, 2.6 h from Göteborg.",
-   "invest_why": "262 895 kr per ha, above the 226 842 kr median, forest holds its value, built 1980, Skaraborg/Vättern resells steadily.",
+   "invest_why": "262 895 kr per ha, above the 227 498 kr median, forest holds its value, built 1980, Skaraborg/Vättern resells steadily.",
    "signals": [
     "forest",
     "arable",
@@ -2371,11 +2371,11 @@
      1050000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 7 ha with forest for firewood, barn or workshop, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "150 000 kr per ha, below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "150 000 kr per ha, below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "water",
     "forest",
@@ -2451,11 +2451,11 @@
      1500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 68 ha with forest for firewood, barn or workshop, 2.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "22 059 kr per ha, well below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "22 059 kr per ha, well below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "water",
     "forest",
@@ -2501,7 +2501,7 @@
    "location": "Årjäng, Årjängs kommun",
    "kommun_raw": "Årjängs",
    "price": 2300000,
-   "land_ha": 10.1,
+   "land_ha": 10.11,
    "living_m2": 57,
    "rooms": "3 rum",
    "type": "Gård med jordbruk",
@@ -2524,7 +2524,7 @@
    "alt_url": "https://www.booli.se/bostad/4305114",
    "days_text": "2 månader på Booli",
    "drive_h": 2.4,
-   "price_per_ha": 227723,
+   "price_per_ha": 227498,
    "key": "årjäng|stommenmobacken1|230",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -2533,11 +2533,11 @@
      2300000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "lake or stream, 10.1 ha with forest for firewood, second dwelling, barn or workshop, secluded position. Missing: no well stated, no wood heating stated.",
-   "invest_why": "227 723 kr per ha, above the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "survival_why": "lake or stream, 10.11 ha with forest for firewood, second dwelling, barn or workshop, secluded position. Missing: no well stated, no wood heating stated.",
+   "invest_why": "227 498 kr per ha, above the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -2585,7 +2585,7 @@
    "location": "Holsljunga, Svenljunga kommun",
    "kommun_raw": "Svenljunga",
    "price": 1400000,
-   "land_ha": 18.0,
+   "land_ha": 18.01,
    "living_m2": null,
    "rooms": null,
    "type": "Gård med skogsbruk",
@@ -2601,7 +2601,7 @@
    "kommun": "Svenljunga",
    "region": "Göteborg hinterland",
    "drive_h": 1.2,
-   "price_per_ha": 77778,
+   "price_per_ha": 77735,
    "key": "svenljunga|svenljungaölebo16|140",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -2610,11 +2610,11 @@
      1400000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "18 ha with forest for firewood, 1.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "77 778 kr per ha, well below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "survival_why": "18.01 ha with forest for firewood, 1.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "77 735 kr per ha, well below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest"
    ],
@@ -2684,11 +2684,11 @@
      2200000
     ]
    ],
-   "days_tracked": 8,
-   "last_seen": "2026-10-05",
+   "days_tracked": 9,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "20 ha with forest for firewood, second dwelling, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "110 000 kr per ha, well below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "110 000 kr per ha, well below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest",
     "second_dwelling"
@@ -2757,11 +2757,11 @@
      3700000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "31.3 ha with forest for firewood, 0.6 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "118 211 kr per ha, well below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "118 211 kr per ha, well below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest"
    ],
@@ -2823,7 +2823,7 @@
     "booli:6259696"
    ],
    "alt_url": "https://www.booli.se/annons/6259696",
-   "days_text": "26 dagar på Booli",
+   "days_text": "27 dagar på Booli",
    "drive_h": 1.3,
    "price_per_ha": 642857,
    "key": "ulricehamn|härbjörnarp110|450",
@@ -2834,11 +2834,11 @@
      4500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "7 ha with forest for firewood, arable or pasture, barn or workshop, 1.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "642 857 kr per ha, well above the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "642 857 kr per ha, well above the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -2909,11 +2909,11 @@
      4500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "46.6 ha with forest for firewood, 0.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "96 567 kr per ha, well below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "96 567 kr per ha, well below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest"
    ],
@@ -2956,7 +2956,7 @@
    "location": "Torup, Hylte kommun",
    "kommun_raw": "Hylte",
    "price": 2400000,
-   "land_ha": 12.6,
+   "land_ha": 12.59,
    "living_m2": null,
    "rooms": null,
    "type": "Gård/skog",
@@ -2974,7 +2974,7 @@
    "kommun": "Hylte",
    "region": "Halland inland",
    "drive_h": 1.3,
-   "price_per_ha": 190476,
+   "price_per_ha": 190627,
    "key": "hylte|boberg101|240",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -2983,11 +2983,11 @@
      2400000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "12.6 ha with forest for firewood, barn or workshop, 1.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "190 476 kr per ha, below the 226 842 kr median, forest holds its value, Halland inland resells well.",
+   "survival_why": "12.59 ha with forest for firewood, barn or workshop, 1.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "190 627 kr per ha, below the 227 498 kr median, forest holds its value, Halland inland resells well.",
    "signals": [
     "forest",
     "barn"
@@ -3052,7 +3052,7 @@
     "booli:6292490"
    ],
    "alt_url": "https://www.booli.se/annons/6292490",
-   "days_text": "4 dagar på Booli",
+   "days_text": "5 dagar på Booli",
    "drive_h": 2.2,
    "price_per_ha": 129310,
    "key": "säffle|övergården|375",
@@ -3063,11 +3063,11 @@
      3750000
     ]
    ],
-   "days_tracked": 3,
-   "last_seen": "2026-10-05",
+   "days_tracked": 4,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "29 ha with forest for firewood, arable or pasture, barn or workshop, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "129 310 kr per ha, well below the 226 842 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
+   "invest_why": "129 310 kr per ha, well below the 227 498 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "arable",
@@ -3132,7 +3132,7 @@
     "booli:6258567"
    ],
    "alt_url": "https://www.booli.se/annons/6258567",
-   "days_text": "26 dagar på Booli",
+   "days_text": "27 dagar på Booli",
    "drive_h": 1.9,
    "price_per_ha": 115000,
    "key": "dals-ed|solumryggstödet1|115",
@@ -3143,11 +3143,11 @@
      1150000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "10 ha with forest for firewood, barn or workshop, secluded position, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "115 000 kr per ha, well below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "115 000 kr per ha, well below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "forest",
     "barn",
@@ -3222,11 +3222,11 @@
      1300000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 6 ha with forest for firewood, 1.5 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "216 667 kr per ha, below the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "invest_why": "216 667 kr per ha, below the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "forest"
@@ -3291,7 +3291,7 @@
     "booli:5646353"
    ],
    "alt_url": "https://www.booli.se/annons/5646353",
-   "days_text": "4 dagar på Booli",
+   "days_text": "5 dagar på Booli",
    "drive_h": 2.4,
    "price_per_ha": 415833,
    "key": "alvesta|sjövik1|250",
@@ -3302,11 +3302,11 @@
      2495000
     ]
    ],
-   "days_tracked": 3,
-   "last_seen": "2026-10-05",
+   "days_tracked": 4,
+   "last_seen": "2026-10-06",
    "build_year": 1770,
    "survival_why": "lake or stream, 6 ha with forest for firewood, arable or pasture, second dwelling, barn or workshop. Missing: no well stated, no wood heating stated.",
-   "invest_why": "415 833 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1770.",
+   "invest_why": "415 833 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1770.",
    "signals": [
     "water",
     "forest",
@@ -3354,7 +3354,7 @@
    "location": "Årjäng, Årjängs kommun",
    "kommun_raw": "Årjängs",
    "price": 2800000,
-   "land_ha": 22.7,
+   "land_ha": 22.67,
    "living_m2": null,
    "rooms": null,
    "type": "Gård med jordbruk",
@@ -3377,7 +3377,7 @@
    "alt_url": "https://www.booli.se/annons/6162331",
    "days_text": "3 månader på Booli",
    "drive_h": 2.4,
-   "price_per_ha": 123348,
+   "price_per_ha": 123511,
    "key": "årjäng|nybyggerud1|280",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -3386,11 +3386,11 @@
      2800000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "lake or stream, 22.7 ha with forest for firewood, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "123 348 kr per ha, well below the 226 842 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
+   "survival_why": "lake or stream, 22.67 ha with forest for firewood, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "123 511 kr per ha, well below the 227 498 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -3455,7 +3455,7 @@
     "booli:6289430"
    ],
    "alt_url": "https://www.booli.se/annons/6289430",
-   "days_text": "6 dagar på Booli",
+   "days_text": "7 dagar på Booli",
    "drive_h": 2.6,
    "price_per_ha": 133436,
    "key": "vetlanda|göljaryd1|435",
@@ -3466,11 +3466,11 @@
      4350000
     ]
    ],
-   "days_tracked": 5,
-   "last_seen": "2026-10-05",
+   "days_tracked": 6,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "32.6 ha with forest for firewood, arable or pasture, barn or workshop. Missing: no well stated, no wood heating stated.",
-   "invest_why": "133 436 kr per ha, well below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "133 436 kr per ha, well below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -3515,7 +3515,7 @@
    "location": "Årjäng, Årjängs kommun",
    "kommun_raw": "Årjängs",
    "price": 2575000,
-   "land_ha": 10.8,
+   "land_ha": 10.83,
    "living_m2": 183,
    "rooms": "11 rum",
    "type": "Gård/skog",
@@ -3539,7 +3539,7 @@
    "alt_url": "https://www.booli.se/annons/6219050",
    "days_text": "En månad på Booli",
    "drive_h": 2.4,
-   "price_per_ha": 238426,
+   "price_per_ha": 237765,
    "key": "årjäng|västramörtnäs503|258",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -3548,11 +3548,11 @@
      2575000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1982,
-   "survival_why": "10.8 ha with forest for firewood, wood heating installed, secluded position, 2.4 h from Göteborg. Missing: no well stated.",
-   "invest_why": "238 426 kr per ha, above the 226 842 kr median, forest holds its value, built 1982, Dalsland/Värmland resells steadily.",
+   "survival_why": "10.83 ha with forest for firewood, wood heating installed, secluded position, 2.4 h from Göteborg. Missing: no well stated.",
+   "invest_why": "237 765 kr per ha, above the 227 498 kr median, forest holds its value, built 1982, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "wood_heat",
@@ -3617,7 +3617,7 @@
     "booli:6259373"
    ],
    "alt_url": "https://www.booli.se/annons/6259373",
-   "days_text": "26 dagar på Booli",
+   "days_text": "27 dagar på Booli",
    "drive_h": 3.0,
    "price_per_ha": 189394,
    "key": "hultsfred|torp8|250",
@@ -3628,11 +3628,11 @@
      2500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1912,
    "survival_why": "lake or stream, 13.2 ha with forest for firewood, arable or pasture, second dwelling. Missing: no well stated, no wood heating stated.",
-   "invest_why": "189 394 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1912.",
+   "invest_why": "189 394 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1912.",
    "signals": [
     "water",
     "forest",
@@ -3706,8 +3706,8 @@
      2700000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, arable or pasture, wood heating installed, barn or workshop, secluded position. Missing: no well stated.",
    "invest_why": "forest holds its value, condition is a capex risk, Småland resells well.",
@@ -3784,11 +3784,11 @@
      3500000
     ]
    ],
-   "days_tracked": 2,
-   "last_seen": "2026-10-05",
+   "days_tracked": 3,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "25 ha with forest for firewood, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "140 000 kr per ha, below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "140 000 kr per ha, below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest"
    ],
@@ -3856,11 +3856,11 @@
      3500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "24 ha with forest for firewood, 1.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "145 833 kr per ha, below the 226 842 kr median, forest holds its value, Halland inland resells well.",
+   "invest_why": "145 833 kr per ha, below the 227 498 kr median, forest holds its value, Halland inland resells well.",
    "signals": [
     "forest"
    ],
@@ -3924,7 +3924,7 @@
     "booli:6281362"
    ],
    "alt_url": "https://www.booli.se/bostad/4145255",
-   "days_text": "11 dagar på Booli",
+   "days_text": "12 dagar på Booli",
    "drive_h": 1.3,
    "price_per_ha": 820046,
    "key": "ulricehamn|skärvenäs105|360",
@@ -3935,11 +3935,11 @@
      3600000
     ]
    ],
-   "days_tracked": 8,
-   "last_seen": "2026-10-05",
+   "days_tracked": 9,
+   "last_seen": "2026-10-06",
    "build_year": 1917,
    "survival_why": "some forest, arable or pasture, wood heating installed, barn or workshop, 1.3 h from Göteborg. Missing: no well stated.",
-   "invest_why": "820 046 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1917.",
+   "invest_why": "820 046 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1917.",
    "signals": [
     "forest",
     "arable",
@@ -4013,11 +4013,11 @@
      4700000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "42 ha with forest for firewood, second dwelling, barn or workshop, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "111 905 kr per ha, well below the 226 842 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
+   "invest_why": "111 905 kr per ha, well below the 227 498 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "second_dwelling",
@@ -4089,11 +4089,11 @@
      4800000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "26.3 ha with forest for firewood, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "182 510 kr per ha, below the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "182 510 kr per ha, below the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest"
    ],
@@ -4136,7 +4136,7 @@
    "location": "Strömsnäsbruk, Markaryds kommun",
    "kommun_raw": "Markaryds",
    "price": 1750000,
-   "land_ha": 18.7,
+   "land_ha": 18.74,
    "living_m2": 63,
    "rooms": "4 rum",
    "type": "Gård/skog",
@@ -4157,9 +4157,9 @@
     "booli:6292331"
    ],
    "alt_url": "https://www.booli.se/annons/6292331",
-   "days_text": "4 dagar på Booli",
+   "days_text": "5 dagar på Booli",
    "drive_h": 1.9,
-   "price_per_ha": 93583,
+   "price_per_ha": 93383,
    "key": "markaryd|mjäryd1288|175",
    "first_seen": "2026-10-02",
    "price_history": [
@@ -4168,11 +4168,11 @@
      1750000
     ]
    ],
-   "days_tracked": 3,
-   "last_seen": "2026-10-05",
+   "days_tracked": 4,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
-   "survival_why": "18.7 ha with forest for firewood, second dwelling, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "93 583 kr per ha, well below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "survival_why": "18.74 ha with forest for firewood, second dwelling, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "93 383 kr per ha, well below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "forest",
     "second_dwelling"
@@ -4241,11 +4241,11 @@
      2800000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "36 ha with forest for firewood, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "77 778 kr per ha, well below the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "invest_why": "77 778 kr per ha, well below the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest"
    ],
@@ -4297,7 +4297,7 @@
    "lat": 57.86670025,
    "lon": 12.76754211,
    "published": null,
-   "days_text": "3 dagar på Booli",
+   "days_text": "4 dagar på Booli",
    "broker": "LF Fastighetsförmedling",
    "teaser": "",
    "image": "https://bcdn.se/images/cache/54395102_1440x0.jpg",
@@ -4315,11 +4315,11 @@
      3300000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "some forest, 0.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "110 000 kr per ha, well below the 226 842 kr median, forest holds its value, built 1909, Göteborg hinterland resells well.",
+   "invest_why": "110 000 kr per ha, well below the 227 498 kr median, forest holds its value, built 1909, Göteborg hinterland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -4392,11 +4392,11 @@
      2495000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "lake or stream, 9.5 ha with forest for firewood, wood heating installed, barn or workshop, 2.2 h from Göteborg. Missing: no well stated.",
-   "invest_why": "262 632 kr per ha, above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "262 632 kr per ha, above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "water",
     "forest",
@@ -4468,11 +4468,11 @@
      3000000
     ]
    ],
-   "days_tracked": 6,
-   "last_seen": "2026-10-05",
+   "days_tracked": 7,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "23.5 ha with forest for firewood, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "127 660 kr per ha, well below the 226 842 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "invest_why": "127 660 kr per ha, well below the 227 498 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
    "signals": [
     "forest",
     "barn"
@@ -4535,7 +4535,7 @@
     "booli:6157475"
    ],
    "alt_url": "https://www.booli.se/annons/6157475",
-   "days_text": "3 månader på Booli",
+   "days_text": "4 månader på Booli",
    "drive_h": 2.0,
    "price_per_ha": 633333,
    "key": "bengtsfors|asslebynskarpa|380",
@@ -4546,11 +4546,11 @@
      3800000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 6 ha with forest for firewood, arable or pasture, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "633 333 kr per ha, well above the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "invest_why": "633 333 kr per ha, well above the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -4627,11 +4627,11 @@
      4250000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 30.6 ha with forest for firewood, secluded position, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "138 889 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
+   "invest_why": "138 889 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -4696,7 +4696,7 @@
     "booli:6259055"
    ],
    "alt_url": "https://www.booli.se/annons/6259055",
-   "days_text": "26 dagar på Booli",
+   "days_text": "27 dagar på Booli",
    "drive_h": 1.9,
    "price_per_ha": 112500,
    "key": "dals-ed|sämsämsmon1|135",
@@ -4707,11 +4707,11 @@
      1350000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "12 ha with forest for firewood, barn or workshop, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "112 500 kr per ha, well below the 226 842 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
+   "invest_why": "112 500 kr per ha, well below the 227 498 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "barn",
@@ -4782,11 +4782,11 @@
      2350000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "10.4 ha with forest for firewood, arable or pasture, barn or workshop. Missing: no well stated, no wood heating stated.",
-   "invest_why": "225 962 kr per ha, below the 226 842 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "invest_why": "225 962 kr per ha, below the 227 498 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
    "signals": [
     "forest",
     "arable",
@@ -4831,7 +4831,7 @@
    "location": "Ingrirud, Säffle kommun",
    "kommun_raw": "Säffle",
    "price": 1700000,
-   "land_ha": 5.4,
+   "land_ha": 5.37,
    "living_m2": 62,
    "rooms": null,
    "type": "Gård utan jordbruk",
@@ -4854,7 +4854,7 @@
    "alt_url": "https://www.booli.se/annons/6243750",
    "days_text": "En månad på Booli",
    "drive_h": 2.2,
-   "price_per_ha": 314815,
+   "price_per_ha": 316574,
    "key": "säffle|ingrirudhagalund|170",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -4863,11 +4863,11 @@
      1700000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "5.4 ha with forest for firewood, arable or pasture, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "314 815 kr per ha, above the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "survival_why": "5.37 ha with forest for firewood, arable or pasture, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "316 574 kr per ha, above the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "arable"
@@ -4933,7 +4933,7 @@
     "booli:6247955"
    ],
    "alt_url": "https://www.booli.se/annons/6247955",
-   "days_text": "6 dagar på Booli",
+   "days_text": "7 dagar på Booli",
    "drive_h": 2.0,
    "price_per_ha": 511538,
    "key": "tibro|kroppetorpmatildero1|200",
@@ -4944,11 +4944,11 @@
      1995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, some forest, arable or pasture, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "511 538 kr per ha, well above the 226 842 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "invest_why": "511 538 kr per ha, well above the 227 498 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -5028,11 +5028,11 @@
      2500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "8 ha with forest for firewood, wood heating installed, barn or workshop, 1.9 h from Göteborg. Missing: no well stated.",
-   "invest_why": "312 500 kr per ha, above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "312 500 kr per ha, above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "forest",
     "barn",
@@ -5109,11 +5109,11 @@
      2500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1860,
    "survival_why": "6 ha with forest for firewood, arable or pasture, second dwelling, barn or workshop. Missing: no well stated, no wood heating stated.",
-   "invest_why": "416 667 kr per ha, well above the 226 842 kr median, forest holds its value, built 1860, Småland resells well.",
+   "invest_why": "416 667 kr per ha, well above the 227 498 kr median, forest holds its value, built 1860, Småland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -5162,7 +5162,7 @@
    "location": "Höghult, Älmhults kommun",
    "kommun_raw": "Älmhults",
    "price": 2695000,
-   "land_ha": 6.3,
+   "land_ha": 6.25,
    "living_m2": 200,
    "rooms": "8 rum",
    "type": "Gård/skog",
@@ -5186,7 +5186,7 @@
    "alt_url": "https://www.booli.se/bostad/3860736",
    "days_text": "3 månader på Booli",
    "drive_h": 2.3,
-   "price_per_ha": 427778,
+   "price_per_ha": 431200,
    "key": "älmhult|höghult2288|270",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -5195,11 +5195,11 @@
      2695000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
-   "survival_why": "own well, 6.3 ha with forest for firewood, arable or pasture, barn or workshop, 2.3 h from Göteborg. Missing: no wood heating stated.",
-   "invest_why": "427 778 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "survival_why": "own well, 6.25 ha with forest for firewood, arable or pasture, barn or workshop, 2.3 h from Göteborg. Missing: no wood heating stated.",
+   "invest_why": "431 200 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "well",
     "forest",
@@ -5280,11 +5280,11 @@
      2995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "lake or stream, 19.7 ha with forest for firewood, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "152 030 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "152 030 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "water",
     "forest",
@@ -5329,7 +5329,7 @@
    "location": "Anderstorp, Gislaveds kommun",
    "kommun_raw": "Gislaveds",
    "price": 3000000,
-   "land_ha": 14.1,
+   "land_ha": 14.08,
    "living_m2": 160,
    "rooms": null,
    "type": "Gård med jordbruk",
@@ -5350,7 +5350,7 @@
    "alt_url": "https://www.booli.se/annons/6146845",
    "days_text": "4 månader på Booli",
    "drive_h": 1.6,
-   "price_per_ha": 212766,
+   "price_per_ha": 213068,
    "key": "gislaved|kvarnaberget10|300",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -5359,11 +5359,11 @@
      3000000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "14.1 ha with forest for firewood, 1.6 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "212 766 kr per ha, below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "survival_why": "14.08 ha with forest for firewood, 1.6 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "213 068 kr per ha, below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest"
    ],
@@ -5438,11 +5438,11 @@
      3000000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "5.8 ha with forest for firewood, arable or pasture, barn or workshop, 2.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "517 241 kr per ha, well above the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "517 241 kr per ha, well above the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -5476,78 +5476,6 @@
     "in_land_value": 25,
     "in_condition": 10,
     "in_location": 7,
-    "in_market": 4
-   },
-   "score": 42
-  },
-  {
-   "id": "hemnet:21775356",
-   "source": "hemnet",
-   "title": "Stret",
-   "location": "Anderstorp, Gislaveds kommun",
-   "kommun_raw": "Gislaveds",
-   "price": 3250000,
-   "land_ha": 17.0,
-   "living_m2": null,
-   "rooms": null,
-   "type": "Gård med skogsbruk",
-   "url": "https://www.hemnet.se/bostad/gard-gislaveds-kommun-stret-21775356",
-   "lat": 57.3319435,
-   "lon": 13.6387381,
-   "published": "2026-08-26",
-   "broker": "Areal | Jönköping",
-   "teaser": "Virkesrikt och tillgängligt!\nStret 1:7 är en mindre skogsfastighet belägen i Stret mellan Anderstorp och Nissafors. Fastigheten är obebyggd och skogsmarken domineras av äldre slutavverkningsskogar med bra drivningsförhållanden. Av fastighetens totala areal om 17,4 ha utgörs 16,3 ha av produktiv skogsmark och resterande myr och övrig mark.",
-   "image": "https://bilder.hemnet.se/images/itemgallery_cut/15/4c/154cbc99a106372d59964f3ee8550038.jpg",
-   "upcoming": false,
-   "labels": [],
-   "kommun": "Gislaved",
-   "region": "Småland",
-   "drive_h": 1.6,
-   "price_per_ha": 191176,
-   "key": "gislaved|stret|325",
-   "first_seen": "2026-09-17",
-   "price_history": [
-    [
-     "2026-09-17",
-     3250000
-    ]
-   ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
-   "build_year": null,
-   "survival_why": "17 ha with forest for firewood, 1.6 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "191 176 kr per ha, below the 226 842 kr median, forest holds its value, Småland resells well.",
-   "signals": [
-    "forest"
-   ],
-   "survival_parts": {
-    "water": 0,
-    "land": 10,
-    "heating": 0,
-    "shelter": 0,
-    "seclusion": 0,
-    "reach": 11
-   },
-   "invest_parts": {
-    "price": 22,
-    "land_value": 15,
-    "condition": 10,
-    "location": 11,
-    "market": 4
-   },
-   "survival_score": 21,
-   "invest_score": 62,
-   "score_parts": {
-    "sv_water": 0,
-    "sv_land": 10,
-    "sv_heating": 0,
-    "sv_shelter": 0,
-    "sv_seclusion": 0,
-    "sv_reach": 11,
-    "in_price": 22,
-    "in_land_value": 15,
-    "in_condition": 10,
-    "in_location": 11,
     "in_market": 4
    },
    "score": 42
@@ -5591,11 +5519,11 @@
      4500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1936,
    "survival_why": "lake or stream, 5 ha with forest for firewood, barn or workshop, 1.7 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "900 000 kr per ha, well above the 226 842 kr median, forest holds its value, built 1936, Halland inland resells well.",
+   "invest_why": "900 000 kr per ha, well above the 227 498 kr median, forest holds its value, built 1936, Halland inland resells well.",
    "signals": [
     "water",
     "forest",
@@ -5671,11 +5599,11 @@
      4500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 17.9 ha with forest for firewood, arable or pasture. Missing: no well stated, no wood heating stated.",
-   "invest_why": "251 397 kr per ha, above the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "251 397 kr per ha, above the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "water",
     "forest",
@@ -5720,7 +5648,7 @@
    "location": "Tuthult, Markaryds kommun",
    "kommun_raw": "Markaryds",
    "price": 2750000,
-   "land_ha": 17.6,
+   "land_ha": 17.55,
    "living_m2": 72,
    "rooms": null,
    "type": "Gård med skogsbruk",
@@ -5733,6 +5661,7 @@
    "image": "https://bilder.hemnet.se/images/itemgallery_cut/6e/fb/6efb0d07a65fea7fa7a4f14d5a1f65b5.jpg",
    "upcoming": false,
    "labels": [
+    "ONGOING_BIDDING",
     "HIGHLIGHTED_SHOWING"
    ],
    "kommun": "Markaryd",
@@ -5741,9 +5670,9 @@
     "booli:6272989"
    ],
    "alt_url": "https://www.booli.se/annons/6272989",
-   "days_text": "17 dagar på Booli",
+   "days_text": "18 dagar på Booli",
    "drive_h": 1.9,
-   "price_per_ha": 156250,
+   "price_per_ha": 156695,
    "key": "markaryd|tuthult1535|275",
    "first_seen": "2026-09-20",
    "price_history": [
@@ -5752,11 +5681,11 @@
      2750000
     ]
    ],
-   "days_tracked": 15,
-   "last_seen": "2026-10-05",
+   "days_tracked": 16,
+   "last_seen": "2026-10-06",
    "build_year": 1895,
-   "survival_why": "17.6 ha with forest for firewood, second dwelling, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "156 250 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1895.",
+   "survival_why": "17.55 ha with forest for firewood, second dwelling, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "156 695 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1895.",
    "signals": [
     "forest",
     "second_dwelling",
@@ -5826,11 +5755,11 @@
      3500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "32 ha with forest for firewood, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "109 375 kr per ha, well below the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "invest_why": "109 375 kr per ha, well below the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest"
    ],
@@ -5882,7 +5811,7 @@
    "lat": 58.053228,
    "lon": 12.924505,
    "published": null,
-   "days_text": "4 dagar på Booli",
+   "days_text": "5 dagar på Booli",
    "broker": "LF Fastighetsförmedling",
    "teaser": "",
    "image": "https://bcdn.se/images/cache/56631756_1440x0.jpg",
@@ -5900,11 +5829,11 @@
      3900000
     ]
    ],
-   "days_tracked": 3,
-   "last_seen": "2026-10-05",
+   "days_tracked": 4,
+   "last_seen": "2026-10-06",
    "build_year": 1910,
    "survival_why": "some forest, 1.1 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "208 556 kr per ha, below the 226 842 kr median, forest holds its value, built 1910, Göteborg hinterland resells well.",
+   "invest_why": "208 556 kr per ha, below the 227 498 kr median, forest holds its value, built 1910, Göteborg hinterland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -5947,7 +5876,7 @@
    "location": "Strand, Bengtsfors kommun",
    "kommun_raw": "Bengtsfors",
    "price": 4800000,
-   "land_ha": 50.6,
+   "land_ha": 50.62,
    "living_m2": null,
    "rooms": null,
    "type": "Gård/skog",
@@ -5968,9 +5897,9 @@
     "booli:6216013"
    ],
    "alt_url": "https://www.booli.se/annons/6216013",
-   "days_text": "En månad på Booli",
+   "days_text": "2 månader på Booli",
    "drive_h": 2.0,
-   "price_per_ha": 94862,
+   "price_per_ha": 94824,
    "key": "bengtsfors|strand|480",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -5979,11 +5908,11 @@
      4800000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "50.6 ha with forest for firewood, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "94 862 kr per ha, well below the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "survival_why": "50.62 ha with forest for firewood, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "94 824 kr per ha, well below the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest"
    ],
@@ -6026,7 +5955,7 @@
    "location": "Ärtemark, Bengtsfors kommun",
    "kommun_raw": "Bengtsfors",
    "price": 1900000,
-   "land_ha": 10.2,
+   "land_ha": 10.19,
    "living_m2": 67,
    "rooms": "4 rum",
    "type": "Gård med skogsbruk",
@@ -6050,7 +5979,7 @@
    "alt_url": "https://www.booli.se/annons/6176063",
    "days_text": "3 månader på Booli",
    "drive_h": 2.0,
-   "price_per_ha": 186275,
+   "price_per_ha": 186457,
    "key": "bengtsfors|ormansbyn17|190",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -6059,11 +5988,11 @@
      1900000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "10.2 ha with forest for firewood, second dwelling, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "186 275 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
+   "survival_why": "10.19 ha with forest for firewood, second dwelling, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "186 457 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "second_dwelling",
@@ -6141,11 +6070,11 @@
      1995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "lake or stream, some forest, barn or workshop, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "289 130 kr per ha, above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "289 130 kr per ha, above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "water",
     "barn",
@@ -6218,11 +6147,11 @@
      3500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, some forest, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "221 519 kr per ha, below the 226 842 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "invest_why": "221 519 kr per ha, below the 227 498 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
    "signals": [
     "water",
     "lowmaint_renovated"
@@ -6285,7 +6214,7 @@
     "booli:6274473"
    ],
    "alt_url": "https://www.booli.se/annons/6274473",
-   "days_text": "17 dagar på Booli",
+   "days_text": "18 dagar på Booli",
    "drive_h": 2.8,
    "price_per_ha": 179612,
    "key": "askersund|stimmerkulla801|370",
@@ -6296,11 +6225,11 @@
      3700000
     ]
    ],
-   "days_tracked": 15,
-   "last_seen": "2026-10-05",
+   "days_tracked": 16,
+   "last_seen": "2026-10-06",
    "build_year": 1975,
    "survival_why": "20.6 ha with forest for firewood, arable or pasture, barn or workshop. Missing: no well stated, no wood heating stated.",
-   "invest_why": "179 612 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, built 1975.",
+   "invest_why": "179 612 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, built 1975.",
    "signals": [
     "forest",
     "arable",
@@ -6355,7 +6284,7 @@
    "lat": 57.47593,
    "lon": 12.809874,
    "published": null,
-   "days_text": "14 dagar på Booli",
+   "days_text": "15 dagar på Booli",
    "broker": null,
    "teaser": "",
    "image": "https://bcdn.se/images/cache/56237785_1440x0.jpg",
@@ -6373,11 +6302,11 @@
      3995000
     ]
    ],
-   "days_tracked": 17,
-   "last_seen": "2026-10-05",
+   "days_tracked": 18,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, some forest, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "551 034 kr per ha, well above the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "551 034 kr per ha, well above the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "water",
     "lowmaint_renovated"
@@ -6421,7 +6350,7 @@
    "location": "Agunnaryd, Ljungby kommun",
    "kommun_raw": "Ljungby",
    "price": 4800000,
-   "land_ha": 33.4,
+   "land_ha": 33.36,
    "living_m2": null,
    "rooms": null,
    "type": "Gård/skog",
@@ -6442,7 +6371,7 @@
    "alt_url": "https://www.booli.se/annons/6233070",
    "days_text": "En månad på Booli",
    "drive_h": 2.0,
-   "price_per_ha": 143713,
+   "price_per_ha": 143885,
    "key": "ljungby|lönshult2|480",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -6451,11 +6380,11 @@
      4800000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "33.4 ha with forest for firewood, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "143 713 kr per ha, below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "survival_why": "33.36 ha with forest for firewood, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "143 885 kr per ha, below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest",
     "barn",
@@ -6500,7 +6429,7 @@
    "location": "Skepplanda, Ale kommun",
    "kommun_raw": "Ale",
    "price": 2095000,
-   "land_ha": 4.9,
+   "land_ha": 4.92,
    "living_m2": 112,
    "rooms": "5 rum",
    "type": "Gård utan jordbruk",
@@ -6525,7 +6454,7 @@
    "alt_url": "https://www.booli.se/annons/6118047",
    "days_text": "2 månader på Booli",
    "drive_h": 0.5,
-   "price_per_ha": 427551,
+   "price_per_ha": 425813,
    "key": "ale|ryksdamm280|210",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -6538,11 +6467,11 @@
      2095000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, arable or pasture, barn or workshop, 0.5 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "427 551 kr per ha, well above the 226 842 kr median, condition is a capex risk, Göteborg hinterland resells well.",
+   "invest_why": "425 813 kr per ha, well above the 227 498 kr median, condition is a capex risk, Göteborg hinterland resells well.",
    "signals": [
     "water",
     "arable",
@@ -6589,7 +6518,7 @@
    "location": "Svanskog, Säffle kommun",
    "kommun_raw": "Säffle",
    "price": 3500000,
-   "land_ha": 10.8,
+   "land_ha": 10.84,
    "living_m2": 131,
    "rooms": "6 rum",
    "type": "Gård/skog",
@@ -6613,7 +6542,7 @@
    "alt_url": "https://www.booli.se/annons/6184735",
    "days_text": "3 månader på Booli",
    "drive_h": 2.2,
-   "price_per_ha": 324074,
+   "price_per_ha": 322878,
    "key": "säffle|norraskarbolenebacken|350",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -6622,11 +6551,11 @@
      3500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1994,
-   "survival_why": "10.8 ha with forest for firewood, second dwelling, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "324 074 kr per ha, above the 226 842 kr median, forest holds its value, built 1994, Dalsland/Värmland resells steadily.",
+   "survival_why": "10.84 ha with forest for firewood, second dwelling, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "322 878 kr per ha, above the 227 498 kr median, forest holds its value, built 1994, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "second_dwelling",
@@ -6701,11 +6630,11 @@
      1900000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "lake or stream, 5 ha with forest for firewood, barn or workshop, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "380 000 kr per ha, well above the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "invest_why": "380 000 kr per ha, well above the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "forest",
@@ -6772,7 +6701,7 @@
     "booli:6279256"
    ],
    "alt_url": "https://www.booli.se/annons/6279256",
-   "days_text": "13 dagar på Booli",
+   "days_text": "14 dagar på Booli",
    "drive_h": 2.1,
    "price_per_ha": 177273,
    "key": "vaggeryd|nässja|390",
@@ -6783,11 +6712,11 @@
      3900000
     ]
    ],
-   "days_tracked": 8,
-   "last_seen": "2026-10-05",
+   "days_tracked": 9,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "22 ha with forest for firewood, barn or workshop, 2.1 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "177 273 kr per ha, below the 226 842 kr median, forest holds its value, condition is a capex risk, Småland resells well.",
+   "invest_why": "177 273 kr per ha, below the 227 498 kr median, forest holds its value, condition is a capex risk, Småland resells well.",
    "signals": [
     "forest",
     "barn",
@@ -6833,7 +6762,7 @@
    "location": "Sätila, Marks kommun",
    "kommun_raw": "Marks",
    "price": 3995000,
-   "land_ha": 7.6,
+   "land_ha": 7.55,
    "living_m2": 97,
    "rooms": "6 rum",
    "type": "Gård/skog",
@@ -6858,7 +6787,7 @@
    "alt_url": "https://www.booli.se/annons/6149504",
    "days_text": "3 månader på Booli",
    "drive_h": 0.8,
-   "price_per_ha": 525658,
+   "price_per_ha": 529139,
    "key": "mark|ramhultavägen47|400",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -6867,11 +6796,11 @@
      3995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
-   "survival_why": "lake or stream, 7.6 ha with forest for firewood, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "525 658 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "survival_why": "lake or stream, 7.55 ha with forest for firewood, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "529 139 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "water",
     "forest",
@@ -6938,7 +6867,7 @@
     "booli:6289101"
    ],
    "alt_url": "https://www.booli.se/annons/6289101",
-   "days_text": "6 dagar på Booli",
+   "days_text": "7 dagar på Booli",
    "drive_h": 2.3,
    "price_per_ha": 1333333,
    "key": "älmhult|lindåskråkeryd2397|400",
@@ -6949,11 +6878,11 @@
      4000000
     ]
    ],
-   "days_tracked": 5,
-   "last_seen": "2026-10-05",
+   "days_tracked": 6,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, arable or pasture, barn or workshop, 2.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "1 333 333 kr per ha, well above the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "1 333 333 kr per ha, well above the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest",
     "arable",
@@ -7026,11 +6955,11 @@
      4295000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 2.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "104 756 kr per ha, well below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "104 756 kr per ha, well below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -7100,8 +7029,8 @@
      4475000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1868,
    "survival_why": "lake or stream, some forest, arable or pasture, wood heating installed. Missing: no well stated, 2.6 h from Göteborg.",
    "invest_why": "forest holds its value, condition is a capex risk, built 1868, Småland resells well.",
@@ -7179,11 +7108,11 @@
      4500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "44.5 ha with forest for firewood, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "101 124 kr per ha, well below the 226 842 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
+   "invest_why": "101 124 kr per ha, well below the 227 498 kr median, forest holds its value, condition is a capex risk, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "highmaint_defects"
@@ -7254,11 +7183,11 @@
      4700000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "111 905 kr per ha, well below the 226 842 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
+   "invest_why": "111 905 kr per ha, well below the 227 498 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -7310,7 +7239,7 @@
    "lat": 56.45511578,
    "lon": 13.28021424,
    "published": null,
-   "days_text": "6 dagar på Booli",
+   "days_text": "7 dagar på Booli",
    "broker": "Fastighetsbyrån",
    "teaser": "",
    "image": "https://bcdn.se/images/cache/56591352_1440x0.jpg",
@@ -7328,11 +7257,11 @@
      1700000
     ]
    ],
-   "days_tracked": 5,
-   "last_seen": "2026-10-05",
+   "days_tracked": 6,
+   "last_seen": "2026-10-06",
    "build_year": 1914,
    "survival_why": "some forest, 1.7 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "150 442 kr per ha, below the 226 842 kr median, forest holds its value, built 1914, Halland inland resells well.",
+   "invest_why": "150 442 kr per ha, below the 227 498 kr median, forest holds its value, built 1914, Halland inland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -7402,11 +7331,11 @@
      2995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "some forest, 1.7 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "213 929 kr per ha, below the 226 842 kr median, forest holds its value, built 1909, Halland inland resells well.",
+   "invest_why": "213 929 kr per ha, below the 227 498 kr median, forest holds its value, built 1909, Halland inland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -7449,7 +7378,7 @@
    "location": "Alingsås, Ale kommun",
    "kommun_raw": "Ale",
    "price": 4975000,
-   "land_ha": 11.3,
+   "land_ha": 11.33,
    "living_m2": 156,
    "rooms": "6 rum",
    "type": "Gård med skogsbruk",
@@ -7473,7 +7402,7 @@
    "alt_url": "https://www.booli.se/annons/6246141",
    "days_text": "En månad på Booli",
    "drive_h": 0.5,
-   "price_per_ha": 440265,
+   "price_per_ha": 439100,
    "key": "ale|stockedalen150|498",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -7482,11 +7411,11 @@
      4975000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
-   "survival_why": "11.3 ha with forest for firewood, 0.5 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "440 265 kr per ha, well above the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "survival_why": "11.33 ha with forest for firewood, 0.5 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "439 100 kr per ha, well above the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "forest"
    ],
@@ -7538,7 +7467,7 @@
    "lat": 57.08375205,
    "lon": 14.17948213,
    "published": null,
-   "days_text": "10 dagar på Booli",
+   "days_text": "11 dagar på Booli",
    "broker": "Lantgårdar AB",
    "teaser": "",
    "image": "https://bcdn.se/images/cache/56410364_1440x0.jpg",
@@ -7556,11 +7485,11 @@
      3500000
     ]
    ],
-   "days_tracked": 8,
-   "last_seen": "2026-10-05",
+   "days_tracked": 9,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "some forest, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "159 091 kr per ha, below the 226 842 kr median, forest holds its value, built 1909, Småland resells well.",
+   "invest_why": "159 091 kr per ha, below the 227 498 kr median, forest holds its value, built 1909, Småland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -7633,11 +7562,11 @@
      1400000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "12.7 ha with forest for firewood. Missing: no well stated, no wood heating stated.",
-   "invest_why": "110 236 kr per ha, well below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "110 236 kr per ha, well below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest"
    ],
@@ -7712,8 +7641,8 @@
      1600000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
    "invest_why": "forest holds its value, Göteborg hinterland resells well.",
@@ -7786,11 +7715,11 @@
      1695000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "209 259 kr per ha, below the 226 842 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "invest_why": "209 259 kr per ha, below the 227 498 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -7823,83 +7752,6 @@
     "in_condition": 15,
     "in_location": 7,
     "in_market": 3
-   },
-   "score": 34
-  },
-  {
-   "id": "booli:6162110",
-   "source": "booli",
-   "title": "Klägghult 2",
-   "location": "Gård · Kalv · Svenljunga",
-   "kommun_raw": "Svenljunga",
-   "county": "Västra Götalands län",
-   "price": 2700000,
-   "land_ha": 7.1,
-   "living_m2": null,
-   "rooms": "7 rum",
-   "type": "Gård",
-   "url": "https://www.booli.se/annons/6162110",
-   "lat": 57.276982,
-   "lon": 13.124574,
-   "published": null,
-   "days_text": "2 månader på Booli",
-   "broker": "LF Fastighetsförmedling",
-   "teaser": "",
-   "image": "https://bcdn.se/images/cache/55017007_1440x0.jpg",
-   "upcoming": false,
-   "labels": [],
-   "kommun": "Svenljunga",
-   "region": "Göteborg hinterland",
-   "alt_ids": [
-    "booli:6212333"
-   ],
-   "drive_h": 1.2,
-   "price_per_ha": 380282,
-   "key": "svenljunga|klägghult2|270",
-   "first_seen": "2026-09-17",
-   "price_history": [
-    [
-     "2026-09-17",
-     2700000
-    ]
-   ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
-   "build_year": 1964,
-   "survival_why": "some forest, 1.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "380 282 kr per ha, well above the 226 842 kr median, forest holds its value, built 1964, Göteborg hinterland resells well.",
-   "signals": [
-    "lowmaint_renovated"
-   ],
-   "survival_parts": {
-    "water": 0,
-    "land": 5,
-    "heating": 0,
-    "shelter": 0,
-    "seclusion": 0,
-    "reach": 15
-   },
-   "invest_parts": {
-    "price": 4,
-    "land_value": 8,
-    "condition": 15,
-    "location": 15,
-    "market": 5
-   },
-   "survival_score": 20,
-   "invest_score": 47,
-   "score_parts": {
-    "sv_water": 0,
-    "sv_land": 5,
-    "sv_heating": 0,
-    "sv_shelter": 0,
-    "sv_seclusion": 0,
-    "sv_reach": 15,
-    "in_price": 4,
-    "in_land_value": 8,
-    "in_condition": 15,
-    "in_location": 15,
-    "in_market": 5
    },
    "score": 34
   },
@@ -7937,11 +7789,11 @@
      2900000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 0.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "458 136 kr per ha, well above the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "458 136 kr per ha, well above the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -8018,11 +7870,11 @@
      3250000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1939,
    "survival_why": "some forest, barn or workshop, 1 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "722 222 kr per ha, well above the 226 842 kr median, forest holds its value, built 1939, Halland inland resells well.",
+   "invest_why": "722 222 kr per ha, well above the 227 498 kr median, forest holds its value, built 1939, Halland inland resells well.",
    "signals": [
     "forest",
     "barn",
@@ -8097,11 +7949,11 @@
      3475000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1940,
    "survival_why": "lake or stream, second dwelling, barn or workshop, 1.9 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "827 381 kr per ha, well above the 226 842 kr median, built 1940, Dalsland/Värmland resells steadily.",
+   "invest_why": "827 381 kr per ha, well above the 227 498 kr median, built 1940, Dalsland/Värmland resells steadily.",
    "signals": [
     "water",
     "second_dwelling",
@@ -8173,11 +8025,11 @@
      3950000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 1.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "684 575 kr per ha, well above the 226 842 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "invest_why": "684 575 kr per ha, well above the 227 498 kr median, forest holds its value, Göteborg hinterland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -8245,11 +8097,11 @@
      3995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "41.2 ha with forest for firewood. Missing: no well stated, no wood heating stated.",
-   "invest_why": "96 966 kr per ha, well below the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "96 966 kr per ha, well below the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest"
    ],
@@ -8325,11 +8177,11 @@
      4995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "lake or stream, 9 ha with forest for firewood, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "555 000 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "555 000 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "water",
     "forest",
@@ -8387,7 +8239,9 @@
    "teaser": "Torstensbyn Torerud - Kila\r\n\r\nVälkommen till en välskött och fin gård med ett naturskönt läge och cirka 4 hektar skogsmark. Här erbjuds ett trivsamt bostadshus om 5 rum och kök.\r\nStort vardagsrum med öppen planlösning till matsal och intilliggande kök med vedspis. På övre plan finns tre rymliga sovrum. Gott om förvaringsmöjligheter .\r\nFastigheten omges av vacker natur och erbjuder gott om utrymme…",
    "image": "https://bilder.hemnet.se/images/itemgallery_cut/62/d8/62d8e02e4853406b1d9848d694ccbcaa.jpg",
    "upcoming": false,
-   "labels": [],
+   "labels": [
+    "HIGHLIGHTED_SHOWING"
+   ],
    "kommun": "Säffle",
    "region": "Dalsland/Värmland",
    "alt_ids": [
@@ -8405,11 +8259,11 @@
      1500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1920,
    "survival_why": "some forest, wood heating installed, barn or workshop, 2.2 h from Göteborg. Missing: no well stated.",
-   "invest_why": "375 000 kr per ha, well above the 226 842 kr median, forest holds its value, built 1920, Dalsland/Värmland resells steadily.",
+   "invest_why": "375 000 kr per ha, well above the 227 498 kr median, forest holds its value, built 1920, Dalsland/Värmland resells steadily.",
    "signals": [
     "forest",
     "barn",
@@ -8482,11 +8336,11 @@
      2800000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "some forest, 1.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "403 458 kr per ha, well above the 226 842 kr median, forest holds its value, built 1909, Göteborg hinterland resells well.",
+   "invest_why": "403 458 kr per ha, well above the 227 498 kr median, forest holds its value, built 1909, Göteborg hinterland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -8554,11 +8408,11 @@
      1750000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1890,
    "survival_why": "own well, some forest, arable or pasture, barn or workshop. Missing: no wood heating stated, 2.6 h from Göteborg.",
-   "invest_why": "583 333 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1890.",
+   "invest_why": "583 333 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1890.",
    "signals": [
     "well",
     "forest",
@@ -8630,8 +8484,8 @@
      3275000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 1.9 h from Göteborg. Missing: no well stated, no wood heating stated.",
    "invest_why": "forest holds its value, Småland resells well.",
@@ -8704,11 +8558,11 @@
      1995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 2.1 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "228 000 kr per ha, above the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "228 000 kr per ha, above the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -8783,11 +8637,11 @@
      2100000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "5.1 ha with forest for firewood, arable or pasture, barn or workshop. Missing: no well stated, no wood heating stated.",
-   "invest_why": "411 765 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "411 765 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "forest",
     "arable",
@@ -8826,6 +8680,80 @@
    "score": 29
   },
   {
+   "id": "booli:6298471",
+   "source": "booli",
+   "title": "Getebol Mossen",
+   "location": "Gård · Säffle",
+   "kommun_raw": "Säffle",
+   "county": "Värmlands län",
+   "price": 1895000,
+   "land_ha": 6.5,
+   "living_m2": null,
+   "rooms": "5 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/annons/6298471",
+   "lat": 59.10909565,
+   "lon": 12.86721961,
+   "published": null,
+   "days_text": "Inkommet igår",
+   "broker": "Fastighetsbyrån",
+   "teaser": "",
+   "image": "https://bcdn.se/images/cache/56754362_1440x0.jpg",
+   "upcoming": false,
+   "labels": [],
+   "kommun": "Säffle",
+   "region": "Dalsland/Värmland",
+   "drive_h": 2.2,
+   "price_per_ha": 291538,
+   "key": "säffle|getebolmossen|190",
+   "first_seen": "2026-10-06",
+   "price_history": [
+    [
+     "2026-10-06",
+     1895000
+    ]
+   ],
+   "days_tracked": 0,
+   "last_seen": "2026-10-06",
+   "build_year": 1939,
+   "survival_why": "some forest, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "291 538 kr per ha, above the 227 498 kr median, forest holds its value, built 1939, Dalsland/Värmland resells steadily.",
+   "signals": [
+    "lowmaint_renovated"
+   ],
+   "survival_parts": {
+    "water": 0,
+    "land": 5,
+    "heating": 0,
+    "shelter": 0,
+    "seclusion": 0,
+    "reach": 7
+   },
+   "invest_parts": {
+    "price": 12,
+    "land_value": 8,
+    "condition": 15,
+    "location": 7,
+    "market": 3
+   },
+   "survival_score": 12,
+   "invest_score": 45,
+   "score_parts": {
+    "sv_water": 0,
+    "sv_land": 5,
+    "sv_heating": 0,
+    "sv_shelter": 0,
+    "sv_seclusion": 0,
+    "sv_reach": 7,
+    "in_price": 12,
+    "in_land_value": 8,
+    "in_condition": 15,
+    "in_location": 7,
+    "in_market": 3
+   },
+   "score": 28
+  },
+  {
    "id": "booli:6188277",
    "source": "booli",
    "title": "Slättö Lunden 1",
@@ -8859,11 +8787,11 @@
      3850000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 2007,
    "survival_why": "some forest, 2.5 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "394 872 kr per ha, well above the 226 842 kr median, forest holds its value, house needs little money, built 2007.",
+   "invest_why": "394 872 kr per ha, well above the 227 498 kr median, forest holds its value, house needs little money, built 2007.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -8940,11 +8868,11 @@
      4650000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1967,
    "survival_why": "some forest, barn or workshop, 2.4 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "1 256 757 kr per ha, well above the 226 842 kr median, forest holds its value, built 1967, Småland resells well.",
+   "invest_why": "1 256 757 kr per ha, well above the 227 498 kr median, forest holds its value, built 1967, Småland resells well.",
    "signals": [
     "forest",
     "barn",
@@ -9000,7 +8928,7 @@
    "lat": 57.96510896,
    "lon": 12.9004142,
    "published": null,
-   "days_text": "5 dagar på Booli",
+   "days_text": "6 dagar på Booli",
    "broker": "Fastighetsbyrån",
    "teaser": "",
    "image": "https://bcdn.se/images/cache/56606729_1440x0.jpg",
@@ -9018,11 +8946,11 @@
      4250000
     ]
    ],
-   "days_tracked": 3,
-   "last_seen": "2026-10-05",
+   "days_tracked": 4,
+   "last_seen": "2026-10-06",
    "build_year": 1930,
    "survival_why": "0.9 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "944 444 kr per ha, well above the 226 842 kr median, built 1930, Göteborg hinterland resells well.",
+   "invest_why": "944 444 kr per ha, well above the 227 498 kr median, built 1930, Göteborg hinterland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -9092,11 +9020,11 @@
      4750000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "0.5 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "1 552 288 kr per ha, well above the 226 842 kr median, Göteborg hinterland resells well.",
+   "invest_why": "1 552 288 kr per ha, well above the 227 498 kr median, Göteborg hinterland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -9166,11 +9094,11 @@
      2995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "0.8 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "730 488 kr per ha, well above the 226 842 kr median, built 1909, Göteborg hinterland resells well.",
+   "invest_why": "730 488 kr per ha, well above the 227 498 kr median, built 1909, Göteborg hinterland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -9245,11 +9173,11 @@
      4500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1950,
    "survival_why": "lake or stream, barn or workshop, 2.3 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "1 184 211 kr per ha, well above the 226 842 kr median, built 1950, Småland resells well.",
+   "invest_why": "1 184 211 kr per ha, well above the 227 498 kr median, built 1950, Småland resells well.",
    "signals": [
     "water",
     "barn",
@@ -9303,7 +9231,7 @@
    "lat": 56.614452,
    "lon": 14.204369,
    "published": null,
-   "days_text": "27 dagar på Booli",
+   "days_text": "28 dagar på Booli",
    "broker": "Fastighetsbyrån",
    "teaser": "",
    "image": "https://bcdn.se/images/cache/49534636_1440x0.jpg",
@@ -9321,11 +9249,11 @@
      2500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1950,
    "survival_why": "some forest, 2.3 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "409 836 kr per ha, well above the 226 842 kr median, forest holds its value, built 1950, Småland resells well.",
+   "invest_why": "409 836 kr per ha, well above the 227 498 kr median, forest holds its value, built 1950, Småland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -9377,7 +9305,7 @@
    "lat": 56.41829544,
    "lon": 13.3912762,
    "published": null,
-   "days_text": "21 dagar på Booli",
+   "days_text": "22 dagar på Booli",
    "broker": null,
    "teaser": "",
    "image": "https://bcdn.se/images/cache/56142522_1440x0.jpg",
@@ -9395,8 +9323,8 @@
      1500000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1911,
    "survival_why": "1.7 h from Göteborg. Missing: no well stated, little or no forest.",
    "invest_why": "built 1911, Halland inland resells well.",
@@ -9463,7 +9391,7 @@
     "booli:6230019"
    ],
    "alt_url": "https://www.booli.se/bostad/4339581",
-   "days_text": "21 dagar på Booli",
+   "days_text": "22 dagar på Booli",
    "drive_h": 2.2,
    "price_per_ha": 264216,
    "key": "töreboda|borrebodasörgården23|270",
@@ -9474,11 +9402,11 @@
      2695000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1929,
    "survival_why": "some forest, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "264 216 kr per ha, above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1929.",
+   "invest_why": "264 216 kr per ha, above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1929.",
    "signals": [
     "income",
     "highmaint_defects"
@@ -9554,11 +9482,11 @@
      2750000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1909,
    "survival_why": "some forest, second dwelling, barn or workshop, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "916 667 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, built 1909.",
+   "invest_why": "916 667 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, built 1909.",
    "signals": [
     "forest",
     "second_dwelling",
@@ -9631,11 +9559,11 @@
      3750000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "566 465 kr per ha, well above the 226 842 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "invest_why": "566 465 kr per ha, well above the 227 498 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -9667,80 +9595,6 @@
     "in_land_value": 8,
     "in_condition": 15,
     "in_location": 7,
-    "in_market": 3
-   },
-   "score": 24
-  },
-  {
-   "id": "booli:5961037",
-   "source": "booli",
-   "title": "Strömsbergsgatan 23",
-   "location": "Gård · Nygård · Åmål",
-   "kommun_raw": "Åmål",
-   "county": "Västra Götalands län",
-   "price": 4700000,
-   "land_ha": null,
-   "living_m2": null,
-   "rooms": "7 rum",
-   "type": "Gård",
-   "url": "https://www.booli.se/annons/5961037",
-   "lat": 59.04595867,
-   "lon": 12.68919515,
-   "published": null,
-   "days_text": "9 månader på Booli",
-   "broker": "LF Fastighetsförmedling",
-   "teaser": "",
-   "image": "https://bcdn.se/images/cache/53573583_1440x0.jpg",
-   "upcoming": false,
-   "labels": [],
-   "kommun": "Åmål",
-   "region": "Dalsland/Värmland",
-   "drive_h": 1.9,
-   "price_per_ha": null,
-   "key": "åmål|strömsbergsgatan23|470",
-   "first_seen": "2026-09-17",
-   "price_history": [
-    [
-     "2026-09-17",
-     4700000
-    ]
-   ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
-   "build_year": 1816,
-   "survival_why": "1.9 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "built 1816, Dalsland/Värmland resells steadily.",
-   "signals": [
-    "lowmaint_renovated"
-   ],
-   "survival_parts": {
-    "water": 0,
-    "land": 0,
-    "heating": 0,
-    "shelter": 0,
-    "seclusion": 0,
-    "reach": 11
-   },
-   "invest_parts": {
-    "price": 10,
-    "land_value": 0,
-    "condition": 12,
-    "location": 11,
-    "market": 3
-   },
-   "survival_score": 11,
-   "invest_score": 36,
-   "score_parts": {
-    "sv_water": 0,
-    "sv_land": 0,
-    "sv_heating": 0,
-    "sv_shelter": 0,
-    "sv_seclusion": 0,
-    "sv_reach": 11,
-    "in_price": 10,
-    "in_land_value": 0,
-    "in_condition": 12,
-    "in_location": 11,
     "in_market": 3
    },
    "score": 24
@@ -9779,11 +9633,11 @@
      1895000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "1.7 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "473 750 kr per ha, well above the 226 842 kr median, Halland inland resells well.",
+   "invest_why": "473 750 kr per ha, well above the 227 498 kr median, Halland inland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -9835,7 +9689,7 @@
    "lat": 58.781694,
    "lon": 12.408922,
    "published": null,
-   "days_text": "12 dagar på Booli",
+   "days_text": "13 dagar på Booli",
    "broker": "Fastighetsbyrån",
    "teaser": "",
    "image": "https://bcdn.se/images/cache/56418730_1440x0.jpg",
@@ -9853,11 +9707,11 @@
      1695000
     ]
    ],
-   "days_tracked": 8,
-   "last_seen": "2026-10-05",
+   "days_tracked": 9,
+   "last_seen": "2026-10-06",
    "build_year": 1940,
    "survival_why": "1.5 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "441 406 kr per ha, well above the 226 842 kr median, built 1940, Dalsland/Värmland resells steadily.",
+   "invest_why": "441 406 kr per ha, well above the 227 498 kr median, built 1940, Dalsland/Värmland resells steadily.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -9927,11 +9781,11 @@
      1875000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "1.9 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "512 295 kr per ha, well above the 226 842 kr median, Dalsland/Värmland resells steadily.",
+   "invest_why": "512 295 kr per ha, well above the 227 498 kr median, Dalsland/Värmland resells steadily.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -10001,8 +9855,8 @@
      1295000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "2.2 h from Göteborg. Missing: no well stated, little or no forest.",
    "invest_why": "Skaraborg/Vättern resells steadily.",
@@ -10075,11 +9929,11 @@
      4995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 2014,
    "survival_why": "2.3 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "1 590 764 kr per ha, well above the 226 842 kr median, house needs little money, built 2014, Småland resells well.",
+   "invest_why": "1 590 764 kr per ha, well above the 227 498 kr median, house needs little money, built 2014, Småland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -10149,8 +10003,8 @@
      1195000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1800,
    "survival_why": "some forest, second dwelling, barn or workshop. Missing: no well stated, no wood heating stated.",
    "invest_why": "forest holds its value, condition is a capex risk, built 1800, Skaraborg/Vättern resells steadily.",
@@ -10201,7 +10055,7 @@
    "location": "Vaggeryd, Vaggeryds kommun",
    "kommun_raw": "Vaggeryds",
    "price": 1650000,
-   "land_ha": 3.1,
+   "land_ha": 3.12,
    "living_m2": null,
    "rooms": null,
    "type": "Gård med jordbruk",
@@ -10219,7 +10073,7 @@
    "kommun": "Vaggeryd",
    "region": "Småland",
    "drive_h": 2.1,
-   "price_per_ha": 532258,
+   "price_per_ha": 528846,
    "key": "vaggeryd|älgebo114|165",
    "first_seen": "2026-09-17",
    "price_history": [
@@ -10228,11 +10082,11 @@
      1650000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest, 2.1 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "532 258 kr per ha, well above the 226 842 kr median, forest holds its value, condition is a capex risk, Småland resells well.",
+   "invest_why": "528 846 kr per ha, well above the 227 498 kr median, forest holds its value, condition is a capex risk, Småland resells well.",
    "signals": [
     "forest",
     "income",
@@ -10309,11 +10163,11 @@
      3995000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1929,
    "survival_why": "second dwelling, barn or workshop, 2 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "907 955 kr per ha, well above the 226 842 kr median, condition is a capex risk, built 1929, Skaraborg/Vättern resells steadily.",
+   "invest_why": "907 955 kr per ha, well above the 227 498 kr median, condition is a capex risk, built 1929, Skaraborg/Vättern resells steadily.",
    "signals": [
     "second_dwelling",
     "barn",
@@ -10386,11 +10240,11 @@
      2875000
     ]
    ],
-   "days_tracked": 17,
-   "last_seen": "2026-10-05",
+   "days_tracked": 18,
+   "last_seen": "2026-10-06",
    "build_year": 1920,
    "survival_why": "2 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "590 349 kr per ha, well above the 226 842 kr median, built 1920, Dalsland/Värmland resells steadily.",
+   "invest_why": "590 349 kr per ha, well above the 227 498 kr median, built 1920, Dalsland/Värmland resells steadily.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -10442,7 +10296,7 @@
    "lat": 56.63745133,
    "lon": 14.43815302,
    "published": null,
-   "days_text": "18 dagar på Booli",
+   "days_text": "19 dagar på Booli",
    "broker": "LF Fastighetsförmedling",
    "teaser": "",
    "image": "https://bcdn.se/images/cache/56241288_1440x0.jpg",
@@ -10460,11 +10314,11 @@
      3150000
     ]
    ],
-   "days_tracked": 18,
-   "last_seen": "2026-10-05",
+   "days_tracked": 19,
+   "last_seen": "2026-10-06",
    "build_year": 1877,
    "survival_why": "2.4 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "1 016 129 kr per ha, well above the 226 842 kr median, built 1877, Småland resells well.",
+   "invest_why": "1 016 129 kr per ha, well above the 227 498 kr median, built 1877, Småland resells well.",
    "signals": [
     "lowmaint_renovated"
    ],
@@ -10507,7 +10361,7 @@
    "location": "Åseda, Vetlanda kommun",
    "kommun_raw": "Vetlanda",
    "price": 1695000,
-   "land_ha": 3.3,
+   "land_ha": 3.27,
    "living_m2": 123,
    "rooms": "6 rum",
    "type": "Gård utan jordbruk",
@@ -10529,9 +10383,9 @@
     "booli:6273731"
    ],
    "alt_url": "https://www.booli.se/bostad/1734121",
-   "days_text": "17 dagar på Booli",
+   "days_text": "18 dagar på Booli",
    "drive_h": 2.6,
-   "price_per_ha": 513636,
+   "price_per_ha": 518349,
    "key": "vetlanda|lillahillhult16|170",
    "first_seen": "2026-09-18",
    "price_history": [
@@ -10540,11 +10394,11 @@
      1695000
     ]
    ],
-   "days_tracked": 17,
-   "last_seen": "2026-10-05",
+   "days_tracked": 18,
+   "last_seen": "2026-10-06",
    "build_year": null,
    "survival_why": "some forest. Missing: no well stated, no wood heating stated.",
-   "invest_why": "513 636 kr per ha, well above the 226 842 kr median, forest holds its value, Småland resells well.",
+   "invest_why": "518 349 kr per ha, well above the 227 498 kr median, forest holds its value, Småland resells well.",
    "signals": [
     "forest"
    ],
