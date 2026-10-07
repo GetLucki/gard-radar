@@ -636,7 +636,8 @@
   "kommun": "Åmål",
   "ids": [
    "hemnet:21769217"
-  ]
+  ],
+  "gone": "2026-10-07"
  },
  "sävsjö|sunnerbysävjedal1|450": {
   "first_seen": "2026-09-17",
@@ -769,20 +770,6 @@
   ],
   "gone": "2026-09-27"
  },
- "varberg|karlgustavsonås1|325": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   3250000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Karl Gustav Sonås 1",
-  "kommun": "Varberg",
-  "ids": [
-   "hemnet:21761841"
-  ]
- },
  "hultsfred|hultsfredhultsfred319mfl|140": {
   "first_seen": "2026-09-17",
   "prices": [
@@ -866,7 +853,8 @@
   "kommun": "Säffle",
   "ids": [
    "hemnet:21750512"
-  ]
+  ],
+  "gone": "2026-10-07"
  },
  "säffle|bäcken|190": {
   "first_seen": "2026-09-17",
@@ -2218,7 +2206,8 @@
   "title": "Sundsmarken Håbergsledet 1",
   "kommun": "Mariestad",
   "ids": [
-   "booli:4957920"
+   "booli:4957920",
+   "hemnet:19870315"
   ]
  },
  "ulricehamn|hössnagrytåsen101|460": {
@@ -3235,7 +3224,8 @@
   "title": "Skållerud Eriksbyn 2",
   "kommun": "Mellerud",
   "ids": [
-   "booli:6280457"
+   "booli:6280457",
+   "hemnet:21793039"
   ]
  },
  "älmhult|prästgårdsvägen4|390": {
@@ -3475,6 +3465,50 @@
   "kommun": "Säffle",
   "ids": [
    "booli:6298471"
+  ]
+ },
+ "hylte|gassljunganorrgård|195": {
+  "first_seen": "2026-10-07",
+  "prices": [
+   1950000
+  ],
+  "price_dates": [
+   "2026-10-07"
+  ],
+  "title": "Gassljunga Norrgård",
+  "kommun": "Hylte",
+  "ids": [
+   "hemnet:21894349"
+  ]
+ },
+ "tidaholm|ingemarstorpsörgården|350": {
+  "first_seen": "2026-10-07",
+  "prices": [
+   3495000
+  ],
+  "price_dates": [
+   "2026-10-07"
+  ],
+  "title": "Ingemarstorp Sörgården",
+  "kommun": "Tidaholm",
+  "ids": [
+   "hemnet:21894124"
+  ]
+ },
+ "varberg|karlgustavsonås1|300": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   3250000,
+   3000000
+  ],
+  "price_dates": [
+   "2026-09-17",
+   "2026-10-07"
+  ],
+  "title": "Karl Gustav Sonås 1",
+  "kommun": "Varberg",
+  "ids": [
+   "hemnet:21761841"
   ]
  }
 }
