@@ -125,7 +125,8 @@
   "kommun": "Alvesta",
   "ids": [
    "hemnet:21687595"
-  ]
+  ],
+  "gone": "2026-10-08"
  },
  "mark|nödingebackagården2|170": {
   "first_seen": "2026-09-17",
@@ -223,7 +224,8 @@
   "kommun": "Hylte",
   "ids": [
    "hemnet:21784069"
-  ]
+  ],
+  "gone": "2026-10-08"
  },
  "bengtsfors|skogstraxutanförbengtsfors|450": {
   "first_seen": "2026-09-17",
@@ -350,20 +352,6 @@
   "kommun": "Askersund",
   "ids": [
    "hemnet:21776152"
-  ]
- },
- "säffle|ingrirudhagalund|170": {
-  "first_seen": "2026-09-17",
-  "prices": [
-   1700000
-  ],
-  "price_dates": [
-   "2026-09-17"
-  ],
-  "title": "Ingrirud Hagalund",
-  "kommun": "Säffle",
-  "ids": [
-   "hemnet:21778059"
   ]
  },
  "värnamo|funtabo1|295": {
@@ -1517,7 +1505,8 @@
   "kommun": "Laholm",
   "ids": [
    "booli:6265788"
-  ]
+  ],
+  "gone": "2026-10-08"
  },
  "tranemo|soxbo1|195": {
   "first_seen": "2026-09-17",
@@ -3509,6 +3498,36 @@
   "kommun": "Varberg",
   "ids": [
    "hemnet:21761841"
+  ]
+ },
+ "töreboda|bäckenhagen2|290": {
+  "first_seen": "2026-10-08",
+  "prices": [
+   2900000
+  ],
+  "price_dates": [
+   "2026-10-08"
+  ],
+  "title": "Bäcken Hagen 2",
+  "kommun": "Töreboda",
+  "ids": [
+   "hemnet:21895887"
+  ]
+ },
+ "säffle|ingrirudhagalund|150": {
+  "first_seen": "2026-09-17",
+  "prices": [
+   1700000,
+   1500000
+  ],
+  "price_dates": [
+   "2026-09-17",
+   "2026-10-08"
+  ],
+  "title": "Ingrirud Hagalund",
+  "kommun": "Säffle",
+  "ids": [
+   "hemnet:21778059"
   ]
  }
 }

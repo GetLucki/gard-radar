@@ -1,51 +1,50 @@
 {
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "new": [
   {
-   "id": "hemnet:21894349",
-   "title": "Gassljunga Norrgård",
-   "kommun": "Hylte",
-   "price": 1950000,
-   "land_ha": 10.36,
-   "score": 56,
-   "url": "https://www.hemnet.se/bostad/gard-langaryd-hylte-kommun-gassljunga-norrgard-21894349"
-  },
-  {
-   "id": "hemnet:21894124",
-   "title": "Ingemarstorp Sörgården",
-   "kommun": "Tidaholm",
-   "price": 3495000,
-   "land_ha": 14.63,
-   "score": 44,
-   "url": "https://www.hemnet.se/bostad/gard-5rum-tidaholms-kommun-ingemarstorp-sorgarden-21894124"
+   "id": "hemnet:21895887",
+   "title": "Bäcken Hagen 2",
+   "kommun": "Töreboda",
+   "price": 2900000,
+   "land_ha": null,
+   "score": 40,
+   "url": "https://www.hemnet.se/bostad/gard-toreboda-kommun-backen-hagen-2-21895887"
   }
  ],
  "gone": [
   {
-   "id": "hemnet:21769217",
-   "title": "Spakebol",
-   "kommun": "Åmål",
-   "price": 2800000,
-   "url": "https://www.hemnet.se/bostad/gard-amals-kommun-spakebol-21769217",
-   "days_tracked": 19
+   "id": "hemnet:21784069",
+   "title": "Boberg 101",
+   "kommun": "Hylte",
+   "price": 2400000,
+   "url": "https://www.hemnet.se/bostad/gard-hylte-kommun-boberg-101-21784069",
+   "days_tracked": 20
   },
   {
-   "id": "hemnet:21750512",
-   "title": "Norra Skarbol Enebacken",
-   "kommun": "Säffle",
-   "price": 3500000,
-   "url": "https://www.hemnet.se/bostad/gard-6rum-svanskog-saffle-kommun-norra-skarbol-enebacken-21750512",
-   "days_tracked": 19
+   "id": "hemnet:21687595",
+   "title": "Blädinge Boda 1",
+   "kommun": "Alvesta",
+   "price": 4650000,
+   "url": "https://www.hemnet.se/bostad/gard-7rum-bladinge-alvesta-kommun-bladinge-boda-1-21687595",
+   "days_tracked": 20
+  },
+  {
+   "id": "booli:6265788",
+   "title": "Ingvarsbygget 5",
+   "kommun": "Laholm",
+   "price": 1500000,
+   "url": "https://www.booli.se/annons/6265788",
+   "days_tracked": 20
   }
  ],
  "price_changes": [
   {
-   "id": "hemnet:21761841",
-   "title": "Karl Gustav Sonås 1",
-   "kommun": "Varberg",
-   "old": 3250000,
-   "new": 3000000,
-   "url": "https://www.hemnet.se/bostad/gard-5rum-karl-gustav-varbergs-kommun-karl-gustav-sonas-1-21761841"
+   "id": "hemnet:21778059",
+   "title": "Ingrirud Hagalund",
+   "kommun": "Säffle",
+   "old": 1700000,
+   "new": 1500000,
+   "url": "https://www.hemnet.se/bostad/villa-62m2-ingrirud-saffle-kommun-ingrirud-hagalund-21778059"
   }
  ],
  "first_run": false
