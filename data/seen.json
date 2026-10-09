@@ -210,7 +210,8 @@
   "kommun": "Bollebygd",
   "ids": [
    "hemnet:21784652"
-  ]
+  ],
+  "gone": "2026-10-09"
  },
  "hylte|boberg101|240": {
   "first_seen": "2026-09-17",
@@ -654,7 +655,8 @@
   "kommun": "Värnamo",
   "ids": [
    "hemnet:21768653"
-  ]
+  ],
+  "gone": "2026-10-09"
  },
  "sävsjö|skogsfastighet46haihjälmseryd|175": {
   "first_seen": "2026-09-17",
@@ -3082,6 +3084,7 @@
   "title": "Stimmerkulla 801",
   "kommun": "Askersund",
   "ids": [
+   "booli:6274473",
    "hemnet:21790844"
   ]
  },
@@ -3453,7 +3456,8 @@
   "title": "Getebol Mossen",
   "kommun": "Säffle",
   "ids": [
-   "booli:6298471"
+   "booli:6298471",
+   "hemnet:21893140"
   ]
  },
  "hylte|gassljunganorrgård|195": {
@@ -3528,6 +3532,34 @@
   "kommun": "Säffle",
   "ids": [
    "hemnet:21778059"
+  ]
+ },
+ "hjo|galneryd1|240": {
+  "first_seen": "2026-10-09",
+  "prices": [
+   2400000
+  ],
+  "price_dates": [
+   "2026-10-09"
+  ],
+  "title": "Galneryd 1",
+  "kommun": "Hjo",
+  "ids": [
+   "hemnet:21896923"
+  ]
+ },
+ "alvesta|lindåssörhult1|475": {
+  "first_seen": "2026-10-09",
+  "prices": [
+   4750000
+  ],
+  "price_dates": [
+   "2026-10-09"
+  ],
+  "title": "Lindås Sörhult 1",
+  "kommun": "Alvesta",
+  "ids": [
+   "booli:6303646"
   ]
  }
 }

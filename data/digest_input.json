@@ -1,34 +1,34 @@
 {
- "date": "2026-10-08",
+ "date": "2026-10-09",
  "stats": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "matched": 130,
-  "new": 1,
-  "gone": 3,
-  "price_cuts": 1,
+  "new": 2,
+  "gone": 2,
+  "price_cuts": 0,
   "price_rises": 0,
-  "median_price": 2995000,
-  "median_price_per_ha": 227723,
+  "median_price": 2972500,
+  "median_price_per_ha": 227861,
   "national_in_band": {
    "hemnet": {
     "gard": null,
     "villa": null
    },
    "booli": {
-    "gard": 685,
-    "hus": 362
+    "gard": 684,
+    "hus": 361
    }
   },
   "hemnet_ok": true,
   "by_region": {
    "Göteborg hinterland": {
-    "count": 29,
+    "count": 28,
     "new": 0,
-    "median_price": 3600000
+    "median_price": 3550000
    },
    "Småland": {
     "count": 42,
-    "new": 0,
+    "new": 1,
     "median_price": 2922500
    },
    "Halland inland": {
@@ -37,9 +37,9 @@
     "median_price": 2997500
    },
    "Skaraborg/Vättern": {
-    "count": 18,
+    "count": 19,
     "new": 1,
-    "median_price": 2747500
+    "median_price": 2695000
    },
    "Dalsland/Värmland": {
     "count": 29,
@@ -49,126 +49,118 @@
   }
  },
  "changes": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "new": [
    {
-    "id": "hemnet:21895887",
-    "title": "Bäcken Hagen 2",
-    "kommun": "Töreboda",
-    "price": 2900000,
-    "land_ha": null,
-    "score": 40,
-    "url": "https://www.hemnet.se/bostad/gard-toreboda-kommun-backen-hagen-2-21895887"
+    "id": "hemnet:21896923",
+    "title": "Galneryd 1",
+    "kommun": "Hjo",
+    "price": 2400000,
+    "land_ha": 18.56,
+    "score": 51,
+    "url": "https://www.hemnet.se/bostad/gard-hjo-kommun-galneryd-1-21896923"
+   },
+   {
+    "id": "booli:6303646",
+    "title": "Lindås Sörhult 1",
+    "kommun": "Alvesta",
+    "price": 4750000,
+    "land_ha": 4.4,
+    "score": 17,
+    "url": "https://www.booli.se/bostad/4117367"
    }
   ],
   "gone": [
    {
-    "id": "hemnet:21784069",
-    "title": "Boberg 101",
-    "kommun": "Hylte",
-    "price": 2400000,
-    "url": "https://www.hemnet.se/bostad/gard-hylte-kommun-boberg-101-21784069",
-    "days_tracked": 20
+    "id": "hemnet:21768653",
+    "title": "Tånnö Stenhyltan 1",
+    "kommun": "Värnamo",
+    "price": 3000000,
+    "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-tanno-stenhyltan-1-21768653",
+    "days_tracked": 21
    },
    {
-    "id": "hemnet:21687595",
-    "title": "Blädinge Boda 1",
-    "kommun": "Alvesta",
-    "price": 4650000,
-    "url": "https://www.hemnet.se/bostad/gard-7rum-bladinge-alvesta-kommun-bladinge-boda-1-21687595",
-    "days_tracked": 20
-   },
-   {
-    "id": "booli:6265788",
-    "title": "Ingvarsbygget 5",
-    "kommun": "Laholm",
-    "price": 1500000,
-    "url": "https://www.booli.se/annons/6265788",
-    "days_tracked": 20
+    "id": "hemnet:21784652",
+    "title": "Fagerhult",
+    "kommun": "Bollebygd",
+    "price": 3700000,
+    "url": "https://www.hemnet.se/bostad/gard-tollsjo-bollebygds-kommun-fagerhult-21784652",
+    "days_tracked": 21
    }
   ],
-  "price_changes": [
-   {
-    "id": "hemnet:21778059",
-    "title": "Ingrirud Hagalund",
-    "kommun": "Säffle",
-    "old": 1700000,
-    "new": 1500000,
-    "url": "https://www.hemnet.se/bostad/villa-62m2-ingrirud-saffle-kommun-ingrirud-hagalund-21778059"
-   }
-  ],
+  "price_changes": [],
   "first_run": false
  },
- "board_size": 50,
+ "board_size": 49,
  "board_max": 50,
  "candidates_are_unjudged_only": true,
  "listings": [
   {
-   "id": "hemnet:21778059",
-   "key": "säffle|ingrirudhagalund|150",
-   "title": "Ingrirud Hagalund",
-   "kommun": "Säffle",
-   "region": "Dalsland/Värmland",
-   "price": 1500000,
-   "land_ha": 5.4,
-   "living_m2": 62,
-   "rooms": null,
-   "type": "Gård utan jordbruk",
-   "url": "https://www.hemnet.se/bostad/villa-62m2-ingrirud-saffle-kommun-ingrirud-hagalund-21778059",
-   "alt_url": "https://www.booli.se/annons/6243750",
-   "drive_h": 2.2,
-   "price_per_ha": 277778,
-   "score": 42,
-   "survival_score": 27,
-   "invest_score": 57,
-   "survival_why": "5.4 ha with forest for firewood, arable or pasture, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "277 778 kr per ha, above the 227 723 kr median, forest holds its value, Dalsland/Värmland resells steadily.",
-   "first_seen": "2026-09-17",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-10-08",
-     1500000
-    ]
-   ],
-   "broker": "Areal | Karlstad",
-   "days_text": "En månad på Booli",
-   "build_year": null,
-   "description": "Ingrirud Hagalund i Ingrirud, Säffle kommun - villa till salu - Hemnet\nLiten jordbruksfastighet med charmig röd stuga, uthus, skogsmark och åker i ett naturskönt läge med vacker utsikt mot söder över det öppna jordbrukslandskapet. Fastigheten omfattar drygt 5 hektar, varav cirka 4 hektar skog och knappt 1 hektar åkermark. \n\nDet lättskötta bostadshuset har renoverats löpande genom åren och erbjuder ett trivsamt boende i lantlig miljö. \n\nGården är belägen mellan Värmlandsbro och Mässvik, cirka 12 kilometer från Säffle och 4 mil från Karlstad. Endast tre kilometer bort ligger Vänerns Mässviken med möjligheter till bad, båtliv och fiske.\nFAKTA\nid: 21778059\narea: Ingrirud\nformattedLandArea: 5,4 ha\nformattedLivingArea: 62 m²\nformattedSupplementalArea: 10 m²\nhousingForm: Gård utan jordbruk\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/villa-62m2-ingrirud-saffle-kommun-ingrirud-hagalund-21778059\nlivingArea: 62\npostCode: 66193\nstreetAddress: Ingrirud Hagalund\nsupplementalArea: 10\ntenure: Äganderätt\ntitle: Ingrirud Hagalund\nadTargeting: {\"item_types\":[2],\"price\":[2],\"municipality\":[212],\"region\":[15],\"country\":[1],\"water_distance\":[\"501-\"],\"property_price\":1700000,\"property_address\":\"Ingrirud Hagalund\",\"property_living_area\":62,\"property_zipcode\":\"66193\"}\nbiddingStarted: False\ndaysOnHemnet: 39\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1787929226.681\nlistingBrokerUrl: http://area",
-   "is_new_today": false
-  },
-  {
-   "id": "hemnet:21895887",
-   "key": "töreboda|bäckenhagen2|290",
-   "title": "Bäcken Hagen 2",
-   "kommun": "Töreboda",
+   "id": "hemnet:21896923",
+   "key": "hjo|galneryd1|240",
+   "title": "Galneryd 1",
+   "kommun": "Hjo",
    "region": "Skaraborg/Vättern",
-   "price": 2900000,
-   "land_ha": null,
+   "price": 2400000,
+   "land_ha": 18.56,
    "living_m2": null,
    "rooms": null,
    "type": "Gård/skog",
-   "url": "https://www.hemnet.se/bostad/gard-toreboda-kommun-backen-hagen-2-21895887",
+   "url": "https://www.hemnet.se/bostad/gard-hjo-kommun-galneryd-1-21896923",
    "alt_url": null,
-   "drive_h": 2.2,
-   "price_per_ha": null,
-   "score": 40,
-   "survival_score": 41,
-   "invest_score": 38,
-   "survival_why": "lake or stream, some forest, barn or workshop, secluded position, 2.2 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "forest holds its value, Skaraborg/Vättern resells steadily.",
-   "first_seen": "2026-10-08",
+   "drive_h": 2.1,
+   "price_per_ha": 129310,
+   "score": 51,
+   "survival_score": 27,
+   "invest_score": 75,
+   "survival_why": "18.56 ha with forest for firewood, arable or pasture, 2.1 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "129 310 kr per ha, well below the 227 862 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
+   "first_seen": "2026-10-09",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-10-08",
-     2900000
+     "2026-10-09",
+     2400000
     ]
    ],
    "broker": "Ludvig & Co Fastighetsförmedling",
    "days_text": null,
    "build_year": null,
-   "description": "Bäcken Hagen 2 - gård/skog till salu - Hemnet\nVälkommen till Bäcken Hagen 2! En vackert belägen gård med enskilt läge och med närhet till sjön Viken. Gårdscentrum med bostadshus, maskinhall, vedbod mm. Arealen om 18,6 ha fördelar sig över 17,5 ha skogsmark med ett bedömt virkesförråd om 1 846 m³sk. Fastigheten är belägen ca 10 km sydost om Töreboda. Till fastigheten hör även en båtplats och fiske i Viken.\nFAKTA\nid: 21895887\nhousingForm: Gård/skog\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-toreboda-kommun-backen-hagen-2-21895887\npostCode: 54593\nstreetAddress: Bäcken Hagen 2\ntenure: Äganderätt\ntitle: Bäcken Hagen 2\nadTargeting: {\"item_types\":[6],\"price\":[3],\"municipality\":[236],\"region\":[19],\"country\":[1],\"water_distance\":[\"501-\"],\"property_price\":2900000,\"property_address\":\"Bäcken Hagen 2\",\"property_living_area\":null,\"property_zipcode\":\"54593\"}\nbiddingStarted: False\ndaysOnHemnet: 1\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1791380356.726\nlistingBrokerUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview&id=MDE4OHwwMDAwMDA0MDg0NXw1OA..\nlistingBrokerGalleryUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview_images&id=MDE4OHwwMDAwMDA0MDg0NXw1OA..\ntimesViewed: 556\nisProjectUnit: False\nactivePackage: BASIC\nclose",
+   "description": "Galneryd 1 - gård/skog till salu - Hemnet\nNorr om Brandstorp och Öster om Tidaholm ligger Galneryd 1. En mindre lantbruksfastighet om totalt ca 19 varav 15 ha skogsmark med ett bedömt virkesförråd om 2 595 m³sk varav tyngdpunkten återfinns i medelålders skog. 2/3 av skogsmarksarealen bedöms hamna i huggningsklass G1 med god tillväxt. På fastigheten finns också ca 2,0 ha åkermark, 1,5 ha betesmark samt ett byggnadsbestånd i sämre skick. Fastigheten är belägen 25 km söder om Hjo, 21 km öster om Tidaholm och 30 km norr om Habo.\nFAKTA\nid: 21896923\nformattedLandArea: 18,6 ha\nhousingForm: Gård/skog\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-hjo-kommun-galneryd-1-21896923\npostCode: 54494\nstreetAddress: Galneryd 1\ntenure: Äganderätt\ntitle: Galneryd 1\nadTargeting: {\"item_types\":[6],\"price\":[3],\"municipality\":[72],\"region\":[19],\"country\":[1],\"water_distance\":[\"501-\"],\"property_price\":2400000,\"property_address\":\"Galneryd 1\",\"property_living_area\":null,\"property_zipcode\":\"54494\"}\nbiddingStarted: False\ndaysOnHemnet: 1\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1791443077.317\nlistingBrokerUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview&id=MDE4OHwwMDAwMDA0MDgyN3w1OA..\nlistingBrokerGalleryUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&act",
+   "is_new_today": true
+  },
+  {
+   "id": "booli:6303646",
+   "key": "alvesta|lindåssörhult1|475",
+   "title": "Lindås Sörhult 1",
+   "kommun": "Alvesta",
+   "region": "Småland",
+   "price": 4750000,
+   "land_ha": 4.4,
+   "living_m2": null,
+   "rooms": "6 rum",
+   "type": "Gård",
+   "url": "https://www.booli.se/bostad/4117367",
+   "alt_url": null,
+   "drive_h": 2.4,
+   "price_per_ha": 1079545,
+   "score": 17,
+   "survival_score": 7,
+   "invest_score": 27,
+   "survival_why": "2.4 h from Göteborg. Missing: no well stated, little or no forest.",
+   "invest_why": "1 079 545 kr per ha, well above the 227 862 kr median, built 1909, Småland resells well.",
+   "first_seen": "2026-10-09",
+   "days_tracked": 0,
+   "price_history": [
+    [
+     "2026-10-09",
+     4750000
+    ]
+   ],
+   "broker": "Fastighetsbyrån",
+   "days_text": "Inkommet idag",
+   "build_year": 1909,
+   "description": "Gård snart till salu på Lindås Sörhult 1, Alvesta, Alvesta – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 16\nKarta\nSpara\nSnart till salu\nLindås Sörhult 1\nGård · Alvesta\n\nUtropspris\n\n4 750 000 kr\nBoarea\n\n152 m²\n\nBiarea\n\n40 m²\n\nRum\n\n6 rum\n\nTomtarea\n\n44 000 m²\n\nByggår\n\n1909\n\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nUtropspriset per kvadratmeter är 31 300 kr/m²\n\nBostaden har 0 sidvisningar på Booli\n\nBostaden har varit snart till salu i 0 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nLindås Sörhult 1, Alvesta\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nKronobergs län\nAlvesta kommun\nLindås Sörhult\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnv",
    "is_new_today": true
   }
  ]
