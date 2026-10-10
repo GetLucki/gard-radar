@@ -1,22 +1,14 @@
 {
-  "date": "2026-10-09",
-  "market_summary": "130 listings match the filters today, with a median asking price of 2 972 500 kr and a median of 227 861 kr per ha. Two came in: a cheap forest holding in Hjo kommun and a pricey 1909 farmhouse on a small plot in Alvesta. Two left after three weeks on the radar: Tånnö Stenhyltan in Värnamo at 3 000 000 kr and Fagerhult in Bollebygd at 3 700 000 kr. Nobody cut or raised a price, and Småland and Dalsland/Värmland still carry most of the supply. For a buyer this week, Galneryd is worth a call as a land purchase, but its house is not one we could simply move into.",
+  "date": "2026-10-10",
+  "market_summary": "129 listings match the filters this week, with no new arrivals, one listing gone (Nädhult 2:14 in Hylte at 1 500 000 kr, gone after 22 days) and no price cuts. The median asking price is 2 995 000 kr and the median is 228 000 kr per ha. Småland carries the most supply with 42 listings, Göteborg hinterland is still the most expensive at a 3 550 000 kr median, and Dalsland/Värmland stays the cheapest. The only movement was Björkesbacka Bäckaskog in Mark, where bidding has pushed the price from 3 995 000 kr to 4 575 000 kr, which shows that close-in gårdar still draw competition while the wider market stays slow. For a buyer this week there is nothing new to view, so the standing list holds and negotiation room on the older listings remains.",
   "entries": [
     {
-      "id": "hemnet:21896923",
-      "prepping_why": "18.6 ha, of which 15 ha is forest with good growth, so firewood is covered for good, and about 2 ha of arable plus 1.5 ha of pasture covers a garden and a few animals. The listing mentions no well, no wood heating and no surface water within 500 m, and the buildings are described as in poorer condition, so the house is unlikely to cope with standing empty without work first. It sits well off the main roads between Tidaholm, Hjo and Habo, 2.1 h from Göteborg.",
-      "invest_why": "The broker puts the standing timber at 2 595 m3sk, which at the southern price of about 930 kr per m3sk is worth roughly 2 400 000 kr, the same as the whole asking price. At 129 310 kr per ha it is well under the 227 861 kr median, so in effect we would get the land for the price of the forest and the buildings thrown in for free. Västra Götaland inland is steady but not fast to resell, and a forest holding sells mostly to neighbours and forest buyers, not to families.",
-      "rank_why": "Best value per hectare among the newcomers and among the best in the 2 to 3.5 MSEK band, held back because the buildings fail the low-maintenance spec and probably need either a total renovation or a new house.",
-      "maintenance": "Buildings described as in poorer condition, build year, facade, roof and windows not stated; assume a full renovation or a rebuild within ten years.",
-      "recommendation": "Ask the broker for X first: the condition of the dwelling house, whether it is habitable, the water source and the avlopp status, plus the skogsbruksplan, since this is a strong land buy only if the house problem has a price we can accept."
-    },
-    {
-      "id": "booli:6303646",
-      "prepping_why": "Only 4.4 ha with no forest mentioned, so no firewood of our own and little room for both pasture and garden. No well, no lake or stream and no wood heating are stated, and the listing is still at the coming-soon stage with almost no description. At 2.4 h from Göteborg it sits near the top of our drive-time limit.",
-      "invest_why": "At 1 079 545 kr per ha it costs almost five times the 227 861 kr median, so nearly all the money goes into the house rather than the land. A 152 m2 house from 1909 is most likely painted timber, which is exactly what the low-maintenance spec rules out. Kronoberg has a strong fritidshus market, but that does not make up for the price.",
-      "rank_why": "Near the bottom of the 3.5 to 5 MSEK band: at this price other listings offer 10 to 30 ha with forest.",
-      "maintenance": "Built 1909, facade, roof and windows not stated; expect painting, window and possibly roof work within ten years unless a recent total renovation is documented.",
-      "recommendation": "Skip, because it is too little land at far too high a price per hectare, with an old house that probably needs regular upkeep."
+      "id": "booli:6270854",
+      "prepping_why": "Water on or next to the land and some forest across 7.25 ha give a reasonable base, and at 0.8 hours from Göteborg it is the easiest kind of retreat to reach on one tank. The listing says nothing about a well, wood heating or seclusion, so the core survival must-haves are unconfirmed.",
+      "invest_why": "Bidding has already lifted the price to 4 575 000 kr, about 631 000 kr per ha, close to three times the 228 000 kr median, so you are paying for location rather than land value. Göteborg hinterland resells well, but at this level there is little room for the forest to carry the price and a winning bid would likely go higher still.",
+      "rank_why": "Proximity and a lake or stream lift it, but a bid-driven price near the 5 000 000 kr ceiling with no condition data holds it well below cheaper Småland and Halland gårdar in the same band.",
+      "maintenance": "Unknown: the listing gives no build year, facade, roof or window information, so the low-maintenance test cannot be passed on what is published.",
+      "recommendation": "Skip, because bidding has already pushed it about 580 000 kr over the asking price to the top of the budget, and nothing published shows that the house meets the low-maintenance spec."
     }
   ],
   "criteria_changes": []

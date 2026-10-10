@@ -1,22 +1,22 @@
 {
- "date": "2026-10-09",
+ "date": "2026-10-10",
  "stats": {
-  "date": "2026-10-09",
-  "matched": 130,
-  "new": 2,
-  "gone": 2,
+  "date": "2026-10-10",
+  "matched": 129,
+  "new": 0,
+  "gone": 1,
   "price_cuts": 0,
-  "price_rises": 0,
-  "median_price": 2972500,
-  "median_price_per_ha": 227861,
+  "price_rises": 1,
+  "median_price": 2995000,
+  "median_price_per_ha": 228000,
   "national_in_band": {
    "hemnet": {
     "gard": null,
     "villa": null
    },
    "booli": {
-    "gard": 684,
-    "hus": 361
+    "gard": 679,
+    "hus": 355
    }
   },
   "hemnet_ok": true,
@@ -28,17 +28,17 @@
    },
    "Småland": {
     "count": 42,
-    "new": 1,
+    "new": 0,
     "median_price": 2922500
    },
    "Halland inland": {
-    "count": 12,
+    "count": 11,
     "new": 0,
-    "median_price": 2997500
+    "median_price": 3000000
    },
    "Skaraborg/Vättern": {
     "count": 19,
-    "new": 1,
+    "new": 0,
     "median_price": 2695000
    },
    "Dalsland/Värmland": {
@@ -49,46 +49,28 @@
   }
  },
  "changes": {
-  "date": "2026-10-09",
-  "new": [
-   {
-    "id": "hemnet:21896923",
-    "title": "Galneryd 1",
-    "kommun": "Hjo",
-    "price": 2400000,
-    "land_ha": 18.56,
-    "score": 51,
-    "url": "https://www.hemnet.se/bostad/gard-hjo-kommun-galneryd-1-21896923"
-   },
-   {
-    "id": "booli:6303646",
-    "title": "Lindås Sörhult 1",
-    "kommun": "Alvesta",
-    "price": 4750000,
-    "land_ha": 4.4,
-    "score": 17,
-    "url": "https://www.booli.se/bostad/4117367"
-   }
-  ],
+  "date": "2026-10-10",
+  "new": [],
   "gone": [
    {
-    "id": "hemnet:21768653",
-    "title": "Tånnö Stenhyltan 1",
-    "kommun": "Värnamo",
-    "price": 3000000,
-    "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-tanno-stenhyltan-1-21768653",
-    "days_tracked": 21
-   },
-   {
-    "id": "hemnet:21784652",
-    "title": "Fagerhult",
-    "kommun": "Bollebygd",
-    "price": 3700000,
-    "url": "https://www.hemnet.se/bostad/gard-tollsjo-bollebygds-kommun-fagerhult-21784652",
-    "days_tracked": 21
+    "id": "hemnet:21775702",
+    "title": "Nädhult 2:14",
+    "kommun": "Hylte",
+    "price": 1500000,
+    "url": "https://www.hemnet.se/bostad/gard-kinnared-hylte-kommun-nadhult-2-14-21775702",
+    "days_tracked": 22
    }
   ],
-  "price_changes": [],
+  "price_changes": [
+   {
+    "id": "booli:6270854",
+    "title": "Björkesbacka Bäckaskog",
+    "kommun": "Mark",
+    "old": 3995000,
+    "new": 4575000,
+    "url": "https://www.booli.se/annons/6270854"
+   }
+  ],
   "first_run": false
  },
  "board_size": 49,
@@ -96,72 +78,38 @@
  "candidates_are_unjudged_only": true,
  "listings": [
   {
-   "id": "hemnet:21896923",
-   "key": "hjo|galneryd1|240",
-   "title": "Galneryd 1",
-   "kommun": "Hjo",
-   "region": "Skaraborg/Vättern",
-   "price": 2400000,
-   "land_ha": 18.56,
-   "living_m2": null,
-   "rooms": null,
-   "type": "Gård/skog",
-   "url": "https://www.hemnet.se/bostad/gard-hjo-kommun-galneryd-1-21896923",
-   "alt_url": null,
-   "drive_h": 2.1,
-   "price_per_ha": 129310,
-   "score": 51,
-   "survival_score": 27,
-   "invest_score": 75,
-   "survival_why": "18.56 ha with forest for firewood, arable or pasture, 2.1 h from Göteborg. Missing: no well stated, no wood heating stated.",
-   "invest_why": "129 310 kr per ha, well below the 227 862 kr median, forest holds its value, Skaraborg/Vättern resells steadily.",
-   "first_seen": "2026-10-09",
-   "days_tracked": 0,
-   "price_history": [
-    [
-     "2026-10-09",
-     2400000
-    ]
-   ],
-   "broker": "Ludvig & Co Fastighetsförmedling",
-   "days_text": null,
-   "build_year": null,
-   "description": "Galneryd 1 - gård/skog till salu - Hemnet\nNorr om Brandstorp och Öster om Tidaholm ligger Galneryd 1. En mindre lantbruksfastighet om totalt ca 19 varav 15 ha skogsmark med ett bedömt virkesförråd om 2 595 m³sk varav tyngdpunkten återfinns i medelålders skog. 2/3 av skogsmarksarealen bedöms hamna i huggningsklass G1 med god tillväxt. På fastigheten finns också ca 2,0 ha åkermark, 1,5 ha betesmark samt ett byggnadsbestånd i sämre skick. Fastigheten är belägen 25 km söder om Hjo, 21 km öster om Tidaholm och 30 km norr om Habo.\nFAKTA\nid: 21896923\nformattedLandArea: 18,6 ha\nhousingForm: Gård/skog\nisForeclosure: False\nisNewConstruction: False\nisProject: False\nisSavable: True\nisUpcoming: False\nlistingHemnetUrl: https://www.hemnet.se/bostad/gard-hjo-kommun-galneryd-1-21896923\npostCode: 54494\nstreetAddress: Galneryd 1\ntenure: Äganderätt\ntitle: Galneryd 1\nadTargeting: {\"item_types\":[6],\"price\":[3],\"municipality\":[72],\"region\":[19],\"country\":[1],\"water_distance\":[\"501-\"],\"property_price\":2400000,\"property_address\":\"Galneryd 1\",\"property_living_area\":null,\"property_zipcode\":\"54494\"}\nbiddingStarted: False\ndaysOnHemnet: 1\nisBiddingOngoing: False\nisTeaser: False\npublishedAt: 1791443077.317\nlistingBrokerUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&action=sleekmspecs_preview&id=MDE4OHwwMDAwMDA0MDgyN3w1OA..\nlistingBrokerGalleryUrl: https://ludvig.se/wp-admin/admin-ajax.php?utm_source=hemnet&utm_medium=referral&utm_content=listing&act",
-   "is_new_today": true
-  },
-  {
-   "id": "booli:6303646",
-   "key": "alvesta|lindåssörhult1|475",
-   "title": "Lindås Sörhult 1",
-   "kommun": "Alvesta",
-   "region": "Småland",
-   "price": 4750000,
-   "land_ha": 4.4,
-   "living_m2": null,
-   "rooms": "6 rum",
+   "id": "booli:6270854",
+   "key": "mark|björkesbackabäckaskog|458",
+   "title": "Björkesbacka Bäckaskog",
+   "kommun": "Mark",
+   "region": "Göteborg hinterland",
+   "price": 4575000,
+   "land_ha": 7.25,
+   "living_m2": 145,
+   "rooms": "5 rum",
    "type": "Gård",
-   "url": "https://www.booli.se/bostad/4117367",
+   "url": "https://www.booli.se/annons/6270854",
    "alt_url": null,
-   "drive_h": 2.4,
-   "price_per_ha": 1079545,
-   "score": 17,
-   "survival_score": 7,
-   "invest_score": 27,
-   "survival_why": "2.4 h from Göteborg. Missing: no well stated, little or no forest.",
-   "invest_why": "1 079 545 kr per ha, well above the 227 862 kr median, built 1909, Småland resells well.",
-   "first_seen": "2026-10-09",
+   "drive_h": 0.8,
+   "price_per_ha": 631034,
+   "score": 40,
+   "survival_score": 33,
+   "invest_score": 47,
+   "survival_why": "lake or stream, some forest, 0.8 h from Göteborg. Missing: no well stated, no wood heating stated.",
+   "invest_why": "631 034 kr per ha, well above the 228 000 kr median, forest holds its value, Göteborg hinterland resells well.",
+   "first_seen": "2026-09-18",
    "days_tracked": 0,
    "price_history": [
     [
-     "2026-10-09",
-     4750000
+     "2026-10-10",
+     4575000
     ]
    ],
-   "broker": "Fastighetsbyrån",
-   "days_text": "Inkommet idag",
-   "build_year": 1909,
-   "description": "Gård snart till salu på Lindås Sörhult 1, Alvesta, Alvesta – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\n1 / 16\nKarta\nSpara\nSnart till salu\nLindås Sörhult 1\nGård · Alvesta\n\nUtropspris\n\n4 750 000 kr\nBoarea\n\n152 m²\n\nBiarea\n\n40 m²\n\nRum\n\n6 rum\n\nTomtarea\n\n44 000 m²\n\nByggår\n\n1909\n\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nUtropspriset per kvadratmeter är 31 300 kr/m²\n\nBostaden har 0 sidvisningar på Booli\n\nBostaden har varit snart till salu i 0 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nLindås Sörhult 1, Alvesta\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nKronobergs län\nAlvesta kommun\nLindås Sörhult\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklare i Malmö\nAlla mäklarbyråer\nAlla mäklare\nMäklararvoden\nMäklarmatchning\nOm oss\nOm Booli\nPress\nJobba här\nKontakt\nVanliga frågor\nIntegritet\nAnv",
-   "is_new_today": true
+   "broker": null,
+   "days_text": "2026-10-09",
+   "build_year": null,
+   "description": "Gård till salu på Björkesbacka Bäckaskog, Mark, Mark – Booli\nGå till innehåll\nSök bostad\nVärdera\nHitta mäklare\nSkaffa kunskap\nLogga in\nNytt!Sök bostad tillsammans!\n\nSpara dina favoriter i listor och bjud in andra för att leta ihop. Med Booli hittar ni flest bostäder till salu i hela Sverige!Läs mer\n\nLiknande bostäder\nIndexerad bostad\n1 / 37\nKarta\nSpara\n\nBudgivningen har startat.\n\nSe senaste bud hos mäklaren. Visa bud\n(Länken öppnas i ett nytt fönster)\n\nBudgivning pågår\nBjörkesbacka Bäckaskog\nGård · Mark\n\nUtropspris\n\n3 995 000 kr\nBoarea\n\n145 m²\n\nRum\n\n5 rum\n\nTomtarea\n\n72 480 m²\n\nTotalarea\n\n7,25 ha\n\nUteplats\nLägg till anteckning\n\nDen här gården är en äganderätt\n\nDriftskostnaden är 3 736 kr/mån\n\nUtropspriset per kvadratmeter är 27 600 kr/m²\n\nBostaden har 2308 sidvisningar på Booli\n\nBostaden har varit till salu i 16 dagar\n\nLäs mer hos mäklaren\n(Länken öppnas i ett nytt fönster)\nAnsvarig mäklare\nAnnonsPåverka dina boendekostnader\nAnnons\nKarta\nBjörkesbacka Bäckaskog, Mark\n\nLaddar...\n\nPrisutveckling\nMer om prisutvecklingen\nVill du se fler gårdar i området?\nVästra Götalands län\nMarks kommun\nSkaffa mer kunskap\n\nVill du enkelt hålla koll på bostadsmarknaden? Här har vi har samlat artiklar och kunskap – oavsett om du ska köpa, sälja eller bo.\n\nTill artiklarna\nBostadens säljhistorik\nFörsäljningar i närheten\nAnnonsNyproduktion i området\nTjänster\nBostadssök\nBostadsvärdering\nKunskap\nRäntekartan\nBooli Pro\nBannerannonsering\nFör mäklare\nSälja bostad\nMäklare i Stockholm\nMäklare i Göteborg\nMäklar",
+   "is_new_today": false
   }
  ]
 }

@@ -425,7 +425,8 @@
   "kommun": "Hylte",
   "ids": [
    "hemnet:21775702"
-  ]
+  ],
+  "gone": "2026-10-10"
  },
  "gislaved|stret|325": {
   "first_seen": "2026-09-17",
@@ -2894,20 +2895,6 @@
    "hemnet:21774193"
   ]
  },
- "mark|björkesbackabäckaskog|400": {
-  "first_seen": "2026-09-18",
-  "prices": [
-   3995000
-  ],
-  "price_dates": [
-   "2026-09-18"
-  ],
-  "title": "Björkesbacka Bäckaskog",
-  "kommun": "Mark",
-  "ids": [
-   "booli:6270854"
-  ]
- },
  "färgelanda|milleryr10|340": {
   "first_seen": "2026-09-18",
   "prices": [
@@ -3560,6 +3547,22 @@
   "kommun": "Alvesta",
   "ids": [
    "booli:6303646"
+  ]
+ },
+ "mark|björkesbackabäckaskog|458": {
+  "first_seen": "2026-09-18",
+  "prices": [
+   3995000,
+   4575000
+  ],
+  "price_dates": [
+   "2026-09-18",
+   "2026-10-10"
+  ],
+  "title": "Björkesbacka Bäckaskog",
+  "kommun": "Mark",
+  "ids": [
+   "booli:6270854"
   ]
  }
 }

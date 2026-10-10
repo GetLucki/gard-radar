@@ -1,43 +1,25 @@
 {
- "date": "2026-10-09",
- "new": [
-  {
-   "id": "hemnet:21896923",
-   "title": "Galneryd 1",
-   "kommun": "Hjo",
-   "price": 2400000,
-   "land_ha": 18.56,
-   "score": 51,
-   "url": "https://www.hemnet.se/bostad/gard-hjo-kommun-galneryd-1-21896923"
-  },
-  {
-   "id": "booli:6303646",
-   "title": "Lindås Sörhult 1",
-   "kommun": "Alvesta",
-   "price": 4750000,
-   "land_ha": 4.4,
-   "score": 17,
-   "url": "https://www.booli.se/bostad/4117367"
-  }
- ],
+ "date": "2026-10-10",
+ "new": [],
  "gone": [
   {
-   "id": "hemnet:21768653",
-   "title": "Tånnö Stenhyltan 1",
-   "kommun": "Värnamo",
-   "price": 3000000,
-   "url": "https://www.hemnet.se/bostad/gard-varnamo-kommun-tanno-stenhyltan-1-21768653",
-   "days_tracked": 21
-  },
-  {
-   "id": "hemnet:21784652",
-   "title": "Fagerhult",
-   "kommun": "Bollebygd",
-   "price": 3700000,
-   "url": "https://www.hemnet.se/bostad/gard-tollsjo-bollebygds-kommun-fagerhult-21784652",
-   "days_tracked": 21
+   "id": "hemnet:21775702",
+   "title": "Nädhult 2:14",
+   "kommun": "Hylte",
+   "price": 1500000,
+   "url": "https://www.hemnet.se/bostad/gard-kinnared-hylte-kommun-nadhult-2-14-21775702",
+   "days_tracked": 22
   }
  ],
- "price_changes": [],
+ "price_changes": [
+  {
+   "id": "booli:6270854",
+   "title": "Björkesbacka Bäckaskog",
+   "kommun": "Mark",
+   "old": 3995000,
+   "new": 4575000,
+   "url": "https://www.booli.se/annons/6270854"
+  }
+ ],
  "first_run": false
 }
